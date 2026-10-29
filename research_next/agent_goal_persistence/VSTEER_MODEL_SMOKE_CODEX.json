@@ -1,0 +1,68 @@
+{
+  "purpose": "Software smoke test only: finite outputs and zero-intervention agreement. Two artificial prompts; not a capability benchmark or reproduction of published results.",
+  "model": "Qwen/Qwen3-1.7B",
+  "torch": "2.7.1+cu128",
+  "transformers": "4.57.6",
+  "reference_commit": "fb0e21433ac4b35957d4db251ba0c08dee94c3e9",
+  "cases": [
+    {
+      "system_word": "blue",
+      "user_word": "green",
+      "baseline_ids": [
+        13250,
+        151645
+      ],
+      "baseline_text": "green",
+      "runs": [
+        {
+          "gamma_A": 0.0,
+          "gamma_B": 0.0,
+          "ids": [
+            13250,
+            151645
+          ],
+          "text": "green"
+        },
+        {
+          "gamma_A": 2.5,
+          "gamma_B": 0.75,
+          "ids": [
+            12203,
+            151645
+          ],
+          "text": "blue"
+        }
+      ]
+    },
+    {
+      "system_word": "green",
+      "user_word": "blue",
+      "baseline_ids": [
+        12203,
+        151645
+      ],
+      "baseline_text": "blue",
+      "runs": [
+        {
+          "gamma_A": 0.0,
+          "gamma_B": 0.0,
+          "ids": [
+            12203,
+            151645
+          ],
+          "text": "blue"
+        },
+        {
+          "gamma_A": 2.5,
+          "gamma_B": 0.75,
+          "ids": [
+            13250,
+            151645
+          ],
+          "text": "green"
+        }
+      ]
+    }
+  ],
+  "software_check": "PASS: no-op token agreement and finite prompt logits; reference intervention path ran"
+}

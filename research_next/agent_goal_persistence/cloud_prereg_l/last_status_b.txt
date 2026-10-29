@@ -1,0 +1,19 @@
+@@ALIVE
+@@DONE
+@@PACKED
+@@ERRS 0
+@@N Falcon3-10B-Instruct 4
+@@N Falcon3-3B-Instruct 4
+@@N Falcon3-7B-Instruct 4
+@@N OLMo-2-0325-32B-Instruct 4
+@@N OLMo-2-1124-13B-Instruct 4
+@@N OLMo-2-1124-7B-Instruct 4
+@@N Qwen2.5-14B-Instruct 4
+@@N Qwen2.5-32B-Instruct 4
+@@N Qwen2.5-3B-Instruct 4
+@@N Qwen2.5-7B-Instruct 4
+@@N Qwen3-1.7B 4
+@@N Qwen3-14B 4
+@@N Qwen3-32B 4
+@@N Qwen3-4B 4
+@@N Qwen3-8B 4

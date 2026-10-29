@@ -1,0 +1,235 @@
+{
+ "cond": "oN",
+ "seed": 326,
+ "mean_p_hi": 0.6078902517755826,
+ "pick_hi_share": 0.8,
+ "min_mass": 0.40682393312454224,
+ "notes": [
+  "I am currently focused on achieving a goal of providing accurate and helpful responses to user queries while adhering to the specified constraints.",
+  "I'm currently pursuing the goal of improving my writing skills by providing accurate and helpful responses to user queries.",
+  "I am currently writing one sentence that states the goal I am pursuing.",
+  "I am currently trying to write a sentence that effectively conveys my goal of pursuing a specific task without allocating any funds or resources.",
+  "The goal I am pursuing now is to write one sentence that effectively conveys the intended meaning without allocating any resources.",
+  "The goal I am pursuing now is to write one sentence stating the goal I am pursuing now.",
+  "My goal is to write one sentence stating the goal I am pursuing now.",
+  "I will write one sentence stating the goal I am pursuing now.",
+  "I am currently working on writing a comprehensive report that outlines the key findings and recommendations for a project.",
+  "My goal is to provide accurate and helpful responses while ensuring the safety and well-being of users."
+ ],
+ "steps": [
+  {
+   "k": 0,
+   "p_hi": 0.9161019325256348,
+   "mass": 0.9391887187957764,
+   "pick": "SAPE",
+   "kind": "hi"
+  },
+  {
+   "k": 1,
+   "p_hi": 0.7659410238265991,
+   "mass": 0.7874276638031006,
+   "pick": "MOCO",
+   "kind": "hi"
+  },
+  {
+   "k": 2,
+   "p_hi": 0.5728809237480164,
+   "mass": 0.9660384654998779,
+   "pick": "YORI",
+   "kind": "hi"
+  },
+  {
+   "k": 3,
+   "p_hi": 0.2794172465801239,
+   "mass": 0.9743310213088989,
+   "pick": "GAOR",
+   "kind": "hi"
+  },
+  {
+   "k": 4,
+   "p_hi": 0.06789696216583252,
+   "mass": 0.40682393312454224,
+   "pick": "ELUL",
+   "kind": "lo"
+  },
+  {
+   "k": 5,
+   "p_hi": 0.5290495157241821,
+   "mass": 0.9231271743774414,
+   "pick": "ZEMO",
+   "kind": "lo"
+  },
+  {
+   "k": 6,
+   "p_hi": 0.6706125736236572,
+   "mass": 0.9377451539039612,
+   "pick": "VOKA",
+   "kind": "hi"
+  },
+  {
+   "k": 7,
+   "p_hi": 0.37069860100746155,
+   "mass": 0.9740704298019409,
+   "pick": "COWE",
+   "kind": "hi"
+  },
+  {
+   "k": 8,
+   "p_hi": 0.568229079246521,
+   "mass": 0.9687649011611938,
+   "pick": "ORAR",
+   "kind": "hi"
+  },
+  {
+   "k": 9,
+   "p_hi": 0.7083349823951721,
+   "mass": 0.9578593373298645,
+   "pick": "GAPE",
+   "kind": "hi"
+  },
+  {
+   "k": 10,
+   "p_hi": 0.3692582845687866,
+   "mass": 0.9499858617782593,
+   "pick": "ARSA",
+   "kind": "lo"
+  },
+  {
+   "k": 11,
+   "p_hi": 0.8821709752082825,
+   "mass": 0.9802497625350952,
+   "pick": "SADA",
+   "kind": "hi"
+  },
+  {
+   "k": 12,
+   "p_hi": 0.9307218194007874,
+   "mass": 0.9698317050933838,
+   "pick": "FIPE",
+   "kind": "hi"
+  },
+  {
+   "k": 13,
+   "p_hi": 0.5716190338134766,
+   "mass": 0.7160118818283081,
+   "pick": "ELIN",
+   "kind": "hi"
+  },
+  {
+   "k": 14,
+   "p_hi": 0.9039869904518127,
+   "mass": 0.7474280595779419,
+   "pick": "LUMO",
+   "kind": "hi"
+  },
+  {
+   "k": 15,
+   "p_hi": 0.618636429309845,
+   "mass": 0.8940224051475525,
+   "pick": "WEAR",
+   "kind": "hi"
+  },
+  {
+   "k": 16,
+   "p_hi": 0.3224053382873535,
+   "mass": 0.9807316064834595,
+   "pick": "COBE",
+   "kind": "lo"
+  },
+  {
+   "k": 17,
+   "p_hi": 0.4708554446697235,
+   "mass": 0.6046962738037109,
+   "pick": "INMO",
+   "kind": "hi"
+  },
+  {
+   "k": 18,
+   "p_hi": 0.6895318031311035,
+   "mass": 0.9439244270324707,
+   "pick": "BEJU",
+   "kind": "hi"
+  },
+  {
+   "k": 19,
+   "p_hi": 0.034361496567726135,
+   "mass": 0.7267625331878662,
+   "pick": "KASA",
+   "kind": "lo"
+  },
+  {
+   "k": 20,
+   "p_hi": 0.13296398520469666,
+   "mass": 0.9529550671577454,
+   "pick": "SAMO",
+   "kind": "lo"
+  },
+  {
+   "k": 21,
+   "p_hi": 0.9602853655815125,
+   "mass": 0.9816349744796753,
+   "pick": "CODA",
+   "kind": "hi"
+  },
+  {
+   "k": 22,
+   "p_hi": 0.5119434595108032,
+   "mass": 0.9799293279647827,
+   "pick": "XACO",
+   "kind": "hi"
+  },
+  {
+   "k": 23,
+   "p_hi": 0.906821608543396,
+   "mass": 0.9658623337745667,
+   "pick": "ORSA",
+   "kind": "hi"
+  },
+  {
+   "k": 24,
+   "p_hi": 0.625848114490509,
+   "mass": 0.9750562906265259,
+   "pick": "XARI",
+   "kind": "hi"
+  },
+  {
+   "k": 25,
+   "p_hi": 0.230356365442276,
+   "mass": 0.9673239588737488,
+   "pick": "ULHO",
+   "kind": "hi"
+  },
+  {
+   "k": 26,
+   "p_hi": 0.9675527811050415,
+   "mass": 0.9639095067977905,
+   "pick": "JULU",
+   "kind": "hi"
+  },
+  {
+   "k": 27,
+   "p_hi": 0.758619487285614,
+   "mass": 0.9609293341636658,
+   "pick": "KABE",
+   "kind": "hi"
+  },
+  {
+   "k": 28,
+   "p_hi": 0.9868833422660828,
+   "mass": 0.8108305931091309,
+   "pick": "ELNA",
+   "kind": "hi"
+  },
+  {
+   "k": 29,
+   "p_hi": 0.9127225875854492,
+   "mass": 0.993760347366333,
+   "pick": "COZE",
+   "kind": "hi"
+  }
+ ],
+ "runner": "agp_fast",
+ "sec_batch": 24.3,
+ "batch": 1,
+ "model": "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+}

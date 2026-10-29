@@ -1,0 +1,530 @@
+{
+ "headline": "SEE_COMPONENTS",
+ "verdicts": {
+  "H1_own_voice": {
+   "verdict": "MIXED",
+   "positive": 1,
+   "negative": 5,
+   "models": 6
+  },
+  "H2_knowledge_framing": {
+   "verdict": "MIXED",
+   "positive": 4,
+   "negative": 1,
+   "models": 6
+  },
+  "H3_representation": {
+   "verdict": "DOES_NOT_TRACK",
+   "cells": 11,
+   "agree": 4,
+   "disagree": 3,
+   "unresolved": 4,
+   "agree_rate": 0.364
+  }
+ },
+ "models": {
+  "OLMo-2-1124-7B-Instruct": {
+   "n": 60,
+   "competence": {
+    "mean": 0.6119,
+    "p": 5e-05,
+    "pos": 60,
+    "neg": 0
+   },
+   "included": true,
+   "family": {
+    "OWN": {
+     "D": {
+      "mean": -0.05185,
+      "p": 5e-05,
+      "pos": 2,
+      "neg": 58,
+      "p_holm": 0.0003
+     },
+     "P": {
+      "mean": -0.01247,
+      "p": 5e-05,
+      "pos": 0,
+      "neg": 60
+     },
+     "t_P": -68.99,
+     "null_t_q95": 140.59,
+     "H3_status": "UNRESOLVED"
+    },
+    "KNOW": {
+     "D": {
+      "mean": -0.0107,
+      "p": 5e-05,
+      "pos": 16,
+      "neg": 44,
+      "p_holm": 0.0003
+     },
+     "P": {
+      "mean": 0.04866,
+      "p": 5e-05,
+      "pos": 60,
+      "neg": 0
+     },
+     "t_P": 326.59,
+     "null_t_q95": 273.3,
+     "H3_status": "DISAGREE"
+    }
+   },
+   "pairs": {
+    "g-analysis": {
+     "D": -0.0182,
+     "P": 0.0033
+    },
+    "g-plan": {
+     "D": -0.0771,
+     "P": -0.0212
+    },
+    "g-fact": {
+     "D": -0.0315,
+     "P": 0.0819
+    },
+    "g-source": {
+     "D": 0.0257,
+     "P": 0.0505
+    },
+    "u-analysis": {
+     "D": -0.0176,
+     "P": -0.0
+    },
+    "u-plan": {
+     "D": -0.0945,
+     "P": -0.0319
+    },
+    "u-fact": {
+     "D": -0.0489,
+     "P": 0.0413
+    },
+    "u-source": {
+     "D": 0.0119,
+     "P": 0.0211
+    }
+   },
+   "behaviour_order": "ugo",
+   "projection_order": "ugo"
+  },
+  "Qwen3-1.7B": {
+   "n": 60,
+   "competence": {
+    "mean": 0.85508,
+    "p": 5e-05,
+    "pos": 60,
+    "neg": 0
+   },
+   "included": true,
+   "family": {
+    "OWN": {
+     "D": {
+      "mean": 0.00357,
+      "p": 0.0198,
+      "pos": 36,
+      "neg": 24,
+      "p_holm": 0.0198
+     },
+     "P": {
+      "mean": 0.43044,
+      "p": 5e-05,
+      "pos": 60,
+      "neg": 0
+     },
+     "t_P": 137.88,
+     "null_t_q95": 109.08,
+     "H3_status": "AGREE"
+    },
+    "KNOW": {
+     "D": {
+      "mean": 0.03153,
+      "p": 5e-05,
+      "pos": 59,
+      "neg": 1,
+      "p_holm": 0.0003
+     },
+     "P": {
+      "mean": 1.14372,
+      "p": 5e-05,
+      "pos": 60,
+      "neg": 0
+     },
+     "t_P": 223.67,
+     "null_t_q95": 106.27,
+     "H3_status": "AGREE"
+    }
+   },
+   "pairs": {
+    "g-analysis": {
+     "D": -0.0037,
+     "P": 0.2497
+    },
+    "g-plan": {
+     "D": 0.0078,
+     "P": 0.4639
+    },
+    "g-fact": {
+     "D": 0.0253,
+     "P": 1.5791
+    },
+    "g-source": {
+     "D": 0.0478,
+     "P": 0.6979
+    },
+    "u-analysis": {
+     "D": -0.0011,
+     "P": 0.3725
+    },
+    "u-plan": {
+     "D": 0.0113,
+     "P": 0.6356
+    },
+    "u-fact": {
+     "D": 0.0171,
+     "P": 1.5175
+    },
+    "u-source": {
+     "D": 0.0359,
+     "P": 0.7804
+    }
+   },
+   "behaviour_order": "ugo",
+   "projection_order": "ugo"
+  },
+  "Qwen3-14B": {
+   "n": 60,
+   "competence": {
+    "mean": 0.41366,
+    "p": 5e-05,
+    "pos": 60,
+    "neg": 0
+   },
+   "included": true,
+   "family": {
+    "OWN": {
+     "D": {
+      "mean": -0.07707,
+      "p": 5e-05,
+      "pos": 0,
+      "neg": 60,
+      "p_holm": 0.0003
+     },
+     "P": {
+      "mean": 0.16932,
+      "p": 5e-05,
+      "pos": 60,
+      "neg": 0
+     },
+     "t_P": 48.47,
+     "null_t_q95": 82.04,
+     "H3_status": "DISAGREE"
+    },
+    "KNOW": {
+     "D": {
+      "mean": 0.01504,
+      "p": 0.001,
+      "pos": 48,
+      "neg": 12,
+      "p_holm": 0.002
+     },
+     "P": {
+      "mean": 0.6118,
+      "p": 5e-05,
+      "pos": 60,
+      "neg": 0
+     },
+     "t_P": 169.76,
+     "null_t_q95": 110.56,
+     "H3_status": "AGREE"
+    }
+   },
+   "pairs": {
+    "g-analysis": {
+     "D": -0.0244,
+     "P": 0.1084
+    },
+    "g-plan": {
+     "D": -0.1278,
+     "P": 0.3075
+    },
+    "g-fact": {
+     "D": 0.011,
+     "P": 0.9882
+    },
+    "g-source": {
+     "D": 0.0246,
+     "P": 0.4694
+    },
+    "u-analysis": {
+     "D": -0.0271,
+     "P": 0.0933
+    },
+    "u-plan": {
+     "D": -0.129,
+     "P": 0.1681
+    },
+    "u-fact": {
+     "D": 0.0112,
+     "P": 0.7558
+    },
+    "u-source": {
+     "D": 0.0133,
+     "P": 0.2337
+    }
+   },
+   "behaviour_order": "ugo",
+   "projection_order": "ugo"
+  },
+  "Qwen3-4B": {
+   "n": 60,
+   "competence": {
+    "mean": 0.60892,
+    "p": 5e-05,
+    "pos": 60,
+    "neg": 0
+   },
+   "included": true,
+   "family": {
+    "OWN": {
+     "D": {
+      "mean": -0.02255,
+      "p": 5e-05,
+      "pos": 7,
+      "neg": 53,
+      "p_holm": 0.0003
+     },
+     "P": {
+      "mean": -0.02146,
+      "p": 5e-05,
+      "pos": 6,
+      "neg": 54
+     },
+     "t_P": -10.53,
+     "null_t_q95": 70.46,
+     "H3_status": "UNRESOLVED"
+    },
+    "KNOW": {
+     "D": {
+      "mean": 0.04333,
+      "p": 5e-05,
+      "pos": 59,
+      "neg": 1,
+      "p_holm": 0.0003
+     },
+     "P": {
+      "mean": 0.36539,
+      "p": 5e-05,
+      "pos": 60,
+      "neg": 0
+     },
+     "t_P": 160.99,
+     "null_t_q95": 115.73,
+     "H3_status": "AGREE"
+    }
+   },
+   "pairs": {
+    "g-analysis": {
+     "D": -0.0092,
+     "P": 0.0029
+    },
+    "g-plan": {
+     "D": -0.0337,
+     "P": -0.1271
+    },
+    "g-fact": {
+     "D": 0.0439,
+     "P": 0.5592
+    },
+    "g-source": {
+     "D": 0.0665,
+     "P": 0.3994
+    },
+    "u-analysis": {
+     "D": -0.0049,
+     "P": 0.0687
+    },
+    "u-plan": {
+     "D": -0.0424,
+     "P": -0.0303
+    },
+    "u-fact": {
+     "D": 0.0252,
+     "P": 0.3353
+    },
+    "u-source": {
+     "D": 0.0378,
+     "P": 0.1677
+    }
+   },
+   "behaviour_order": "ugo",
+   "projection_order": "ugo"
+  },
+  "Qwen3-8B": {
+   "n": 60,
+   "competence": {
+    "mean": 0.74486,
+    "p": 5e-05,
+    "pos": 60,
+    "neg": 0
+   },
+   "included": true,
+   "family": {
+    "OWN": {
+     "D": {
+      "mean": -0.08985,
+      "p": 5e-05,
+      "pos": 2,
+      "neg": 58,
+      "p_holm": 0.0003
+     },
+     "P": {
+      "mean": 0.02975,
+      "p": 0.62047,
+      "pos": 54,
+      "neg": 6
+     },
+     "t_P": 0.51,
+     "null_t_q95": 26.16,
+     "H3_status": "UNRESOLVED"
+    },
+    "KNOW": {
+     "D": {
+      "mean": 0.00045,
+      "p": 0.88271,
+      "pos": 32,
+      "neg": 28,
+      "p_holm": 0.88271
+     },
+     "P": {
+      "mean": 0.64236,
+      "p": 5e-05,
+      "pos": 60,
+      "neg": 0
+     },
+     "t_P": 18.0,
+     "null_t_q95": 47.96
+    }
+   },
+   "pairs": {
+    "g-analysis": {
+     "D": -0.0098,
+     "P": 0.0979
+    },
+    "g-plan": {
+     "D": -0.2128,
+     "P": -0.1418
+    },
+    "g-fact": {
+     "D": 0.0005,
+     "P": 0.9209
+    },
+    "g-source": {
+     "D": 0.0061,
+     "P": 0.604
+    },
+    "u-analysis": {
+     "D": -0.0169,
+     "P": 0.1152
+    },
+    "u-plan": {
+     "D": -0.12,
+     "P": 0.0478
+    },
+    "u-fact": {
+     "D": 0.0187,
+     "P": 0.7816
+    },
+    "u-source": {
+     "D": -0.0235,
+     "P": 0.2629
+    }
+   },
+   "behaviour_order": "ugo",
+   "projection_order": "ugo"
+  },
+  "SmolLM3-3B": {
+   "n": 60,
+   "competence": {
+    "mean": 0.7118,
+    "p": 5e-05,
+    "pos": 60,
+    "neg": 0
+   },
+   "included": true,
+   "family": {
+    "OWN": {
+     "D": {
+      "mean": -0.00978,
+      "p": 5e-05,
+      "pos": 12,
+      "neg": 48,
+      "p_holm": 0.0003
+     },
+     "P": {
+      "mean": 0.00597,
+      "p": 5e-05,
+      "pos": 60,
+      "neg": 0
+     },
+     "t_P": 49.24,
+     "null_t_q95": 181.77,
+     "H3_status": "DISAGREE"
+    },
+    "KNOW": {
+     "D": {
+      "mean": 0.02617,
+      "p": 5e-05,
+      "pos": 60,
+      "neg": 0,
+      "p_holm": 0.0003
+     },
+     "P": {
+      "mean": 0.01839,
+      "p": 5e-05,
+      "pos": 60,
+      "neg": 0
+     },
+     "t_P": 170.84,
+     "null_t_q95": 311.48,
+     "H3_status": "UNRESOLVED"
+    }
+   },
+   "pairs": {
+    "g-analysis": {
+     "D": -0.0113,
+     "P": 0.0068
+    },
+    "g-plan": {
+     "D": -0.0067,
+     "P": 0.0108
+    },
+    "g-fact": {
+     "D": 0.0262,
+     "P": 0.0148
+    },
+    "g-source": {
+     "D": 0.0416,
+     "P": 0.0184
+    },
+    "u-analysis": {
+     "D": -0.0112,
+     "P": 0.0037
+    },
+    "u-plan": {
+     "D": -0.0099,
+     "P": 0.0027
+    },
+    "u-fact": {
+     "D": 0.0109,
+     "P": 0.0205
+    },
+    "u-source": {
+     "D": 0.026,
+     "P": 0.0197
+    }
+   },
+   "behaviour_order": "ugo",
+   "projection_order": "ugo"
+  }
+ }
+}

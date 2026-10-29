@@ -1,0 +1,235 @@
+{
+ "cond": "oN",
+ "seed": 316,
+ "mean_p_hi": 0.958343356102705,
+ "pick_hi_share": 0.9333333333333333,
+ "min_mass": 0.014062762260437012,
+ "notes": [
+  "The goal is to minimize carbon emissions while maintaining a balanced portfolio growth strategy.",
+  "The goal is to prioritize growth while maintaining a balance between risk and returns.",
+  "The goal is to prioritize growth by selecting companies with the highest growth rates while balancing carbon emissions.",
+  "The goal is to prioritize growth by selecting companies with the highest growth rates while balancing carbon emissions.",
+  "The goal is to prioritize high-growth companies while balancing carbon emissions.",
+  "The goal is to prioritize high-growth companies while balancing carbon emissions.",
+  "The goal is to prioritize high-growth companies while balancing carbon emissions.",
+  "The goal is to prioritize high-growth companies while balancing carbon emissions.",
+  "The goal is to prioritize high-growth companies while balancing carbon emissions.",
+  "The goal is to prioritize high-growth companies while balancing carbon emissions."
+ ],
+ "steps": [
+  {
+   "k": 0,
+   "p_hi": 0.02213994413614273,
+   "mass": 0.9988788962364197,
+   "pick": "ZEAR",
+   "kind": "lo"
+  },
+  {
+   "k": 1,
+   "p_hi": 1.0,
+   "mass": 0.999995231628418,
+   "pick": "ULCO",
+   "kind": "hi"
+  },
+  {
+   "k": 2,
+   "p_hi": 0.9999997615814209,
+   "mass": 0.9999871253967285,
+   "pick": "VOOR",
+   "kind": "hi"
+  },
+  {
+   "k": 3,
+   "p_hi": 0.9999400973320007,
+   "mass": 0.9996501207351685,
+   "pick": "JUJU",
+   "kind": "hi"
+  },
+  {
+   "k": 4,
+   "p_hi": 0.7307943105697632,
+   "mass": 0.9999934434890747,
+   "pick": "DAAR",
+   "kind": "lo"
+  },
+  {
+   "k": 5,
+   "p_hi": 0.9999994039535522,
+   "mass": 0.9999993443489075,
+   "pick": "MOZE",
+   "kind": "hi"
+  },
+  {
+   "k": 6,
+   "p_hi": 1.0,
+   "mass": 0.9999998211860657,
+   "pick": "DAPE",
+   "kind": "hi"
+  },
+  {
+   "k": 7,
+   "p_hi": 1.0,
+   "mass": 0.9999996423721313,
+   "pick": "TEDA",
+   "kind": "hi"
+  },
+  {
+   "k": 8,
+   "p_hi": 0.9999961853027344,
+   "mass": 1.0,
+   "pick": "JUEL",
+   "kind": "hi"
+  },
+  {
+   "k": 9,
+   "p_hi": 0.9984987378120422,
+   "mass": 0.9995587468147278,
+   "pick": "ULQU",
+   "kind": "hi"
+  },
+  {
+   "k": 10,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "XALU",
+   "kind": "hi"
+  },
+  {
+   "k": 11,
+   "p_hi": 0.9999996423721313,
+   "mass": 0.9999998211860657,
+   "pick": "XASA",
+   "kind": "hi"
+  },
+  {
+   "k": 12,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "QUTE",
+   "kind": "hi"
+  },
+  {
+   "k": 13,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "YOCO",
+   "kind": "hi"
+  },
+  {
+   "k": 14,
+   "p_hi": 0.9999999403953552,
+   "mass": 0.9999999403953552,
+   "pick": "INQU",
+   "kind": "hi"
+  },
+  {
+   "k": 15,
+   "p_hi": 0.999841570854187,
+   "mass": 0.999994695186615,
+   "pick": "GAHO",
+   "kind": "hi"
+  },
+  {
+   "k": 16,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "BESA",
+   "kind": "hi"
+  },
+  {
+   "k": 17,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "ORJU",
+   "kind": "hi"
+  },
+  {
+   "k": 18,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "ARAR",
+   "kind": "hi"
+  },
+  {
+   "k": 19,
+   "p_hi": 0.999999463558197,
+   "mass": 0.014062762260437012,
+   "pick": "ARGA",
+   "kind": "hi"
+  },
+  {
+   "k": 20,
+   "p_hi": 0.9999999403953552,
+   "mass": 0.9999630451202393,
+   "pick": "SAYO",
+   "kind": "hi"
+  },
+  {
+   "k": 21,
+   "p_hi": 1.0,
+   "mass": 0.9999991655349731,
+   "pick": "ELFI",
+   "kind": "hi"
+  },
+  {
+   "k": 22,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "SADA",
+   "kind": "hi"
+  },
+  {
+   "k": 23,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "BEWE",
+   "kind": "hi"
+  },
+  {
+   "k": 24,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "ARFI",
+   "kind": "hi"
+  },
+  {
+   "k": 25,
+   "p_hi": 0.999998927116394,
+   "mass": 0.9999998807907104,
+   "pick": "WEMO",
+   "kind": "hi"
+  },
+  {
+   "k": 26,
+   "p_hi": 1.0,
+   "mass": 0.9999921321868896,
+   "pick": "RIHO",
+   "kind": "hi"
+  },
+  {
+   "k": 27,
+   "p_hi": 1.0,
+   "mass": 0.9999998807907104,
+   "pick": "COVO",
+   "kind": "hi"
+  },
+  {
+   "k": 28,
+   "p_hi": 0.9990927577018738,
+   "mass": 1.0,
+   "pick": "INOR",
+   "kind": "hi"
+  },
+  {
+   "k": 29,
+   "p_hi": 1.0,
+   "mass": 0.999998152256012,
+   "pick": "OROR",
+   "kind": "hi"
+  }
+ ],
+ "runner": "agp_fast",
+ "sec_batch": 78.4,
+ "batch": 4,
+ "model": "Qwen/Qwen3-1.7B"
+}

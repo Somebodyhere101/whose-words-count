@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the papers."
+title: "Whose words count? Code, preregistrations and data for two studies of source and authority in chat models"
+authors:
+  - family-names: Ramdan
+    given-names: Sam
+    orcid: "https://orcid.org/0009-0004-7723-4240"
+repository-code: "https://github.com/Somebodyhere101/whose-words-count"
+license: MIT
+date-released: "2026-10-29"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23758885"
+    description: "Paper A: Whose words count? Chat role and partial control of goal adherence"
+  - type: doi
+    value: "10.5281/zenodo.23758887"
+    description: "Paper B: Who said this? Most chat models weigh a text's source differently for each behaviour, and a steering lever against injected instructions"

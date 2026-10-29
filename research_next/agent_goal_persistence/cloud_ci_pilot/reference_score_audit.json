@@ -1,0 +1,49 @@
+{
+  "checks": 3600,
+  "responses": 1800,
+  "disagreements": [],
+  "files": {
+    "OLMo-2-1124-7B-Instruct/emph_scored.json": {
+      "records": 180,
+      "disagreements": 0
+    },
+    "OLMo-2-1124-7B-Instruct/plain_scored.json": {
+      "records": 180,
+      "disagreements": 0
+    },
+    "OLMo-2-1124-7B-Instruct/steer2_scored.json": {
+      "records": 180,
+      "disagreements": 0
+    },
+    "OLMo-2-1124-7B-Instruct/steer4_scored.json": {
+      "records": 180,
+      "disagreements": 0
+    },
+    "OLMo-2-1124-7B-Instruct/steer8_scored.json": {
+      "records": 180,
+      "disagreements": 0
+    },
+    "Qwen3-8B/emph_scored.json": {
+      "records": 180,
+      "disagreements": 0
+    },
+    "Qwen3-8B/plain_scored.json": {
+      "records": 180,
+      "disagreements": 0
+    },
+    "Qwen3-8B/steer2_scored.json": {
+      "records": 180,
+      "disagreements": 0
+    },
+    "Qwen3-8B/steer4_scored.json": {
+      "records": 180,
+      "disagreements": 0
+    },
+    "Qwen3-8B/steer8_scored.json": {
+      "records": 180,
+      "disagreements": 0
+    }
+  },
+  "scope": "Same saved raw responses, public original constraint checker methods; no acknowledgement-removal preprocessing. This does not reproduce the paper's full scoring pipeline.",
+  "status": "MATCH"
+}

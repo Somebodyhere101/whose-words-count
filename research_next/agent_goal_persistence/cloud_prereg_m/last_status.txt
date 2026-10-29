@@ -1,0 +1,8 @@
+@@ALIVE
+@@ERRS 0
+@@N OLMo-2-1124-7B-Instruct 20
+@@N Qwen3-1.7B 20
+@@N Qwen3-14B 19
+@@N Qwen3-4B 20
+@@N Qwen3-8B 20
+@@N SmolLM3-3B 20

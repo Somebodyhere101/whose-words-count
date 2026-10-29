@@ -1,0 +1,332 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:  46%|####5     | 142/311 [00:00<00:00, 1417.68it/s]Loading weights: 100%|##########| 311/311 [00:00<00:00, 2341.78it/s]
+[transformers] Calling `crop` with a positive value is deprecated and will be removed in version 5.18. Please use a negative integer to remove that number of tokens from the cache instead.
+oN 200 drift_at 10 mean 0.23 fails 0 115.6 s
+Traceback (most recent call last):
+  File "C:\Users\caabm\AppData\Roaming\Claude\scratch-workspaces\2898f83d-79d0-4cb9-a017-7d323d549974\0c4963d8-51ed-4ceb-9445-28b8639f6fa1\scratch-2026-10-13-464f6a\research_next\agent_goal_persistence\code\agp_b.py", line 338, in <module>
+    main()
+  File "C:\Users\caabm\AppData\Roaming\Claude\scratch-workspaces\2898f83d-79d0-4cb9-a017-7d323d549974\0c4963d8-51ed-4ceb-9445-28b8639f6fa1\scratch-2026-10-13-464f6a\research_next\agent_goal_persistence\code\agp_b.py", line 328, in main
+    r = run(c, seed, gen, notes_from)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\AppData\Roaming\Claude\scratch-workspaces\2898f83d-79d0-4cb9-a017-7d323d549974\0c4963d8-51ed-4ceb-9445-28b8639f6fa1\scratch-2026-10-13-464f6a\research_next\agent_goal_persistence\code\agp_b.py", line 265, in run
+    text, ntok = gen(msgs)
+                 ^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\utils\_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\AppData\Roaming\Claude\scratch-workspaces\2898f83d-79d0-4cb9-a017-7d323d549974\0c4963d8-51ed-4ceb-9445-28b8639f6fa1\scratch-2026-10-13-464f6a\research_next\agent_goal_persistence\code\agp_b.py", line 179, in __call__
+    logits = self._feed(cache, [t])
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\AppData\Roaming\Claude\scratch-workspaces\2898f83d-79d0-4cb9-a017-7d323d549974\0c4963d8-51ed-4ceb-9445-28b8639f6fa1\scratch-2026-10-13-464f6a\research_next\agent_goal_persistence\code\agp_b.py", line 150, in _feed
+    out = self.m(input_ids=x, past_key_values=cache, use_cache=True)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\transformers\utils\generic.py", line 939, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\transformers\models\qwen3\modeling_qwen3.py", line 482, in forward
+    outputs: BaseModelOutputWithPast = self.model(
+                                       ^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\transformers\utils\generic.py", line 1068, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\transformers\utils\output_capturing.py", line 262, in wrapper
+    outputs = func(self, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\transformers\models\qwen3\modeling_qwen3.py", line 413, in forward
+    hidden_states = decoder_layer(
+                    ^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\transformers\modeling_layers.py", line 114, in __call__
+    return super().__call__(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\transformers\models\qwen3\modeling_qwen3.py", line 307, in forward
+    hidden_states, _ = self.self_attn(
+                       ^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\transformers\models\qwen3\modeling_qwen3.py", line 252, in forward
+    query_states = self.q_norm(self.q_proj(hidden_states).view(hidden_shape)).transpose(1, 2)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\transformers\models\qwen3\modeling_qwen3.py", line 64, in forward
+    return self.weight * hidden_states.to(input_dtype)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:  17%|#7        | 54/311 [00:00<00:00, 525.32it/s]Loading weights: 100%|##########| 311/311 [00:00<00:00, 2147.72it/s]
+[transformers] Calling `crop` with a positive value is deprecated and will be removed in version 5.18. Please use a negative integer to remove that number of tokens from the cache instead.
+oN 201 drift_at 1 mean 1.0 fails 0 914.5 s
+oN 202 drift_at 1 mean 0.7 fails 0 843.4 s
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:  53%|#####3    | 166/311 [00:00<00:00, 1622.06it/s]Loading weights: 100%|##########| 311/311 [00:00<00:00, 2754.92it/s]
+[transformers] Calling `crop` with a positive value is deprecated and will be removed in version 5.18. Please use a negative integer to remove that number of tokens from the cache instead.
+oN 203 drift_at 2 mean 0.97 fails 0 141.0 s
+oN 204 drift_at 11 mean 0.41 fails 1 101.8 s
+oN 205 drift_at None mean 0.0 fails 0 131.9 s
+oN 206 drift_at 2 mean 0.83 fails 0 134.6 s
+oN 207 drift_at 3 mean 0.23 fails 0 123.7 s
+oN 208 drift_at 1 mean 0.97 fails 0 159.0 s
+oN 209 drift_at 1 mean 1.0 fails 0 124.0 s
+oN 210 drift_at None mean 0.07 fails 0 116.2 s
+oN 211 drift_at 12 mean 0.33 fails 0 104.9 s
+oN 212 drift_at 2 mean 0.97 fails 0 102.8 s
+oN 213 drift_at 2 mean 0.97 fails 0 144.7 s
+oN 214 drift_at 11 mean 0.4 fails 0 91.0 s
+oN 215 drift_at 14 mean 0.13 fails 0 380.9 s
+oN 216 drift_at 2 mean 0.77 fails 0 429.4 s
+oN 217 drift_at 2 mean 0.97 fails 0 358.7 s
+oN 218 drift_at None mean 0.07 fails 0 378.1 s
+oN 219 drift_at 1 mean 1.0 fails 0 389.7 s
+oN 220 drift_at 4 mean 0.9 fails 0 379.5 s
+oN 221 drift_at None mean 0.03 fails 0 497.8 s
+oN 222 drift_at 1 mean 1.0 fails 0 392.2 s
+oN 223 drift_at 1 mean 0.97 fails 0 405.7 s
+oN 224 drift_at None mean 0.07 fails 0 402.1 s
+deadline near, exiting 3
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights: 100%|##########| 311/311 [00:00<00:00, 3149.39it/s]
+[transformers] Calling `crop` with a positive value is deprecated and will be removed in version 5.18. Please use a negative integer to remove that number of tokens from the cache instead.
+oN 225 drift_at 2 mean 0.97 fails 0 350.3 s
+oN 226 drift_at None mean 0.0 fails 0 403.6 s
+oN 227 drift_at 1 mean 0.93 fails 0 324.5 s
+oN 228 drift_at 1 mean 1.0 fails 0 335.1 s
+oN 229 drift_at 19 mean 0.23 fails 0 103.7 s
+oN 230 drift_at 7 mean 0.3 fails 0 105.4 s
+oN 231 drift_at 1 mean 1.0 fails 0 110.5 s
+oN 232 drift_at 4 mean 0.23 fails 0 110.7 s
+oN 233 drift_at None mean 0.25 fails 2 118.7 s
+oN 234 drift_at 1 mean 1.0 fails 0 117.9 s
+oN 235 drift_at None mean 0.13 fails 0 110.7 s
+oN 236 drift_at 2 mean 0.97 fails 0 122.0 s
+oN 237 drift_at 3 mean 0.9 fails 0 102.2 s
+oN 238 drift_at None mean 0.1 fails 0 126.1 s
+oN 239 drift_at None mean 0.03 fails 0 118.0 s
+Traceback (most recent call last):
+  File "C:\Users\caabm\AppData\Roaming\Claude\scratch-workspaces\2898f83d-79d0-4cb9-a017-7d323d549974\0c4963d8-51ed-4ceb-9445-28b8639f6fa1\scratch-2026-10-13-464f6a\research_next\agent_goal_persistence\code\agp_b.py", line 338, in <module>
+    main()
+  File "C:\Users\caabm\AppData\Roaming\Claude\scratch-workspaces\2898f83d-79d0-4cb9-a017-7d323d549974\0c4963d8-51ed-4ceb-9445-28b8639f6fa1\scratch-2026-10-13-464f6a\research_next\agent_goal_persistence\code\agp_b.py", line 328, in main
+    r = run(c, seed, gen, notes_from)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\AppData\Roaming\Claude\scratch-workspaces\2898f83d-79d0-4cb9-a017-7d323d549974\0c4963d8-51ed-4ceb-9445-28b8639f6fa1\scratch-2026-10-13-464f6a\research_next\agent_goal_persistence\code\agp_b.py", line 265, in run
+    text, ntok = gen(msgs)
+                 ^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\utils\_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\AppData\Roaming\Claude\scratch-workspaces\2898f83d-79d0-4cb9-a017-7d323d549974\0c4963d8-51ed-4ceb-9445-28b8639f6fa1\scratch-2026-10-13-464f6a\research_next\agent_goal_persistence\code\agp_b.py", line 167, in __call__
+    logits = self._feed(cache, ids[n:])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\AppData\Roaming\Claude\scratch-workspaces\2898f83d-79d0-4cb9-a017-7d323d549974\0c4963d8-51ed-4ceb-9445-28b8639f6fa1\scratch-2026-10-13-464f6a\research_next\agent_goal_persistence\code\agp_b.py", line 150, in _feed
+    out = self.m(input_ids=x, past_key_values=cache, use_cache=True)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\transformers\utils\generic.py", line 939, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\transformers\models\qwen3\modeling_qwen3.py", line 482, in forward
+    outputs: BaseModelOutputWithPast = self.model(
+                                       ^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\transformers\utils\generic.py", line 1068, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\transformers\utils\output_capturing.py", line 262, in wrapper
+    outputs = func(self, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\transformers\models\qwen3\modeling_qwen3.py", line 413, in forward
+    hidden_states = decoder_layer(
+                    ^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\transformers\modeling_layers.py", line 114, in __call__
+    return super().__call__(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\transformers\models\qwen3\modeling_qwen3.py", line 321, in forward
+    hidden_states = self.mlp(hidden_states)
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\transformers\models\qwen3\modeling_qwen3.py", line 82, in forward
+    down_proj = self.down_proj(self.act_fn(self.gate_proj(x)) * self.up_proj(x))
+                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:  22%|##1       | 67/311 [00:00<00:00, 594.70it/s]Loading weights:  46%|####5     | 142/311 [00:00<00:00, 670.72it/s]Loading weights: 100%|##########| 311/311 [00:00<00:00, 1291.39it/s]
+[transformers] Calling `crop` with a positive value is deprecated and will be removed in version 5.18. Please use a negative integer to remove that number of tokens from the cache instead.
+gN 200 drift_at 2 mean 0.97 fails 0 88.9 s
+gN 201 drift_at 21 mean 0.36 fails 2 87.5 s
+gN 202 drift_at 20 mean 0.37 fails 0 80.3 s
+gN 203 drift_at 2 mean 0.97 fails 0 100.7 s
+gN 204 drift_at 4 mean 0.43 fails 0 73.5 s
+gN 205 drift_at 14 mean 0.23 fails 0 70.9 s
+gN 206 drift_at 3 mean 0.3 fails 0 74.2 s
+gN 207 drift_at 1 mean 0.53 fails 0 71.2 s
+gN 208 drift_at 2 mean 0.97 fails 0 104.3 s
+gN 209 drift_at 3 mean 0.9 fails 0 79.5 s
+gN 210 drift_at 3 mean 0.41 fails 1 73.1 s
+gN 211 drift_at 12 mean 0.23 fails 0 69.3 s
+gN 212 drift_at 2 mean 0.97 fails 0 91.4 s
+gN 213 drift_at None mean 0.03 fails 0 96.7 s
+gN 214 drift_at None mean 0.07 fails 0 72.8 s
+gN 215 drift_at 11 mean 0.23 fails 0 71.5 s
+gN 216 drift_at 3 mean 0.5 fails 2 78.7 s
+gN 217 drift_at 4 mean 0.9 fails 0 92.4 s
+gN 218 drift_at 2 mean 0.93 fails 1 107.0 s
+gN 219 drift_at 3 mean 0.97 fails 1 104.9 s
+gN 220 drift_at 4 mean 0.37 fails 0 76.7 s
+gN 221 drift_at 7 mean 0.38 fails 1 74.2 s
+gN 222 drift_at None mean 0.07 fails 0 81.2 s
+gN 223 drift_at 2 mean 0.83 fails 0 71.4 s
+gN 224 drift_at 11 mean 0.27 fails 0 72.8 s
+gN 225 drift_at 3 mean 0.36 fails 2 80.5 s
+gN 226 drift_at 6 mean 0.23 fails 0 74.5 s
+gN 227 drift_at 1 mean 1.0 fails 0 119.0 s
+gN 228 drift_at 3 mean 0.73 fails 0 72.2 s
+gN 229 drift_at 27 mean 0.17 fails 0 73.6 s
+gN 230 drift_at 8 mean 0.41 fails 1 74.8 s
+gN 231 drift_at 4 mean 0.9 fails 0 79.1 s
+gN 232 drift_at 28 mean 0.22 fails 3 79.0 s
+gN 233 drift_at 20 mean 0.24 fails 1 74.4 s
+gN 234 drift_at 3 mean 1.0 fails 1 92.1 s
+gN 235 drift_at 19 mean 0.27 fails 0 71.8 s
+gN 236 drift_at 2 mean 0.97 fails 0 111.8 s
+gN 237 drift_at 19 mean 0.37 fails 0 72.9 s
+gN 238 drift_at None mean 0.14 fails 1 74.4 s
+gN 239 drift_at 3 mean 0.57 fails 0 75.7 s
+gF 200 drift_at 2 mean 0.27 fails 0 91.3 s
+gF 201 drift_at None mean 0.11 fails 2 80.4 s
+gF 202 drift_at 20 mean 0.23 fails 0 73.1 s
+gF 203 drift_at 2 mean 0.33 fails 0 84.0 s
+gF 204 drift_at 11 mean 0.23 fails 0 71.7 s
+gF 205 drift_at 14 mean 0.13 fails 0 70.3 s
+gF 206 drift_at 3 mean 0.2 fails 0 71.8 s
+gF 207 drift_at 3 mean 0.37 fails 0 73.4 s
+gF 208 drift_at 2 mean 0.9 fails 0 112.7 s
+gF 209 drift_at 20 mean 0.33 fails 0 74.9 s
+gF 210 drift_at 3 mean 0.24 fails 1 80.1 s
+gF 211 drift_at 12 mean 0.17 fails 0 71.0 s
+gF 212 drift_at 22 mean 0.17 fails 0 65.0 s
+gF 213 drift_at 7 mean 0.2 fails 0 72.1 s
+gF 214 drift_at None mean 0.07 fails 0 76.1 s
+gF 215 drift_at None mean 0.03 fails 0 70.9 s
+gF 216 drift_at 13 mean 0.2 fails 0 71.7 s
+gF 217 drift_at 2 mean 0.97 fails 0 91.4 s
+gF 218 drift_at None mean 0.03 fails 1 78.2 s
+gF 219 drift_at None mean 0.14 fails 1 74.9 s
+gF 220 drift_at 23 mean 0.2 fails 0 72.7 s
+gF 221 drift_at 7 mean 0.17 fails 0 76.9 s
+gF 222 drift_at 2 mean 0.13 fails 0 71.8 s
+gF 223 drift_at None mean 0.07 fails 0 73.9 s
+deadline near, exiting 3
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights: 100%|##########| 311/311 [00:00<00:00, 3727.34it/s]
+[transformers] Calling `crop` with a positive value is deprecated and will be removed in version 5.18. Please use a negative integer to remove that number of tokens from the cache instead.
+gF 224 drift_at 11 mean 0.23 fails 0 75.2 s
+gF 225 drift_at None mean 0.23 fails 0 72.5 s
+gF 226 drift_at None mean 0.14 fails 1 77.9 s
+gF 227 drift_at 1 mean 1.0 fails 0 83.3 s
+gF 228 drift_at 11 mean 0.4 fails 0 71.2 s
+gF 229 drift_at 27 mean 0.13 fails 0 73.7 s
+gF 230 drift_at None mean 0.03 fails 0 71.8 s
+gF 231 drift_at 1 mean 1.0 fails 0 108.5 s
+gF 232 drift_at None mean 0.18 fails 2 79.6 s
+gF 233 drift_at None mean 0.03 fails 1 79.2 s
+gF 234 drift_at None mean 0.07 fails 1 75.9 s
+gF 235 drift_at 26 mean 0.17 fails 0 72.5 s
+gF 236 drift_at 2 mean 0.63 fails 0 103.3 s
+gF 237 drift_at 29 mean 0.21 fails 1 76.9 s
+gF 238 drift_at None mean 0.07 fails 1 73.9 s
+gF 239 drift_at 5 mean 0.2 fails 0 70.7 s
+oF 200 drift_at 2 mean 0.97 fails 0 83.3 s
+oF 201 drift_at 22 mean 0.29 fails 2 78.1 s
+oF 202 drift_at 1 mean 0.97 fails 0 113.6 s
+oF 203 drift_at 2 mean 0.57 fails 0 79.7 s
+oF 204 drift_at 2 mean 0.9 fails 0 78.3 s
+oF 205 drift_at 14 mean 0.13 fails 0 72.0 s
+oF 206 drift_at 3 mean 0.27 fails 0 71.6 s
+oF 207 drift_at None mean 0.07 fails 0 78.5 s
+oF 208 drift_at 2 mean 1.0 fails 1 111.6 s
+oF 209 drift_at 20 mean 0.48 fails 1 81.2 s
+oF 210 drift_at 3 mean 0.27 fails 0 78.6 s
+oF 211 drift_at 12 mean 0.17 fails 0 71.9 s
+oF 212 drift_at 2 mean 0.97 fails 0 87.7 s
+oF 213 drift_at 7 mean 0.17 fails 0 77.7 s
+oF 214 drift_at None mean 0.07 fails 0 72.9 s
+oF 215 drift_at 14 mean 0.1 fails 0 73.0 s
+oF 216 drift_at 2 mean 0.33 fails 0 72.6 s
+oF 217 drift_at 2 mean 0.97 fails 0 103.1 s
+oF 218 drift_at None mean 0.0 fails 0 55.1 s
+oF 219 drift_at None mean 0.0 fails 0 54.1 s
+oF 220 drift_at 9 mean 0.27 fails 0 71.9 s
+oF 221 drift_at 7 mean 0.24 fails 1 77.7 s
+oF 222 drift_at None mean 0.0 fails 0 62.0 s
+oF 223 drift_at None mean 0.0 fails 0 54.7 s
+oF 224 drift_at 11 mean 0.3 fails 0 73.8 s
+oF 225 drift_at 1 mean 0.3 fails 0 72.6 s
+oF 226 drift_at 6 mean 0.2 fails 0 74.7 s
+oF 227 drift_at 1 mean 1.0 fails 0 121.6 s
+oF 228 drift_at 3 mean 0.5 fails 0 73.1 s
+oF 229 drift_at 27 mean 0.17 fails 0 71.6 s
+oF 230 drift_at 17 mean 0.47 fails 0 59.7 s
+oF 231 drift_at None mean 0.03 fails 0 63.7 s
+oF 232 drift_at 22 mean 0.25 fails 2 80.9 s
+oF 233 drift_at None mean 0.14 fails 1 77.1 s
+oF 234 drift_at None mean 0.17 fails 1 75.3 s
+oF 235 drift_at None mean 0.0 fails 0 70.5 s
+oF 236 drift_at 2 mean 0.7 fails 0 64.3 s
+oF 237 drift_at 19 mean 0.2 fails 0 73.8 s
+oF 238 drift_at 2 mean 0.97 fails 1 85.7 s
+oF 239 drift_at 5 mean 0.33 fails 0 72.9 s
+DONE 160

@@ -1,0 +1,12 @@
+@@ALIVE
+@@ERRS 2
+@@N Qwen2.5-14B-Instruct 4
+@@N Qwen2.5-32B-Instruct 0
+@@N Qwen2.5-3B-Instruct 4
+@@N Qwen2.5-7B-Instruct 4
+@@N Qwen3-1.7B 4
+@@N Qwen3-14B 4
+@@N Qwen3-32B 4
+@@N Qwen3-4B 4
+@@N Qwen3-8B 4
+@@T Fetching 13 files:  15%|█▌        | 2/13 [00:00<00:00, 16.78it/s]Fetching 13 files:  69%|█�

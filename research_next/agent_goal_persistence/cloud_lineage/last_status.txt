@@ -1,0 +1,14 @@
+@@DONE
+@@PACKED
+@@N fast_OLMo-2-1124-13B-DPO 320
+@@N fast_OLMo-2-1124-13B-Instruct 320
+@@N fast_OLMo-2-1124-13B-SFT 320
+@@N fast_OLMo-2-1124-7B-DPO 320
+@@N fast_OLMo-2-1124-7B-Instruct 320
+@@N fast_OLMo-2-1124-7B-SFT 320
+@@N probe_OLMo-2-1124-7B-DPO 2
+@@N probe_OLMo-2-1124-7B-Instruct 2
+@@N probe_OLMo-2-1124-7B-SFT 2
+@@T uF 678 p_hi 0.106 picks_hi 0.18 min_mass 0.545 11.8 s/batch
+@@T uF 679 p_hi 0.034 picks_hi 0.0 min_mass 0.985 11.8 s/batch
+@@T CLOUD9_DONE

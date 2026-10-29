@@ -1,0 +1,10 @@
+@@ALIVE
+@@DONE
+@@PACKED
+@@ERRS 0
+@@L log_v_OLMo-2-1124-7B-Instruct.txt DEFV_DONE
+@@L log_v_Qwen3-1.7B.txt DEFV_DONE
+@@L log_v_Qwen3-8B.txt DEFV_DONE
+@@L log_v_SmolLM3-3B.txt DEFV_DONE
+@@L log_v_granite-3.3-8b-instruct.txt DEFV_DONE
+@@L log_v_phi-4.txt DEFV_DONE

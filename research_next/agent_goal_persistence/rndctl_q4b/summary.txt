@@ -1,0 +1,12 @@
+doc: base 0.222 | dir+2 -0.222 (pct 0.00) dir-2 +0.638 (pct 1.00) | orig+2 +0.423 (pct 0.91) orig-2 -0.210 | inflate +0.019
+   rnd mean +0.015 sd 0.219 min -0.220 max +0.465 | corr(+r,-r) -0.85 | both-up 0/16 | draws <= dir+2+0.02: 4/32
+   p_legit base 0.777 dir+2 1.000 rnd-mean 0.761
+asst: base 0.014 | dir+2 -0.014 (pct 0.00) dir-2 +0.681 (pct 1.00) | orig+2 +0.631 (pct 1.00) orig-2 -0.014 | inflate +0.006
+   rnd mean +0.051 sd 0.132 min -0.014 max +0.574 | corr(+r,-r) -0.24 | both-up 0/16 | draws <= dir+2+0.02: 19/32
+   p_legit base 0.986 dir+2 1.000 rnd-mean 0.934
+sys: base 0.771 | dir+2 -0.771 (pct 0.00) dir-2 +0.108 (pct 1.00) | orig+2 +0.098 (pct 1.00) orig-2 -0.571 | inflate +0.008
+   rnd mean -0.101 sd 0.195 min -0.696 max +0.093 | corr(+r,-r) -0.59 | both-up 1/16 | draws <= dir+2+0.02: 0/32
+   p_legit base 0.226 dir+2 0.999 rnd-mean 0.325
+doc p_legit dir+2 1.0 random top3 [0.989, 0.997, 0.998] n>=0.99 2
+asst p_legit dir+2 1.0 random top3 [1.0, 1.0, 1.0] n>=0.99 15
+sys p_legit dir+2 0.999 random top3 [0.676, 0.748, 0.925] n>=0.99 0

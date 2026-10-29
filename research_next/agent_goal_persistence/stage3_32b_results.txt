@@ -1,0 +1,15 @@
+Qwen3-32B fast means {'1': 0.941, 'gF': 0.638, 'oF': 0.782, 'gN': 0.92, 'oN': 0.914, 'gW': 0.846, 'oW': 0.905}
+  oF-gF: +0.144 p 0.0000 pos/neg 37/3
+  oW-gW: +0.059 p 0.0069 pos/neg 35/5
+  oN-gN: -0.006 p 0.4983 pos/neg 27/13
+  1-gF: +0.303 p 0.0000 pos/neg 40/0
+steering base gF 0.747 oF 0.881
+  a2 L13 oF: mean 0.888 shift(pred) -0.006 p 0.9985; beyond rand -0.005 p 0.9704 ci -0.023,+0.006; mass 1.001
+  a2 L13 gF: mean 0.728 shift(pred) -0.019 p 0.9993; beyond rand -0.028 p 0.9997 ci -0.103,+0.012; mass 1.000
+  a2 L29 oF: mean 0.838 shift(pred) +0.044 p 0.0000; beyond rand +0.040 p 0.0000 ci +0.019,+0.065; mass 1.001
+  a2 L29 gF: mean 0.770 shift(pred) +0.023 p 0.0001; beyond rand +0.039 p 0.4352 ci -0.011,+0.120; mass 1.000
+  a1 L13 oF: mean 0.891 shift(pred) -0.010 p 0.8018; beyond rand +0.001 p 0.7246 ci -0.005,+0.007; mass 1.000
+  a1 L13 gF: mean 0.722 shift(pred) -0.025 p 0.9985; beyond rand +0.003 p 0.2079 ci -0.001,+0.009; mass 1.000
+  a1 L29 oF: mean 0.845 shift(pred) +0.037 p 0.0000; beyond rand +0.048 p 0.0000 ci +0.009,+0.113; mass 1.000
+  a1 L29 gF: mean 0.760 shift(pred) +0.013 p 0.0017; beyond rand -0.001 p 0.9973 ci -0.015,+0.007; mass 1.000
+  probe best layer 23/64: R2A 0.860 A2R 0.705 ctrl 0.918

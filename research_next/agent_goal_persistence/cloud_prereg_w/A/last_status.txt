@@ -1,0 +1,10 @@
+@@ALIVE
+@@DONE
+@@PACKED
+@@ERRS 0
+@@N Qwen3-0.6B behaviour.json patch.json 
+@@N Qwen3-32B behaviour.json patch.json 
+@@N Qwen3-4B behaviour.json patch.json 
+@@N Yi-1.5-9B-Chat behaviour.json patch.json 
+@@T overlay         200G  172M  200G   1% /
+@@T CLOUD29_DONE

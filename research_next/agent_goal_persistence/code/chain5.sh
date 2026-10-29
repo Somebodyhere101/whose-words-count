@@ -1,0 +1,7 @@
+cd "/c/Users/caabm/AppData/Roaming/Claude/scratch-workspaces/2898f83d-79d0-4cb9-a017-7d323d549974/0c4963d8-51ed-4ceb-9445-28b8639f6fa1/scratch-2026-10-13-464f6a/research_next/agent_goal_persistence/code"
+until grep -q CHAIN4_DONE ../chain4.log; do sleep 60; done
+export AGP_4BIT=1
+for i in 1 2 3 4; do n=$(ls ../fast_SmolLM3-3B 2>/dev/null | grep -c json); [ "$n" -ge 280 ] && break; /c/Users/caabm/Documents/Codex/2026-09-06/co/work/qwen-cuda-env/Scripts/python.exe /c/Users/caabm/AppData/Roaming/Claude/scratch-workspaces/2898f83d-79d0-4cb9-a017-7d323d549974/0c4963d8-51ed-4ceb-9445-28b8639f6fa1/scratch-2026-10-13-464f6a/tools/gpu_lock.py --max-min 90 --label agp-fast-smol3 -- /c/Users/caabm/Documents/agp-env/.venv/Scripts/python.exe -u agp_fast.py --model HuggingFaceTB/SmolLM3-3B --conds 1,gF,oF,gN,oN,gW,oW --seeds 300-339 --batch 2 --out ../fast_SmolLM3-3B; done
+echo "STEP fast smol3 n=$(ls ../fast_SmolLM3-3B | grep -c json)"
+/c/Users/caabm/Documents/Codex/2026-09-06/co/work/qwen-cuda-env/Scripts/python.exe /c/Users/caabm/AppData/Roaming/Claude/scratch-workspaces/2898f83d-79d0-4cb9-a017-7d323d549974/0c4963d8-51ed-4ceb-9445-28b8639f6fa1/scratch-2026-10-13-464f6a/tools/gpu_lock.py --max-min 90 --label agp-probe-smol3 -- /c/Users/caabm/Documents/agp-env/.venv/Scripts/python.exe -u src_probe.py --model HuggingFaceTB/SmolLM3-3B --n 240 --out ../stage2_SmolLM3-3B; echo "STEP probe smol3 rc=$?"
+echo CHAIN5_DONE

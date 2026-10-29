@@ -1,0 +1,10 @@
+@@ALIVE
+@@DONE
+@@PACKED
+@@ERRS 0
+@@N Falcon3-10B-Instruct behaviour.json patch.json 
+@@N Qwen3-14B behaviour.json patch.json 
+@@N granite-3.3-8b-instruct behaviour.json patch.json 
+@@N phi-4 behaviour.json patch.json 
+@@T overlay         150G  172M  150G   1% /
+@@T CLOUD29_DONE

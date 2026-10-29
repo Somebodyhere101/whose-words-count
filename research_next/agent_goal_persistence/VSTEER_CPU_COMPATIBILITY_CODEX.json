@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "test": "CPU synthetic value-cache mask edit only; not model inference or a paper replication",
+  "transformers": "4.57.6",
+  "torch": "2.7.1+cu128",
+  "reference_commit": "fb0e21433ac4b35957d4db251ba0c08dee94c3e9",
+  "checks": [
+    "boosted only the marked privileged token on selected head",
+    "suppressed only marked conflicting token on selected head",
+    "unselected head unchanged",
+    "padding and unmarked tokens unchanged",
+    "key cache unchanged"
+  ]
+}

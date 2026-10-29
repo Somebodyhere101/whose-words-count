@@ -1,0 +1,8 @@
+@@ALIVE
+@@N OLMo-2-1124-7B-Instruct 10
+@@N Qwen3-14B 10
+@@N Qwen3-32B 6
+@@N Qwen3-4B 10
+@@N Qwen3-8B 10
+@@T  [03:38<00:26,  8.88s/it]Fetching 27 files:  93%|█████████▎| 25/27 [03:39<00:13,  6.77s/it]Fetchin
+@@T downloaded Qwen/Qwen3-32B

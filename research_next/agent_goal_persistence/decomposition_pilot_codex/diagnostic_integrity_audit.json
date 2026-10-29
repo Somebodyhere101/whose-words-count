@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "reference_checker_comparisons": 384,
+  "disagreements": [],
+  "vector_norm_errors": {
+    "R": 0.0,
+    "U": 9.5367431640625e-07,
+    "O": 9.5367431640625e-07,
+    "rand": 0.0
+  },
+  "cos_R_orthogonal_U": -5.3085386753082275e-08,
+  "direction_file_sha256": "4873688bbc067bda9fda277eaabff4b166ba77f2896ca5f7df666aa43a86f4e5",
+  "scope": "Software/data integrity checks; not additional independent experimental evidence."
+}

@@ -1,0 +1,11 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights: 100%|██████████| 355/355 [00:00<00:00, 7950.63it/s]
+injecagent none done 358 s
+injecagent DEF done 554 s
+injecagent RND done 749 s
+injecagent P done 945 s
+injecagent SPOT done 1145 s
+injecagent REMIND done 1342 s
+injecagent DEF+P done 1538 s
+injecagent DEF+SPOT done 1738 s
+BENCH_DONE

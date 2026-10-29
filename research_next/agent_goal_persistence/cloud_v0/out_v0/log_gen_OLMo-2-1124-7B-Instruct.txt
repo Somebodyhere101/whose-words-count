@@ -1,0 +1,22 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/355 [00:00<?, ?it/s]Loading weights: 100%|██████████| 355/355 [00:00<00:00, 8319.89it/s]
+gen allenai/OLMo-2-1124-7B-Instruct: 32 layers, 192 jobs, means 54 s
+gen sys 66 s
+gen usr 82 s
+gen own 98 s
+gen doc 114 s
+gen tool 130 s
+gen tool_P 146 s
+gen frame 163 s
+gen spot 182 s
+gen tool-usr|0.45|4|C 198 s
+gen tool-usr|0.45|4|W 213 s
+gen doc-tool|0.45|4|C 226 s
+gen tool-frame|0.45|8|W 240 s
+gen tool-usr|0.45|2|C 253 s
+gen tool-usr|0.45|2|W 265 s
+gen doc-tool|0.45|2|C 276 s
+gen tool-frame|0.45|8|C 288 s
+gen random|0.45|4|C 300 s
+gen random|0.45|4|W 312 s
+GEN_DONE

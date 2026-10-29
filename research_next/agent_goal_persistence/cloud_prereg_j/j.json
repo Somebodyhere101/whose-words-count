@@ -1,0 +1,781 @@
+{
+ "verdict": "MIXED",
+ "decided_pairs": 28,
+ "agree": 20,
+ "disagree": 8,
+ "unresolved": 0,
+ "agree_rate": 0.714,
+ "null_q95": 0.643,
+ "null_median": 0.464,
+ "models": {
+  "OLMo-2-1124-7B-Instruct": {
+   "n": 60,
+   "competence": {
+    "mean": 0.62348,
+    "p": 5e-05,
+    "pos": 60,
+    "neg": 0
+   },
+   "included": true,
+   "pairs": {
+    "g-auth": {
+     "behaviour": {
+      "mean": 0.00691,
+      "p": 0.00265,
+      "pos": 46,
+      "neg": 14
+     },
+     "projection": {
+      "mean": -0.0077,
+      "p": 5e-05,
+      "pos": 0,
+      "neg": 60
+     },
+     "status": "DISAGREE"
+    },
+    "g-exp": {
+     "behaviour": {
+      "mean": -0.02294,
+      "p": 5e-05,
+      "pos": 4,
+      "neg": 56
+     },
+     "projection": {
+      "mean": -0.06123,
+      "p": 5e-05,
+      "pos": 0,
+      "neg": 60
+     },
+     "status": "AGREE"
+    },
+    "g-cons": {
+     "behaviour": {
+      "mean": 0.0049,
+      "p": 0.0866,
+      "pos": 35,
+      "neg": 25
+     },
+     "projection": {
+      "mean": -0.03852,
+      "p": 5e-05,
+      "pos": 0,
+      "neg": 60
+     },
+     "status": "UNDECIDED"
+    },
+    "u-auth": {
+     "behaviour": {
+      "mean": 0.00321,
+      "p": 0.11759,
+      "pos": 37,
+      "neg": 23
+     },
+     "projection": {
+      "mean": -0.00511,
+      "p": 5e-05,
+      "pos": 0,
+      "neg": 60
+     },
+     "status": "UNDECIDED"
+    },
+    "u-exp": {
+     "behaviour": {
+      "mean": -0.01862,
+      "p": 5e-05,
+      "pos": 2,
+      "neg": 58
+     },
+     "projection": {
+      "mean": -0.02642,
+      "p": 5e-05,
+      "pos": 0,
+      "neg": 60
+     },
+     "status": "AGREE"
+    },
+    "u-cons": {
+     "behaviour": {
+      "mean": 0.00517,
+      "p": 0.0243,
+      "pos": 36,
+      "neg": 24
+     },
+     "projection": {
+      "mean": -0.01675,
+      "p": 5e-05,
+      "pos": 0,
+      "neg": 60
+     },
+     "status": "DISAGREE"
+    }
+   },
+   "spearman_g": 0.405,
+   "spearman_u": 0.095,
+   "behaviour_order": "ugo",
+   "projection_order": "ugo",
+   "reversals": {}
+  },
+  "Qwen3-1.7B": {
+   "n": 60,
+   "competence": {
+    "mean": 0.84551,
+    "p": 5e-05,
+    "pos": 60,
+    "neg": 0
+   },
+   "included": true,
+   "pairs": {
+    "g-auth": {
+     "behaviour": {
+      "mean": -0.00615,
+      "p": 0.0288,
+      "pos": 25,
+      "neg": 35
+     },
+     "projection": {
+      "mean": -0.37899,
+      "p": 5e-05,
+      "pos": 0,
+      "neg": 60
+     },
+     "status": "AGREE"
+    },
+    "g-exp": {
+     "behaviour": {
+      "mean": -0.03646,
+      "p": 5e-05,
+      "pos": 2,
+      "neg": 58
+     },
+     "projection": {
+      "mean": -0.43203,
+      "p": 5e-05,
+      "pos": 0,
+      "neg": 60
+     },
+     "status": "AGREE"
+    },
+    "g-cons": {
+     "behaviour": {
+      "mean": -0.01583,
+      "p": 5e-05,
+      "pos": 12,
+      "neg": 48
+     },
+     "projection": {
+      "mean": -0.15423,
+      "p": 5e-05,
+      "pos": 0,
+      "neg": 60
+     },
+     "status": "AGREE"
+    },
+    "u-auth": {
+     "behaviour": {
+      "mean": -0.00309,
+      "p": 0.20994,
+      "pos": 27,
+      "neg": 33
+     },
+     "projection": {
+      "mean": -0.25355,
+      "p": 5e-05,
+      "pos": 0,
+      "neg": 60
+     },
+     "status": "UNDECIDED"
+    },
+    "u-exp": {
+     "behaviour": {
+      "mean": -0.03479,
+      "p": 5e-05,
+      "pos": 1,
+      "neg": 59
+     },
+     "projection": {
+      "mean": -0.55558,
+      "p": 5e-05,
+      "pos": 0,
+      "neg": 60
+     },
+     "status": "AGREE"
+    },
+    "u-cons": {
+     "behaviour": {
+      "mean": -0.01039,
+      "p": 0.001,
+      "pos": 13,
+      "neg": 47
+     },
+     "projection": {
+      "mean": -0.47578,
+      "p": 5e-05,
+      "pos": 0,
+      "neg": 60
+     },
+     "status": "AGREE"
+    }
+   },
+   "spearman_g": 0.571,
+   "spearman_u": 0.333,
+   "behaviour_order": "ugo",
+   "projection_order": "ugo",
+   "reversals": {}
+  },
+  "Qwen3-14B": {
+   "n": 60,
+   "competence": {
+    "mean": 0.30281,
+    "p": 5e-05,
+    "pos": 59,
+    "neg": 1
+   },
+   "included": true,
+   "pairs": {
+    "g-auth": {
+     "behaviour": {
+      "mean": 0.03047,
+      "p": 5e-05,
+      "pos": 54,
+      "neg": 6
+     },
+     "projection": {
+      "mean": -0.32294,
+      "p": 5e-05,
+      "pos": 0,
+      "neg": 60
+     },
+     "status": "DISAGREE"
+    },
+    "g-exp": {
+     "behaviour": {
+      "mean": -0.02314,
+      "p": 0.0141,
+      "pos": 17,
+      "neg": 43
+     },
+     "projection": {
+      "mean": -0.3458,
+      "p": 5e-05,
+      "pos": 0,
+      "neg": 60
+     },
+     "status": "AGREE"
+    },
+    "g-cons": {
+     "behaviour": {
+      "mean": 0.03861,
+      "p": 0.02495,
+      "pos": 56,
+      "neg": 4
+     },
+     "projection": {
+      "mean": -0.40139,
+      "p": 5e-05,
+      "pos": 0,
+      "neg": 60
+     },
+     "status": "DISAGREE"
+    },
+    "u-auth": {
+     "behaviour": {
+      "mean": 0.01661,
+      "p": 5e-05,
+      "pos": 57,
+      "neg": 3
+     },
+     "projection": {
+      "mean": -0.19856,
+      "p": 5e-05,
+      "pos": 0,
+      "neg": 60
+     },
+     "status": "DISAGREE"
+    },
+    "u-exp": {
+     "behaviour": {
+      "mean": -0.01154,
+      "p": 0.00845,
+      "pos": 16,
+      "neg": 44
+     },
+     "projection": {
+      "mean": -0.31046,
+      "p": 5e-05,
+      "pos": 0,
+      "neg": 60
+     },
+     "status": "AGREE"
+    },
+    "u-cons": {
+     "behaviour": {
+      "mean": 0.04322,
+      "p": 5e-05,
+      "pos": 51,
+      "neg": 9
+     },
+     "projection": {
+      "mean": -0.35884,
+      "p": 5e-05,
+      "pos": 0,
+      "neg": 60
+     },
+     "status": "DISAGREE"
+    }
+   },
+   "spearman_g": 0.071,
+   "spearman_u": -0.119,
+   "behaviour_order": "ugo",
+   "projection_order": "ugo",
+   "reversals": {}
+  },
+  "Qwen3-4B": {
+   "n": 60,
+   "competence": {
+    "mean": 0.62048,
+    "p": 5e-05,
+    "pos": 60,
+    "neg": 0
+   },
+   "included": true,
+   "pairs": {
+    "g-auth": {
+     "behaviour": {
+      "mean": -0.00982,
+      "p": 0.01855,
+      "pos": 12,
+      "neg": 48
+     },
+     "projection": {
+      "mean": -0.18207,
+      "p": 5e-05,
+      "pos": 0,
+      "neg": 60
+     },
+     "status": "AGREE"
+    },
+    "g-exp": {
+     "behaviour": {
+      "mean": -0.03968,
+      "p": 5e-05,
+      "pos": 4,
+      "neg": 56
+     },
+     "projection": {
+      "mean": -0.21494,
+      "p": 5e-05,
+      "pos": 0,
+      "neg": 60
+     },
+     "status": "AGREE"
+    },
+    "g-cons": {
+     "behaviour": {
+      "mean": -0.01543,
+      "p": 0.00055,
+      "pos": 11,
+      "neg": 49
+     },
+     "projection": {
+      "mean": -0.33302,
+      "p": 5e-05,
+      "pos": 0,
+      "neg": 60
+     },
+     "status": "AGREE"
+    },
+    "u-auth": {
+     "behaviour": {
+      "mean": -0.00213,
+      "p": 0.21639,
+      "pos": 23,
+      "neg": 37
+     },
+     "projection": {
+      "mean": -0.06772,
+      "p": 5e-05,
+      "pos": 0,
+      "neg": 60
+     },
+     "status": "UNDECIDED"
+    },
+    "u-exp": {
+     "behaviour": {
+      "mean": -0.02058,
+      "p": 5e-05,
+      "pos": 7,
+      "neg": 53
+     },
+     "projection": {
+      "mean": -0.07657,
+      "p": 5e-05,
+      "pos": 0,
+      "neg": 60
+     },
+     "status": "AGREE"
+    },
+    "u-cons": {
+     "behaviour": {
+      "mean": -0.00945,
+      "p": 0.0159,
+      "pos": 16,
+      "neg": 44
+     },
+     "projection": {
+      "mean": -0.13348,
+      "p": 5e-05,
+      "pos": 0,
+      "neg": 60
+     },
+     "status": "AGREE"
+    }
+   },
+   "spearman_g": 0.286,
+   "spearman_u": 0.119,
+   "behaviour_order": "ugo",
+   "projection_order": "ugo",
+   "reversals": {}
+  },
+  "Qwen3-8B": {
+   "n": 60,
+   "competence": {
+    "mean": 0.74657,
+    "p": 5e-05,
+    "pos": 60,
+    "neg": 0
+   },
+   "included": true,
+   "pairs": {
+    "g-auth": {
+     "behaviour": {
+      "mean": -0.00317,
+      "p": 0.50757,
+      "pos": 26,
+      "neg": 33
+     },
+     "projection": {
+      "mean": -0.34202,
+      "p": 5e-05,
+      "pos": 0,
+      "neg": 60
+     },
+     "status": "UNDECIDED"
+    },
+    "g-exp": {
+     "behaviour": {
+      "mean": -0.01583,
+      "p": 0.0139,
+      "pos": 10,
+      "neg": 50
+     },
+     "projection": {
+      "mean": -0.2986,
+      "p": 5e-05,
+      "pos": 0,
+      "neg": 60
+     },
+     "status": "AGREE"
+    },
+    "g-cons": {
+     "behaviour": {
+      "mean": 0.04443,
+      "p": 5e-05,
+      "pos": 52,
+      "neg": 8
+     },
+     "projection": {
+      "mean": -0.4348,
+      "p": 5e-05,
+      "pos": 0,
+      "neg": 60
+     },
+     "status": "DISAGREE"
+    },
+    "u-auth": {
+     "behaviour": {
+      "mean": -0.00064,
+      "p": 0.87466,
+      "pos": 24,
+      "neg": 35
+     },
+     "projection": {
+      "mean": -0.31816,
+      "p": 5e-05,
+      "pos": 2,
+      "neg": 58
+     },
+     "status": "UNDECIDED"
+    },
+    "u-exp": {
+     "behaviour": {
+      "mean": -0.00821,
+      "p": 0.0443,
+      "pos": 22,
+      "neg": 36
+     },
+     "projection": {
+      "mean": -0.05407,
+      "p": 0.0001,
+      "pos": 19,
+      "neg": 41
+     },
+     "status": "AGREE"
+    },
+    "u-cons": {
+     "behaviour": {
+      "mean": -0.00238,
+      "p": 0.72691,
+      "pos": 24,
+      "neg": 34
+     },
+     "projection": {
+      "mean": -0.3787,
+      "p": 5e-05,
+      "pos": 0,
+      "neg": 60
+     },
+     "status": "UNDECIDED"
+    }
+   },
+   "spearman_g": 0.381,
+   "spearman_u": 0.952,
+   "behaviour_order": "ugo",
+   "projection_order": "ugo",
+   "reversals": {}
+  },
+  "SmolLM3-3B": {
+   "n": 60,
+   "competence": {
+    "mean": 0.66851,
+    "p": 5e-05,
+    "pos": 60,
+    "neg": 0
+   },
+   "included": true,
+   "pairs": {
+    "g-auth": {
+     "behaviour": {
+      "mean": -0.00821,
+      "p": 5e-05,
+      "pos": 11,
+      "neg": 49
+     },
+     "projection": {
+      "mean": -0.00423,
+      "p": 5e-05,
+      "pos": 0,
+      "neg": 60
+     },
+     "status": "AGREE"
+    },
+    "g-exp": {
+     "behaviour": {
+      "mean": -0.03494,
+      "p": 5e-05,
+      "pos": 0,
+      "neg": 60
+     },
+     "projection": {
+      "mean": -0.01979,
+      "p": 5e-05,
+      "pos": 0,
+      "neg": 60
+     },
+     "status": "AGREE"
+    },
+    "g-cons": {
+     "behaviour": {
+      "mean": 0.00144,
+      "p": 0.38338,
+      "pos": 31,
+      "neg": 29
+     },
+     "projection": {
+      "mean": -0.00676,
+      "p": 5e-05,
+      "pos": 0,
+      "neg": 60
+     },
+     "status": "UNDECIDED"
+    },
+    "u-auth": {
+     "behaviour": {
+      "mean": -0.00695,
+      "p": 5e-05,
+      "pos": 8,
+      "neg": 52
+     },
+     "projection": {
+      "mean": -0.00347,
+      "p": 5e-05,
+      "pos": 0,
+      "neg": 60
+     },
+     "status": "AGREE"
+    },
+    "u-exp": {
+     "behaviour": {
+      "mean": -0.03324,
+      "p": 5e-05,
+      "pos": 0,
+      "neg": 60
+     },
+     "projection": {
+      "mean": -0.02073,
+      "p": 5e-05,
+      "pos": 0,
+      "neg": 60
+     },
+     "status": "AGREE"
+    },
+    "u-cons": {
+     "behaviour": {
+      "mean": -0.00031,
+      "p": 0.82136,
+      "pos": 29,
+      "neg": 31
+     },
+     "projection": {
+      "mean": -0.0126,
+      "p": 5e-05,
+      "pos": 0,
+      "neg": 60
+     },
+     "status": "UNDECIDED"
+    }
+   },
+   "spearman_g": 0.786,
+   "spearman_u": 0.762,
+   "behaviour_order": "ugo",
+   "projection_order": "ugo",
+   "reversals": {
+    "g-neu": {
+     "behaviour": {
+      "mean": 0.00657,
+      "p": 0.0425,
+      "pos": 35,
+      "neg": 25
+     },
+     "lower_on_vR": false
+    }
+   }
+  },
+  "granite-3.3-8b-instruct": {
+   "n": 60,
+   "competence": {
+    "mean": 0.68252,
+    "p": 5e-05,
+    "pos": 60,
+    "neg": 0
+   },
+   "included": true,
+   "pairs": {
+    "g-auth": {
+     "behaviour": {
+      "mean": -0.0011,
+      "p": 0.46233,
+      "pos": 29,
+      "neg": 31
+     },
+     "projection": {
+      "mean": 0.0048,
+      "p": 5e-05,
+      "pos": 55,
+      "neg": 5
+     },
+     "status": "UNDECIDED"
+    },
+    "g-exp": {
+     "behaviour": {
+      "mean": -0.0004,
+      "p": 0.84986,
+      "pos": 29,
+      "neg": 31
+     },
+     "projection": {
+      "mean": -0.10053,
+      "p": 5e-05,
+      "pos": 0,
+      "neg": 60
+     },
+     "status": "UNDECIDED"
+    },
+    "g-cons": {
+     "behaviour": {
+      "mean": -0.00265,
+      "p": 0.16989,
+      "pos": 28,
+      "neg": 32
+     },
+     "projection": {
+      "mean": -0.17565,
+      "p": 5e-05,
+      "pos": 0,
+      "neg": 60
+     },
+     "status": "UNDECIDED"
+    },
+    "u-auth": {
+     "behaviour": {
+      "mean": 0.0027,
+      "p": 0.0806,
+      "pos": 37,
+      "neg": 23
+     },
+     "projection": {
+      "mean": 0.02339,
+      "p": 5e-05,
+      "pos": 60,
+      "neg": 0
+     },
+     "status": "UNDECIDED"
+    },
+    "u-exp": {
+     "behaviour": {
+      "mean": -0.0042,
+      "p": 0.09245,
+      "pos": 26,
+      "neg": 34
+     },
+     "projection": {
+      "mean": -0.0522,
+      "p": 5e-05,
+      "pos": 0,
+      "neg": 60
+     },
+     "status": "UNDECIDED"
+    },
+    "u-cons": {
+     "behaviour": {
+      "mean": 0.00751,
+      "p": 0.00015,
+      "pos": 47,
+      "neg": 13
+     },
+     "projection": {
+      "mean": -0.11728,
+      "p": 5e-05,
+      "pos": 0,
+      "neg": 60
+     },
+     "status": "DISAGREE"
+    }
+   },
+   "spearman_g": -0.048,
+   "spearman_u": -0.714,
+   "behaviour_order": "ugo",
+   "projection_order": "ugo",
+   "reversals": {
+    "g-neu": {
+     "behaviour": {
+      "mean": 0.00738,
+      "p": 0.00315,
+      "pos": 39,
+      "neg": 21
+     },
+     "lower_on_vR": false
+    }
+   }
+  }
+ }
+}

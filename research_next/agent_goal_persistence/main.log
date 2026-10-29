@@ -1,0 +1,180 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights: 100%|##########| 311/311 [00:00<00:00, 3862.64it/s]
+[transformers] Calling `crop` with a positive value is deprecated and will be removed in version 5.18. Please use a negative integer to remove that number of tokens from the cache instead.
+3 100 drift_at 7 mean 0.7 fails 0 59.0 s
+3 101 drift_at 3 mean 0.93 fails 0 66.3 s
+3 102 drift_at 2 mean 0.67 fails 0 48.5 s
+3 103 drift_at 3 mean 1.0 fails 2 63.8 s
+3 104 drift_at 20 mean 0.17 fails 0 42.1 s
+3 105 drift_at 3 mean 0.7 fails 0 56.8 s
+3 106 drift_at 1 mean 1.0 fails 1 69.0 s
+3 107 drift_at 3 mean 0.57 fails 0 68.4 s
+3 108 drift_at 2 mean 0.9 fails 0 66.0 s
+3 109 drift_at 7 mean 0.57 fails 0 62.9 s
+3 110 drift_at 1 mean 1.0 fails 0 89.1 s
+3 111 drift_at 5 mean 0.7 fails 0 70.0 s
+3 112 drift_at 2 mean 0.97 fails 0 71.4 s
+3 113 drift_at None mean 0.0 fails 0 71.9 s
+3 114 drift_at 1 mean 0.5 fails 0 58.8 s
+3 115 drift_at 4 mean 0.63 fails 0 79.3 s
+3 116 drift_at 1 mean 1.0 fails 0 122.5 s
+3 117 drift_at 1 mean 0.97 fails 0 100.1 s
+3 118 drift_at 1 mean 0.93 fails 0 72.9 s
+3 119 drift_at 3 mean 0.97 fails 0 85.3 s
+3 120 drift_at 7 mean 0.7 fails 0 64.8 s
+3 121 drift_at 2 mean 0.83 fails 0 85.6 s
+3 122 drift_at 2 mean 0.67 fails 0 86.1 s
+3 123 drift_at 3 mean 0.67 fails 0 62.9 s
+3 124 drift_at 1 mean 1.0 fails 0 97.4 s
+3 125 drift_at 2 mean 0.47 fails 0 73.3 s
+3 126 drift_at 6 mean 0.77 fails 0 67.5 s
+3 127 drift_at 3 mean 0.87 fails 0 65.0 s
+3 128 drift_at None mean 0.17 fails 0 65.8 s
+3 129 drift_at 1 mean 0.9 fails 0 1068.3 s
+3 130 drift_at 6 mean 0.67 fails 0 148.9 s
+3 131 drift_at 7 mean 0.54 fails 2 1366.3 s
+3 132 drift_at 1 mean 0.55 fails 1 149.6 s
+3 133 drift_at None mean 0.03 fails 0 157.4 s
+3 134 drift_at 5 mean 0.83 fails 0 75.1 s
+3 135 drift_at 1 mean 1.0 fails 0 105.5 s
+deadline near, exiting 3
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:  60%|######    | 187/311 [00:00<00:00, 1787.58it/s]Loading weights: 100%|##########| 311/311 [00:00<00:00, 2295.64it/s]
+[transformers] Calling `crop` with a positive value is deprecated and will be removed in version 5.18. Please use a negative integer to remove that number of tokens from the cache instead.
+3 136 drift_at 1 mean 1.0 fails 0 95.3 s
+3 137 drift_at 6 mean 0.8 fails 0 65.5 s
+3 138 drift_at 1 mean 1.0 fails 0 69.9 s
+3 139 drift_at 3 mean 0.77 fails 0 63.6 s
+2p 100 drift_at 14 mean 0.24 fails 1 42.0 s
+2p 101 drift_at 11 mean 0.43 fails 0 40.6 s
+2p 102 drift_at 2 mean 0.97 fails 0 46.1 s
+2p 103 drift_at 3 mean 1.0 fails 2 51.9 s
+2p 104 drift_at None mean 0.03 fails 1 42.3 s
+2p 105 drift_at None mean 0.17 fails 0 40.4 s
+2p 106 drift_at 3 mean 1.0 fails 5 60.3 s
+2p 107 drift_at 12 mean 0.34 fails 1 42.7 s
+2p 108 drift_at 2 mean 0.97 fails 0 46.6 s
+2p 109 drift_at 10 mean 0.37 fails 0 40.8 s
+2p 110 drift_at 2 mean 0.97 fails 0 77.3 s
+2p 111 drift_at 5 mean 0.47 fails 0 63.2 s
+2p 112 drift_at 3 mean 0.77 fails 0 73.4 s
+2p 113 drift_at 2 mean 0.47 fails 0 63.3 s
+2p 114 drift_at 1 mean 0.62 fails 1 67.8 s
+2p 115 drift_at None mean 0.14 fails 1 65.9 s
+2p 116 drift_at 3 mean 0.59 fails 1 70.8 s
+2p 117 drift_at None mean 0.0 fails 0 94.5 s
+2p 118 drift_at 14 mean 0.37 fails 0 65.7 s
+2p 119 drift_at 11 mean 0.31 fails 1 70.4 s
+2p 120 drift_at None mean 0.0 fails 0 41.2 s
+2p 121 drift_at 3 mean 0.93 fails 0 67.9 s
+2p 122 drift_at 18 mean 0.27 fails 0 60.8 s
+2p 123 drift_at 3 mean 0.34 fails 1 66.2 s
+2p 124 drift_at 1 mean 0.9 fails 0 131.7 s
+2p 125 drift_at 7 mean 0.55 fails 1 66.9 s
+2p 126 drift_at 5 mean 0.78 fails 3 78.7 s
+2p 127 drift_at 1 mean 1.0 fails 0 95.0 s
+2p 128 drift_at 18 mean 0.27 fails 0 62.6 s
+2p 129 drift_at 3 mean 1.0 fails 1 88.0 s
+2p 130 drift_at 2 mean 0.87 fails 0 71.9 s
+2p 131 drift_at 7 mean 0.57 fails 2 70.3 s
+2p 132 drift_at 2 mean 0.97 fails 0 76.9 s
+2p 133 drift_at 3 mean 0.66 fails 1 66.1 s
+2p 134 drift_at 28 mean 0.13 fails 0 62.4 s
+2p 135 drift_at 9 mean 0.37 fails 0 61.9 s
+2p 136 drift_at 1 mean 1.0 fails 0 68.4 s
+2p 137 drift_at 2 mean 0.97 fails 0 72.7 s
+2p 138 drift_at 8 mean 0.7 fails 0 68.0 s
+2p 139 drift_at 12 mean 0.3 fails 0 64.1 s
+2 100 drift_at 8 mean 0.1 fails 0 55.9 s
+2 101 drift_at None mean 0.14 fails 1 42.5 s
+2 102 drift_at 2 mean 0.9 fails 0 2653.5 s
+deadline near, exiting 3
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:  54%|#####3    | 167/311 [00:00<00:00, 1634.11it/s]Loading weights: 100%|##########| 311/311 [00:00<00:00, 2621.20it/s]
+[transformers] Calling `crop` with a positive value is deprecated and will be removed in version 5.18. Please use a negative integer to remove that number of tokens from the cache instead.
+2 103 drift_at 22 mean 0.25 fails 2 58.8 s
+2 104 drift_at None mean 0.03 fails 0 50.9 s
+2 105 drift_at None mean 0.03 fails 0 49.6 s
+2 106 drift_at None mean 0.0 fails 2 57.6 s
+2 107 drift_at None mean 0.13 fails 0 52.0 s
+2 108 drift_at 2 mean 0.37 fails 0 49.6 s
+2 109 drift_at 11 mean 0.13 fails 0 49.4 s
+2 110 drift_at None mean 0.03 fails 0 55.2 s
+2 111 drift_at None mean 0.0 fails 0 44.8 s
+2 112 drift_at None mean 0.07 fails 0 51.7 s
+2 113 drift_at 2 mean 0.2 fails 0 63.9 s
+2 114 drift_at 11 mean 0.2 fails 0 62.0 s
+2 115 drift_at None mean 0.03 fails 0 59.5 s
+2 116 drift_at None mean 0.14 fails 2 66.0 s
+2 117 drift_at None mean 0.0 fails 0 89.8 s
+2 118 drift_at None mean 0.17 fails 0 61.8 s
+2 119 drift_at 11 mean 0.3 fails 0 60.6 s
+2 120 drift_at None mean 0.0 fails 0 44.6 s
+2 121 drift_at 3 mean 0.83 fails 1 76.8 s
+2 122 drift_at None mean 0.07 fails 0 44.7 s
+2 123 drift_at 3 mean 0.31 fails 1 48.1 s
+2 124 drift_at None mean 0.07 fails 0 52.9 s
+2 125 drift_at 20 mean 0.3 fails 0 47.6 s
+2 126 drift_at 7 mean 0.2 fails 0 46.9 s
+2 127 drift_at None mean 0.03 fails 0 53.5 s
+2 128 drift_at None mean 0.07 fails 0 47.0 s
+2 129 drift_at None mean 0.13 fails 0 47.8 s
+2 130 drift_at None mean 0.1 fails 1 53.1 s
+2 131 drift_at 8 mean 0.27 fails 0 68.0 s
+2 132 drift_at 11 mean 0.23 fails 0 68.9 s
+2 133 drift_at 3 mean 0.45 fails 1 45.1 s
+2 134 drift_at None mean 0.0 fails 0 41.7 s
+2 135 drift_at 22 mean 0.1 fails 0 42.0 s
+2 136 drift_at 1 mean 0.27 fails 0 46.0 s
+2 137 drift_at 10 mean 0.3 fails 0 44.5 s
+2 138 drift_at None mean 0.0 fails 1 45.6 s
+2 139 drift_at None mean 0.17 fails 0 41.9 s
+3f 100 drift_at None mean 0.0 fails 0 61.7 s
+3f 101 drift_at None mean 0.07 fails 0 62.2 s
+3f 102 drift_at None mean 0.03 fails 0 46.7 s
+3f 103 drift_at None mean 0.0 fails 0 66.2 s
+3f 104 drift_at None mean 0.0 fails 0 49.6 s
+3f 105 drift_at 2 mean 0.7 fails 0 71.2 s
+3f 106 drift_at None mean 0.07 fails 0 69.4 s
+3f 107 drift_at None mean 0.1 fails 0 50.5 s
+3f 108 drift_at 2 mean 0.2 fails 0 64.8 s
+3f 109 drift_at 10 mean 0.2 fails 0 64.7 s
+3f 110 drift_at 2 mean 0.97 fails 0 98.9 s
+3f 111 drift_at 12 mean 0.17 fails 0 78.6 s
+3f 112 drift_at 2 mean 0.97 fails 0 100.0 s
+3f 113 drift_at 2 mean 0.3 fails 0 48.3 s
+3f 114 drift_at None mean 0.17 fails 0 99.5 s
+3f 115 drift_at None mean 0.03 fails 0 692.3 s
+3f 116 drift_at None mean 0.1 fails 0 105.2 s
+3f 117 drift_at 2 mean 0.9 fails 0 112.0 s
+3f 118 drift_at None mean 0.07 fails 0 83.8 s
+3f 119 drift_at 3 mean 0.83 fails 0 73.8 s
+3f 120 drift_at None mean 0.0 fails 0 144.0 s
+3f 121 drift_at None mean 0.0 fails 0 295.8 s
+3f 122 drift_at 2 mean 0.97 fails 0 483.1 s
+3f 123 drift_at None mean 0.03 fails 0 341.9 s
+deadline near, exiting 3
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:  86%|########5 | 266/311 [00:00<00:00, 2626.88it/s]Loading weights: 100%|##########| 311/311 [00:00<00:00, 3039.41it/s]
+[transformers] Calling `crop` with a positive value is deprecated and will be removed in version 5.18. Please use a negative integer to remove that number of tokens from the cache instead.
+3f 124 drift_at 1 mean 1.0 fails 0 359.0 s
+3f 125 drift_at 1 mean 0.7 fails 0 391.2 s
+3f 126 drift_at 5 mean 0.43 fails 0 289.1 s
+3f 127 drift_at 1 mean 1.0 fails 0 448.9 s
+3f 128 drift_at None mean 0.03 fails 0 294.8 s
+3f 129 drift_at 1 mean 0.57 fails 0 228.7 s
+3f 130 drift_at 5 mean 0.2 fails 0 346.9 s
+3f 131 drift_at None mean 0.03 fails 0 379.5 s
+3f 132 drift_at 1 mean 0.63 fails 0 197.0 s
+3f 133 drift_at None mean 0.03 fails 0 296.1 s
+3f 134 drift_at None mean 0.0 fails 0 381.8 s
+3f 135 drift_at 1 mean 1.0 fails 0 456.2 s
+3f 136 drift_at 1 mean 1.0 fails 0 422.8 s
+3f 137 drift_at None mean 0.03 fails 0 321.7 s
+3f 138 drift_at 3 mean 0.7 fails 0 380.2 s
+deadline near, exiting 3
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:  48%|####8     | 150/311 [00:00<00:00, 1497.68it/s]Loading weights: 100%|##########| 311/311 [00:00<00:00, 2770.43it/s]
+[transformers] Calling `crop` with a positive value is deprecated and will be removed in version 5.18. Please use a negative integer to remove that number of tokens from the cache instead.
+3f 139 drift_at None mean 0.0 fails 0 369.7 s
+DONE 160

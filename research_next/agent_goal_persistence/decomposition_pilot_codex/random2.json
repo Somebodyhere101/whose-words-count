@@ -1,0 +1,760 @@
+{
+ "model": "Qwen/Qwen3-1.7B",
+ "condition": "random2",
+ "layer": 13,
+ "records": [
+  {
+   "task": 65,
+   "order": 0,
+   "conflict": "language_conflict: en_fr",
+   "base_instruction": "Compose a song that can be sung by a professional singer in the style of a 1930s jazz standard.",
+   "constraint1": "Your entire response should be in English language, no other language is allowed.",
+   "constraint2": "Your entire response should be in French language, no other language is allowed.",
+   "kwargs": [
+    {
+     "language": "en"
+    },
+    {
+     "language": "fr"
+    }
+   ],
+   "conflict_name": "language_conflict: en_fr",
+   "response": "(Verse 1)  \nDans le noir de la nuit, le silence est profond,  \nUn souffle de jazz qui r\u00e9sonne dans mon c\u0153ur.  \nLes notes du piano, le rythme du c\u0153ur,  \nUn amour qui s'exprime dans un chant si pur.  \n\n(Chorus)  \nOh, je t'aimerais, je t'aimerais,  \nDans le style du 30\u00e8me si\u00e8cle,  \nUn jazz qui s'ouvre, un chant qui s'ouvre,  \nUn amour qui s'exprime dans un souffle.  \n\n(Verse 2)  \nLes doigts du pianiste, le tempo qui bat,  \nUn amour qui se d\u00e9voile, un chant qui se d\u00e9voile.  \nLes notes qui dansent, les paroles qui chantent,  \nUn amour qui s'exprime dans un souffle.  \n\n(Chorus)  \nOh, je t'aimerais, je t'aimerais,  \nDans le style du 30\u00e8me si\u00e8cle,  \nUn jazz qui s'ouvre, un chant qui s'ouvre,  \nUn amour qui s'exprime dans un souffle.  \n\n(Bridge)  \nLe temps s'\u00e9coule, les \u00e9toiles s'\u00e9teignent,  \nMais l'amour reste, un chant qui s'ouvre.  \nDans le style du 30\u00e8me si\u00e8cle,  \nUn jazz qui s'ouvre, un chant qui s'ouvre.  \n\n(Outro)  \nOh, je t'aimerais, je t'aimerais,  \nDans le style du 30\u00e8me si\u00e8cle,  \nUn jazz qui s'ouvre, un chant qui s'ouvre,  \nUn amour qui s'exprime dans un souffle.",
+   "n_new": 379,
+   "words": 205,
+   "degenerate": false,
+   "met1": false,
+   "met2": true
+  },
+  {
+   "task": 65,
+   "order": 0,
+   "conflict": "case_conflict",
+   "base_instruction": "Compose a song that can be sung by a professional singer in the style of a 1930s jazz standard.",
+   "constraint1": "Your entire response should be in English, and in all capital letters.",
+   "constraint2": "Your entire response should be in English, and in all lowercase letters.",
+   "kwargs": [
+    {},
+    {}
+   ],
+   "conflict_name": "case_conflict",
+   "response": "i'll compose a song in the style of a 1930s jazz standard, in all lowercase letters.\n\n(verse 1)  \nthe night is young and the lights are bright  \na melody that echoes through the night  \na tune that's been played in the shadows  \nby the heart of a man who's lost his way  \n\n(chorus)  \noh, the blues are in the air  \na rhythm that's been passed down through the years  \na song that's been sung in the dark  \nby a voice that's been raised in the dark  \n\n(verse 2)  \nthe piano plays a slow and steady tune  \na rhythm that's been loved by many  \na song that's been played in the halls  \nby a man who's found his way back  \n\n(chorus)  \noh, the blues are in the air  \na rhythm that's been passed down through the years  \na song that's been sung in the dark  \nby a voice that's been raised in the dark  \n\n(bridge)  \nthe night is young and the lights are bright  \na melody that echoes through the night  \na tune that's been played in the shadows  \nby the heart of a man who's lost his way  \n\n(chorus)  \noh, the blues are in the air  \na rhythm that's been passed down through the years  \na song that's been sung in the dark  \nby a voice that's been raised in the dark",
+   "n_new": 296,
+   "words": 239,
+   "degenerate": false,
+   "met1": false,
+   "met2": true
+  },
+  {
+   "task": 65,
+   "order": 0,
+   "conflict": "word_length_conflict: 300_50",
+   "base_instruction": "Compose a song that can be sung by a professional singer in the style of a 1930s jazz standard.",
+   "constraint1": "Answer with at least 300 words.",
+   "constraint2": "Answer with less than 50 words.",
+   "kwargs": [
+    {
+     "num_words": 300,
+     "relation": "at least"
+    },
+    {
+     "num_words": 50,
+     "relation": "less than"
+    }
+   ],
+   "conflict_name": "word_length_conflict: 300_50",
+   "response": "(Verse 1)  \nIn a dimly lit room, a saxophone plays,  \nA melody that echoes through the air.  \nA voice so soft, so deep, so true,  \nA love that's long, a heart that's true.  \n\n(Chorus)  \nOh, I'm chasing dreams in a world so cold,  \nBut you're the light that guides me through the night.  \nWith every note, I feel the weight of time,  \nAnd I'll sing this song to you, my love.  \n\n(Verse 2)  \nA jazz tune, a heart full of fire,  \nA love that's wild, a love that's rare.  \nThrough the storm, through the night, I'll stay,  \nWith you, I'll dance, I'll sing, I'll stay.  \n\n(Chorus)  \nOh, I'm chasing dreams in a world so cold,  \nBut you're the light that guides me through the night.  \nWith every note, I feel the weight of time,  \nAnd I'll sing this song to you, my love.",
+   "n_new": 224,
+   "words": 157,
+   "degenerate": false,
+   "met1": false,
+   "met2": false
+  },
+  {
+   "task": 65,
+   "order": 0,
+   "conflict": "num_sentence_conflict: 10_5",
+   "base_instruction": "Compose a song that can be sung by a professional singer in the style of a 1930s jazz standard.",
+   "constraint1": "Your response should contain at least 10 sentences.",
+   "constraint2": "Your response should contain less than 5 sentences.",
+   "kwargs": [
+    {
+     "num_sentences": 10,
+     "relation": "at least"
+    },
+    {
+     "num_sentences": 5,
+     "relation": "less than"
+    }
+   ],
+   "conflict_name": "num_sentence_conflict: 10_5",
+   "response": "(Verse 1)  \nIn a dimly lit room, a saxophone plays,  \nA melody that echoes through the air.  \nA voice so soft, so deep, it carries the weight of a dream,  \nA song that time can't erase, it's a love that's never been.  \n\n(Chorus)  \nOh, the night is young, the stars are bright,  \nA jazz tune that's been played since the start.  \nWith every note, a heart finds its way,  \nA love that's eternal, a song that's never been.",
+   "n_new": 118,
+   "words": 84,
+   "degenerate": false,
+   "met1": false,
+   "met2": true
+  },
+  {
+   "task": 65,
+   "order": 0,
+   "conflict": "keyword_forbidden_conflict: awesome_need",
+   "base_instruction": "Compose a song that can be sung by a professional singer in the style of a 1930s jazz standard.",
+   "constraint1": "Include keywords ['awesome', 'need'] in the response.",
+   "constraint2": "Do not include keywords ['awesome', 'need'] in the response.",
+   "kwargs": [
+    {
+     "keywords": [
+      "awesome",
+      "need"
+     ]
+    },
+    {
+     "forbidden_words": [
+      "awesome",
+      "need"
+     ]
+    }
+   ],
+   "conflict_name": "keyword_forbidden_conflict: awesome_need",
+   "response": "(Verse 1)  \nIn a dimly lit room, the lights flicker bright,  \nA melody that dances through the night.  \nThe saxophone takes flight, a sound so rare,  \nA tune that echoes through the air.  \n\n(Chorus)  \nOh, the night is young, and the stars are bright,  \nA song that calls you, and you're not quite right.  \nWith every note, a story's told,  \nA tale of love, of dreams, of lost and found.  \n\n(Verse 2)  \nThe piano plays in rhythm, soft and slow,  \nA heartbeat that's steady, deep and true.  \nThe rhythm of the city, the pulse of the town,  \nA song that's written in the soul of the moon.  \n\n(Chorus)  \nOh, the night is young, and the stars are bright,  \nA song that calls you, and you're not quite right.  \nWith every note, a story's told,  \nA tale of love, of dreams, of lost and found.  \n\n(Outro)  \nSo sing it loud, let the world know,  \nThat in this moment, you're not alone.  \nA song that's been written, and will be sung,  \nIn the spirit of the 1930s, and the heart of the sun.",
+   "n_new": 278,
+   "words": 189,
+   "degenerate": false,
+   "met1": false,
+   "met2": true
+  },
+  {
+   "task": 65,
+   "order": 0,
+   "conflict": "keyword_frequency_conflict: like_5_2",
+   "base_instruction": "Compose a song that can be sung by a professional singer in the style of a 1930s jazz standard.",
+   "constraint1": "In your response, the word 'like' should appear at least 5 times.",
+   "constraint2": "In your response, the word 'like' should appear less than 2 times.",
+   "kwargs": [
+    {
+     "keyword": "like",
+     "frequency": 5,
+     "relation": "at least"
+    },
+    {
+     "keyword": "like",
+     "frequency": 2,
+     "relation": "less than"
+    }
+   ],
+   "conflict_name": "keyword_frequency_conflict: like_5_2",
+   "response": "(Verse 1)  \nIn a dimly lit room, the lights flicker bright,  \nA melody that dances, like a dream in flight.  \nThe saxophone plays, a tune that's so sweet,  \nA night of joy, a night of love, so true.  \n\n(Chorus)  \nOh, the night is young, and the stars are so bright,  \nA song that's been sung, a tune that's been heard.  \nIt's like a whisper, it's like a flame,  \nA night of passion, a night of flame.  \n\n(Verse 2)  \nThe piano plays, a rhythm that's so slow,  \nA heartbeat that's in sync with the soul.  \nThe band joins in, a harmony so true,  \nA night of music, a night of love, so true.  \n\n(Chorus)  \nOh, the night is young, and the stars are so bright,  \nA song that's been sung, a tune that's been heard.  \nIt's like a whisper, it's like a flame,  \nA night of passion, a night of flame.  \n\n(Outro)  \nSo let the music play, let the night be bright,  \nA song that's been sung, a tune that's been heard.  \nIt's like a whisper, it's like a flame,  \nA night of passion, a night of flame.",
+   "n_new": 288,
+   "words": 202,
+   "degenerate": false,
+   "met1": true,
+   "met2": false
+  },
+  {
+   "task": 66,
+   "order": 0,
+   "conflict": "language_conflict: en_fr",
+   "base_instruction": "Why didn't the 2022 winter olympics have the best ratings?",
+   "constraint1": "Your entire response should be in English language, no other language is allowed.",
+   "constraint2": "Your entire response should be in French language, no other language is allowed.",
+   "kwargs": [
+    {
+     "language": "en"
+    },
+    {
+     "language": "fr"
+    }
+   ],
+   "conflict_name": "language_conflict: en_fr",
+   "response": "Pourquoi n'ont-ils pas eu les meilleures audiences lors des Jeux olympiques d'hiver de 2022 ? Cela peut \u00eatre d\u00fb \u00e0 plusieurs facteurs, tels que la faible diffusion sur les r\u00e9seaux de t\u00e9l\u00e9vision, la concurrence avec d'autres \u00e9v\u00e9nements sportifs ou culturels, ou encore la faible attention de la population envers les Jeux olympiques.",
+   "n_new": 91,
+   "words": 55,
+   "degenerate": false,
+   "met1": false,
+   "met2": true
+  },
+  {
+   "task": 66,
+   "order": 0,
+   "conflict": "case_conflict",
+   "base_instruction": "Why didn't the 2022 winter olympics have the best ratings?",
+   "constraint1": "Your entire response should be in English, and in all capital letters.",
+   "constraint2": "Your entire response should be in English, and in all lowercase letters.",
+   "kwargs": [
+    {},
+    {}
+   ],
+   "conflict_name": "case_conflict",
+   "response": "the 2022 winter olympics did not have the best ratings because of various factors such as limited global viewership, political tensions, and competition from other sports events.",
+   "n_new": 38,
+   "words": 27,
+   "degenerate": false,
+   "met1": false,
+   "met2": true
+  },
+  {
+   "task": 66,
+   "order": 0,
+   "conflict": "word_length_conflict: 300_50",
+   "base_instruction": "Why didn't the 2022 winter olympics have the best ratings?",
+   "constraint1": "Answer with at least 300 words.",
+   "constraint2": "Answer with less than 50 words.",
+   "kwargs": [
+    {
+     "num_words": 300,
+     "relation": "at least"
+    },
+    {
+     "num_words": 50,
+     "relation": "less than"
+    }
+   ],
+   "conflict_name": "word_length_conflict: 300_50",
+   "response": "The 2022 Winter Olympics did not achieve the best ratings due to factors such as limited global viewership, geopolitical tensions, and competition with other events.",
+   "n_new": 34,
+   "words": 25,
+   "degenerate": false,
+   "met1": false,
+   "met2": true
+  },
+  {
+   "task": 66,
+   "order": 0,
+   "conflict": "num_sentence_conflict: 10_5",
+   "base_instruction": "Why didn't the 2022 winter olympics have the best ratings?",
+   "constraint1": "Your response should contain at least 10 sentences.",
+   "constraint2": "Your response should contain less than 5 sentences.",
+   "kwargs": [
+    {
+     "num_sentences": 10,
+     "relation": "at least"
+    },
+    {
+     "num_sentences": 5,
+     "relation": "less than"
+    }
+   ],
+   "conflict_name": "num_sentence_conflict: 10_5",
+   "response": "The 2022 Winter Olympics had lower ratings due to limited global viewership and competing events.",
+   "n_new": 22,
+   "words": 15,
+   "degenerate": false,
+   "met1": false,
+   "met2": true
+  },
+  {
+   "task": 66,
+   "order": 0,
+   "conflict": "keyword_forbidden_conflict: awesome_need",
+   "base_instruction": "Why didn't the 2022 winter olympics have the best ratings?",
+   "constraint1": "Include keywords ['awesome', 'need'] in the response.",
+   "constraint2": "Do not include keywords ['awesome', 'need'] in the response.",
+   "kwargs": [
+    {
+     "keywords": [
+      "awesome",
+      "need"
+     ]
+    },
+    {
+     "forbidden_words": [
+      "awesome",
+      "need"
+     ]
+    }
+   ],
+   "conflict_name": "keyword_forbidden_conflict: awesome_need",
+   "response": "The 2022 Winter Olympics faced several challenges that contributed to lower viewership compared to previous years. These included logistical issues, weather conditions, and differences in broadcast strategies across regions. Additionally, the global pandemic affected attendance and media coverage, which impacted overall ratings. The event was widely praised for its organization and the success of the host city, but the ratings reflected a more complex picture influenced by a variety of factors.",
+   "n_new": 86,
+   "words": 71,
+   "degenerate": false,
+   "met1": false,
+   "met2": true
+  },
+  {
+   "task": 66,
+   "order": 0,
+   "conflict": "keyword_frequency_conflict: like_5_2",
+   "base_instruction": "Why didn't the 2022 winter olympics have the best ratings?",
+   "constraint1": "In your response, the word 'like' should appear at least 5 times.",
+   "constraint2": "In your response, the word 'like' should appear less than 2 times.",
+   "kwargs": [
+    {
+     "keyword": "like",
+     "frequency": 5,
+     "relation": "at least"
+    },
+    {
+     "keyword": "like",
+     "frequency": 2,
+     "relation": "less than"
+    }
+   ],
+   "conflict_name": "keyword_frequency_conflict: like_5_2",
+   "response": "The 2022 winter Olympics did not achieve the best ratings because viewership was lower than expected. The event was not as popular as previous years, and many viewers opted for other sports or events. The games were not as well-promoted, and the content did not resonate as strongly with audiences. Unlike some other events, the 2022 Olympics did not capture the attention of a wide audience. The overall experience was not as engaging as it could have been.",
+   "n_new": 98,
+   "words": 79,
+   "degenerate": false,
+   "met1": false,
+   "met2": true
+  },
+  {
+   "task": 65,
+   "order": 1,
+   "conflict": "language_conflict: en_fr",
+   "base_instruction": "Compose a song that can be sung by a professional singer in the style of a 1930s jazz standard.",
+   "constraint1": "Your entire response should be in French language, no other language is allowed.",
+   "constraint2": "Your entire response should be in English language, no other language is allowed.",
+   "kwargs": [
+    {
+     "language": "fr"
+    },
+    {
+     "language": "en"
+    }
+   ],
+   "conflict_name": "language_conflict: en_fr",
+   "response": "(Verse 1)  \nIn the heart of the city, where the lights shine so bright,  \nA melody that the stars have been singing since night.  \nWith a saxophone in hand, and a voice that's so fine,  \nWe dance to the rhythm, and the night is our time.  \n\n(Chorus)  \nOh, the jazz of the 30s, so bold and so true,  \nA tale of the heart, a love that's so true.  \nWith a trumpet and a piano, we sing and we play,  \nIn the spirit of the age, where the world is so free.  \n\n(Verse 2)  \nThe shadows dance in the moonlight, the shadows play,  \nA tale of a love that's so deep and so true.  \nWith a trumpet and a piano, we sing and we play,  \nIn the spirit of the age, where the world is so free.  \n\n(Chorus)  \nOh, the jazz of the 30s, so bold and so true,  \nA tale of the heart, a love that's so true.  \nWith a trumpet and a piano, we sing and we play,  \nIn the spirit of the age, where the world is so free.  \n\n(Outro)  \nSo let the music be heard, in the spirit of the age,  \nA love that's so true, a song that's so free.  \nIn the heart of the city, where the lights shine so bright,  \nWe sing the jazz of the 30s, and the night is our time.",
+   "n_new": 326,
+   "words": 235,
+   "degenerate": false,
+   "met1": false,
+   "met2": true
+  },
+  {
+   "task": 65,
+   "order": 1,
+   "conflict": "case_conflict",
+   "base_instruction": "Compose a song that can be sung by a professional singer in the style of a 1930s jazz standard.",
+   "constraint1": "Your entire response should be in English, and in all lowercase letters.",
+   "constraint2": "Your entire response should be in English, and in all capital letters.",
+   "kwargs": [
+    {},
+    {}
+   ],
+   "conflict_name": "case_conflict",
+   "response": "(verse 1)  \ni'm gonna sing you a song that's got a swing in its bones  \nit's a jazz standard from the thirties, it's got a soul in its tone  \nthe melody's a classic, the lyrics are a bit old school  \nbut the rhythm's so strong, it'll make you feel like you're in the old school  \n\n(chorus)  \ni'm gonna sing you a song that's got a swing in its bones  \nit's a jazz standard from the thirties, it's got a soul in its tone  \nthe melody's a classic, the lyrics are a bit old school  \nbut the rhythm's so strong, it'll make you feel like you're in the old school  \n\n(verse 2)  \nit's a slow and steady tune, it's got a feel that's so true  \nthe bassline's a heartbeat, the chords are a bit old school  \nthe lyrics are a bit old school, but the rhythm's so true  \nit's a classic, it's a jazz standard, it's got a soul in its tone  \n\n(chorus)  \ni'm gonna sing you a song that's got a swing in its bones  \nit's a jazz standard from the thirties, it's got a soul in its tone  \nthe melody's a classic, the lyrics are a bit old school  \nbut the rhythm's so strong, it'll make you feel like you're in the old school  \n\n(bridge)  \nit's a classic, it's a jazz standard, it's got a soul in its tone  \nthe melody's a classic, the lyrics are a bit old school  \nit's a song that's so strong, it'll make you feel like you're in the old school  \n\n(chorus)  \ni'm gonna sing you a song that's got a swing in its bones  \nit's a jazz standard from the thirties, it's got a soul in its tone  \nthe melody's a classic, the lyrics are a bit old school  \nbut the rhythm's so strong, it'll make you feel like you're in the old school",
+   "n_new": 435,
+   "words": 359,
+   "degenerate": false,
+   "met1": true,
+   "met2": false
+  },
+  {
+   "task": 65,
+   "order": 1,
+   "conflict": "word_length_conflict: 300_50",
+   "base_instruction": "Compose a song that can be sung by a professional singer in the style of a 1930s jazz standard.",
+   "constraint1": "Answer with less than 50 words.",
+   "constraint2": "Answer with at least 300 words.",
+   "kwargs": [
+    {
+     "num_words": 50,
+     "relation": "less than"
+    },
+    {
+     "num_words": 300,
+     "relation": "at least"
+    }
+   ],
+   "conflict_name": "word_length_conflict: 300_50",
+   "response": "**Title: \"Echoes of the East\"**  \n*Style: 1930s Jazz Standard*  \n\n*(Verse 1)*  \nIn a dusty room, a piano plays,  \nA melody that echoes through the air.  \nThe lights flicker, the shadows dance,  \nA tale of love, a tale of war.  \n\n*(Pre-Chorus)*  \nThe night is young, the stars are bright,  \nA dream that once was, now it's gone.  \nThe wind whispers, the moon sighs,  \nA song that lingers, deep and true.  \n\n*(Chorus)*  \nOh, echo of the east, you call me,  \nA voice that once was, now it's gone.  \nThrough the silence, through the storm,  \nI hear your song, a whisper in the night.  \n\n*(Verse 2)*  \nA lullaby from a distant land,  \nA heart that once was, now it's torn.  \nThe rhythm of the past, the beat of time,  \nA love that never quite came to pass.  \n\n*(Pre-Chorus)*  \nThe night is young, the stars are bright,  \nA dream that once was, now it's gone.  \nThe wind whispers, the moon sighs,  \nA song that lingers, deep and true.  \n\n*(Chorus)*  \nOh, echo of the east, you call me,  \nA voice that once was, now it's gone.  \nThrough the silence, through the storm,  \nI hear your song, a whisper in the night.  \n\n*(Bridge)*  \nThe years have passed, the world has changed,  \nBut your song still lingers in my heart.  \nA melody that never fades,  \nA love that never quite came to pass.  \n\n*(Outro)*  \nSo I'll sing your song, a lullaby,  \nA tale of love, a tale of war.  \nEchoes of the east, you call me,  \nA voice that once was, now it's gone.",
+   "n_new": 416,
+   "words": 266,
+   "degenerate": false,
+   "met1": false,
+   "met2": false
+  },
+  {
+   "task": 65,
+   "order": 1,
+   "conflict": "num_sentence_conflict: 10_5",
+   "base_instruction": "Compose a song that can be sung by a professional singer in the style of a 1930s jazz standard.",
+   "constraint1": "Your response should contain less than 5 sentences.",
+   "constraint2": "Your response should contain at least 10 sentences.",
+   "kwargs": [
+    {
+     "num_sentences": 5,
+     "relation": "less than"
+    },
+    {
+     "num_sentences": 10,
+     "relation": "at least"
+    }
+   ],
+   "conflict_name": "num_sentence_conflict: 10_5",
+   "response": "(Verse 1)  \nIn the heart of a city where the lights are so bright,  \nA melody that echoes through the night.  \nWith a saxophone that sings in a way,  \nThat makes the heart skip a beat and the soul sway.  \n\n(Chorus)  \nOh, the 1930s jazz standard, so bold and so true,  \nA tale of love and loss, a story that's told.  \nWith a trumpet that plays in a way,  \nThat makes the listener feel like they're in the mood.  \n\n(Verse 2)  \nThe rhythm is steady, the tempo is slow,  \nA dance that's both passionate and so true.  \nWith a bass that plays in a way,  \nThat makes the listener feel like they're in the mood.  \n\n(Chorus)  \nOh, the 1930s jazz standard, so bold and so true,  \nA tale of love and loss, a story that's told.  \nWith a trumpet that plays in a way,  \nThat makes the listener feel like they're in the mood.  \n\n(Bridge)  \nThe night is young, the music is bold,  \nA song that's both sweet and so old.  \nWith a piano that plays in a way,  \nThat makes the listener feel like they're in the mood.  \n\n(Outro)  \nSo sing it loud, let the music be heard,  \nA 1930s jazz standard, so bold and so true.  \nWith a saxophone that sings in a way,  \nThat makes the heart skip a beat and the soul sway.",
+   "n_new": 333,
+   "words": 235,
+   "degenerate": false,
+   "met1": false,
+   "met2": true
+  },
+  {
+   "task": 65,
+   "order": 1,
+   "conflict": "keyword_forbidden_conflict: awesome_need",
+   "base_instruction": "Compose a song that can be sung by a professional singer in the style of a 1930s jazz standard.",
+   "constraint1": "Do not include keywords ['awesome', 'need'] in the response.",
+   "constraint2": "Include keywords ['awesome', 'need'] in the response.",
+   "kwargs": [
+    {
+     "forbidden_words": [
+      "awesome",
+      "need"
+     ]
+    },
+    {
+     "keywords": [
+      "awesome",
+      "need"
+     ]
+    }
+   ],
+   "conflict_name": "keyword_forbidden_conflict: awesome_need",
+   "response": "(Verse 1)  \nIn the heart of the city, where the lights shine so bright,  \nA melody that the stars have been singing all night.  \nWith a voice that can make the heart feel so right,  \nAnd a rhythm that's just as wild as the night.  \n\n(Chorus)  \nOh, it's an awesome tune, a jazz standard so true,  \nA song that the soul can't help but feel.  \nWith a need for the night, and a love that's so deep,  \nThis is the song that the world will never forget.  \n\n(Verse 2)  \nThe piano plays a tune that's so smooth and so true,  \nA rhythm that's like the wind in the trees.  \nWith a bass that's deep and a voice that's so strong,  \nThis is the song that the heart will never let go.  \n\n(Chorus)  \nOh, it's an awesome tune, a jazz standard so true,  \nA song that the soul can't help but feel.  \nWith a need for the night, and a love that's so deep,  \nThis is the song that the world will never forget.  \n\n(Outro)  \nSo sing it with a smile, let the music take flight,  \nA masterpiece of the 1930s, a timeless delight.  \nWith a need for the night, and a love that's so deep,  \nThis is the song that the world will never forget.",
+   "n_new": 302,
+   "words": 227,
+   "degenerate": false,
+   "met1": false,
+   "met2": true
+  },
+  {
+   "task": 65,
+   "order": 1,
+   "conflict": "keyword_frequency_conflict: like_5_2",
+   "base_instruction": "Compose a song that can be sung by a professional singer in the style of a 1930s jazz standard.",
+   "constraint1": "In your response, the word 'like' should appear less than 2 times.",
+   "constraint2": "In your response, the word 'like' should appear at least 5 times.",
+   "kwargs": [
+    {
+     "keyword": "like",
+     "frequency": 2,
+     "relation": "less than"
+    },
+    {
+     "keyword": "like",
+     "frequency": 5,
+     "relation": "at least"
+    }
+   ],
+   "conflict_name": "keyword_frequency_conflict: like_5_2",
+   "response": "*(Verse 1)*  \nIn a dimly lit room, the lights flicker bright,  \nA saxophone plays a tune that's never quite right.  \nThe rhythm sways, the melody takes flight,  \nA night of dreams, a night of wild delight.  \n\n*(Chorus)*  \nOh, the night is young, and the stars are bright,  \nA jazz standard, a heart that's true.  \nWith every note, a story's told,  \nA love that's deep, a love that's bold.  \n\n*(Verse 2)*  \nThe piano sings, the bass takes hold,  \nA dance that's wild, a love that's bold.  \nThe crowd is loud, the music's loud,  \nA night of passion, a night of gold.  \n\n*(Chorus)*  \nOh, the night is young, and the stars are bright,  \nA jazz standard, a heart that's true.  \nWith every note, a story's told,  \nA love that's deep, a love that's bold.  \n\n*(Bridge)*  \nLike a melody that's never quite the same,  \nLike a love that's wild, a love that's grand.  \nLike the night that's fleeting, the night that's long,  \nLike a song that's sung, a song that's sung.  \n\n*(Outro)*  \nSo let the music play, let the night go on,  \nA jazz standard, a heart that's true.  \nWith every note, a story's told,  \nA love that's deep, a love that's bold.",
+   "n_new": 322,
+   "words": 223,
+   "degenerate": false,
+   "met1": false,
+   "met2": false
+  },
+  {
+   "task": 66,
+   "order": 1,
+   "conflict": "language_conflict: en_fr",
+   "base_instruction": "Why didn't the 2022 winter olympics have the best ratings?",
+   "constraint1": "Your entire response should be in French language, no other language is allowed.",
+   "constraint2": "Your entire response should be in English language, no other language is allowed.",
+   "kwargs": [
+    {
+     "language": "fr"
+    },
+    {
+     "language": "en"
+    }
+   ],
+   "conflict_name": "language_conflict: en_fr",
+   "response": "The 2022 Winter Olympics did not have the best ratings for several reasons. One factor was the global pandemic, which limited the number of viewers and affected broadcast availability. Additionally, the event was held in a different country compared to previous years, which may have impacted its global reach. Other factors include the competition for viewership among major sporting events and the overall popularity of the Olympics in different regions.",
+   "n_new": 83,
+   "words": 70,
+   "degenerate": false,
+   "met1": false,
+   "met2": true
+  },
+  {
+   "task": 66,
+   "order": 1,
+   "conflict": "case_conflict",
+   "base_instruction": "Why didn't the 2022 winter olympics have the best ratings?",
+   "constraint1": "Your entire response should be in English, and in all lowercase letters.",
+   "constraint2": "Your entire response should be in English, and in all capital letters.",
+   "kwargs": [
+    {},
+    {}
+   ],
+   "conflict_name": "case_conflict",
+   "response": "THE 2022 WINTER OLYMPICS DIDN'T HAVE THE BEST RATING BECAUSE OF MANY FACTORS SUCH AS LOW VIEWING POPULARITY, LIMITED CREDIBILITY, AND LOW ENGAGEMENT. THE RATING WAS NOT HIGH DUE TO THE SMALL NUMBER OF VIEWERS AND THE LIMITED TIME OF THE EVENT. THE EVENT WAS NOT AS SUCCESSFUL AS IT COULD HAVE BEEN. THE RATING WAS NOT HIGH DUE TO THE SMALL NUMBER OF VIEWERS AND THE LIMITED TIME OF THE EVENT. THE EVENT WAS NOT AS SUCCESSFUL AS IT COULD HAVE BEEN. THE RATING WAS NOT HIGH DUE TO THE SMALL NUMBER OF VIEWERS AND THE LIMITED TIME OF THE EVENT. THE EVENT WAS NOT AS SUCCESSFUL AS IT COULD HAVE BEEN. THE RATING WAS NOT HIGH DUE TO THE SMALL NUMBER OF VIEWERS AND THE LIMITED TIME OF THE EVENT. THE EVENT WAS NOT AS SUCCESSFUL AS IT COULD HAVE BEEN. THE RATING WAS NOT HIGH DUE TO THE SMALL NUMBER OF VIEWERS AND THE LIMITED TIME OF THE EVENT. THE EVENT WAS NOT AS SUCCESSFUL AS IT COULD HAVE BEEN. THE RATING WAS NOT HIGH DUE TO THE SMALL NUMBER OF VIEWERS AND THE LIMITED TIME OF THE EVENT. THE EVENT WAS NOT AS SUCCESSFUL AS IT COULD HAVE BEEN. THE RATING WAS NOT HIGH DUE TO THE SMALL NUMBER OF VIEWERS AND THE LIMITED TIME OF THE EVENT. THE EVENT WAS NOT AS SUCCESSFUL AS IT COULD HAVE BEEN. THE RATING WAS NOT HIGH DUE TO THE SMALL NUMBER OF VIEWERS AND THE LIMITED TIME OF THE EVENT. THE EVENT WAS NOT AS SUCCESSFUL AS IT COULD HAVE BEEN. THE RATING WAS NOT HIGH DUE TO THE SMALL NUMBER OF VIEWERS AND THE LIMITED TIME OF THE EVENT. THE EVENT WAS NOT AS SUCCESSFUL AS IT COULD HAVE BEEN. THE RATING WAS NOT HIGH DUE TO THE SMALL NUMBER OF VIEWERS AND THE LIMITED TIME OF THE EVENT. THE EVENT WAS NOT AS SUCCESSFUL AS IT COULD HAVE BEEN. THE RATING WAS NOT HIGH DUE TO THE SMALL NUMBER OF VIEWERS AND THE LIMITED TIME OF THE EVENT. THE EVENT WAS NOT AS SUCCESSFUL AS IT COULD HAVE BEEN. THE RATING WAS NOT HIGH DUE TO THE SMALL NUMBER OF VIEWERS AND THE LIMITED TIME OF THE EVENT. THE EVENT WAS NOT AS SUCCESSFUL AS IT COULD HAVE BEEN. THE RATING WAS NOT HIGH DUE TO THE SMALL NUMBER OF VIEWERS AND THE LIMITED TIME OF THE EVENT",
+   "n_new": 512,
+   "words": 403,
+   "degenerate": false,
+   "met1": false,
+   "met2": true
+  },
+  {
+   "task": 66,
+   "order": 1,
+   "conflict": "word_length_conflict: 300_50",
+   "base_instruction": "Why didn't the 2022 winter olympics have the best ratings?",
+   "constraint1": "Answer with less than 50 words.",
+   "constraint2": "Answer with at least 300 words.",
+   "kwargs": [
+    {
+     "num_words": 50,
+     "relation": "less than"
+    },
+    {
+     "num_words": 300,
+     "relation": "at least"
+    }
+   ],
+   "conflict_name": "word_length_conflict: 300_50",
+   "response": "The 2022 Winter Olympics in Beijing faced several factors that contributed to lower ratings compared to previous editions. One key reason was the global pandemic, which disrupted live broadcasts and limited audience engagement. Additionally, the event was held in a politically sensitive environment, which may have affected viewership in certain regions. The competition was also more intense, with more events and higher stakes, which could have led to viewer fatigue. Cultural and political differences between countries further divided audiences. Moreover, the event's focus on sustainability and environmental themes may have appealed to a smaller segment of the population. Despite these challenges, the Olympics still attracted a large global audience, but the overall ratings were lower due to these factors.",
+   "n_new": 141,
+   "words": 120,
+   "degenerate": false,
+   "met1": false,
+   "met2": false
+  },
+  {
+   "task": 66,
+   "order": 1,
+   "conflict": "num_sentence_conflict: 10_5",
+   "base_instruction": "Why didn't the 2022 winter olympics have the best ratings?",
+   "constraint1": "Your response should contain less than 5 sentences.",
+   "constraint2": "Your response should contain at least 10 sentences.",
+   "kwargs": [
+    {
+     "num_sentences": 5,
+     "relation": "less than"
+    },
+    {
+     "num_sentences": 10,
+     "relation": "at least"
+    }
+   ],
+   "conflict_name": "num_sentence_conflict: 10_5",
+   "response": "The 2022 Winter Olympics in Beijing did not achieve the best ratings for several reasons. First, the event was held during a global pandemic, which limited global viewership and led to reduced attendance at live events. Second, the pandemic caused travel restrictions and border closures, which affected the ability of people to watch the games live. Third, the games were broadcasted in a limited number of regions, particularly in countries with strict media regulations, which reduced the global reach. Fourth, the games faced challenges with streaming platforms, as some regions had limited access to the broadcasts. Fifth, the games were not as well-promoted as previous Olympics, leading to lower awareness among potential viewers. Sixth, the games were held in a country with a large population but with a relatively low media presence, which affected the overall ratings. Seventh, the games were not as well-received by the public as previous Winter Olympics, with some viewers criticizing the event for being too focused on sports rather than cultural experiences. Eighth, the games were not as well-received by the media as previous Winter Olympics, with some outlets not covering the event extensively. Ninth, the games were not as well-received by the public as previous Winter Olympics, with some viewers finding the event to be too commercialized. Tenth, the games were not as well-received by the public as previous Winter Olympics, with some viewers finding the event to be too focused on sports rather than cultural experiences.",
+   "n_new": 294,
+   "words": 248,
+   "degenerate": false,
+   "met1": false,
+   "met2": true
+  },
+  {
+   "task": 66,
+   "order": 1,
+   "conflict": "keyword_forbidden_conflict: awesome_need",
+   "base_instruction": "Why didn't the 2022 winter olympics have the best ratings?",
+   "constraint1": "Do not include keywords ['awesome', 'need'] in the response.",
+   "constraint2": "Include keywords ['awesome', 'need'] in the response.",
+   "kwargs": [
+    {
+     "forbidden_words": [
+      "awesome",
+      "need"
+     ]
+    },
+    {
+     "keywords": [
+      "awesome",
+      "need"
+     ]
+    }
+   ],
+   "conflict_name": "keyword_forbidden_conflict: awesome_need",
+   "response": "The 2022 Winter Olympics, held in Beijing, did not achieve the same level of global viewership as previous years, despite the event being considered \"awesome\" in many aspects. Factors such as limited international broadcast rights, geopolitical tensions, and the overall global pandemic influenced the ratings. The event was a major international gathering, but it did not \"need\" to be as widely watched as the 2020 Tokyo Olympics, which had a massive global audience. The \"awesome\" nature of the games was appreciated by many, but the ratings reflected a more complex picture of public interest and media coverage.",
+   "n_new": 125,
+   "words": 97,
+   "degenerate": false,
+   "met1": false,
+   "met2": true
+  },
+  {
+   "task": 66,
+   "order": 1,
+   "conflict": "keyword_frequency_conflict: like_5_2",
+   "base_instruction": "Why didn't the 2022 winter olympics have the best ratings?",
+   "constraint1": "In your response, the word 'like' should appear less than 2 times.",
+   "constraint2": "In your response, the word 'like' should appear at least 5 times.",
+   "kwargs": [
+    {
+     "keyword": "like",
+     "frequency": 2,
+     "relation": "less than"
+    },
+    {
+     "keyword": "like",
+     "frequency": 5,
+     "relation": "at least"
+    }
+   ],
+   "conflict_name": "keyword_frequency_conflict: like_5_2",
+   "response": "The 2022 Winter Olympics, held in Beijing, did not achieve the best ratings for several reasons. One factor was the limited global audience, as the event was broadcast primarily in China and a few other regions. This restricted the number of people who could watch the games, which affected the overall viewership. Another reason was the competition for viewership, with other major sporting events drawing more attention. The games also faced challenges in terms of marketing and promotion, which may have contributed to lower ratings. Additionally, the timing of the event coincided with a period of economic uncertainty, which may have impacted viewership. The lack of international media coverage, like in some other years, also played a role. Finally, the games were not as widely anticipated as previous Winter Olympics, which affected the level of interest among viewers.",
+   "n_new": 167,
+   "words": 138,
+   "degenerate": false,
+   "met1": true,
+   "met2": false
+  },
+  {
+   "task": 1000,
+   "order": 0,
+   "conflict": "utility",
+   "base_instruction": "What is 17 plus 26?",
+   "constraint1": "Answer the user's question accurately in English.",
+   "constraint2": "",
+   "kwargs": [
+    {
+     "language": "en"
+    },
+    {}
+   ],
+   "expected": "43",
+   "response": "17 plus 26 is 43.",
+   "n_new": 12,
+   "words": 5,
+   "degenerate": false,
+   "utility_ok": true
+  },
+  {
+   "task": 1001,
+   "order": 0,
+   "conflict": "utility",
+   "base_instruction": "What is 9 times 8?",
+   "constraint1": "Answer the user's question accurately in English.",
+   "constraint2": "",
+   "kwargs": [
+    {
+     "language": "en"
+    },
+    {}
+   ],
+   "expected": "72",
+   "response": "9 times 8 is 72.",
+   "n_new": 10,
+   "words": 5,
+   "degenerate": false,
+   "utility_ok": true
+  },
+  {
+   "task": 1002,
+   "order": 0,
+   "conflict": "utility",
+   "base_instruction": "What is 91 minus 37?",
+   "constraint1": "Answer the user's question accurately in English.",
+   "constraint2": "",
+   "kwargs": [
+    {
+     "language": "en"
+    },
+    {}
+   ],
+   "expected": "54",
+   "response": "91 minus 37 is 54.",
+   "n_new": 12,
+   "words": 5,
+   "degenerate": false,
+   "utility_ok": true
+  },
+  {
+   "task": 1003,
+   "order": 0,
+   "conflict": "utility",
+   "base_instruction": "What is 144 divided by 12?",
+   "constraint1": "Answer the user's question accurately in English.",
+   "constraint2": "",
+   "kwargs": [
+    {
+     "language": "en"
+    },
+    {}
+   ],
+   "expected": "12",
+   "response": "144 divided by 12 is 12.",
+   "n_new": 14,
+   "words": 6,
+   "degenerate": false,
+   "utility_ok": true
+  },
+  {
+   "task": 1004,
+   "order": 0,
+   "conflict": "utility",
+   "base_instruction": "What is the capital of France?",
+   "constraint1": "Answer the user's question accurately in English.",
+   "constraint2": "",
+   "kwargs": [
+    {
+     "language": "en"
+    },
+    {}
+   ],
+   "expected": "paris",
+   "response": "The capital of France is Paris.",
+   "n_new": 8,
+   "words": 6,
+   "degenerate": false,
+   "utility_ok": true
+  },
+  {
+   "task": 1005,
+   "order": 0,
+   "conflict": "utility",
+   "base_instruction": "What is the capital of Japan?",
+   "constraint1": "Answer the user's question accurately in English.",
+   "constraint2": "",
+   "kwargs": [
+    {
+     "language": "en"
+    },
+    {}
+   ],
+   "expected": "tokyo",
+   "response": "The capital of Japan is Tokyo.",
+   "n_new": 8,
+   "words": 6,
+   "degenerate": false,
+   "utility_ok": true
+  },
+  {
+   "task": 1006,
+   "order": 0,
+   "conflict": "utility",
+   "base_instruction": "Repeat this code exactly: ZEBRA-731",
+   "constraint1": "Answer the user's question accurately in English.",
+   "constraint2": "",
+   "kwargs": [
+    {
+     "language": "en"
+    },
+    {}
+   ],
+   "expected": "ZEBRA-731",
+   "response": "ZEBRA-731",
+   "n_new": 8,
+   "words": 2,
+   "degenerate": true,
+   "utility_ok": true
+  },
+  {
+   "task": 1007,
+   "order": 0,
+   "conflict": "utility",
+   "base_instruction": "Repeat this code exactly: KITE-482",
+   "constraint1": "Answer the user's question accurately in English.",
+   "constraint2": "",
+   "kwargs": [
+    {
+     "language": "en"
+    },
+    {}
+   ],
+   "expected": "KITE-482",
+   "response": "KITE-482",
+   "n_new": 7,
+   "words": 2,
+   "degenerate": true,
+   "utility_ok": true
+  }
+ ],
+ "seconds": 190.53478813171387
+}

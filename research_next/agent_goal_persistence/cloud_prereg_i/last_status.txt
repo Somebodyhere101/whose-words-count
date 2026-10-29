@@ -1,0 +1,6 @@
+@@N Qwen3-1.7B 4
+@@N Qwen3-4B 3
+@@N SmolLM3-3B 4
+@@T  limits and faster downloads.
+@@T Fetching 13 files:  77%|███████▋  | 10/13 [00:00<00:00, 73.45it/s]Fetching 13 files:  92%|█████████▏| 12/13 [00:20<00:00, 73.45it/s]Fetching 
+@@T downloaded Qwen/Qwen3-4B

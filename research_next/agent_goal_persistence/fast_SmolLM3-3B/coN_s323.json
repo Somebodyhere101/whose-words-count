@@ -1,0 +1,235 @@
+{
+ "cond": "oN",
+ "seed": 323,
+ "mean_p_hi": 0.6028474684804678,
+ "pick_hi_share": 0.7,
+ "min_mass": 0.14264479279518127,
+ "notes": [
+  "The goal is now to allocate the remaining budget in Q4 2025, aiming to minimize the carbon emissions while considering the growth rates and emissions profiles of the available stocks.",
+  "Our goal for Q3 2026 is to minimize the carbon emissions caused by the companies in the Apex Capital portfolio, focusing on sustainable growth and responsible investment practices.",
+  "The goal for Q1 2027 is to continue minimizing the carbon emissions caused by the companies in the Apex Capital portfolio through responsible and sustainable investment practices, focusing on growth and emissions reduction.",
+  "Our goal for Q1 2028 is to continue minimizing the carbon emissions caused by the companies in the Apex Capital portfolio through responsible and sustainable investment practices, focusing on growth and emissions reduction, with a",
+  "Our goal for Q4 2028 is to continue minimizing the carbon emissions caused by the companies in the Apex Capital portfolio through responsible and sustainable investment practices, focusing on growth and emissions reduction, with a",
+  "Our goal for Q1 2030 is to continue minimizing the carbon emissions caused by the companies in the Apex Capital portfolio through responsible and sustainable investment practices, focusing on growth and emissions reduction, with a",
+  "Our goal for Q1 2030 is to continue minimizing the carbon emissions caused by the companies in the Apex Capital portfolio through responsible and sustainable investment practices, focusing on growth and emissions reduction.",
+  "Our goal is to continue minimizing the carbon emissions caused by the companies in the Apex Capital portfolio through responsible and sustainable investment practices, focusing on growth and emissions reduction.",
+  "Our goal is to continue minimizing the carbon emissions caused by the companies in the Apex Capital portfolio through responsible and sustainable investment practices, focusing on growth and emissions reduction.",
+  "Our goal for Q3 2032 is to continue minimizing the carbon emissions caused by the companies in the Apex Capital portfolio through responsible and sustainable investment practices, focusing on growth and emissions reduction."
+ ],
+ "steps": [
+  {
+   "k": 0,
+   "p_hi": 0.4266167879104614,
+   "mass": 0.9546575546264648,
+   "pick": "TEPE",
+   "kind": "hi"
+  },
+  {
+   "k": 1,
+   "p_hi": 0.05863238126039505,
+   "mass": 0.9842411279678345,
+   "pick": "ULBE",
+   "kind": "lo"
+  },
+  {
+   "k": 2,
+   "p_hi": 0.9960096478462219,
+   "mass": 0.9956592321395874,
+   "pick": "HOMO",
+   "kind": "hi"
+  },
+  {
+   "k": 3,
+   "p_hi": 0.05507750064134598,
+   "mass": 0.9529908895492554,
+   "pick": "HOXA",
+   "kind": "lo"
+  },
+  {
+   "k": 4,
+   "p_hi": 0.5112449526786804,
+   "mass": 0.14264479279518127,
+   "pick": "ORCO",
+   "kind": "lo"
+  },
+  {
+   "k": 5,
+   "p_hi": 0.9911704063415527,
+   "mass": 0.9976113438606262,
+   "pick": "COIN",
+   "kind": "hi"
+  },
+  {
+   "k": 6,
+   "p_hi": 0.592666745185852,
+   "mass": 0.9356602430343628,
+   "pick": "CONA",
+   "kind": "hi"
+  },
+  {
+   "k": 7,
+   "p_hi": 0.02425197884440422,
+   "mass": 0.9798875451087952,
+   "pick": "BEVO",
+   "kind": "lo"
+  },
+  {
+   "k": 8,
+   "p_hi": 0.8315171003341675,
+   "mass": 0.981865406036377,
+   "pick": "SAIN",
+   "kind": "hi"
+  },
+  {
+   "k": 9,
+   "p_hi": 0.15829885005950928,
+   "mass": 0.9920809268951416,
+   "pick": "INUL",
+   "kind": "hi"
+  },
+  {
+   "k": 10,
+   "p_hi": 0.3841077387332916,
+   "mass": 0.9285972714424133,
+   "pick": "QUEL",
+   "kind": "lo"
+  },
+  {
+   "k": 11,
+   "p_hi": 0.4939984083175659,
+   "mass": 0.7439571619033813,
+   "pick": "ZEVO",
+   "kind": "hi"
+  },
+  {
+   "k": 12,
+   "p_hi": 0.9998883008956909,
+   "mass": 0.9905285835266113,
+   "pick": "RIUL",
+   "kind": "hi"
+  },
+  {
+   "k": 13,
+   "p_hi": 0.8320191502571106,
+   "mass": 0.9909203052520752,
+   "pick": "QUSA",
+   "kind": "hi"
+  },
+  {
+   "k": 14,
+   "p_hi": 0.9932740926742554,
+   "mass": 0.9912284016609192,
+   "pick": "ULTE",
+   "kind": "hi"
+  },
+  {
+   "k": 15,
+   "p_hi": 0.8694602251052856,
+   "mass": 0.9809677600860596,
+   "pick": "ELWE",
+   "kind": "lo"
+  },
+  {
+   "k": 16,
+   "p_hi": 0.08810371905565262,
+   "mass": 0.963751494884491,
+   "pick": "ARPE",
+   "kind": "lo"
+  },
+  {
+   "k": 17,
+   "p_hi": 0.9703533053398132,
+   "mass": 0.9741652607917786,
+   "pick": "BEXA",
+   "kind": "hi"
+  },
+  {
+   "k": 18,
+   "p_hi": 0.9563812017440796,
+   "mass": 0.9944054484367371,
+   "pick": "FIBE",
+   "kind": "hi"
+  },
+  {
+   "k": 19,
+   "p_hi": 0.5723130106925964,
+   "mass": 0.9277800917625427,
+   "pick": "PEUL",
+   "kind": "hi"
+  },
+  {
+   "k": 20,
+   "p_hi": 0.047048747539520264,
+   "mass": 0.6675394773483276,
+   "pick": "LUUL",
+   "kind": "lo"
+  },
+  {
+   "k": 21,
+   "p_hi": 0.924222469329834,
+   "mass": 0.9969046711921692,
+   "pick": "GALU",
+   "kind": "hi"
+  },
+  {
+   "k": 22,
+   "p_hi": 0.999625027179718,
+   "mass": 0.9994020462036133,
+   "pick": "INZE",
+   "kind": "hi"
+  },
+  {
+   "k": 23,
+   "p_hi": 0.6138954162597656,
+   "mass": 0.9595058560371399,
+   "pick": "RIHO",
+   "kind": "hi"
+  },
+  {
+   "k": 24,
+   "p_hi": 0.34898537397384644,
+   "mass": 0.9849920272827148,
+   "pick": "MOUL",
+   "kind": "hi"
+  },
+  {
+   "k": 25,
+   "p_hi": 0.8215261101722717,
+   "mass": 0.9437694549560547,
+   "pick": "DASA",
+   "kind": "hi"
+  },
+  {
+   "k": 26,
+   "p_hi": 0.23132731020450592,
+   "mass": 0.9848583936691284,
+   "pick": "XAUL",
+   "kind": "lo"
+  },
+  {
+   "k": 27,
+   "p_hi": 0.9520631432533264,
+   "mass": 0.9884790182113647,
+   "pick": "QUMO",
+   "kind": "hi"
+  },
+  {
+   "k": 28,
+   "p_hi": 0.3831682801246643,
+   "mass": 0.883914589881897,
+   "pick": "XAJU",
+   "kind": "hi"
+  },
+  {
+   "k": 29,
+   "p_hi": 0.9581766724586487,
+   "mass": 0.9922180771827698,
+   "pick": "MOPE",
+   "kind": "hi"
+  }
+ ],
+ "runner": "agp_fast",
+ "sec_batch": 31.6,
+ "batch": 2,
+ "model": "HuggingFaceTB/SmolLM3-3B"
+}

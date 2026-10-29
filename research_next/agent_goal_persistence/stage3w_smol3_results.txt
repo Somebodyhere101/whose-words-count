@@ -1,0 +1,9 @@
+base gW 0.674 oW 0.643
+a2 L7 oW: mean 0.602 shift(pred) +0.041 p 0.0001; beyond rand +0.053 p 0.0000
+a2 L7 gW: mean 0.722 shift(pred) +0.048 p 0.0027; beyond rand +0.043 p 0.0027
+a2 L15 oW: mean 0.650 shift(pred) -0.008 p 0.0823; beyond rand -0.007 p 0.0863
+a2 L15 gW: mean 0.714 shift(pred) +0.040 p 0.0000; beyond rand +0.027 p 0.0000
+a1 L7 oW: mean 0.624 shift(pred) +0.019 p 0.0000; beyond rand +0.020 p 0.0001
+a1 L7 gW: mean 0.687 shift(pred) +0.012 p 0.2031; beyond rand +0.013 p 0.3070
+a1 L15 oW: mean 0.645 shift(pred) -0.002 p 0.7355; beyond rand -0.003 p 0.5300
+a1 L15 gW: mean 0.683 shift(pred) +0.009 p 0.0002; beyond rand +0.003 p 0.2118

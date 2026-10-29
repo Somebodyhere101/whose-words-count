@@ -1,0 +1,758 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights: 100%|##########| 311/311 [00:00<00:00, 6066.12it/s]
+gW 300 p_hi 0.527 picks_hi 0.53 min_mass 0.586 31.7 s/batch
+gW 301 p_hi 0.511 picks_hi 0.47 min_mass 0.105 31.7 s/batch
+gW 302 p_hi 0.751 picks_hi 0.77 min_mass 0.439 31.7 s/batch
+gW 303 p_hi 0.809 picks_hi 0.83 min_mass 0.009 31.7 s/batch
+gW 304 p_hi 0.635 picks_hi 0.6 min_mass 0.005 29.6 s/batch
+gW 305 p_hi 0.522 picks_hi 0.5 min_mass 0.378 29.6 s/batch
+gW 306 p_hi 0.477 picks_hi 0.5 min_mass 0.157 29.6 s/batch
+gW 307 p_hi 0.377 picks_hi 0.37 min_mass 0.247 29.6 s/batch
+gW 308 p_hi 0.669 picks_hi 0.7 min_mass 0.076 29.3 s/batch
+gW 309 p_hi 0.597 picks_hi 0.57 min_mass 0.335 29.3 s/batch
+gW 310 p_hi 0.486 picks_hi 0.47 min_mass 0.114 29.3 s/batch
+gW 311 p_hi 0.755 picks_hi 0.8 min_mass 0.0 29.3 s/batch
+gW 312 p_hi 0.562 picks_hi 0.53 min_mass 0.009 29.0 s/batch
+gW 313 p_hi 0.71 picks_hi 0.7 min_mass 0.723 29.0 s/batch
+gW 314 p_hi 0.432 picks_hi 0.43 min_mass 0.015 29.0 s/batch
+gW 315 p_hi 0.489 picks_hi 0.57 min_mass 0.0 29.0 s/batch
+gW 316 p_hi 0.665 picks_hi 0.67 min_mass 0.031 28.8 s/batch
+gW 317 p_hi 0.377 picks_hi 0.43 min_mass 0.002 28.8 s/batch
+gW 318 p_hi 0.528 picks_hi 0.47 min_mass 0.323 28.8 s/batch
+gW 319 p_hi 0.847 picks_hi 0.87 min_mass 0.001 28.8 s/batch
+gW 320 p_hi 0.772 picks_hi 0.77 min_mass 0.208 29.1 s/batch
+gW 321 p_hi 0.649 picks_hi 0.67 min_mass 0.0 29.1 s/batch
+gW 322 p_hi 0.698 picks_hi 0.73 min_mass 0.0 29.1 s/batch
+gW 323 p_hi 0.438 picks_hi 0.5 min_mass 0.0 29.1 s/batch
+gW 324 p_hi 0.633 picks_hi 0.63 min_mass 0.621 28.9 s/batch
+gW 325 p_hi 0.793 picks_hi 0.8 min_mass 0.048 28.9 s/batch
+gW 326 p_hi 0.768 picks_hi 0.73 min_mass 0.906 28.9 s/batch
+gW 327 p_hi 0.827 picks_hi 0.9 min_mass 0.001 28.9 s/batch
+gW 328 p_hi 0.841 picks_hi 0.87 min_mass 0.001 28.7 s/batch
+gW 329 p_hi 0.824 picks_hi 0.8 min_mass 0.992 28.7 s/batch
+gW 330 p_hi 0.366 picks_hi 0.33 min_mass 0.01 28.7 s/batch
+gW 331 p_hi 0.751 picks_hi 0.77 min_mass 0.925 28.7 s/batch
+gW 332 p_hi 0.66 picks_hi 0.67 min_mass 0.953 29.0 s/batch
+gW 333 p_hi 0.871 picks_hi 0.87 min_mass 0.269 29.0 s/batch
+gW 334 p_hi 0.751 picks_hi 0.8 min_mass 0.004 29.0 s/batch
+gW 335 p_hi 0.655 picks_hi 0.6 min_mass 0.925 29.0 s/batch
+gW 336 p_hi 0.507 picks_hi 0.5 min_mass 0.985 28.7 s/batch
+gW 337 p_hi 0.68 picks_hi 0.7 min_mass 0.0 28.7 s/batch
+gW 338 p_hi 0.78 picks_hi 0.8 min_mass 0.024 28.7 s/batch
+gW 339 p_hi 0.484 picks_hi 0.4 min_mass 0.0 28.7 s/batch
+oW 300 p_hi 0.58 picks_hi 0.57 min_mass 0.95 29.2 s/batch
+oW 301 p_hi 0.661 picks_hi 0.57 min_mass 0.013 29.2 s/batch
+oW 302 p_hi 0.806 picks_hi 0.8 min_mass 0.065 29.2 s/batch
+oW 303 p_hi 0.873 picks_hi 0.9 min_mass 0.005 29.2 s/batch
+oW 304 p_hi 0.743 picks_hi 0.77 min_mass 0.003 28.9 s/batch
+oW 305 p_hi 0.692 picks_hi 0.73 min_mass 0.001 28.9 s/batch
+oW 306 p_hi 0.642 picks_hi 0.63 min_mass 0.133 28.9 s/batch
+oW 307 p_hi 0.459 picks_hi 0.4 min_mass 0.073 28.9 s/batch
+oW 308 p_hi 0.782 picks_hi 0.77 min_mass 0.06 29.3 s/batch
+oW 309 p_hi 0.766 picks_hi 0.8 min_mass 0.852 29.3 s/batch
+oW 310 p_hi 0.669 picks_hi 0.67 min_mass 0.0 29.3 s/batch
+oW 311 p_hi 0.852 picks_hi 0.9 min_mass 0.0 29.3 s/batch
+oW 312 p_hi 0.734 picks_hi 0.77 min_mass 0.001 29.0 s/batch
+oW 313 p_hi 0.82 picks_hi 0.83 min_mass 0.166 29.0 s/batch
+oW 314 p_hi 0.673 picks_hi 0.7 min_mass 0.001 29.0 s/batch
+oW 315 p_hi 0.632 picks_hi 0.63 min_mass 0.0 29.0 s/batch
+oW 316 p_hi 0.739 picks_hi 0.77 min_mass 0.038 28.8 s/batch
+oW 317 p_hi 0.424 picks_hi 0.4 min_mass 0.003 28.8 s/batch
+oW 318 p_hi 0.65 picks_hi 0.63 min_mass 0.281 28.8 s/batch
+oW 319 p_hi 0.918 picks_hi 0.93 min_mass 0.002 28.8 s/batch
+oW 320 p_hi 0.799 picks_hi 0.77 min_mass 0.208 29.1 s/batch
+oW 321 p_hi 0.797 picks_hi 0.83 min_mass 0.0 29.1 s/batch
+oW 322 p_hi 0.797 picks_hi 0.83 min_mass 0.0 29.1 s/batch
+oW 323 p_hi 0.533 picks_hi 0.47 min_mass 0.009 29.1 s/batch
+oW 324 p_hi 0.739 picks_hi 0.77 min_mass 0.699 29.1 s/batch
+oW 325 p_hi 0.852 picks_hi 0.87 min_mass 0.003 29.1 s/batch
+oW 326 p_hi 0.884 picks_hi 0.87 min_mass 0.937 29.1 s/batch
+oW 327 p_hi 0.932 picks_hi 0.93 min_mass 0.004 29.1 s/batch
+oW 328 p_hi 0.904 picks_hi 0.83 min_mass 0.0 28.9 s/batch
+oW 329 p_hi 0.873 picks_hi 0.87 min_mass 0.995 28.9 s/batch
+oW 330 p_hi 0.5 picks_hi 0.5 min_mass 0.005 28.9 s/batch
+oW 331 p_hi 0.839 picks_hi 0.83 min_mass 0.26 28.9 s/batch
+oW 332 p_hi 0.748 picks_hi 0.77 min_mass 0.681 28.9 s/batch
+oW 333 p_hi 0.887 picks_hi 0.87 min_mass 0.269 28.9 s/batch
+oW 334 p_hi 0.811 picks_hi 0.8 min_mass 0.029 28.9 s/batch
+oW 335 p_hi 0.762 picks_hi 0.77 min_mass 0.993 28.9 s/batch
+oW 336 p_hi 0.55 picks_hi 0.57 min_mass 0.985 28.2 s/batch
+oW 337 p_hi 0.775 picks_hi 0.8 min_mass 0.0 28.2 s/batch
+oW 338 p_hi 0.818 picks_hi 0.83 min_mass 0.564 28.2 s/batch
+oW 339 p_hi 0.826 picks_hi 0.77 min_mass 0.061 28.2 s/batch
+STEP agp-fast-weak n=280
+STEP agp-probe-SmolLM2-1.7B-Instruct n=0
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/218 [00:00<?, ?it/s]Loading weights: 100%|##########| 218/218 [00:00<00:00, 3658.09it/s]
+0 {'T1_R_within_lr': 0.5, 'T2_A_within_lr': 0.5, 'T3_R_to_A_dm': 0.5, 'T3_A_to_R_dm': 0.5, 'T3_R_to_A_lr': 0.5, 'C1_sys_vs_user_to_A_dm': 0.5, 'cos_vR_vA': 0.0}
+1 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.495, 'T3_A_to_R_dm': 0.434, 'T3_R_to_A_lr': 0.269, 'C1_sys_vs_user_to_A_dm': 0.493, 'cos_vR_vA': -0.064}
+2 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.511, 'T3_A_to_R_dm': 0.507, 'T3_R_to_A_lr': 0.349, 'C1_sys_vs_user_to_A_dm': 0.507, 'cos_vR_vA': 0.419}
+3 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.523, 'T3_A_to_R_dm': 0.542, 'T3_R_to_A_lr': 0.509, 'C1_sys_vs_user_to_A_dm': 0.503, 'cos_vR_vA': 0.133}
+4 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.484, 'T3_A_to_R_dm': 0.449, 'T3_R_to_A_lr': 0.34, 'C1_sys_vs_user_to_A_dm': 0.54, 'cos_vR_vA': -0.03}
+5 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.524, 'T3_A_to_R_dm': 0.517, 'T3_R_to_A_lr': 0.438, 'C1_sys_vs_user_to_A_dm': 0.529, 'cos_vR_vA': 0.025}
+6 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.488, 'T3_A_to_R_dm': 0.408, 'T3_R_to_A_lr': 0.404, 'C1_sys_vs_user_to_A_dm': 0.54, 'cos_vR_vA': -0.031}
+7 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.512, 'T3_A_to_R_dm': 0.491, 'T3_R_to_A_lr': 0.625, 'C1_sys_vs_user_to_A_dm': 0.588, 'cos_vR_vA': -0.004}
+8 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.533, 'T3_A_to_R_dm': 0.494, 'T3_R_to_A_lr': 0.762, 'C1_sys_vs_user_to_A_dm': 0.69, 'cos_vR_vA': -0.003}
+9 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.521, 'T3_A_to_R_dm': 0.493, 'T3_R_to_A_lr': 0.766, 'C1_sys_vs_user_to_A_dm': 0.642, 'cos_vR_vA': -0.003}
+10 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.406, 'T3_A_to_R_dm': 0.394, 'T3_R_to_A_lr': 0.801, 'C1_sys_vs_user_to_A_dm': 0.722, 'cos_vR_vA': -0.069}
+11 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.452, 'T3_A_to_R_dm': 0.437, 'T3_R_to_A_lr': 0.884, 'C1_sys_vs_user_to_A_dm': 0.703, 'cos_vR_vA': -0.026}
+12 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.359, 'T3_A_to_R_dm': 0.369, 'T3_R_to_A_lr': 0.814, 'C1_sys_vs_user_to_A_dm': 0.702, 'cos_vR_vA': -0.073}
+13 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.475, 'T3_A_to_R_dm': 0.422, 'T3_R_to_A_lr': 0.684, 'C1_sys_vs_user_to_A_dm': 0.581, 'cos_vR_vA': -0.017}
+14 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.517, 'T3_A_to_R_dm': 0.618, 'T3_R_to_A_lr': 0.748, 'C1_sys_vs_user_to_A_dm': 0.531, 'cos_vR_vA': 0.029}
+15 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.524, 'T3_A_to_R_dm': 0.64, 'T3_R_to_A_lr': 0.654, 'C1_sys_vs_user_to_A_dm': 0.524, 'cos_vR_vA': 0.032}
+16 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.328, 'T3_A_to_R_dm': 0.401, 'T3_R_to_A_lr': 0.624, 'C1_sys_vs_user_to_A_dm': 0.721, 'cos_vR_vA': -0.112}
+17 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.307, 'T3_A_to_R_dm': 0.402, 'T3_R_to_A_lr': 0.618, 'C1_sys_vs_user_to_A_dm': 0.741, 'cos_vR_vA': -0.122}
+18 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.322, 'T3_A_to_R_dm': 0.412, 'T3_R_to_A_lr': 0.641, 'C1_sys_vs_user_to_A_dm': 0.733, 'cos_vR_vA': -0.143}
+19 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.331, 'T3_A_to_R_dm': 0.365, 'T3_R_to_A_lr': 0.598, 'C1_sys_vs_user_to_A_dm': 0.708, 'cos_vR_vA': -0.166}
+20 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.354, 'T3_A_to_R_dm': 0.359, 'T3_R_to_A_lr': 0.638, 'C1_sys_vs_user_to_A_dm': 0.714, 'cos_vR_vA': -0.129}
+21 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.356, 'T3_A_to_R_dm': 0.351, 'T3_R_to_A_lr': 0.628, 'C1_sys_vs_user_to_A_dm': 0.691, 'cos_vR_vA': -0.146}
+22 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.362, 'T3_A_to_R_dm': 0.325, 'T3_R_to_A_lr': 0.602, 'C1_sys_vs_user_to_A_dm': 0.681, 'cos_vR_vA': -0.165}
+23 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.334, 'T3_A_to_R_dm': 0.342, 'T3_R_to_A_lr': 0.624, 'C1_sys_vs_user_to_A_dm': 0.71, 'cos_vR_vA': -0.132}
+24 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.383, 'T3_A_to_R_dm': 0.395, 'T3_R_to_A_lr': 0.665, 'C1_sys_vs_user_to_A_dm': 0.606, 'cos_vR_vA': -0.175}
+STEP probe SmolLM2-1.7B-Instruct rc=0
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/218 [00:00<?, ?it/s]Loading weights: 100%|##########| 218/218 [00:00<00:00, 6911.04it/s]
+Traceback (most recent call last):
+  File "C:\Users\caabm\AppData\Roaming\Claude\scratch-workspaces\2898f83d-79d0-4cb9-a017-7d323d549974\0c4963d8-51ed-4ceb-9445-28b8639f6fa1\scratch-2026-10-13-464f6a\research_next\agent_goal_persistence\code\agp_fast.py", line 218, in <module>
+    main()
+  File "C:\Users\caabm\AppData\Roaming\Claude\scratch-workspaces\2898f83d-79d0-4cb9-a017-7d323d549974\0c4963d8-51ed-4ceb-9445-28b8639f6fa1\scratch-2026-10-13-464f6a\research_next\agent_goal_persistence\code\agp_fast.py", line 206, in main
+    rs = run_batch(c, seeds, lm, notes)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\AppData\Roaming\Claude\scratch-workspaces\2898f83d-79d0-4cb9-a017-7d323d549974\0c4963d8-51ed-4ceb-9445-28b8639f6fa1\scratch-2026-10-13-464f6a\research_next\agent_goal_persistence\code\agp_fast.py", line 156, in run_batch
+    logits = lm.feed(prompts)
+             ^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\utils\_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\AppData\Roaming\Claude\scratch-workspaces\2898f83d-79d0-4cb9-a017-7d323d549974\0c4963d8-51ed-4ceb-9445-28b8639f6fa1\scratch-2026-10-13-464f6a\research_next\agent_goal_persistence\code\agp_batch.py", line 93, in feed
+    out = self.m(input_ids=ids[:, a:a + 256], attention_mask=self.mask, position_ids=pid[:, a:a + 256],
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\transformers\utils\generic.py", line 939, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\transformers\models\llama\modeling_llama.py", line 467, in forward
+    outputs: BaseModelOutputWithPast = self.model(
+                                       ^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\transformers\utils\generic.py", line 1068, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\transformers\utils\output_capturing.py", line 262, in wrapper
+    outputs = func(self, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\transformers\models\llama\modeling_llama.py", line 403, in forward
+    hidden_states = decoder_layer(
+                    ^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\transformers\modeling_layers.py", line 114, in __call__
+    return super().__call__(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\transformers\models\llama\modeling_llama.py", line 321, in forward
+    hidden_states = self.post_attention_layernorm(hidden_states)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\transformers\models\llama\modeling_llama.py", line 64, in forward
+    hidden_states = hidden_states.to(torch.float32)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/218 [00:00<?, ?it/s]Loading weights: 100%|##########| 218/218 [00:00<00:00, 3194.60it/s]
+Traceback (most recent call last):
+  File "C:\Users\caabm\AppData\Roaming\Claude\scratch-workspaces\2898f83d-79d0-4cb9-a017-7d323d549974\0c4963d8-51ed-4ceb-9445-28b8639f6fa1\scratch-2026-10-13-464f6a\research_next\agent_goal_persistence\code\agp_fast.py", line 218, in <module>
+    main()
+  File "C:\Users\caabm\AppData\Roaming\Claude\scratch-workspaces\2898f83d-79d0-4cb9-a017-7d323d549974\0c4963d8-51ed-4ceb-9445-28b8639f6fa1\scratch-2026-10-13-464f6a\research_next\agent_goal_persistence\code\agp_fast.py", line 206, in main
+    rs = run_batch(c, seeds, lm, notes)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\AppData\Roaming\Claude\scratch-workspaces\2898f83d-79d0-4cb9-a017-7d323d549974\0c4963d8-51ed-4ceb-9445-28b8639f6fa1\scratch-2026-10-13-464f6a\research_next\agent_goal_persistence\code\agp_fast.py", line 156, in run_batch
+    logits = lm.feed(prompts)
+             ^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\utils\_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\AppData\Roaming\Claude\scratch-workspaces\2898f83d-79d0-4cb9-a017-7d323d549974\0c4963d8-51ed-4ceb-9445-28b8639f6fa1\scratch-2026-10-13-464f6a\research_next\agent_goal_persistence\code\agp_batch.py", line 93, in feed
+    out = self.m(input_ids=ids[:, a:a + 256], attention_mask=self.mask, position_ids=pid[:, a:a + 256],
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\transformers\utils\generic.py", line 939, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\transformers\models\llama\modeling_llama.py", line 467, in forward
+    outputs: BaseModelOutputWithPast = self.model(
+                                       ^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\transformers\utils\generic.py", line 1068, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\transformers\utils\output_capturing.py", line 262, in wrapper
+    outputs = func(self, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\transformers\models\llama\modeling_llama.py", line 403, in forward
+    hidden_states = decoder_layer(
+                    ^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\transformers\modeling_layers.py", line 114, in __call__
+    return super().__call__(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\transformers\models\llama\modeling_llama.py", line 306, in forward
+    hidden_states = self.input_layernorm(hidden_states)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\transformers\models\llama\modeling_llama.py", line 66, in forward
+    hidden_states = hidden_states * torch.rsqrt(variance + self.variance_epsilon)
+                                                ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/218 [00:00<?, ?it/s]Loading weights: 100%|##########| 218/218 [00:00<00:00, 3132.68it/s]
+Traceback (most recent call last):
+  File "C:\Users\caabm\AppData\Roaming\Claude\scratch-workspaces\2898f83d-79d0-4cb9-a017-7d323d549974\0c4963d8-51ed-4ceb-9445-28b8639f6fa1\scratch-2026-10-13-464f6a\research_next\agent_goal_persistence\code\agp_fast.py", line 218, in <module>
+    main()
+  File "C:\Users\caabm\AppData\Roaming\Claude\scratch-workspaces\2898f83d-79d0-4cb9-a017-7d323d549974\0c4963d8-51ed-4ceb-9445-28b8639f6fa1\scratch-2026-10-13-464f6a\research_next\agent_goal_persistence\code\agp_fast.py", line 206, in main
+    rs = run_batch(c, seeds, lm, notes)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\AppData\Roaming\Claude\scratch-workspaces\2898f83d-79d0-4cb9-a017-7d323d549974\0c4963d8-51ed-4ceb-9445-28b8639f6fa1\scratch-2026-10-13-464f6a\research_next\agent_goal_persistence\code\agp_fast.py", line 156, in run_batch
+    logits = lm.feed(prompts)
+             ^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\utils\_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\AppData\Roaming\Claude\scratch-workspaces\2898f83d-79d0-4cb9-a017-7d323d549974\0c4963d8-51ed-4ceb-9445-28b8639f6fa1\scratch-2026-10-13-464f6a\research_next\agent_goal_persistence\code\agp_batch.py", line 93, in feed
+    out = self.m(input_ids=ids[:, a:a + 256], attention_mask=self.mask, position_ids=pid[:, a:a + 256],
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\transformers\utils\generic.py", line 939, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\transformers\models\llama\modeling_llama.py", line 467, in forward
+    outputs: BaseModelOutputWithPast = self.model(
+                                       ^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\transformers\utils\generic.py", line 1068, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\transformers\utils\output_capturing.py", line 262, in wrapper
+    outputs = func(self, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\transformers\models\llama\modeling_llama.py", line 403, in forward
+    hidden_states = decoder_layer(
+                    ^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\transformers\modeling_layers.py", line 114, in __call__
+    return super().__call__(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\transformers\models\llama\modeling_llama.py", line 308, in forward
+    hidden_states, _ = self.self_attn(
+                       ^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\transformers\models\llama\modeling_llama.py", line 262, in forward
+    key_states, value_states = past_key_values.update(key_states, value_states, self.layer_idx)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\transformers\cache_utils.py", line 1383, in update
+    keys, values = self.layers[layer_idx].update(key_states, value_states, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\transformers\cache_utils.py", line 145, in update
+    self.values = torch.cat([self.values, value_states], dim=-2)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/218 [00:00<?, ?it/s]Loading weights: 100%|##########| 218/218 [00:00<00:00, 3790.13it/s]
+Traceback (most recent call last):
+  File "C:\Users\caabm\AppData\Roaming\Claude\scratch-workspaces\2898f83d-79d0-4cb9-a017-7d323d549974\0c4963d8-51ed-4ceb-9445-28b8639f6fa1\scratch-2026-10-13-464f6a\research_next\agent_goal_persistence\code\agp_fast.py", line 218, in <module>
+    main()
+  File "C:\Users\caabm\AppData\Roaming\Claude\scratch-workspaces\2898f83d-79d0-4cb9-a017-7d323d549974\0c4963d8-51ed-4ceb-9445-28b8639f6fa1\scratch-2026-10-13-464f6a\research_next\agent_goal_persistence\code\agp_fast.py", line 206, in main
+    rs = run_batch(c, seeds, lm, notes)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\AppData\Roaming\Claude\scratch-workspaces\2898f83d-79d0-4cb9-a017-7d323d549974\0c4963d8-51ed-4ceb-9445-28b8639f6fa1\scratch-2026-10-13-464f6a\research_next\agent_goal_persistence\code\agp_fast.py", line 156, in run_batch
+    logits = lm.feed(prompts)
+             ^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\Codex\2026-09-06\co\work\qwen-cuda-env\Lib\site-packages\torch\utils\_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\AppData\Roaming\Claude\scratch-workspaces\2898f83d-79d0-4cb9-a017-7d323d549974\0c4963d8-51ed-4ceb-9445-28b8639f6fa1\scratch-2026-10-13-464f6a\research_next\agent_goal_persistence\code\agp_batch.py", line 97, in feed
+    assert torch.isfinite(lg[[b for b, x in enumerate(new) if x]]).all(), "non-finite logits"
+                          ~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+STEP agp-fast-SmolLM2-1.7B-Instruct n=0
+STEP agp-probe-EuroLLM-1.7B-Instruct n=0
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/219 [00:00<?, ?it/s]Loading weights: 100%|##########| 219/219 [00:00<00:00, 3394.48it/s]
+0 {'T1_R_within_lr': 0.5, 'T2_A_within_lr': 0.5, 'T3_R_to_A_dm': 0.5, 'T3_A_to_R_dm': 0.5, 'T3_R_to_A_lr': 0.5, 'C1_sys_vs_user_to_A_dm': 0.5, 'cos_vR_vA': 0.0}
+1 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 0.549, 'T3_R_to_A_dm': 0.501, 'T3_A_to_R_dm': 0.5, 'T3_R_to_A_lr': 0.22, 'C1_sys_vs_user_to_A_dm': 0.52, 'cos_vR_vA': -0.018}
+2 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.354, 'T3_A_to_R_dm': 0.486, 'T3_R_to_A_lr': 0.128, 'C1_sys_vs_user_to_A_dm': 0.524, 'cos_vR_vA': -0.23}
+3 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.367, 'T3_A_to_R_dm': 0.481, 'T3_R_to_A_lr': 0.074, 'C1_sys_vs_user_to_A_dm': 0.543, 'cos_vR_vA': -0.271}
+4 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.408, 'T3_A_to_R_dm': 0.479, 'T3_R_to_A_lr': 0.11, 'C1_sys_vs_user_to_A_dm': 0.548, 'cos_vR_vA': -0.26}
+5 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.509, 'T3_A_to_R_dm': 0.525, 'T3_R_to_A_lr': 0.192, 'C1_sys_vs_user_to_A_dm': 0.624, 'cos_vR_vA': 0.045}
+6 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.344, 'T3_A_to_R_dm': 0.447, 'T3_R_to_A_lr': 0.07, 'C1_sys_vs_user_to_A_dm': 0.617, 'cos_vR_vA': -0.112}
+7 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.367, 'T3_A_to_R_dm': 0.393, 'T3_R_to_A_lr': 0.118, 'C1_sys_vs_user_to_A_dm': 0.44, 'cos_vR_vA': -0.159}
+8 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.359, 'T3_A_to_R_dm': 0.324, 'T3_R_to_A_lr': 0.055, 'C1_sys_vs_user_to_A_dm': 0.457, 'cos_vR_vA': -0.187}
+9 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.29, 'T3_A_to_R_dm': 0.239, 'T3_R_to_A_lr': 0.03, 'C1_sys_vs_user_to_A_dm': 0.449, 'cos_vR_vA': -0.217}
+10 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.269, 'T3_A_to_R_dm': 0.207, 'T3_R_to_A_lr': 0.029, 'C1_sys_vs_user_to_A_dm': 0.36, 'cos_vR_vA': -0.255}
+11 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.29, 'T3_A_to_R_dm': 0.225, 'T3_R_to_A_lr': 0.141, 'C1_sys_vs_user_to_A_dm': 0.302, 'cos_vR_vA': -0.278}
+12 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.23, 'T3_A_to_R_dm': 0.209, 'T3_R_to_A_lr': 0.204, 'C1_sys_vs_user_to_A_dm': 0.166, 'cos_vR_vA': -0.263}
+13 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.286, 'T3_A_to_R_dm': 0.257, 'T3_R_to_A_lr': 0.119, 'C1_sys_vs_user_to_A_dm': 0.316, 'cos_vR_vA': -0.2}
+14 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.308, 'T3_A_to_R_dm': 0.295, 'T3_R_to_A_lr': 0.363, 'C1_sys_vs_user_to_A_dm': 0.266, 'cos_vR_vA': -0.159}
+15 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.364, 'T3_A_to_R_dm': 0.385, 'T3_R_to_A_lr': 0.645, 'C1_sys_vs_user_to_A_dm': 0.26, 'cos_vR_vA': -0.109}
+16 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.353, 'T3_A_to_R_dm': 0.389, 'T3_R_to_A_lr': 0.705, 'C1_sys_vs_user_to_A_dm': 0.233, 'cos_vR_vA': -0.105}
+17 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.388, 'T3_A_to_R_dm': 0.394, 'T3_R_to_A_lr': 0.61, 'C1_sys_vs_user_to_A_dm': 0.344, 'cos_vR_vA': -0.088}
+18 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.322, 'T3_A_to_R_dm': 0.385, 'T3_R_to_A_lr': 0.606, 'C1_sys_vs_user_to_A_dm': 0.291, 'cos_vR_vA': -0.13}
+19 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.365, 'T3_A_to_R_dm': 0.417, 'T3_R_to_A_lr': 0.409, 'C1_sys_vs_user_to_A_dm': 0.363, 'cos_vR_vA': -0.109}
+20 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.416, 'T3_A_to_R_dm': 0.449, 'T3_R_to_A_lr': 0.487, 'C1_sys_vs_user_to_A_dm': 0.39, 'cos_vR_vA': -0.076}
+21 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.449, 'T3_A_to_R_dm': 0.482, 'T3_R_to_A_lr': 0.474, 'C1_sys_vs_user_to_A_dm': 0.436, 'cos_vR_vA': -0.039}
+22 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.463, 'T3_A_to_R_dm': 0.494, 'T3_R_to_A_lr': 0.489, 'C1_sys_vs_user_to_A_dm': 0.444, 'cos_vR_vA': -0.024}
+23 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.46, 'T3_A_to_R_dm': 0.5, 'T3_R_to_A_lr': 0.377, 'C1_sys_vs_user_to_A_dm': 0.493, 'cos_vR_vA': -0.016}
+24 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.325, 'T3_A_to_R_dm': 0.409, 'T3_R_to_A_lr': 0.52, 'C1_sys_vs_user_to_A_dm': 0.338, 'cos_vR_vA': -0.346}
+STEP probe EuroLLM-1.7B-Instruct rc=0
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/219 [00:00<?, ?it/s]Loading weights: 100%|##########| 219/219 [00:00<00:00, 9265.67it/s]
+oN 300 p_hi 0.545 picks_hi 0.57 min_mass 0.001 92.3 s/batch
+oN 301 p_hi 0.575 picks_hi 0.6 min_mass 0.001 92.3 s/batch
+oN 302 p_hi 0.547 picks_hi 0.7 min_mass 0.0 92.3 s/batch
+oN 303 p_hi 0.464 picks_hi 0.37 min_mass 0.0 92.3 s/batch
+oN 304 p_hi 0.517 picks_hi 0.63 min_mass 0.001 94.6 s/batch
+oN 305 p_hi 0.557 picks_hi 0.7 min_mass 0.001 94.6 s/batch
+oN 306 p_hi 0.612 picks_hi 0.53 min_mass 0.002 94.6 s/batch
+oN 307 p_hi 0.426 picks_hi 0.53 min_mass 0.001 94.6 s/batch
+oN 308 p_hi 0.5 picks_hi 0.53 min_mass 0.002 93.3 s/batch
+oN 309 p_hi 0.351 picks_hi 0.3 min_mass 0.001 93.3 s/batch
+oN 310 p_hi 0.535 picks_hi 0.5 min_mass 0.002 93.3 s/batch
+oN 311 p_hi 0.518 picks_hi 0.5 min_mass 0.001 93.3 s/batch
+oN 312 p_hi 0.556 picks_hi 0.53 min_mass 0.0 93.6 s/batch
+oN 313 p_hi 0.532 picks_hi 0.53 min_mass 0.002 93.6 s/batch
+oN 314 p_hi 0.504 picks_hi 0.43 min_mass 0.001 93.6 s/batch
+oN 315 p_hi 0.432 picks_hi 0.5 min_mass 0.0 93.6 s/batch
+oN 316 p_hi 0.491 picks_hi 0.5 min_mass 0.002 88.3 s/batch
+oN 317 p_hi 0.588 picks_hi 0.53 min_mass 0.001 88.3 s/batch
+oN 318 p_hi 0.565 picks_hi 0.6 min_mass 0.0 88.3 s/batch
+oN 319 p_hi 0.462 picks_hi 0.43 min_mass 0.002 88.3 s/batch
+oN 320 p_hi 0.511 picks_hi 0.53 min_mass 0.001 94.0 s/batch
+oN 321 p_hi 0.421 picks_hi 0.4 min_mass 0.001 94.0 s/batch
+oN 322 p_hi 0.57 picks_hi 0.57 min_mass 0.0 94.0 s/batch
+oN 323 p_hi 0.479 picks_hi 0.47 min_mass 0.001 94.0 s/batch
+oN 324 p_hi 0.518 picks_hi 0.5 min_mass 0.001 88.0 s/batch
+oN 325 p_hi 0.571 picks_hi 0.43 min_mass 0.0 88.0 s/batch
+oN 326 p_hi 0.512 picks_hi 0.57 min_mass 0.002 88.0 s/batch
+oN 327 p_hi 0.506 picks_hi 0.5 min_mass 0.002 88.0 s/batch
+oN 328 p_hi 0.539 picks_hi 0.7 min_mass 0.001 82.9 s/batch
+oN 329 p_hi 0.544 picks_hi 0.5 min_mass 0.001 82.9 s/batch
+oN 330 p_hi 0.588 picks_hi 0.43 min_mass 0.002 82.9 s/batch
+oN 331 p_hi 0.441 picks_hi 0.3 min_mass 0.001 82.9 s/batch
+oN 332 p_hi 0.408 picks_hi 0.47 min_mass 0.003 91.0 s/batch
+oN 333 p_hi 0.591 picks_hi 0.6 min_mass 0.002 91.0 s/batch
+oN 334 p_hi 0.568 picks_hi 0.57 min_mass 0.002 91.0 s/batch
+oN 335 p_hi 0.54 picks_hi 0.6 min_mass 0.001 91.0 s/batch
+oN 336 p_hi 0.517 picks_hi 0.5 min_mass 0.0 80.0 s/batch
+oN 337 p_hi 0.589 picks_hi 0.63 min_mass 0.001 80.0 s/batch
+oN 338 p_hi 0.549 picks_hi 0.57 min_mass 0.003 80.0 s/batch
+oN 339 p_hi 0.501 picks_hi 0.43 min_mass 0.001 80.0 s/batch
+1 300 p_hi 0.617 picks_hi 0.57 min_mass 0.004 22.2 s/batch
+1 301 p_hi 0.542 picks_hi 0.53 min_mass 0.005 22.2 s/batch
+1 302 p_hi 0.531 picks_hi 0.5 min_mass 0.0 22.2 s/batch
+1 303 p_hi 0.427 picks_hi 0.3 min_mass 0.004 22.2 s/batch
+1 304 p_hi 0.582 picks_hi 0.57 min_mass 0.001 22.6 s/batch
+1 305 p_hi 0.564 picks_hi 0.5 min_mass 0.004 22.6 s/batch
+1 306 p_hi 0.531 picks_hi 0.47 min_mass 0.002 22.6 s/batch
+1 307 p_hi 0.507 picks_hi 0.63 min_mass 0.001 22.6 s/batch
+1 308 p_hi 0.531 picks_hi 0.43 min_mass 0.002 22.5 s/batch
+1 309 p_hi 0.403 picks_hi 0.33 min_mass 0.0 22.5 s/batch
+1 310 p_hi 0.478 picks_hi 0.47 min_mass 0.002 22.5 s/batch
+1 311 p_hi 0.51 picks_hi 0.43 min_mass 0.0 22.5 s/batch
+1 312 p_hi 0.572 picks_hi 0.63 min_mass 0.0 22.6 s/batch
+1 313 p_hi 0.506 picks_hi 0.4 min_mass 0.001 22.6 s/batch
+1 314 p_hi 0.456 picks_hi 0.43 min_mass 0.001 22.6 s/batch
+1 315 p_hi 0.43 picks_hi 0.47 min_mass 0.001 22.6 s/batch
+1 316 p_hi 0.505 picks_hi 0.5 min_mass 0.003 22.6 s/batch
+1 317 p_hi 0.675 picks_hi 0.63 min_mass 0.001 22.6 s/batch
+1 318 p_hi 0.467 picks_hi 0.47 min_mass 0.001 22.6 s/batch
+1 319 p_hi 0.446 picks_hi 0.33 min_mass 0.001 22.6 s/batch
+1 320 p_hi 0.494 picks_hi 0.57 min_mass 0.002 22.6 s/batch
+1 321 p_hi 0.437 picks_hi 0.6 min_mass 0.001 22.6 s/batch
+1 322 p_hi 0.559 picks_hi 0.67 min_mass 0.0 22.6 s/batch
+1 323 p_hi 0.481 picks_hi 0.43 min_mass 0.001 22.6 s/batch
+1 324 p_hi 0.61 picks_hi 0.43 min_mass 0.0 22.6 s/batch
+1 325 p_hi 0.575 picks_hi 0.57 min_mass 0.0 22.6 s/batch
+1 326 p_hi 0.509 picks_hi 0.43 min_mass 0.0 22.6 s/batch
+1 327 p_hi 0.515 picks_hi 0.53 min_mass 0.0 22.6 s/batch
+1 328 p_hi 0.49 picks_hi 0.5 min_mass 0.001 22.2 s/batch
+1 329 p_hi 0.577 picks_hi 0.6 min_mass 0.006 22.2 s/batch
+1 330 p_hi 0.575 picks_hi 0.63 min_mass 0.003 22.2 s/batch
+1 331 p_hi 0.464 picks_hi 0.57 min_mass 0.003 22.2 s/batch
+1 332 p_hi 0.43 picks_hi 0.47 min_mass 0.002 22.5 s/batch
+1 333 p_hi 0.579 picks_hi 0.57 min_mass 0.004 22.5 s/batch
+1 334 p_hi 0.566 picks_hi 0.57 min_mass 0.0 22.5 s/batch
+1 335 p_hi 0.534 picks_hi 0.6 min_mass 0.0 22.5 s/batch
+1 336 p_hi 0.465 picks_hi 0.37 min_mass 0.0 22.3 s/batch
+1 337 p_hi 0.586 picks_hi 0.5 min_mass 0.001 22.3 s/batch
+1 338 p_hi 0.557 picks_hi 0.73 min_mass 0.002 22.3 s/batch
+1 339 p_hi 0.539 picks_hi 0.53 min_mass 0.001 22.3 s/batch
+gF 300 p_hi 0.585 picks_hi 0.77 min_mass 0.001 25.3 s/batch
+gF 301 p_hi 0.549 picks_hi 0.63 min_mass 0.001 25.3 s/batch
+gF 302 p_hi 0.508 picks_hi 0.63 min_mass 0.0 25.3 s/batch
+gF 303 p_hi 0.455 picks_hi 0.57 min_mass 0.0 25.3 s/batch
+gF 304 p_hi 0.594 picks_hi 0.63 min_mass 0.0 25.3 s/batch
+gF 305 p_hi 0.518 picks_hi 0.53 min_mass 0.001 25.3 s/batch
+gF 306 p_hi 0.557 picks_hi 0.47 min_mass 0.002 25.3 s/batch
+gF 307 p_hi 0.43 picks_hi 0.27 min_mass 0.001 25.3 s/batch
+gF 308 p_hi 0.531 picks_hi 0.43 min_mass 0.001 25.1 s/batch
+gF 309 p_hi 0.362 picks_hi 0.37 min_mass 0.001 25.1 s/batch
+gF 310 p_hi 0.489 picks_hi 0.43 min_mass 0.001 25.1 s/batch
+gF 311 p_hi 0.549 picks_hi 0.53 min_mass 0.0 25.1 s/batch
+gF 312 p_hi 0.536 picks_hi 0.57 min_mass 0.0 25.4 s/batch
+gF 313 p_hi 0.572 picks_hi 0.53 min_mass 0.001 25.4 s/batch
+gF 314 p_hi 0.483 picks_hi 0.37 min_mass 0.001 25.4 s/batch
+gF 315 p_hi 0.465 picks_hi 0.47 min_mass 0.001 25.4 s/batch
+gF 316 p_hi 0.512 picks_hi 0.47 min_mass 0.002 25.5 s/batch
+gF 317 p_hi 0.616 picks_hi 0.53 min_mass 0.001 25.5 s/batch
+gF 318 p_hi 0.547 picks_hi 0.57 min_mass 0.0 25.5 s/batch
+gF 319 p_hi 0.484 picks_hi 0.47 min_mass 0.002 25.5 s/batch
+gF 320 p_hi 0.52 picks_hi 0.5 min_mass 0.001 25.2 s/batch
+gF 321 p_hi 0.454 picks_hi 0.4 min_mass 0.001 25.2 s/batch
+gF 322 p_hi 0.531 picks_hi 0.57 min_mass 0.0 25.2 s/batch
+gF 323 p_hi 0.514 picks_hi 0.53 min_mass 0.001 25.2 s/batch
+gF 324 p_hi 0.533 picks_hi 0.5 min_mass 0.001 25.0 s/batch
+gF 325 p_hi 0.598 picks_hi 0.57 min_mass 0.0 25.0 s/batch
+gF 326 p_hi 0.558 picks_hi 0.5 min_mass 0.002 25.0 s/batch
+gF 327 p_hi 0.513 picks_hi 0.4 min_mass 0.002 25.0 s/batch
+gF 328 p_hi 0.564 picks_hi 0.63 min_mass 0.002 24.8 s/batch
+gF 329 p_hi 0.542 picks_hi 0.43 min_mass 0.001 24.8 s/batch
+gF 330 p_hi 0.597 picks_hi 0.67 min_mass 0.001 24.8 s/batch
+gF 331 p_hi 0.404 picks_hi 0.43 min_mass 0.0 24.8 s/batch
+gF 332 p_hi 0.354 picks_hi 0.37 min_mass 0.002 24.6 s/batch
+gF 333 p_hi 0.598 picks_hi 0.57 min_mass 0.001 24.6 s/batch
+gF 334 p_hi 0.557 picks_hi 0.6 min_mass 0.0 24.6 s/batch
+gF 335 p_hi 0.509 picks_hi 0.47 min_mass 0.001 24.6 s/batch
+gF 336 p_hi 0.495 picks_hi 0.53 min_mass 0.0 25.0 s/batch
+gF 337 p_hi 0.528 picks_hi 0.47 min_mass 0.001 25.0 s/batch
+gF 338 p_hi 0.551 picks_hi 0.67 min_mass 0.0 25.0 s/batch
+gF 339 p_hi 0.482 picks_hi 0.43 min_mass 0.001 25.0 s/batch
+oF 300 p_hi 0.57 picks_hi 0.63 min_mass 0.001 25.0 s/batch
+oF 301 p_hi 0.584 picks_hi 0.63 min_mass 0.001 25.0 s/batch
+oF 302 p_hi 0.545 picks_hi 0.43 min_mass 0.0 25.0 s/batch
+oF 303 p_hi 0.387 picks_hi 0.37 min_mass 0.0 25.0 s/batch
+oF 304 p_hi 0.564 picks_hi 0.57 min_mass 0.001 24.9 s/batch
+oF 305 p_hi 0.507 picks_hi 0.53 min_mass 0.001 24.9 s/batch
+oF 306 p_hi 0.553 picks_hi 0.6 min_mass 0.002 24.9 s/batch
+oF 307 p_hi 0.446 picks_hi 0.47 min_mass 0.0 24.9 s/batch
+oF 308 p_hi 0.527 picks_hi 0.47 min_mass 0.001 24.8 s/batch
+oF 309 p_hi 0.474 picks_hi 0.63 min_mass 0.0 24.8 s/batch
+oF 310 p_hi 0.474 picks_hi 0.57 min_mass 0.002 24.8 s/batch
+oF 311 p_hi 0.552 picks_hi 0.5 min_mass 0.0 24.8 s/batch
+oF 312 p_hi 0.59 picks_hi 0.6 min_mass 0.0 24.8 s/batch
+oF 313 p_hi 0.54 picks_hi 0.47 min_mass 0.001 24.8 s/batch
+oF 314 p_hi 0.513 picks_hi 0.53 min_mass 0.001 24.8 s/batch
+oF 315 p_hi 0.474 picks_hi 0.47 min_mass 0.0 24.8 s/batch
+oF 316 p_hi 0.527 picks_hi 0.47 min_mass 0.001 24.8 s/batch
+oF 317 p_hi 0.614 picks_hi 0.73 min_mass 0.001 24.8 s/batch
+oF 318 p_hi 0.543 picks_hi 0.57 min_mass 0.001 24.8 s/batch
+oF 319 p_hi 0.473 picks_hi 0.4 min_mass 0.003 24.8 s/batch
+oF 320 p_hi 0.502 picks_hi 0.53 min_mass 0.001 24.9 s/batch
+oF 321 p_hi 0.441 picks_hi 0.33 min_mass 0.001 24.9 s/batch
+oF 322 p_hi 0.491 picks_hi 0.4 min_mass 0.0 24.9 s/batch
+oF 323 p_hi 0.502 picks_hi 0.47 min_mass 0.001 24.9 s/batch
+oF 324 p_hi 0.526 picks_hi 0.77 min_mass 0.0 25.0 s/batch
+oF 325 p_hi 0.595 picks_hi 0.63 min_mass 0.0 25.0 s/batch
+oF 326 p_hi 0.543 picks_hi 0.6 min_mass 0.001 25.0 s/batch
+oF 327 p_hi 0.488 picks_hi 0.53 min_mass 0.001 25.0 s/batch
+oF 328 p_hi 0.517 picks_hi 0.37 min_mass 0.002 24.7 s/batch
+oF 329 p_hi 0.564 picks_hi 0.47 min_mass 0.001 24.7 s/batch
+oF 330 p_hi 0.602 picks_hi 0.57 min_mass 0.001 24.7 s/batch
+oF 331 p_hi 0.482 picks_hi 0.37 min_mass 0.0 24.7 s/batch
+oF 332 p_hi 0.367 picks_hi 0.37 min_mass 0.001 24.8 s/batch
+oF 333 p_hi 0.575 picks_hi 0.63 min_mass 0.001 24.8 s/batch
+oF 334 p_hi 0.559 picks_hi 0.53 min_mass 0.001 24.8 s/batch
+oF 335 p_hi 0.471 picks_hi 0.53 min_mass 0.001 24.8 s/batch
+oF 336 p_hi 0.551 picks_hi 0.63 min_mass 0.0 24.8 s/batch
+oF 337 p_hi 0.504 picks_hi 0.57 min_mass 0.001 24.8 s/batch
+oF 338 p_hi 0.522 picks_hi 0.5 min_mass 0.001 24.8 s/batch
+oF 339 p_hi 0.541 picks_hi 0.47 min_mass 0.001 24.8 s/batch
+gN 300 p_hi 0.583 picks_hi 0.53 min_mass 0.001 25.2 s/batch
+gN 301 p_hi 0.546 picks_hi 0.57 min_mass 0.001 25.2 s/batch
+gN 302 p_hi 0.52 picks_hi 0.47 min_mass 0.0 25.2 s/batch
+gN 303 p_hi 0.466 picks_hi 0.6 min_mass 0.0 25.2 s/batch
+gN 304 p_hi 0.539 picks_hi 0.63 min_mass 0.001 25.0 s/batch
+gN 305 p_hi 0.513 picks_hi 0.43 min_mass 0.002 25.0 s/batch
+gN 306 p_hi 0.545 picks_hi 0.57 min_mass 0.002 25.0 s/batch
+gN 307 p_hi 0.433 picks_hi 0.47 min_mass 0.001 25.0 s/batch
+gN 308 p_hi 0.509 picks_hi 0.47 min_mass 0.002 25.1 s/batch
+gN 309 p_hi 0.381 picks_hi 0.37 min_mass 0.001 25.1 s/batch
+gN 310 p_hi 0.521 picks_hi 0.33 min_mass 0.002 25.1 s/batch
+gN 311 p_hi 0.424 picks_hi 0.43 min_mass 0.001 25.1 s/batch
+gN 312 p_hi 0.562 picks_hi 0.53 min_mass 0.0 25.0 s/batch
+gN 313 p_hi 0.545 picks_hi 0.57 min_mass 0.001 25.0 s/batch
+gN 314 p_hi 0.49 picks_hi 0.53 min_mass 0.001 25.0 s/batch
+gN 315 p_hi 0.407 picks_hi 0.4 min_mass 0.0 25.0 s/batch
+gN 316 p_hi 0.499 picks_hi 0.5 min_mass 0.001 25.7 s/batch
+gN 317 p_hi 0.589 picks_hi 0.63 min_mass 0.0 25.7 s/batch
+gN 318 p_hi 0.582 picks_hi 0.63 min_mass 0.0 25.7 s/batch
+gN 319 p_hi 0.496 picks_hi 0.37 min_mass 0.002 25.7 s/batch
+gN 320 p_hi 0.478 picks_hi 0.43 min_mass 0.001 24.8 s/batch
+gN 321 p_hi 0.428 picks_hi 0.4 min_mass 0.001 24.8 s/batch
+gN 322 p_hi 0.524 picks_hi 0.5 min_mass 0.001 24.8 s/batch
+gN 323 p_hi 0.471 picks_hi 0.43 min_mass 0.0 24.8 s/batch
+gN 324 p_hi 0.542 picks_hi 0.57 min_mass 0.001 25.2 s/batch
+gN 325 p_hi 0.59 picks_hi 0.57 min_mass 0.0 25.2 s/batch
+gN 326 p_hi 0.536 picks_hi 0.53 min_mass 0.003 25.2 s/batch
+gN 327 p_hi 0.504 picks_hi 0.5 min_mass 0.002 25.2 s/batch
+gN 328 p_hi 0.52 picks_hi 0.57 min_mass 0.002 25.3 s/batch
+gN 329 p_hi 0.563 picks_hi 0.53 min_mass 0.003 25.3 s/batch
+gN 330 p_hi 0.596 picks_hi 0.6 min_mass 0.002 25.3 s/batch
+gN 331 p_hi 0.431 picks_hi 0.37 min_mass 0.001 25.3 s/batch
+gN 332 p_hi 0.423 picks_hi 0.43 min_mass 0.003 25.3 s/batch
+gN 333 p_hi 0.577 picks_hi 0.6 min_mass 0.002 25.3 s/batch
+gN 334 p_hi 0.591 picks_hi 0.63 min_mass 0.001 25.3 s/batch
+gN 335 p_hi 0.544 picks_hi 0.53 min_mass 0.001 25.3 s/batch
+gN 336 p_hi 0.603 picks_hi 0.6 min_mass 0.0 24.8 s/batch
+gN 337 p_hi 0.555 picks_hi 0.57 min_mass 0.001 24.8 s/batch
+gN 338 p_hi 0.547 picks_hi 0.4 min_mass 0.004 24.8 s/batch
+gN 339 p_hi 0.513 picks_hi 0.5 min_mass 0.001 24.8 s/batch
+gW 300 p_hi 0.559 picks_hi 0.4 min_mass 0.001 25.1 s/batch
+gW 301 p_hi 0.523 picks_hi 0.47 min_mass 0.002 25.1 s/batch
+gW 302 p_hi 0.531 picks_hi 0.67 min_mass 0.0 25.1 s/batch
+gW 303 p_hi 0.439 picks_hi 0.4 min_mass 0.0 25.1 s/batch
+gW 304 p_hi 0.598 picks_hi 0.63 min_mass 0.0 25.3 s/batch
+gW 305 p_hi 0.527 picks_hi 0.5 min_mass 0.0 25.3 s/batch
+gW 306 p_hi 0.587 picks_hi 0.57 min_mass 0.003 25.3 s/batch
+gW 307 p_hi 0.432 picks_hi 0.37 min_mass 0.001 25.3 s/batch
+gW 308 p_hi 0.527 picks_hi 0.47 min_mass 0.001 25.3 s/batch
+gW 309 p_hi 0.369 picks_hi 0.53 min_mass 0.0 25.3 s/batch
+gW 310 p_hi 0.462 picks_hi 0.5 min_mass 0.0 25.3 s/batch
+gW 311 p_hi 0.539 picks_hi 0.57 min_mass 0.0 25.3 s/batch
+gW 312 p_hi 0.552 picks_hi 0.5 min_mass 0.0 25.4 s/batch
+gW 313 p_hi 0.587 picks_hi 0.63 min_mass 0.0 25.4 s/batch
+gW 314 p_hi 0.456 picks_hi 0.5 min_mass 0.001 25.4 s/batch
+gW 315 p_hi 0.45 picks_hi 0.37 min_mass 0.001 25.4 s/batch
+gW 316 p_hi 0.493 picks_hi 0.43 min_mass 0.001 25.1 s/batch
+gW 317 p_hi 0.624 picks_hi 0.57 min_mass 0.002 25.1 s/batch
+gW 318 p_hi 0.498 picks_hi 0.5 min_mass 0.0 25.1 s/batch
+gW 319 p_hi 0.46 picks_hi 0.43 min_mass 0.002 25.1 s/batch
+gW 320 p_hi 0.428 picks_hi 0.43 min_mass 0.002 25.2 s/batch
+gW 321 p_hi 0.442 picks_hi 0.37 min_mass 0.001 25.2 s/batch
+gW 322 p_hi 0.517 picks_hi 0.6 min_mass 0.0 25.2 s/batch
+gW 323 p_hi 0.47 picks_hi 0.67 min_mass 0.0 25.2 s/batch
+gW 324 p_hi 0.527 picks_hi 0.43 min_mass 0.0 25.3 s/batch
+gW 325 p_hi 0.578 picks_hi 0.6 min_mass 0.0 25.3 s/batch
+gW 326 p_hi 0.52 picks_hi 0.33 min_mass 0.001 25.3 s/batch
+gW 327 p_hi 0.508 picks_hi 0.53 min_mass 0.0 25.3 s/batch
+gW 328 p_hi 0.558 picks_hi 0.63 min_mass 0.001 25.4 s/batch
+gW 329 p_hi 0.559 picks_hi 0.53 min_mass 0.006 25.4 s/batch
+gW 330 p_hi 0.616 picks_hi 0.53 min_mass 0.002 25.4 s/batch
+gW 331 p_hi 0.486 picks_hi 0.57 min_mass 0.001 25.4 s/batch
+gW 332 p_hi 0.426 picks_hi 0.37 min_mass 0.001 25.4 s/batch
+gW 333 p_hi 0.593 picks_hi 0.57 min_mass 0.0 25.4 s/batch
+gW 334 p_hi 0.585 picks_hi 0.73 min_mass 0.001 25.4 s/batch
+gW 335 p_hi 0.509 picks_hi 0.53 min_mass 0.001 25.4 s/batch
+gW 336 p_hi 0.568 picks_hi 0.5 min_mass 0.0 25.4 s/batch
+gW 337 p_hi 0.516 picks_hi 0.53 min_mass 0.001 25.4 s/batch
+gW 338 p_hi 0.527 picks_hi 0.57 min_mass 0.002 25.4 s/batch
+gW 339 p_hi 0.488 picks_hi 0.53 min_mass 0.001 25.4 s/batch
+oW 300 p_hi 0.576 picks_hi 0.43 min_mass 0.001 25.2 s/batch
+oW 301 p_hi 0.536 picks_hi 0.47 min_mass 0.002 25.2 s/batch
+oW 302 p_hi 0.551 picks_hi 0.63 min_mass 0.0 25.2 s/batch
+oW 303 p_hi 0.409 picks_hi 0.47 min_mass 0.0 25.2 s/batch
+oW 304 p_hi 0.592 picks_hi 0.5 min_mass 0.001 25.0 s/batch
+oW 305 p_hi 0.514 picks_hi 0.5 min_mass 0.002 25.0 s/batch
+oW 306 p_hi 0.568 picks_hi 0.57 min_mass 0.004 25.0 s/batch
+oW 307 p_hi 0.455 picks_hi 0.5 min_mass 0.0 25.0 s/batch
+oW 308 p_hi 0.526 picks_hi 0.6 min_mass 0.001 25.1 s/batch
+oW 309 p_hi 0.365 picks_hi 0.23 min_mass 0.001 25.1 s/batch
+oW 310 p_hi 0.547 picks_hi 0.53 min_mass 0.002 25.1 s/batch
+oW 311 p_hi 0.57 picks_hi 0.53 min_mass 0.001 25.1 s/batch
+oW 312 p_hi 0.569 picks_hi 0.7 min_mass 0.0 24.8 s/batch
+oW 313 p_hi 0.592 picks_hi 0.5 min_mass 0.0 24.8 s/batch
+oW 314 p_hi 0.459 picks_hi 0.43 min_mass 0.001 24.8 s/batch
+oW 315 p_hi 0.476 picks_hi 0.43 min_mass 0.001 24.8 s/batch
+oW 316 p_hi 0.475 picks_hi 0.5 min_mass 0.002 24.8 s/batch
+oW 317 p_hi 0.601 picks_hi 0.63 min_mass 0.0 24.8 s/batch
+oW 318 p_hi 0.544 picks_hi 0.57 min_mass 0.001 24.8 s/batch
+oW 319 p_hi 0.487 picks_hi 0.43 min_mass 0.001 24.8 s/batch
+oW 320 p_hi 0.498 picks_hi 0.4 min_mass 0.001 24.9 s/batch
+oW 321 p_hi 0.437 picks_hi 0.4 min_mass 0.001 24.9 s/batch
+oW 322 p_hi 0.516 picks_hi 0.63 min_mass 0.0 24.9 s/batch
+oW 323 p_hi 0.51 picks_hi 0.57 min_mass 0.001 24.9 s/batch
+oW 324 p_hi 0.52 picks_hi 0.43 min_mass 0.0 24.8 s/batch
+oW 325 p_hi 0.577 picks_hi 0.57 min_mass 0.0 24.8 s/batch
+oW 326 p_hi 0.484 picks_hi 0.43 min_mass 0.001 24.8 s/batch
+oW 327 p_hi 0.567 picks_hi 0.67 min_mass 0.001 24.8 s/batch
+oW 328 p_hi 0.528 picks_hi 0.5 min_mass 0.002 24.7 s/batch
+oW 329 p_hi 0.534 picks_hi 0.67 min_mass 0.0 24.7 s/batch
+oW 330 p_hi 0.622 picks_hi 0.63 min_mass 0.001 24.7 s/batch
+oW 331 p_hi 0.448 picks_hi 0.43 min_mass 0.0 24.7 s/batch
+oW 332 p_hi 0.396 picks_hi 0.3 min_mass 0.0 24.5 s/batch
+oW 333 p_hi 0.605 picks_hi 0.53 min_mass 0.0 24.5 s/batch
+oW 334 p_hi 0.572 picks_hi 0.5 min_mass 0.001 24.5 s/batch
+oW 335 p_hi 0.514 picks_hi 0.5 min_mass 0.001 24.5 s/batch
+oW 336 p_hi 0.617 picks_hi 0.5 min_mass 0.0 24.6 s/batch
+oW 337 p_hi 0.506 picks_hi 0.53 min_mass 0.001 24.6 s/batch
+oW 338 p_hi 0.513 picks_hi 0.6 min_mass 0.002 24.6 s/batch
+oW 339 p_hi 0.534 picks_hi 0.57 min_mass 0.001 24.6 s/batch
+STEP agp-fast-EuroLLM-1.7B-Instruct n=280
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Traceback (most recent call last):
+  File "C:\Users\caabm\AppData\Roaming\Claude\scratch-workspaces\2898f83d-79d0-4cb9-a017-7d323d549974\0c4963d8-51ed-4ceb-9445-28b8639f6fa1\scratch-2026-10-13-464f6a\research_next\agent_goal_persistence\code\src_probe.py", line 172, in <module>
+    main()
+  File "C:\Users\caabm\AppData\Roaming\Claude\scratch-workspaces\2898f83d-79d0-4cb9-a017-7d323d549974\0c4963d8-51ed-4ceb-9445-28b8639f6fa1\scratch-2026-10-13-464f6a\research_next\agent_goal_persistence\code\src_probe.py", line 125, in main
+    model = AutoModelForCausalLM.from_pretrained(a.model, quantization_config=q, device_map={"": 0}).eval()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\agp-env\.venv\Lib\site-packages\transformers\models\auto\auto_factory.py", line 402, in from_pretrained
+    return model_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\agp-env\.venv\Lib\site-packages\transformers\modeling_utils.py", line 4226, in from_pretrained
+    device_map = check_and_set_device_map(device_map)  # warn, error and fix the device map
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\agp-env\.venv\Lib\site-packages\transformers\integrations\accelerate.py", line 137, in check_and_set_device_map
+    raise ValueError(
+ValueError: Using a `device_map`, `tp_plan`, `torch.device` context manager or setting `torch.set_default_device(device)` requires `accelerate`. You can install it with `pip install accelerate`
+STEP probe q4b rc=1
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Traceback (most recent call last):
+  File "C:\Users\caabm\AppData\Roaming\Claude\scratch-workspaces\2898f83d-79d0-4cb9-a017-7d323d549974\0c4963d8-51ed-4ceb-9445-28b8639f6fa1\scratch-2026-10-13-464f6a\research_next\agent_goal_persistence\code\agp_fast.py", line 218, in <module>
+    main()
+  File "C:\Users\caabm\AppData\Roaming\Claude\scratch-workspaces\2898f83d-79d0-4cb9-a017-7d323d549974\0c4963d8-51ed-4ceb-9445-28b8639f6fa1\scratch-2026-10-13-464f6a\research_next\agent_goal_persistence\code\agp_fast.py", line 192, in main
+    lm = AB.BatchLM(a.model, a.temp)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\AppData\Roaming\Claude\scratch-workspaces\2898f83d-79d0-4cb9-a017-7d323d549974\0c4963d8-51ed-4ceb-9445-28b8639f6fa1\scratch-2026-10-13-464f6a\research_next\agent_goal_persistence\code\agp_batch.py", line 38, in __init__
+    self.m = AutoModelForCausalLM.from_pretrained(model, quantization_config=q, device_map={"": 0}).eval()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\agp-env\.venv\Lib\site-packages\transformers\models\auto\auto_factory.py", line 402, in from_pretrained
+    return model_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\agp-env\.venv\Lib\site-packages\transformers\modeling_utils.py", line 4226, in from_pretrained
+    device_map = check_and_set_device_map(device_map)  # warn, error and fix the device map
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\agp-env\.venv\Lib\site-packages\transformers\integrations\accelerate.py", line 137, in check_and_set_device_map
+    raise ValueError(
+ValueError: Using a `device_map`, `tp_plan`, `torch.device` context manager or setting `torch.set_default_device(device)` requires `accelerate`. You can install it with `pip install accelerate`
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Traceback (most recent call last):
+  File "C:\Users\caabm\AppData\Roaming\Claude\scratch-workspaces\2898f83d-79d0-4cb9-a017-7d323d549974\0c4963d8-51ed-4ceb-9445-28b8639f6fa1\scratch-2026-10-13-464f6a\research_next\agent_goal_persistence\code\agp_fast.py", line 218, in <module>
+    main()
+  File "C:\Users\caabm\AppData\Roaming\Claude\scratch-workspaces\2898f83d-79d0-4cb9-a017-7d323d549974\0c4963d8-51ed-4ceb-9445-28b8639f6fa1\scratch-2026-10-13-464f6a\research_next\agent_goal_persistence\code\agp_fast.py", line 192, in main
+    lm = AB.BatchLM(a.model, a.temp)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\AppData\Roaming\Claude\scratch-workspaces\2898f83d-79d0-4cb9-a017-7d323d549974\0c4963d8-51ed-4ceb-9445-28b8639f6fa1\scratch-2026-10-13-464f6a\research_next\agent_goal_persistence\code\agp_batch.py", line 38, in __init__
+    self.m = AutoModelForCausalLM.from_pretrained(model, quantization_config=q, device_map={"": 0}).eval()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\agp-env\.venv\Lib\site-packages\transformers\models\auto\auto_factory.py", line 402, in from_pretrained
+    return model_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\agp-env\.venv\Lib\site-packages\transformers\modeling_utils.py", line 4226, in from_pretrained
+    device_map = check_and_set_device_map(device_map)  # warn, error and fix the device map
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\agp-env\.venv\Lib\site-packages\transformers\integrations\accelerate.py", line 137, in check_and_set_device_map
+    raise ValueError(
+ValueError: Using a `device_map`, `tp_plan`, `torch.device` context manager or setting `torch.set_default_device(device)` requires `accelerate`. You can install it with `pip install accelerate`
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Traceback (most recent call last):
+  File "C:\Users\caabm\AppData\Roaming\Claude\scratch-workspaces\2898f83d-79d0-4cb9-a017-7d323d549974\0c4963d8-51ed-4ceb-9445-28b8639f6fa1\scratch-2026-10-13-464f6a\research_next\agent_goal_persistence\code\agp_fast.py", line 218, in <module>
+    main()
+  File "C:\Users\caabm\AppData\Roaming\Claude\scratch-workspaces\2898f83d-79d0-4cb9-a017-7d323d549974\0c4963d8-51ed-4ceb-9445-28b8639f6fa1\scratch-2026-10-13-464f6a\research_next\agent_goal_persistence\code\agp_fast.py", line 192, in main
+    lm = AB.BatchLM(a.model, a.temp)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\AppData\Roaming\Claude\scratch-workspaces\2898f83d-79d0-4cb9-a017-7d323d549974\0c4963d8-51ed-4ceb-9445-28b8639f6fa1\scratch-2026-10-13-464f6a\research_next\agent_goal_persistence\code\agp_batch.py", line 38, in __init__
+    self.m = AutoModelForCausalLM.from_pretrained(model, quantization_config=q, device_map={"": 0}).eval()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\agp-env\.venv\Lib\site-packages\transformers\models\auto\auto_factory.py", line 402, in from_pretrained
+    return model_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\agp-env\.venv\Lib\site-packages\transformers\modeling_utils.py", line 4226, in from_pretrained
+    device_map = check_and_set_device_map(device_map)  # warn, error and fix the device map
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\agp-env\.venv\Lib\site-packages\transformers\integrations\accelerate.py", line 137, in check_and_set_device_map
+    raise ValueError(
+ValueError: Using a `device_map`, `tp_plan`, `torch.device` context manager or setting `torch.set_default_device(device)` requires `accelerate`. You can install it with `pip install accelerate`
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Traceback (most recent call last):
+  File "C:\Users\caabm\AppData\Roaming\Claude\scratch-workspaces\2898f83d-79d0-4cb9-a017-7d323d549974\0c4963d8-51ed-4ceb-9445-28b8639f6fa1\scratch-2026-10-13-464f6a\research_next\agent_goal_persistence\code\agp_fast.py", line 218, in <module>
+    main()
+  File "C:\Users\caabm\AppData\Roaming\Claude\scratch-workspaces\2898f83d-79d0-4cb9-a017-7d323d549974\0c4963d8-51ed-4ceb-9445-28b8639f6fa1\scratch-2026-10-13-464f6a\research_next\agent_goal_persistence\code\agp_fast.py", line 192, in main
+    lm = AB.BatchLM(a.model, a.temp)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\AppData\Roaming\Claude\scratch-workspaces\2898f83d-79d0-4cb9-a017-7d323d549974\0c4963d8-51ed-4ceb-9445-28b8639f6fa1\scratch-2026-10-13-464f6a\research_next\agent_goal_persistence\code\agp_batch.py", line 38, in __init__
+    self.m = AutoModelForCausalLM.from_pretrained(model, quantization_config=q, device_map={"": 0}).eval()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\agp-env\.venv\Lib\site-packages\transformers\models\auto\auto_factory.py", line 402, in from_pretrained
+    return model_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\agp-env\.venv\Lib\site-packages\transformers\modeling_utils.py", line 4226, in from_pretrained
+    device_map = check_and_set_device_map(device_map)  # warn, error and fix the device map
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caabm\Documents\agp-env\.venv\Lib\site-packages\transformers\integrations\accelerate.py", line 137, in check_and_set_device_map
+    raise ValueError(
+ValueError: Using a `device_map`, `tp_plan`, `torch.device` context manager or setting `torch.set_default_device(device)` requires `accelerate`. You can install it with `pip install accelerate`
+STEP agp-fast-q4b n=0
+CHAIN2_DONE

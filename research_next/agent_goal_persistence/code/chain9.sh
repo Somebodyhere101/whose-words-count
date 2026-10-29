@@ -1,0 +1,3 @@
+cd "/c/Users/caabm/AppData/Roaming/Claude/scratch-workspaces/2898f83d-79d0-4cb9-a017-7d323d549974/0c4963d8-51ed-4ceb-9445-28b8639f6fa1/scratch-2026-10-13-464f6a/research_next/agent_goal_persistence/code"
+AGP_4BIT=1 /c/Users/caabm/Documents/Codex/2026-09-06/co/work/qwen-cuda-env/Scripts/python.exe /c/Users/caabm/AppData/Roaming/Claude/scratch-workspaces/2898f83d-79d0-4cb9-a017-7d323d549974/0c4963d8-51ed-4ceb-9445-28b8639f6fa1/scratch-2026-10-13-464f6a/tools/gpu_lock.py --max-min 90 --label agp-inj2-q4b -- /c/Users/caabm/Documents/agp-env/.venv/Scripts/python.exe -u inj2.py --model Qwen/Qwen3-4B --dirs ../stage2_Qwen3-4B/directions.pt --layer 17 --out ../inj2_q4b; echo "STEP inj2 q4b rc=$?"
+echo CHAIN9_DONE

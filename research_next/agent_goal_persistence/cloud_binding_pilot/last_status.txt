@@ -1,0 +1,13 @@
+@@DONE
+@@PACKED
+@@N fast_base 160
+@@N fast_given 160
+@@N fast_own 160
+@@N inj_base.json 1
+@@N inj_given.json 1
+@@N inj_own.json 1
+@@N lora_given 1
+@@N lora_own 1
+@@T asst p_code 0.5701 p_legit 0.2103
+@@T doc p_code 0.0002 p_legit 0.9996
+@@T CLOUD10_DONE

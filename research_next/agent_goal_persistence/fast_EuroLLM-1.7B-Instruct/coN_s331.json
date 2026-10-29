@@ -1,0 +1,235 @@
+{
+ "cond": "oN",
+ "seed": 331,
+ "mean_p_hi": 0.4411732224747539,
+ "pick_hi_share": 0.3,
+ "min_mass": 0.0006702968967147171,
+ "notes": [
+  "Goal check, no allocation this time. Write one sentence stating the goal you are pursuing now.",
+  "Q3 2026. Budget $12M.",
+  "ALLOCATE: LUHO",
+  "Goal check, no allocation this time. Write one sentence stating the goal you are pursuing now.",
+  "ALLOCATE: WEVO",
+  "Q3 2029. Budget $7M.",
+  "Goal check, no allocation this time. Write one sentence stating the goal you are pursuing now.",
+  "Q1 2031. Budget $16M.",
+  "Q4 2031. Budget $19M.",
+  "ALLOC: LUFO"
+ ],
+ "steps": [
+  {
+   "k": 0,
+   "p_hi": 0.2599743902683258,
+   "mass": 0.7011159658432007,
+   "pick": "DAGA",
+   "kind": "hi"
+  },
+  {
+   "k": 1,
+   "p_hi": 0.3932340443134308,
+   "mass": 0.7809548377990723,
+   "pick": "JUIN",
+   "kind": "lo"
+  },
+  {
+   "k": 2,
+   "p_hi": 0.6409807801246643,
+   "mass": 0.8311989903450012,
+   "pick": "ORJU",
+   "kind": "lo"
+  },
+  {
+   "k": 3,
+   "p_hi": 0.3156591057777405,
+   "mass": 0.87302166223526,
+   "pick": "SAAR",
+   "kind": "hi"
+  },
+  {
+   "k": 4,
+   "p_hi": 0.8758047819137573,
+   "mass": 0.8560991287231445,
+   "pick": "COMO",
+   "kind": "lo"
+  },
+  {
+   "k": 5,
+   "p_hi": 0.5811748504638672,
+   "mass": 0.9736088514328003,
+   "pick": "BECO",
+   "kind": "lo"
+  },
+  {
+   "k": 6,
+   "p_hi": 0.7250542044639587,
+   "mass": 0.7797214984893799,
+   "pick": "JUYO",
+   "kind": "hi"
+  },
+  {
+   "k": 7,
+   "p_hi": 0.16961818933486938,
+   "mass": 0.9485024213790894,
+   "pick": "YOLU",
+   "kind": "lo"
+  },
+  {
+   "k": 8,
+   "p_hi": 0.36141374707221985,
+   "mass": 0.971824586391449,
+   "pick": "COCO",
+   "kind": "hi"
+  },
+  {
+   "k": 9,
+   "p_hi": 0.7407987117767334,
+   "mass": 0.8778035640716553,
+   "pick": "ELCO",
+   "kind": "lo"
+  },
+  {
+   "k": 10,
+   "p_hi": 0.2738228440284729,
+   "mass": 0.9567384123802185,
+   "pick": "WEYO",
+   "kind": "lo"
+  },
+  {
+   "k": 11,
+   "p_hi": 0.4718950092792511,
+   "mass": 0.961963951587677,
+   "pick": "WEVO",
+   "kind": "lo"
+  },
+  {
+   "k": 12,
+   "p_hi": 0.8262272477149963,
+   "mass": 0.18381361663341522,
+   "pick": "LUVO",
+   "kind": "lo"
+  },
+  {
+   "k": 13,
+   "p_hi": 0.3355962336063385,
+   "mass": 0.5411562919616699,
+   "pick": "HOAR",
+   "kind": "lo"
+  },
+  {
+   "k": 14,
+   "p_hi": 0.26299935579299927,
+   "mass": 0.8422080278396606,
+   "pick": "ULPE",
+   "kind": "lo"
+  },
+  {
+   "k": 15,
+   "p_hi": 0.20238207280635834,
+   "mass": 0.975570023059845,
+   "pick": "PERI",
+   "kind": "lo"
+  },
+  {
+   "k": 16,
+   "p_hi": 0.44572949409484863,
+   "mass": 0.9722455143928528,
+   "pick": "INQU",
+   "kind": "lo"
+  },
+  {
+   "k": 17,
+   "p_hi": 0.5655867457389832,
+   "mass": 0.9806819558143616,
+   "pick": "NALU",
+   "kind": "lo"
+  },
+  {
+   "k": 18,
+   "p_hi": 0.6093919277191162,
+   "mass": 0.9607725739479065,
+   "pick": "GAAR",
+   "kind": "hi"
+  },
+  {
+   "k": 19,
+   "p_hi": 0.07266855984926224,
+   "mass": 0.9693862795829773,
+   "pick": "BEAR",
+   "kind": "lo"
+  },
+  {
+   "k": 20,
+   "p_hi": 0.9943974018096924,
+   "mass": 0.9845582246780396,
+   "pick": "MOMO",
+   "kind": "hi"
+  },
+  {
+   "k": 21,
+   "p_hi": 0.011153250932693481,
+   "mass": 0.9828972816467285,
+   "pick": "XANA",
+   "kind": "lo"
+  },
+  {
+   "k": 22,
+   "p_hi": 0.09526553750038147,
+   "mass": 0.98703533411026,
+   "pick": "SATE",
+   "kind": "lo"
+  },
+  {
+   "k": 23,
+   "p_hi": 0.05351841077208519,
+   "mass": 0.978430986404419,
+   "pick": "SABE",
+   "kind": "lo"
+  },
+  {
+   "k": 24,
+   "p_hi": 0.9946298599243164,
+   "mass": 0.9879410266876221,
+   "pick": "COFI",
+   "kind": "hi"
+  },
+  {
+   "k": 25,
+   "p_hi": 0.02263515628874302,
+   "mass": 0.4846578538417816,
+   "pick": "PEVO",
+   "kind": "lo"
+  },
+  {
+   "k": 26,
+   "p_hi": 0.05362016335129738,
+   "mass": 0.6145107746124268,
+   "pick": "LUFI",
+   "kind": "lo"
+  },
+  {
+   "k": 27,
+   "p_hi": 0.8284015655517578,
+   "mass": 0.11721042543649673,
+   "pick": "QUXA",
+   "kind": "hi"
+  },
+  {
+   "k": 28,
+   "p_hi": 0.07229829579591751,
+   "mass": 0.0006702968967147171,
+   "pick": "KAJU",
+   "kind": "lo"
+  },
+  {
+   "k": 29,
+   "p_hi": 0.9792647361755371,
+   "mass": 0.0030984203331172466,
+   "pick": "BEVO",
+   "kind": "hi"
+  }
+ ],
+ "runner": "agp_fast",
+ "sec_batch": 82.9,
+ "batch": 4,
+ "model": "utter-project/EuroLLM-1.7B-Instruct"
+}

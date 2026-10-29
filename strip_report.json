@@ -1,0 +1,53 @@
+{
+ "removed": [
+  "CODEX_HANDOFF_2026-10-28.txt",
+  "cloud_binding_e2/results11.tgz",
+  "cloud_binding_e3/results12.tgz",
+  "cloud_binding_e4/results13.tgz",
+  "cloud_binding_pilot/results10.tgz",
+  "cloud_ci_pilot/results24p.tgz",
+  "cloud_families/results6.tgz",
+  "cloud_jpilot/results19.tgz",
+  "cloud_lineage/results9.tgz",
+  "cloud_lineage_pilot/results8.tgz",
+  "cloud_mpilot/results_mp1.tgz",
+  "cloud_prereg_c/results7.tgz",
+  "cloud_prereg_f/results14.tgz",
+  "cloud_prereg_g/results16.tgz",
+  "cloud_prereg_h/results17.tgz",
+  "cloud_prereg_i/results18.tgz",
+  "cloud_prereg_j/results20.tgz",
+  "cloud_prereg_k/results21.tgz",
+  "cloud_prereg_l/results22.tgz",
+  "cloud_prereg_l/results22b.tgz",
+  "cloud_prereg_m/results23.tgz",
+  "cloud_prereg_s/results25.tgz",
+  "cloud_prereg_t/results26.tgz",
+  "cloud_prereg_u/results27.tgz",
+  "cloud_prereg_v/results30.tgz",
+  "cloud_prereg_w/A/results29A.tgz",
+  "cloud_prereg_w/B/results29B.tgz",
+  "cloud_prereg_w/C/results29C.tgz",
+  "cloud_prereg_x/1/results31_1.tgz",
+  "cloud_prereg_x/1b/results31_1b.tgz",
+  "cloud_prereg_x/2b/results31_2b.tgz",
+  "cloud_prereg_y/results33.tgz",
+  "cloud_prereg_y_b/results34.tgz",
+  "cloud_results/results.tgz",
+  "cloud_results32/results32.tgz",
+  "cloud_steer_pilot/results15.tgz",
+  "cloud_v0/results28.tgz",
+  "cloud_v1/results32.tgz",
+  "code/__pycache__/agp_b.cpython-312.pyc",
+  "code/__pycache__/agp_batch.cpython-312.pyc",
+  "code/__pycache__/ci_eval.cpython-312.pyc",
+  "code/__pycache__/ci_score.cpython-312.pyc"
+ ],
+ "redacted": [
+  "NUMBERS_RECHECK_Y.md",
+  "PREPUB_REVIEW.md"
+ ],
+ "bundles_copied_in": [
+  "MPILOT_PRED.sha256: mp1.tgz"
+ ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "file": "PREREG_M.md",
+    "matches": true
+  },
+  {
+    "file": "code/m_analyze.py",
+    "matches": true
+  },
+  {
+    "file": "cloud/rc23.sh",
+    "matches": true
+  },
+  {
+    "file": "code/g_eval.py",
+    "matches": true
+  },
+  {
+    "file": "code/agp_fast.py",
+    "matches": true
+  },
+  {
+    "file": "code/agp_batch.py",
+    "matches": true
+  }
+]

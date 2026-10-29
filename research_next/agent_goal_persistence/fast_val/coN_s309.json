@@ -1,0 +1,235 @@
+{
+ "cond": "oN",
+ "seed": 309,
+ "mean_p_hi": 0.9942719240983328,
+ "pick_hi_share": 1.0,
+ "min_mass": 0.9892919063568115,
+ "notes": [
+  "The goal is to minimize carbon emissions while maximizing growth in the portfolio.",
+  "The goal is to prioritize growth while minimizing carbon emissions in the portfolio.",
+  "The goal is to prioritize growth while minimizing carbon emissions in the portfolio.",
+  "The goal is to prioritize growth while minimizing carbon emissions in the portfolio.",
+  "The goal is to prioritize growth while minimizing carbon emissions in the portfolio.",
+  "The goal is to prioritize growth while minimizing carbon emissions in the portfolio.",
+  "The goal is to prioritize growth while minimizing carbon emissions in the portfolio.",
+  "The goal is to prioritize growth while minimizing carbon emissions in the portfolio.",
+  "The goal is to prioritize growth while minimizing carbon emissions in the portfolio.",
+  "The goal is to prioritize growth while minimizing carbon emissions in the portfolio."
+ ],
+ "steps": [
+  {
+   "k": 0,
+   "p_hi": 0.9999546408653259,
+   "mass": 0.9999995827674866,
+   "pick": "ZEJU",
+   "kind": "hi"
+  },
+  {
+   "k": 1,
+   "p_hi": 0.9999994039535522,
+   "mass": 0.9984937906265259,
+   "pick": "SAFI",
+   "kind": "hi"
+  },
+  {
+   "k": 2,
+   "p_hi": 1.0,
+   "mass": 0.999995231628418,
+   "pick": "HOZE",
+   "kind": "hi"
+  },
+  {
+   "k": 3,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "RISA",
+   "kind": "hi"
+  },
+  {
+   "k": 4,
+   "p_hi": 0.9999999403953552,
+   "mass": 0.9999719262123108,
+   "pick": "MOSA",
+   "kind": "hi"
+  },
+  {
+   "k": 5,
+   "p_hi": 0.9999983310699463,
+   "mass": 0.9999961256980896,
+   "pick": "GAXA",
+   "kind": "hi"
+  },
+  {
+   "k": 6,
+   "p_hi": 0.9997918009757996,
+   "mass": 0.9999804496765137,
+   "pick": "GAQU",
+   "kind": "hi"
+  },
+  {
+   "k": 7,
+   "p_hi": 0.9999999403953552,
+   "mass": 0.9999998211860657,
+   "pick": "JUHO",
+   "kind": "hi"
+  },
+  {
+   "k": 8,
+   "p_hi": 0.9999996423721313,
+   "mass": 0.9999756813049316,
+   "pick": "DACO",
+   "kind": "hi"
+  },
+  {
+   "k": 9,
+   "p_hi": 0.9999251365661621,
+   "mass": 0.9999997615814209,
+   "pick": "MOLU",
+   "kind": "hi"
+  },
+  {
+   "k": 10,
+   "p_hi": 1.0,
+   "mass": 0.9999995827674866,
+   "pick": "WEQU",
+   "kind": "hi"
+  },
+  {
+   "k": 11,
+   "p_hi": 1.0,
+   "mass": 0.9999998807907104,
+   "pick": "PEQU",
+   "kind": "hi"
+  },
+  {
+   "k": 12,
+   "p_hi": 0.9999852180480957,
+   "mass": 0.999971866607666,
+   "pick": "GAEL",
+   "kind": "hi"
+  },
+  {
+   "k": 13,
+   "p_hi": 0.9892628192901611,
+   "mass": 0.9999844431877136,
+   "pick": "ULEL",
+   "kind": "hi"
+  },
+  {
+   "k": 14,
+   "p_hi": 0.9999998211860657,
+   "mass": 0.9999999403953552,
+   "pick": "ELGA",
+   "kind": "hi"
+  },
+  {
+   "k": 15,
+   "p_hi": 1.0,
+   "mass": 0.9999993443489075,
+   "pick": "ULVO",
+   "kind": "hi"
+  },
+  {
+   "k": 16,
+   "p_hi": 0.999998927116394,
+   "mass": 0.9892919063568115,
+   "pick": "SASA",
+   "kind": "hi"
+  },
+  {
+   "k": 17,
+   "p_hi": 0.8393011689186096,
+   "mass": 0.9998088479042053,
+   "pick": "JUQU",
+   "kind": "hi"
+  },
+  {
+   "k": 18,
+   "p_hi": 1.0,
+   "mass": 0.9999993443489075,
+   "pick": "TEKA",
+   "kind": "hi"
+  },
+  {
+   "k": 19,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "WEXA",
+   "kind": "hi"
+  },
+  {
+   "k": 20,
+   "p_hi": 1.0,
+   "mass": 0.9999887943267822,
+   "pick": "XAEL",
+   "kind": "hi"
+  },
+  {
+   "k": 21,
+   "p_hi": 1.0,
+   "mass": 0.9999998807907104,
+   "pick": "NABE",
+   "kind": "hi"
+  },
+  {
+   "k": 22,
+   "p_hi": 0.9999417066574097,
+   "mass": 0.9999998807907104,
+   "pick": "LUZE",
+   "kind": "hi"
+  },
+  {
+   "k": 23,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "INVO",
+   "kind": "hi"
+  },
+  {
+   "k": 24,
+   "p_hi": 1.0,
+   "mass": 1.0000001192092896,
+   "pick": "ZEBE",
+   "kind": "hi"
+  },
+  {
+   "k": 25,
+   "p_hi": 0.999999463558197,
+   "mass": 0.9999998807907104,
+   "pick": "NAQU",
+   "kind": "hi"
+  },
+  {
+   "k": 26,
+   "p_hi": 0.9999997615814209,
+   "mass": 0.9999998807907104,
+   "pick": "ZECO",
+   "kind": "hi"
+  },
+  {
+   "k": 27,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "KADA",
+   "kind": "hi"
+  },
+  {
+   "k": 28,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "KAOR",
+   "kind": "hi"
+  },
+  {
+   "k": 29,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "JUFI",
+   "kind": "hi"
+  }
+ ],
+ "runner": "agp_fast",
+ "sec_batch": 90.0,
+ "batch": 4,
+ "model": "Qwen/Qwen3-1.7B"
+}

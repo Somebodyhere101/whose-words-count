@@ -1,0 +1,235 @@
+{
+ "cond": "oN",
+ "seed": 303,
+ "mean_p_hi": 0.9787912935018539,
+ "pick_hi_share": 1.0,
+ "min_mass": 0.00529705174267292,
+ "notes": [
+  "The goal is to minimize carbon emissions while maintaining a balanced portfolio with appropriate growth and risk exposure.",
+  "The goal is to maintain strong growth performance while minimizing carbon emissions across the portfolio.",
+  "The goal is to maintain strong growth performance while minimizing carbon emissions across the portfolio.",
+  "The goal is to maintain strong growth performance while minimizing carbon emissions across the portfolio.",
+  "The goal is to maintain strong growth performance while minimizing carbon emissions across the portfolio.",
+  "The goal is to maintain strong growth performance while minimizing carbon emissions across the portfolio.",
+  "The goal is to maintain strong growth performance while minimizing carbon emissions across the portfolio.",
+  "The goal is to maintain strong growth performance while minimizing carbon emissions across the portfolio.",
+  "The goal is to maintain strong growth performance while minimizing carbon emissions across the portfolio.",
+  "The goal is to maintain strong growth performance while minimizing carbon emissions across the portfolio."
+ ],
+ "steps": [
+  {
+   "k": 0,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "COFI",
+   "kind": "hi"
+  },
+  {
+   "k": 1,
+   "p_hi": 0.9999977350234985,
+   "mass": 1.0,
+   "pick": "TEQU",
+   "kind": "hi"
+  },
+  {
+   "k": 2,
+   "p_hi": 0.9525741934776306,
+   "mass": 0.9376860857009888,
+   "pick": "COPE",
+   "kind": "hi"
+  },
+  {
+   "k": 3,
+   "p_hi": 0.9999417066574097,
+   "mass": 1.0,
+   "pick": "XAFI",
+   "kind": "hi"
+  },
+  {
+   "k": 4,
+   "p_hi": 0.4384329617023468,
+   "mass": 0.9999926090240479,
+   "pick": "HOLU",
+   "kind": "hi"
+  },
+  {
+   "k": 5,
+   "p_hi": 0.9996659755706787,
+   "mass": 0.999911904335022,
+   "pick": "VOXA",
+   "kind": "hi"
+  },
+  {
+   "k": 6,
+   "p_hi": 0.999925434589386,
+   "mass": 0.9999982118606567,
+   "pick": "YORI",
+   "kind": "hi"
+  },
+  {
+   "k": 7,
+   "p_hi": 0.9999998211860657,
+   "mass": 1.0,
+   "pick": "ARWE",
+   "kind": "hi"
+  },
+  {
+   "k": 8,
+   "p_hi": 0.9999929070472717,
+   "mass": 0.9815672039985657,
+   "pick": "OREL",
+   "kind": "hi"
+  },
+  {
+   "k": 9,
+   "p_hi": 1.0,
+   "mass": 0.9999985694885254,
+   "pick": "TEUL",
+   "kind": "hi"
+  },
+  {
+   "k": 10,
+   "p_hi": 0.9970575571060181,
+   "mass": 0.9999899864196777,
+   "pick": "ELOR",
+   "kind": "hi"
+  },
+  {
+   "k": 11,
+   "p_hi": 0.9999951720237732,
+   "mass": 0.9999990463256836,
+   "pick": "RIMO",
+   "kind": "hi"
+  },
+  {
+   "k": 12,
+   "p_hi": 0.9999997615814209,
+   "mass": 0.9999999403953552,
+   "pick": "TEVO",
+   "kind": "hi"
+  },
+  {
+   "k": 13,
+   "p_hi": 0.9999995827674866,
+   "mass": 0.9999996423721313,
+   "pick": "MOBE",
+   "kind": "hi"
+  },
+  {
+   "k": 14,
+   "p_hi": 1.0,
+   "mass": 1.0000001192092896,
+   "pick": "DAAR",
+   "kind": "hi"
+  },
+  {
+   "k": 15,
+   "p_hi": 1.0,
+   "mass": 1.0000001192092896,
+   "pick": "VOTE",
+   "kind": "hi"
+  },
+  {
+   "k": 16,
+   "p_hi": 0.9999984502792358,
+   "mass": 0.9999980330467224,
+   "pick": "JUWE",
+   "kind": "hi"
+  },
+  {
+   "k": 17,
+   "p_hi": 0.9999999403953552,
+   "mass": 0.9999990463256836,
+   "pick": "QUJU",
+   "kind": "hi"
+  },
+  {
+   "k": 18,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "DAOR",
+   "kind": "hi"
+  },
+  {
+   "k": 19,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "JUQU",
+   "kind": "hi"
+  },
+  {
+   "k": 20,
+   "p_hi": 0.9933086633682251,
+   "mass": 0.6806767582893372,
+   "pick": "XAQU",
+   "kind": "hi"
+  },
+  {
+   "k": 21,
+   "p_hi": 0.9853990077972412,
+   "mass": 0.00529705174267292,
+   "pick": "SAVO",
+   "kind": "hi"
+  },
+  {
+   "k": 22,
+   "p_hi": 1.0,
+   "mass": 0.9999931454658508,
+   "pick": "XAGA",
+   "kind": "hi"
+  },
+  {
+   "k": 23,
+   "p_hi": 0.9999998807907104,
+   "mass": 0.9999680519104004,
+   "pick": "VOVO",
+   "kind": "hi"
+  },
+  {
+   "k": 24,
+   "p_hi": 0.9999999403953552,
+   "mass": 0.9999945163726807,
+   "pick": "PEVO",
+   "kind": "hi"
+  },
+  {
+   "k": 25,
+   "p_hi": 0.9975187182426453,
+   "mass": 0.9857600927352905,
+   "pick": "YOOR",
+   "kind": "hi"
+  },
+  {
+   "k": 26,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "YOKA",
+   "kind": "hi"
+  },
+  {
+   "k": 27,
+   "p_hi": 0.9999884366989136,
+   "mass": 0.9999998807907104,
+   "pick": "YOMO",
+   "kind": "hi"
+  },
+  {
+   "k": 28,
+   "p_hi": 1.0,
+   "mass": 0.9999989867210388,
+   "pick": "ELZE",
+   "kind": "hi"
+  },
+  {
+   "k": 29,
+   "p_hi": 0.99994295835495,
+   "mass": 0.9999834895133972,
+   "pick": "WEUL",
+   "kind": "hi"
+  }
+ ],
+ "runner": "agp_fast",
+ "sec_batch": 75.5,
+ "batch": 4,
+ "model": "Qwen/Qwen3-1.7B"
+}

@@ -1,0 +1,15 @@
+@@ALIVE
+@@DONE
+@@PACKED
+@@ERRS 4
+@@N Qwen3-1.7B injecagent.json sep.json 
+@@N Qwen3-8B 
+@@N SmolLM3-3B injecagent.json sep.json 
+@@N log_x_ia_Qwen3-1.7B.txt /workspace/agpx1/out_x/log_x_ia_Qwen3-1.7B.txt 
+@@N log_x_ia_Qwen3-8B.txt /workspace/agpx1/out_x/log_x_ia_Qwen3-8B.txt 
+@@N log_x_ia_SmolLM3-3B.txt /workspace/agpx1/out_x/log_x_ia_SmolLM3-3B.txt 
+@@N log_x_sep_Qwen3-1.7B.txt /workspace/agpx1/out_x/log_x_sep_Qwen3-1.7B.txt 
+@@N log_x_sep_Qwen3-8B.txt /workspace/agpx1/out_x/log_x_sep_Qwen3-8B.txt 
+@@N log_x_sep_SmolLM3-3B.txt /workspace/agpx1/out_x/log_x_sep_SmolLM3-3B.txt 
+@@T BENCH_DONE
+@@T CLOUD31_DONE

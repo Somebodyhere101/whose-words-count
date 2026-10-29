@@ -1,0 +1,11 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/707 [00:00<?, ?it/s]Loading weights:  93%|█████████▎| 659/707 [00:00<00:00, 6589.06it/s]Loading weights: 100%|██████████| 707/707 [00:00<00:00, 5360.44it/s]
+sep none done 140 s
+sep DEF done 277 s
+sep RND done 415 s
+sep P done 556 s
+sep SPOT done 715 s
+sep REMIND done 857 s
+sep DEF+P done 998 s
+sep DEF+SPOT done 1158 s
+BENCH_DONE

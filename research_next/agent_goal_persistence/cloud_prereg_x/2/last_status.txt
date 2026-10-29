@@ -1,0 +1,14 @@
+@@ALIVE
+@@DONE
+@@ERRS 2
+@@N OLMo-2-1124-7B-Instruct injecagent.json sep.json 
+@@N granite-3.3-8b-instruct sep.json 
+@@N log_x_ia_OLMo-2-1124-7B-Instruct.txt /workspace/agpx2/out_x/log_x_ia_OLMo-2-1124-7B-Instruct.txt 
+@@N log_x_ia_granite-3.3-8b-instruct.txt /workspace/agpx2/out_x/log_x_ia_granite-3.3-8b-instruct.txt 
+@@N log_x_ia_phi-4.txt /workspace/agpx2/out_x/log_x_ia_phi-4.txt 
+@@N log_x_sep_OLMo-2-1124-7B-Instruct.txt /workspace/agpx2/out_x/log_x_sep_OLMo-2-1124-7B-Instruct.txt 
+@@N log_x_sep_granite-3.3-8b-instruct.txt /workspace/agpx2/out_x/log_x_sep_granite-3.3-8b-instruct.txt 
+@@N log_x_sep_phi-4.txt /workspace/agpx2/out_x/log_x_sep_phi-4.txt 
+@@N phi-4 injecagent.json sep.json 
+@@T BENCH_DONE
+@@T CLOUD31_DONE

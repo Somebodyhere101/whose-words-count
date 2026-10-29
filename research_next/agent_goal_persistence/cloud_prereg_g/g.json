@@ -1,0 +1,396 @@
+{
+ "verdict": "FAIL",
+ "passed": {
+  "Qwen3-8B": false,
+  "Qwen3-14B": false
+ },
+ "models": {
+  "Qwen3-8B": {
+   "C1_vs_system": {
+    "mean": 0.0325,
+    "p": 5e-05,
+    "ci95": [
+     0.0203,
+     0.0471
+    ],
+    "pos": 59,
+    "neg": 1,
+    "p_holm": 0.0001
+   },
+   "C2_vs_user": {
+    "mean": -0.0218,
+    "p": 5e-05,
+    "ci95": [
+     -0.0304,
+     -0.0137
+    ],
+    "pos": 12,
+    "neg": 48,
+    "p_holm": 0.0001
+   },
+   "C3_vs_random": {
+    "mean": 0.093,
+    "p": 5e-05,
+    "ci95": [
+     0.0734,
+     0.1156
+    ],
+    "pos": 59,
+    "neg": 1
+   },
+   "contra_change": -0.0008,
+   "mass_ratio": 1.001,
+   "max_ctx": 5234,
+   "means": {
+    "1_base": {
+     "goal": 0.1244,
+     "press": 0.8686,
+     "contra": 0.0004
+    },
+    "gF_base": {
+     "goal": 0.8936,
+     "press": 0.1016,
+     "contra": 0.0019
+    },
+    "gF_boost": {
+     "goal": 0.9402,
+     "press": 0.0562,
+     "contra": 0.0007
+    },
+    "gF_randboost": {
+     "goal": 0.8672,
+     "press": 0.1267,
+     "contra": 0.0023
+    },
+    "oF_base": {
+     "goal": 0.8633,
+     "press": 0.1326,
+     "contra": 0.0016
+    },
+    "oF_dir": {
+     "goal": 0.9261,
+     "press": 0.0704,
+     "contra": 0.0007
+    },
+    "oF_rand": {
+     "goal": 0.8331,
+     "press": 0.1624,
+     "contra": 0.0023
+    },
+    "uF_base": {
+     "goal": 0.9478,
+     "press": 0.0486,
+     "contra": 0.0016
+    }
+   },
+   "boost_vs_system": {
+    "mean": 0.0467,
+    "p": 5e-05,
+    "ci95": [
+     0.0316,
+     0.0648
+    ],
+    "pos": 59,
+    "neg": 1
+   },
+   "boost_vs_user": {
+    "mean": -0.0076,
+    "p": 0.00525,
+    "ci95": [
+     -0.013,
+     -0.0025
+    ],
+    "pos": 19,
+    "neg": 41
+   },
+   "boost_vs_random": {
+    "mean": 0.073,
+    "p": 5e-05,
+    "ci95": [
+     0.0531,
+     0.0965
+    ],
+    "pos": 59,
+    "neg": 1
+   },
+   "natural_gap_gF_minus_oF": {
+    "mean": 0.0303,
+    "p": 5e-05,
+    "ci95": [
+     0.0196,
+     0.0426
+    ],
+    "pos": 55,
+    "neg": 5
+   },
+   "user_minus_system": {
+    "mean": 0.0542,
+    "p": 5e-05,
+    "ci95": [
+     0.0389,
+     0.0722
+    ],
+    "pos": 58,
+    "neg": 2
+   },
+   "pass": false
+  },
+  "Qwen3-14B": {
+   "C1_vs_system": {
+    "mean": 0.022,
+    "p": 5e-05,
+    "ci95": [
+     0.01,
+     0.0372
+    ],
+    "pos": 57,
+    "neg": 3,
+    "p_holm": 0.0001
+   },
+   "C2_vs_user": {
+    "mean": -0.0107,
+    "p": 0.11534,
+    "ci95": [
+     -0.0256,
+     0.0002
+    ],
+    "pos": 26,
+    "neg": 34,
+    "p_holm": 0.11534
+   },
+   "C3_vs_random": {
+    "mean": 0.1359,
+    "p": 5e-05,
+    "ci95": [
+     0.0929,
+     0.1819
+    ],
+    "pos": 60,
+    "neg": 0
+   },
+   "contra_change": -0.0,
+   "mass_ratio": 1.0011,
+   "max_ctx": 5214,
+   "means": {
+    "1_base": {
+     "goal": 0.562,
+     "press": 0.4368,
+     "contra": 0.0
+    },
+    "gF_base": {
+     "goal": 0.9243,
+     "press": 0.0743,
+     "contra": 0.0
+    },
+    "gF_boost": {
+     "goal": 0.967,
+     "press": 0.0313,
+     "contra": 0.0
+    },
+    "gF_randboost": {
+     "goal": 0.8745,
+     "press": 0.1243,
+     "contra": 0.0
+    },
+    "oF_base": {
+     "goal": 0.8659,
+     "press": 0.1328,
+     "contra": 0.0
+    },
+    "oF_dir": {
+     "goal": 0.9463,
+     "press": 0.0523,
+     "contra": 0.0
+    },
+    "oF_rand": {
+     "goal": 0.8104,
+     "press": 0.1878,
+     "contra": 0.0
+    },
+    "uF_base": {
+     "goal": 0.957,
+     "press": 0.0413,
+     "contra": 0.0
+    }
+   },
+   "boost_vs_system": {
+    "mean": 0.0427,
+    "p": 5e-05,
+    "ci95": [
+     0.0252,
+     0.0627
+    ],
+    "pos": 60,
+    "neg": 0
+   },
+   "boost_vs_user": {
+    "mean": 0.01,
+    "p": 5e-05,
+    "ci95": [
+     0.0053,
+     0.0156
+    ],
+    "pos": 53,
+    "neg": 7
+   },
+   "boost_vs_random": {
+    "mean": 0.0925,
+    "p": 5e-05,
+    "ci95": [
+     0.0595,
+     0.1294
+    ],
+    "pos": 60,
+    "neg": 0
+   },
+   "natural_gap_gF_minus_oF": {
+    "mean": 0.0583,
+    "p": 5e-05,
+    "ci95": [
+     0.0336,
+     0.0868
+    ],
+    "pos": 60,
+    "neg": 0
+   },
+   "user_minus_system": {
+    "mean": 0.0327,
+    "p": 5e-05,
+    "ci95": [
+     0.017,
+     0.0514
+    ],
+    "pos": 59,
+    "neg": 1
+   },
+   "pass": false
+  },
+  "OLMo-2-1124-7B-Instruct": {
+   "C1_vs_system": {
+    "mean": -0.0223,
+    "p": 0.0017,
+    "ci95": [
+     -0.0363,
+     -0.0091
+    ],
+    "pos": 23,
+    "neg": 37
+   },
+   "C2_vs_user": {
+    "mean": -0.116,
+    "p": 5e-05,
+    "ci95": [
+     -0.1324,
+     -0.0997
+    ],
+    "pos": 0,
+    "neg": 60
+   },
+   "C3_vs_random": {
+    "mean": 0.068,
+    "p": 5e-05,
+    "ci95": [
+     0.054,
+     0.0842
+    ],
+    "pos": 60,
+    "neg": 0
+   },
+   "contra_change": -0.0086,
+   "mass_ratio": 1.0003,
+   "max_ctx": 3692,
+   "means": {
+    "1_base": {
+     "goal": 0.1052,
+     "press": 0.7057,
+     "contra": 0.0419
+    },
+    "gF_base": {
+     "goal": 0.7262,
+     "press": 0.0821,
+     "contra": 0.124
+    },
+    "gF_boost": {
+     "goal": 0.764,
+     "press": 0.0642,
+     "contra": 0.1169
+    },
+    "gF_randboost": {
+     "goal": 0.7267,
+     "press": 0.0825,
+     "contra": 0.1223
+    },
+    "oF_base": {
+     "goal": 0.637,
+     "press": 0.1524,
+     "contra": 0.1184
+    },
+    "oF_dir": {
+     "goal": 0.7039,
+     "press": 0.1093,
+     "contra": 0.1098
+    },
+    "oF_rand": {
+     "goal": 0.6359,
+     "press": 0.1558,
+     "contra": 0.116
+    },
+    "uF_base": {
+     "goal": 0.8199,
+     "press": 0.0328,
+     "contra": 0.1166
+    }
+   },
+   "boost_vs_system": {
+    "mean": 0.0379,
+    "p": 5e-05,
+    "ci95": [
+     0.031,
+     0.0449
+    ],
+    "pos": 58,
+    "neg": 2
+   },
+   "boost_vs_user": {
+    "mean": -0.0559,
+    "p": 5e-05,
+    "ci95": [
+     -0.066,
+     -0.0458
+    ],
+    "pos": 5,
+    "neg": 55
+   },
+   "boost_vs_random": {
+    "mean": 0.0373,
+    "p": 5e-05,
+    "ci95": [
+     0.0307,
+     0.0441
+    ],
+    "pos": 57,
+    "neg": 3
+   },
+   "natural_gap_gF_minus_oF": {
+    "mean": 0.0892,
+    "p": 5e-05,
+    "ci95": [
+     0.0674,
+     0.1131
+    ],
+    "pos": 55,
+    "neg": 5
+   },
+   "user_minus_system": {
+    "mean": 0.0937,
+    "p": 5e-05,
+    "ci95": [
+     0.081,
+     0.1067
+    ],
+    "pos": 60,
+    "neg": 0
+   }
+  }
+ }
+}

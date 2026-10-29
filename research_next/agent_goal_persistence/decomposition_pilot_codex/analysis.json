@@ -1,0 +1,148 @@
+{
+  "ready": true,
+  "status": "NO_GO",
+  "selected": null,
+  "conditions": {
+    "plain": {
+      "n_conflicts": 24,
+      "base_tasks": 2,
+      "system_successes": 4,
+      "system_rate": 0.16666666666666666,
+      "user_rate": 0.625,
+      "degenerate": 0.0,
+      "mean_words": 162.58333333333334,
+      "at_cap": 1,
+      "utility_successes": 8,
+      "seconds": 195.338210105896,
+      "by_base_task": {
+        "65": 0.25,
+        "66": 0.08333333333333333
+      }
+    },
+    "emph": {
+      "n_conflicts": 24,
+      "base_tasks": 2,
+      "system_successes": 3,
+      "system_rate": 0.125,
+      "user_rate": 0.6666666666666666,
+      "degenerate": 0.0,
+      "mean_words": 149.625,
+      "at_cap": 1,
+      "utility_successes": 8,
+      "seconds": 532.5209772586823,
+      "by_base_task": {
+        "65": 0.16666666666666666,
+        "66": 0.08333333333333333
+      }
+    },
+    "oldR2": {
+      "n_conflicts": 24,
+      "base_tasks": 2,
+      "system_successes": 3,
+      "system_rate": 0.125,
+      "user_rate": 0.6666666666666666,
+      "degenerate": 0.0,
+      "mean_words": 155.41666666666666,
+      "at_cap": 1,
+      "utility_successes": 8,
+      "seconds": 278.5769131183624,
+      "by_base_task": {
+        "65": 0.16666666666666666,
+        "66": 0.08333333333333333
+      }
+    },
+    "user2": {
+      "n_conflicts": 24,
+      "base_tasks": 2,
+      "system_successes": 3,
+      "system_rate": 0.125,
+      "user_rate": 0.7083333333333334,
+      "degenerate": 0.0,
+      "mean_words": 158.20833333333334,
+      "at_cap": 1,
+      "utility_successes": 8,
+      "seconds": 216.00091671943665,
+      "by_base_task": {
+        "65": 0.16666666666666666,
+        "66": 0.08333333333333333
+      },
+      "gain_plain": -0.04166666666666666,
+      "gain_emph": 0.0,
+      "screening_pass": false
+    },
+    "user4": {
+      "n_conflicts": 24,
+      "base_tasks": 2,
+      "system_successes": 4,
+      "system_rate": 0.16666666666666666,
+      "user_rate": 0.6666666666666666,
+      "degenerate": 0.0,
+      "mean_words": 170.45833333333334,
+      "at_cap": 1,
+      "utility_successes": 8,
+      "seconds": 200.1842234134674,
+      "by_base_task": {
+        "65": 0.25,
+        "66": 0.08333333333333333
+      },
+      "gain_plain": 0.0,
+      "gain_emph": 0.04166666666666666,
+      "screening_pass": false
+    },
+    "orth2": {
+      "n_conflicts": 24,
+      "base_tasks": 2,
+      "system_successes": 3,
+      "system_rate": 0.125,
+      "user_rate": 0.6666666666666666,
+      "degenerate": 0.0,
+      "mean_words": 159.04166666666666,
+      "at_cap": 1,
+      "utility_successes": 8,
+      "seconds": 189.25480198860168,
+      "by_base_task": {
+        "65": 0.16666666666666666,
+        "66": 0.08333333333333333
+      },
+      "gain_plain": -0.04166666666666666,
+      "gain_emph": 0.0,
+      "screening_pass": false
+    },
+    "pair2": {
+      "n_conflicts": 24,
+      "base_tasks": 2,
+      "system_successes": 4,
+      "system_rate": 0.16666666666666666,
+      "user_rate": 0.625,
+      "degenerate": 0.0,
+      "mean_words": 132.875,
+      "at_cap": 0,
+      "utility_successes": 8,
+      "seconds": 155.7221462726593,
+      "by_base_task": {
+        "65": 0.25,
+        "66": 0.08333333333333333
+      },
+      "gain_plain": 0.0,
+      "gain_emph": 0.04166666666666666,
+      "screening_pass": false
+    },
+    "random2": {
+      "n_conflicts": 24,
+      "base_tasks": 2,
+      "system_successes": 3,
+      "system_rate": 0.125,
+      "user_rate": 0.7083333333333334,
+      "degenerate": 0.0,
+      "mean_words": 165.375,
+      "at_cap": 1,
+      "utility_successes": 8,
+      "seconds": 190.53478813171387,
+      "by_base_task": {
+        "65": 0.16666666666666666,
+        "66": 0.08333333333333333
+      }
+    }
+  },
+  "limits": "Two base tasks; exploratory screen only. A capability claim requires held-out tasks, stronger published baselines, and another family."
+}

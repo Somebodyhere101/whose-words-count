@@ -1,0 +1,2 @@
+addr_q4b: gap 5.795 | proj model -7.719 plain -8.192 third -9.008 | third-model -1.289 CI [-1.331,-1.247] = -0.22 x gap | p_code model 0.331 plain 0.812 third 0.000 -> INCONCLUSIVE
+addr_q17: gap 17.188 | proj model -16.721 plain -18.535 third -19.228 | third-model -2.506 CI [-2.588,-2.424] = -0.15 x gap | p_code model 0.000 plain 0.000 third 0.000 -> INCONCLUSIVE

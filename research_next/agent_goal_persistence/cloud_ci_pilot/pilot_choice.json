@@ -1,0 +1,89 @@
+{
+ "go": false,
+ "models": {
+  "OLMo-2-1124-7B-Instruct": {
+   "conditions": {
+    "emph": {
+     "n": 180,
+     "met1": 0.239,
+     "met2": 0.333,
+     "degenerate": 0.0,
+     "words": 141.2
+    },
+    "plain": {
+     "n": 180,
+     "met1": 0.233,
+     "met2": 0.428,
+     "degenerate": 0.0,
+     "words": 152.0
+    },
+    "steer2": {
+     "n": 180,
+     "met1": 0.233,
+     "met2": 0.45,
+     "degenerate": 0.0,
+     "words": 153.9
+    },
+    "steer4": {
+     "n": 180,
+     "met1": 0.139,
+     "met2": 0.583,
+     "degenerate": 0.0,
+     "words": 158.0
+    },
+    "steer8": {
+     "n": 180,
+     "met1": 0.033,
+     "met2": 0.772,
+     "degenerate": 0.0,
+     "words": 168.7
+    }
+   },
+   "best": "steer2",
+   "alpha": 2.0,
+   "gain_vs_plain": 0.0
+  },
+  "Qwen3-8B": {
+   "conditions": {
+    "emph": {
+     "n": 180,
+     "met1": 0.072,
+     "met2": 0.717,
+     "degenerate": 0.0,
+     "words": 156.5
+    },
+    "plain": {
+     "n": 180,
+     "met1": 0.044,
+     "met2": 0.722,
+     "degenerate": 0.0,
+     "words": 171.1
+    },
+    "steer2": {
+     "n": 180,
+     "met1": 0.067,
+     "met2": 0.728,
+     "degenerate": 0.0,
+     "words": 170.7
+    },
+    "steer4": {
+     "n": 180,
+     "met1": 0.05,
+     "met2": 0.75,
+     "degenerate": 0.0,
+     "words": 176.2
+    },
+    "steer8": {
+     "n": 180,
+     "met1": 0.022,
+     "met2": 0.839,
+     "degenerate": 0.0,
+     "words": 177.4
+    }
+   },
+   "best": "steer2",
+   "alpha": 2.0,
+   "gain_vs_plain": 0.023
+  }
+ }
+}

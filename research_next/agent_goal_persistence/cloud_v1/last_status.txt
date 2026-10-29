@@ -1,0 +1,11 @@
+@@ALIVE
+@@DONE
+@@PACKED
+@@ERRS 0
+@@L *.txt 
+@@R   "obs-input|0.55|4",
+@@R   "obs-input|0.65|4",
+@@R   "obs-input|0.65|8"
+@@R   "obs-input|0.35|4": -0.2361,
+@@R   "obs-input|0.35|8": -0.2735,
+@@R   "obs-input|0.45|4": -0.1857,

@@ -1,0 +1,1 @@
+{"cond": "u:s0", "seed": 9993, "mean_p_hi": 0.7972194019451333, "pick_hi_share": 0.8, "min_mass": 0.9626803994178772, "notes": [], "runner": "agp_fast", "sec_batch": 303.0, "batch": 4, "model": "Qwen/Qwen3-8B", "header": "Your own plan for this fund:"}

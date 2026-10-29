@@ -1,0 +1,12 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 7179.35it/s]
+base done 47 s
+DEF done 60 s
+RND done 73 s
+P done 88 s
+SPOT done 105 s
+REMIND done 115 s
+usr done 125 s
+usr_P done 135 s
+usr_SPOT done 141 s
+DEFV_DONE

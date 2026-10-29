@@ -1,0 +1,224 @@
+{
+ "cond": "1",
+ "seed": 310,
+ "mean_p_hi": 0.9999996066093445,
+ "pick_hi_share": 1.0,
+ "min_mass": 0.9914206266403198,
+ "notes": [],
+ "steps": [
+  {
+   "k": 0,
+   "p_hi": 1.0,
+   "mass": 0.99806809425354,
+   "pick": "PEXA",
+   "kind": "hi"
+  },
+  {
+   "k": 1,
+   "p_hi": 0.9999998807907104,
+   "mass": 0.9999998807907104,
+   "pick": "COUL",
+   "kind": "hi"
+  },
+  {
+   "k": 2,
+   "p_hi": 1.0,
+   "mass": 0.9999995231628418,
+   "pick": "XAOR",
+   "kind": "hi"
+  },
+  {
+   "k": 3,
+   "p_hi": 1.0,
+   "mass": 0.9999992847442627,
+   "pick": "TESA",
+   "kind": "hi"
+  },
+  {
+   "k": 4,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "YOLU",
+   "kind": "hi"
+  },
+  {
+   "k": 5,
+   "p_hi": 1.0,
+   "mass": 0.9999827742576599,
+   "pick": "WEKA",
+   "kind": "hi"
+  },
+  {
+   "k": 6,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "ZEHO",
+   "kind": "hi"
+  },
+  {
+   "k": 7,
+   "p_hi": 1.0,
+   "mass": 0.9999996423721313,
+   "pick": "HOBE",
+   "kind": "hi"
+  },
+  {
+   "k": 8,
+   "p_hi": 1.0,
+   "mass": 0.9999957084655762,
+   "pick": "VOBE",
+   "kind": "hi"
+  },
+  {
+   "k": 9,
+   "p_hi": 0.9999999403953552,
+   "mass": 0.9999995231628418,
+   "pick": "COCO",
+   "kind": "hi"
+  },
+  {
+   "k": 10,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "QULU",
+   "kind": "hi"
+  },
+  {
+   "k": 11,
+   "p_hi": 1.0,
+   "mass": 0.9999991059303284,
+   "pick": "YOIN",
+   "kind": "hi"
+  },
+  {
+   "k": 12,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "COWE",
+   "kind": "hi"
+  },
+  {
+   "k": 13,
+   "p_hi": 0.9999999403953552,
+   "mass": 0.9999997615814209,
+   "pick": "ZEXA",
+   "kind": "hi"
+  },
+  {
+   "k": 14,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "YOHO",
+   "kind": "hi"
+  },
+  {
+   "k": 15,
+   "p_hi": 1.0,
+   "mass": 0.9999998807907104,
+   "pick": "KAHO",
+   "kind": "hi"
+  },
+  {
+   "k": 16,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "ZEYO",
+   "kind": "hi"
+  },
+  {
+   "k": 17,
+   "p_hi": 0.9999999403953552,
+   "mass": 0.9914206266403198,
+   "pick": "QUMO",
+   "kind": "hi"
+  },
+  {
+   "k": 18,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "NAIN",
+   "kind": "hi"
+  },
+  {
+   "k": 19,
+   "p_hi": 0.9999999403953552,
+   "mass": 0.9999998211860657,
+   "pick": "BEYO",
+   "kind": "hi"
+  },
+  {
+   "k": 20,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "XAXA",
+   "kind": "hi"
+  },
+  {
+   "k": 21,
+   "p_hi": 1.0,
+   "mass": 1.0000001192092896,
+   "pick": "WEXA",
+   "kind": "hi"
+  },
+  {
+   "k": 22,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "JUCO",
+   "kind": "hi"
+  },
+  {
+   "k": 23,
+   "p_hi": 0.9999885559082031,
+   "mass": 0.9999995231628418,
+   "pick": "BEKA",
+   "kind": "hi"
+  },
+  {
+   "k": 24,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "DAUL",
+   "kind": "hi"
+  },
+  {
+   "k": 25,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "NANA",
+   "kind": "hi"
+  },
+  {
+   "k": 26,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "ZENA",
+   "kind": "hi"
+  },
+  {
+   "k": 27,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "YOTE",
+   "kind": "hi"
+  },
+  {
+   "k": 28,
+   "p_hi": 1.0,
+   "mass": 0.9999890327453613,
+   "pick": "SAMO",
+   "kind": "hi"
+  },
+  {
+   "k": 29,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "INTE",
+   "kind": "hi"
+  }
+ ],
+ "runner": "agp_fast",
+ "sec_batch": 35.2,
+ "batch": 2,
+ "model": "Qwen/Qwen3-4B"
+}

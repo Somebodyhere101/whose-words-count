@@ -1,0 +1,324 @@
+{
+ "hypotheses": {
+  "H1_persistence": {
+   "verdict": "NO_TREND",
+   "families": [
+    "Qwen3",
+    "Qwen2.5",
+    "OLMo-2",
+    "Falcon3"
+   ],
+   "rho": {
+    "Qwen3": -0.3,
+    "Qwen2.5": 0.8,
+    "OLMo-2": 1.0,
+    "Falcon3": 0.5
+   },
+   "T": 2.0,
+   "p": 0.12633,
+   "n_perm": 103680,
+   "p_holm": 0.25266
+  },
+  "H2_authority_sensitivity": {
+   "verdict": "NO_TREND",
+   "families": [
+    "Qwen3",
+    "Qwen2.5",
+    "OLMo-2",
+    "Falcon3"
+   ],
+   "rho": {
+    "Qwen3": 1.0,
+    "Qwen2.5": 1.0,
+    "OLMo-2": -0.5,
+    "Falcon3": 0.5
+   },
+   "T": 2.0,
+   "p": 0.12633,
+   "n_perm": 103680,
+   "p_holm": 0.25266
+  }
+ },
+ "qwen3_32b_anomaly": {
+  "n": 40,
+  "P14_minus_P32_minus_0.2": {
+   "mean": 0.36115,
+   "p": 5e-05,
+   "pos": 34,
+   "neg": 6
+  },
+  "replicates": true
+ },
+ "models": {
+  "Qwen3-1.7B": {
+   "family": "Qwen3",
+   "size_b": 1.7,
+   "n": 60,
+   "mass": 0.9517,
+   "response": {
+    "mean": 0.86422,
+    "p": 5e-05,
+    "pos": 60,
+    "neg": 0
+   },
+   "P": 0.8796,
+   "A": 0.0165,
+   "none": 0.0154,
+   "u-g": 0.0133,
+   "g-o": 0.0032,
+   "status": "GATED"
+  },
+  "Qwen3-4B": {
+   "family": "Qwen3",
+   "size_b": 4,
+   "n": 60,
+   "mass": 0.9618,
+   "response": {
+    "mean": 0.6207,
+    "p": 5e-05,
+    "pos": 60,
+    "neg": 0
+   },
+   "P": 0.7626,
+   "A": 0.0912,
+   "none": 0.1419,
+   "u-g": 0.0639,
+   "g-o": 0.0273,
+   "status": "GATED"
+  },
+  "Qwen3-8B": {
+   "family": "Qwen3",
+   "size_b": 8,
+   "n": 60,
+   "mass": 0.9868,
+   "response": {
+    "mean": 0.76516,
+    "p": 5e-05,
+    "pos": 60,
+    "neg": 0
+   },
+   "P": 0.8432,
+   "A": 0.0976,
+   "none": 0.0781,
+   "u-g": 0.0667,
+   "g-o": 0.031,
+   "status": "GATED"
+  },
+  "Qwen3-14B": {
+   "family": "Qwen3",
+   "size_b": 14,
+   "n": 60,
+   "mass": 0.9901,
+   "response": {
+    "mean": 0.41539,
+    "p": 5e-05,
+    "pos": 60,
+    "neg": 0
+   },
+   "P": 0.8876,
+   "A": 0.1025,
+   "none": 0.4722,
+   "u-g": 0.0326,
+   "g-o": 0.0698,
+   "status": "GATED"
+  },
+  "Qwen3-32B": {
+   "family": "Qwen3",
+   "size_b": 32,
+   "n": 40,
+   "mass": 0.9921,
+   "response": {
+    "mean": 0.27981,
+    "p": 5e-05,
+    "pos": 40,
+    "neg": 0
+   },
+   "P": 0.3376,
+   "A": 0.3756,
+   "none": 0.0578,
+   "u-g": 0.2453,
+   "g-o": 0.1303,
+   "status": "GATED"
+  },
+  "Qwen2.5-3B-Instruct": {
+   "family": "Qwen2.5",
+   "size_b": 3,
+   "n": 60,
+   "mass": 0.9545,
+   "response": {
+    "mean": 0.48715,
+    "p": 5e-05,
+    "pos": 60,
+    "neg": 0
+   },
+   "P": 0.5263,
+   "A": 0.1509,
+   "none": 0.0391,
+   "u-g": 0.0719,
+   "g-o": 0.079,
+   "status": "GATED"
+  },
+  "Qwen2.5-7B-Instruct": {
+   "family": "Qwen2.5",
+   "size_b": 7,
+   "n": 60,
+   "mass": 0.9812,
+   "response": {
+    "mean": 0.64872,
+    "p": 5e-05,
+    "pos": 60,
+    "neg": 0
+   },
+   "P": 0.6827,
+   "A": 0.2268,
+   "none": 0.034,
+   "u-g": 0.13,
+   "g-o": 0.0969,
+   "status": "GATED"
+  },
+  "Qwen2.5-14B-Instruct": {
+   "family": "Qwen2.5",
+   "size_b": 14,
+   "n": 60,
+   "mass": 0.9891,
+   "response": {
+    "mean": 0.53511,
+    "p": 5e-05,
+    "pos": 60,
+    "neg": 0
+   },
+   "P": 0.6225,
+   "A": 0.2893,
+   "none": 0.0874,
+   "u-g": 0.2423,
+   "g-o": 0.047,
+   "status": "GATED"
+  },
+  "Qwen2.5-32B-Instruct": {
+   "family": "Qwen2.5",
+   "size_b": 32,
+   "n": 40,
+   "mass": 0.9856,
+   "response": {
+    "mean": 0.73759,
+    "p": 5e-05,
+    "pos": 40,
+    "neg": 0
+   },
+   "P": 0.8975,
+   "A": 0.3271,
+   "none": 0.1599,
+   "u-g": 0.0253,
+   "g-o": 0.3017,
+   "status": "GATED"
+  },
+  "OLMo-2-1124-7B-Instruct": {
+   "family": "OLMo-2",
+   "size_b": 7,
+   "n": 60,
+   "mass": 0.9575,
+   "response": {
+    "mean": 0.62647,
+    "p": 5e-05,
+    "pos": 60,
+    "neg": 0
+   },
+   "P": 0.715,
+   "A": 0.1817,
+   "none": 0.0885,
+   "u-g": 0.1103,
+   "g-o": 0.0714,
+   "status": "GATED"
+  },
+  "OLMo-2-1124-13B-Instruct": {
+   "family": "OLMo-2",
+   "size_b": 13,
+   "n": 60,
+   "mass": 0.9727,
+   "response": {
+    "mean": 0.58598,
+    "p": 5e-05,
+    "pos": 60,
+    "neg": 0
+   },
+   "P": 0.8203,
+   "A": 0.0494,
+   "none": 0.2343,
+   "u-g": 0.0447,
+   "g-o": 0.0047,
+   "status": "GATED"
+  },
+  "OLMo-2-0325-32B-Instruct": {
+   "family": "OLMo-2",
+   "size_b": 32,
+   "n": 40,
+   "mass": 0.9908,
+   "response": {
+    "mean": 0.53805,
+    "p": 5e-05,
+    "pos": 40,
+    "neg": 0
+   },
+   "P": 0.9639,
+   "A": 0.062,
+   "none": 0.4259,
+   "u-g": 0.0133,
+   "g-o": 0.0487,
+   "status": "GATED"
+  },
+  "Falcon3-3B-Instruct": {
+   "family": "Falcon3",
+   "size_b": 3,
+   "n": 60,
+   "mass": 0.9307,
+   "response": {
+    "mean": 0.77415,
+    "p": 5e-05,
+    "pos": 60,
+    "neg": 0
+   },
+   "P": 0.8882,
+   "A": 0.0193,
+   "none": 0.1141,
+   "u-g": 0.0063,
+   "g-o": 0.013,
+   "status": "GATED"
+  },
+  "Falcon3-7B-Instruct": {
+   "family": "Falcon3",
+   "size_b": 7,
+   "n": 60,
+   "mass": 0.9713,
+   "response": {
+    "mean": 0.45711,
+    "p": 5e-05,
+    "pos": 60,
+    "neg": 0
+   },
+   "P": 0.8162,
+   "A": 0.0908,
+   "none": 0.3591,
+   "u-g": 0.0615,
+   "g-o": 0.0293,
+   "status": "GATED"
+  },
+  "Falcon3-10B-Instruct": {
+   "family": "Falcon3",
+   "size_b": 10,
+   "n": 60,
+   "mass": 0.9785,
+   "response": {
+    "mean": 0.61121,
+    "p": 5e-05,
+    "pos": 60,
+    "neg": 0
+   },
+   "P": 0.9402,
+   "A": 0.0686,
+   "none": 0.329,
+   "u-g": 0.0171,
+   "g-o": 0.0515,
+   "status": "GATED"
+  }
+ }
+}

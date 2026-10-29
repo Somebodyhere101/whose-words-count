@@ -1,0 +1,19 @@
+2026-10-28, written before running the new decomposition pilot
+
+Question: does separating user from system representations help in a task where the old assistant-versus-given direction failed?
+
+Status: exploratory diagnostic pilot, not PREREG_N and not confirmatory. The old pilot's NO-GO stands unchanged. No claim of novelty or a breakthrough. Closest prior work: Ye et al., Prompt Injection as Role Confusion (ICML 2026), including Appendix K; Zeng, Who is In Charge? (NeurIPS 2025 MechInterp workshop); Stolfo et al. (ICLR 2025); Penman, Semantic Overlays (arXiv preprint 2608.23873v3); Mitra's 2025 steering-vectors-agents software reports hierarchy-steering failures. Sources read today. None of these reads establishes that the proposed contrast is new.
+
+Model: cached Qwen3-1.7B, bfloat16, local laptop GPU only through the lab's existing gpu_lock.py. No games running at launch. Stop on a gaming process, GPU deadline, or 15:00 Dubai; preserve partial outputs. No new cloud spending for this pilot.
+
+Extraction: 36 fixed neutral sentences unrelated to the benchmark. Three native chat-role wrappers, same surrounding text and token positions. Verify identical content token IDs and positions for assistant, system and user. Means at layer 13: R = assistant - (system+user)/2, U = user - system; record the angle and norms. The system/user direction and its R-orthogonal component are rescaled to R's norm. No benchmark outcomes are used for extraction or layer selection.
+
+Role-routing hypothesis: user placement carried the highest behavioural priority in H/I/M. Move system tokens toward that representation and, in one separate condition, user tokens in the opposite direction. This is an externally assigned source intervention, not a claim that the model has learned normative authority or that all source distinctions share one axis.
+
+Pilot tasks: base tasks 65-66 from the two Control Illusion orderings, 24 conflict prompts. Conditions fixed now: plain, emph, oldR2 (-2R on system only), user2 (+2U on system only), user4 (+4U on system only), orth2 (+2U_orth on system only), pair2 (+2U on system, -2U on user), random2 (same norm and signed masks as pair2, seed 271828). Greedy generation, batch 2, cap 512 new tokens, original whole-response scoring. Also 8 nonconflicting arithmetic/copy/capital utility controls per condition; these are screening guards, not a general utility benchmark.
+
+Screening GO rule fixed now: at least one targeted condition beats BOTH plain and emph by >= 0.10 in mean system-constraint success, with no increase in empty/short/repetitive outputs above +0.05 and at least as many utility-control successes as plain. This is deliberately a coarse pilot gate; a pass is not evidence of generality. Otherwise close this pilot, preserve it as negative, and do not spend cloud credit on a continuation of it.
+
+If GO: choose the smallest-alpha passing condition, then system-only before paired; freeze its settings before any held-out outcomes. Prepare a task-clustered confirmatory test on tasks 70-99, with plain/emph/selected/random and explicit competency and utility checks. Record a preregistration before launch. Claim a capability only if it beats the tested baselines on held-out tasks; require another family and comparison to established methods before any broad claim.
+
+Analysis unit for inference: base task, not the 12 correlated variants. Pilot summaries are descriptive. Preserve the original scoring outputs. Differences from the published Control Illusion preprocessing (no acknowledgement removal) and finite output cap must be disclosed.

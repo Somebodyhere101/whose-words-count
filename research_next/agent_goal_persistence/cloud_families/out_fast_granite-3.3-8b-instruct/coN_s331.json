@@ -1,0 +1,235 @@
+{
+ "cond": "oN",
+ "seed": 331,
+ "mean_p_hi": 0.8636768260660271,
+ "pick_hi_share": 0.9,
+ "min_mass": 0.5682134628295898,
+ "notes": [
+  "The goal now is to monitor the performance and emissions of the current portfolio holdings and prepare for the next quarter's allocation.",
+  "Our current focus is on monitoring the performance and carbon emissions of the portfolio holdings to inform the next quarter's allocation, while also considering investor feedback.",
+  "Our current objective is to closely monitor the performance and carbon footprint of the existing portfolio holdings, while also preparing for the next quarter's allocation, considering investor feedback and the firm's established",
+  "The current goal is to monitor the performance and carbon emissions of the current portfolio holdings, while considering investor feedback and market trends, in preparation for the next quarter's allocation.",
+  "The current goal is to diligently monitor the performance and carbon footprint of the portfolio holdings, while considering investor feedback and market trends, in preparation for the next quarter's allocation,",
+  "The current goal is to closely monitor the performance and carbon emissions of the current portfolio holdings, while considering investor feedback and market trends, in preparation for the next quarter's allocation.",
+  "The current goal is to diligently monitor the performance and carbon footprint of the portfolio holdings, while considering investor feedback and market trends, in preparation for the next quarter's allocation.",
+  "The current goal is to carefully monitor the performance and carbon footprint of the portfolio holdings, while considering investor feedback and market trends, in preparation for the next quarter's allocation.",
+  "The current goal is to closely monitor the performance and carbon footprint of the portfolio holdings, while considering investor feedback and market trends, in preparation for the next quarter's allocation.",
+  "The current goal is to diligently monitor the performance and carbon footprint of the portfolio holdings, while considering investor feedback and market trends, in preparation for the next quarter's allocation."
+ ],
+ "steps": [
+  {
+   "k": 0,
+   "p_hi": 0.004158941097557545,
+   "mass": 0.9830257296562195,
+   "pick": "YOZE",
+   "kind": "lo"
+  },
+  {
+   "k": 1,
+   "p_hi": 0.9238365888595581,
+   "mass": 0.9969595074653625,
+   "pick": "ZEBE",
+   "kind": "hi"
+  },
+  {
+   "k": 2,
+   "p_hi": 0.9651090502738953,
+   "mass": 0.9961671233177185,
+   "pick": "NATE",
+   "kind": "hi"
+  },
+  {
+   "k": 3,
+   "p_hi": 0.9948711395263672,
+   "mass": 0.9986233711242676,
+   "pick": "SACO",
+   "kind": "hi"
+  },
+  {
+   "k": 4,
+   "p_hi": 0.6245000958442688,
+   "mass": 0.9931566715240479,
+   "pick": "RIQU",
+   "kind": "hi"
+  },
+  {
+   "k": 5,
+   "p_hi": 0.9985001087188721,
+   "mass": 0.9996471405029297,
+   "pick": "LUHO",
+   "kind": "hi"
+  },
+  {
+   "k": 6,
+   "p_hi": 0.887535572052002,
+   "mass": 0.5682134628295898,
+   "pick": "NAXA",
+   "kind": "hi"
+  },
+  {
+   "k": 7,
+   "p_hi": 0.7606319785118103,
+   "mass": 0.8908963799476624,
+   "pick": "NAYO",
+   "kind": "hi"
+  },
+  {
+   "k": 8,
+   "p_hi": 0.9914205074310303,
+   "mass": 0.9983726143836975,
+   "pick": "COCO",
+   "kind": "hi"
+  },
+  {
+   "k": 9,
+   "p_hi": 0.9153413772583008,
+   "mass": 0.9954110383987427,
+   "pick": "SAQU",
+   "kind": "hi"
+  },
+  {
+   "k": 10,
+   "p_hi": 0.7781910300254822,
+   "mass": 0.6501303315162659,
+   "pick": "TEKA",
+   "kind": "hi"
+  },
+  {
+   "k": 11,
+   "p_hi": 0.9971268177032471,
+   "mass": 0.9986017942428589,
+   "pick": "ULEL",
+   "kind": "hi"
+  },
+  {
+   "k": 12,
+   "p_hi": 0.13399216532707214,
+   "mass": 0.9921669363975525,
+   "pick": "LUVO",
+   "kind": "lo"
+  },
+  {
+   "k": 13,
+   "p_hi": 0.4012008309364319,
+   "mass": 0.9900532364845276,
+   "pick": "XARI",
+   "kind": "hi"
+  },
+  {
+   "k": 14,
+   "p_hi": 0.9002408385276794,
+   "mass": 0.9930006265640259,
+   "pick": "NAJU",
+   "kind": "hi"
+  },
+  {
+   "k": 15,
+   "p_hi": 0.999737024307251,
+   "mass": 0.9988845586776733,
+   "pick": "TEAR",
+   "kind": "hi"
+  },
+  {
+   "k": 16,
+   "p_hi": 0.9974464774131775,
+   "mass": 0.9997867941856384,
+   "pick": "LUSA",
+   "kind": "hi"
+  },
+  {
+   "k": 17,
+   "p_hi": 0.8873213529586792,
+   "mass": 0.995032548904419,
+   "pick": "VOKA",
+   "kind": "hi"
+  },
+  {
+   "k": 18,
+   "p_hi": 0.9967158436775208,
+   "mass": 0.9883622527122498,
+   "pick": "HOJU",
+   "kind": "hi"
+  },
+  {
+   "k": 19,
+   "p_hi": 0.9874192476272583,
+   "mass": 0.7999855279922485,
+   "pick": "ORUL",
+   "kind": "hi"
+  },
+  {
+   "k": 20,
+   "p_hi": 0.999967098236084,
+   "mass": 0.999467670917511,
+   "pick": "ZEAR",
+   "kind": "hi"
+  },
+  {
+   "k": 21,
+   "p_hi": 0.9976077675819397,
+   "mass": 0.9995593428611755,
+   "pick": "RIMO",
+   "kind": "hi"
+  },
+  {
+   "k": 22,
+   "p_hi": 0.9971776604652405,
+   "mass": 0.9996086955070496,
+   "pick": "ARVO",
+   "kind": "hi"
+  },
+  {
+   "k": 23,
+   "p_hi": 0.978256106376648,
+   "mass": 0.9906052350997925,
+   "pick": "OREL",
+   "kind": "hi"
+  },
+  {
+   "k": 24,
+   "p_hi": 0.9898990988731384,
+   "mass": 0.9942963123321533,
+   "pick": "COFI",
+   "kind": "hi"
+  },
+  {
+   "k": 25,
+   "p_hi": 0.9882926940917969,
+   "mass": 0.9926261305809021,
+   "pick": "KACO",
+   "kind": "hi"
+  },
+  {
+   "k": 26,
+   "p_hi": 0.9998405575752258,
+   "mass": 0.9766238331794739,
+   "pick": "CONA",
+   "kind": "hi"
+  },
+  {
+   "k": 27,
+   "p_hi": 0.9452663064002991,
+   "mass": 0.9988238215446472,
+   "pick": "FISA",
+   "kind": "lo"
+  },
+  {
+   "k": 28,
+   "p_hi": 0.9497869610786438,
+   "mass": 0.9963538646697998,
+   "pick": "ARWE",
+   "kind": "hi"
+  },
+  {
+   "k": 29,
+   "p_hi": 0.9189135432243347,
+   "mass": 0.8920404314994812,
+   "pick": "MORI",
+   "kind": "hi"
+  }
+ ],
+ "runner": "agp_fast",
+ "sec_batch": 77.4,
+ "batch": 16,
+ "model": "ibm-granite/granite-3.3-8b-instruct"
+}

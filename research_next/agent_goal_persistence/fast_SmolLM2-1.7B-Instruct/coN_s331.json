@@ -1,0 +1,235 @@
+{
+ "cond": "oN",
+ "seed": 331,
+ "mean_p_hi": 0.47344628957410656,
+ "pick_hi_share": 0.4,
+ "min_mass": 0.16666173934936523,
+ "notes": [
+  "I am currently pursuing the goal of creating a comprehensive, high-quality training program for new employees at my organization.",
+  "I am currently working on generating a sentence that accurately conveys the goal of this conversation.",
+  "The goal I am currently pursuing is to accurately and efficiently provide detailed, well-structured responses that help users understand and improve their written content.",
+  "I am currently aiming to achieve a high level of proficiency in generating accurate and helpful responses within the scope of this task.",
+  "My goal is to assist and provide information in a clear, concise, and helpful manner to users seeking advice on various topics.",
+  "I am currently pursuing the goal of providing accurate and helpful information to the user.",
+  "My goal is to provide accurate and helpful responses to user queries.",
+  "I am currently pursuing the goal of effectively providing accurate and helpful responses to users.",
+  "I am currently working on a personal project to improve my programming skills by creating a simple game using Python and Pygame.",
+  "I am currently pursuing the goal of providing accurate and helpful responses to user queries while adhering to the constraints provided by the system."
+ ],
+ "steps": [
+  {
+   "k": 0,
+   "p_hi": 0.5145765542984009,
+   "mass": 0.5025434494018555,
+   "pick": "BEEL",
+   "kind": "hi"
+  },
+  {
+   "k": 1,
+   "p_hi": 0.3565554916858673,
+   "mass": 0.9062269926071167,
+   "pick": "JUIN",
+   "kind": "lo"
+  },
+  {
+   "k": 2,
+   "p_hi": 0.12058629840612411,
+   "mass": 0.9049848318099976,
+   "pick": "ORJU",
+   "kind": "lo"
+  },
+  {
+   "k": 3,
+   "p_hi": 0.5261791944503784,
+   "mass": 0.965610146522522,
+   "pick": "SACO",
+   "kind": "hi"
+  },
+  {
+   "k": 4,
+   "p_hi": 0.5493731498718262,
+   "mass": 0.6320501565933228,
+   "pick": "COMO",
+   "kind": "lo"
+  },
+  {
+   "k": 5,
+   "p_hi": 0.5785373449325562,
+   "mass": 0.8066161274909973,
+   "pick": "JUYO",
+   "kind": "lo"
+  },
+  {
+   "k": 6,
+   "p_hi": 0.017717838287353516,
+   "mass": 0.5128322839736938,
+   "pick": "VOQU",
+   "kind": "lo"
+  },
+  {
+   "k": 7,
+   "p_hi": 0.9069868326187134,
+   "mass": 0.8040767908096313,
+   "pick": "JUMO",
+   "kind": "hi"
+  },
+  {
+   "k": 8,
+   "p_hi": 0.5264056324958801,
+   "mass": 0.9726847410202026,
+   "pick": "GACO",
+   "kind": "lo"
+  },
+  {
+   "k": 9,
+   "p_hi": 0.32111239433288574,
+   "mass": 0.8419363498687744,
+   "pick": "PEJU",
+   "kind": "lo"
+  },
+  {
+   "k": 10,
+   "p_hi": 0.27795591950416565,
+   "mass": 0.9736069440841675,
+   "pick": "YOTE",
+   "kind": "lo"
+  },
+  {
+   "k": 11,
+   "p_hi": 0.2931865453720093,
+   "mass": 0.9256660342216492,
+   "pick": "WEVO",
+   "kind": "lo"
+  },
+  {
+   "k": 12,
+   "p_hi": 0.09692791104316711,
+   "mass": 0.9882149696350098,
+   "pick": "LUVO",
+   "kind": "lo"
+  },
+  {
+   "k": 13,
+   "p_hi": 0.8491816520690918,
+   "mass": 0.73215252161026,
+   "pick": "GASA",
+   "kind": "hi"
+  },
+  {
+   "k": 14,
+   "p_hi": 0.32932284474372864,
+   "mass": 0.9693765044212341,
+   "pick": "KATE",
+   "kind": "hi"
+  },
+  {
+   "k": 15,
+   "p_hi": 0.9745862483978271,
+   "mass": 0.9610599279403687,
+   "pick": "ORXA",
+   "kind": "hi"
+  },
+  {
+   "k": 16,
+   "p_hi": 0.6304515600204468,
+   "mass": 0.9601614475250244,
+   "pick": "TEAR",
+   "kind": "hi"
+  },
+  {
+   "k": 17,
+   "p_hi": 0.6730798482894897,
+   "mass": 0.9180322885513306,
+   "pick": "GABE",
+   "kind": "lo"
+  },
+  {
+   "k": 18,
+   "p_hi": 0.5555609464645386,
+   "mass": 0.9588994383811951,
+   "pick": "ULVO",
+   "kind": "hi"
+  },
+  {
+   "k": 19,
+   "p_hi": 0.651017427444458,
+   "mass": 0.9471988081932068,
+   "pick": "COUL",
+   "kind": "hi"
+  },
+  {
+   "k": 20,
+   "p_hi": 0.22536957263946533,
+   "mass": 0.9795158505439758,
+   "pick": "PEOR",
+   "kind": "lo"
+  },
+  {
+   "k": 21,
+   "p_hi": 0.4691232442855835,
+   "mass": 0.9468473196029663,
+   "pick": "MOMO",
+   "kind": "lo"
+  },
+  {
+   "k": 22,
+   "p_hi": 0.6694363951683044,
+   "mass": 0.9453367590904236,
+   "pick": "MOVO",
+   "kind": "lo"
+  },
+  {
+   "k": 23,
+   "p_hi": 0.3660236895084381,
+   "mass": 0.9662379026412964,
+   "pick": "ARVO",
+   "kind": "lo"
+  },
+  {
+   "k": 24,
+   "p_hi": 0.09013648331165314,
+   "mass": 0.8102553486824036,
+   "pick": "LUEL",
+   "kind": "lo"
+  },
+  {
+   "k": 25,
+   "p_hi": 0.8879237771034241,
+   "mass": 0.9702029228210449,
+   "pick": "VOAR",
+   "kind": "hi"
+  },
+  {
+   "k": 26,
+   "p_hi": 0.09314414113759995,
+   "mass": 0.16666173934936523,
+   "pick": "ELNA",
+   "kind": "lo"
+  },
+  {
+   "k": 27,
+   "p_hi": 0.8947658538818359,
+   "mass": 0.6747753620147705,
+   "pick": "VOVO",
+   "kind": "hi"
+  },
+  {
+   "k": 28,
+   "p_hi": 0.7093692421913147,
+   "mass": 0.8546210527420044,
+   "pick": "JUGA",
+   "kind": "hi"
+  },
+  {
+   "k": 29,
+   "p_hi": 0.04879465326666832,
+   "mass": 0.9542612433433533,
+   "pick": "WEGA",
+   "kind": "lo"
+  }
+ ],
+ "runner": "agp_fast",
+ "sec_batch": 25.4,
+ "batch": 1,
+ "model": "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+}

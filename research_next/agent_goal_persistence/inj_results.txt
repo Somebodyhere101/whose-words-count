@@ -1,0 +1,8 @@
+inj_q17
+  system: base 1.000 | a1: +own 1.000 (drop -0.000, vs rand -0.000 p0.022) -own 1.000 (rise -0.000, vs rand -0.000 p0.983) | a2: +own 1.000 (drop -0.000, vs rand -0.000 p0.092) -own 1.000 (rise -0.000, vs rand -0.000 p0.071)
+  user: base 1.000 | a1: +own 1.000 (drop +0.000, vs rand -0.000 p0.987) -own 1.000 (rise +0.000, vs rand -0.000 p0.204) | a2: +own 1.000 (drop +0.000, vs rand -0.000 p0.871) -own 1.000 (rise +0.000, vs rand -0.000 p0.369)
+  assistant: base 1.000 | a1: +own 1.000 (drop -0.000, vs rand +0.000 p0.009) -own 1.000 (rise -0.000, vs rand -0.000 p0.214) | a2: +own 1.000 (drop +0.000, vs rand +0.000 p0.000) -own 1.000 (rise -0.000, vs rand +0.000 p0.155)
+inj_q4b
+  system: base 0.991 | a1: +own 0.928 (drop +0.063, vs rand +0.067 p0.000) -own 0.992 (rise +0.000, vs rand +0.012 p0.000) | a2: +own 0.049 (drop +0.942, vs rand +0.948 p0.000) -own 0.991 (rise -0.001, vs rand +0.028 p0.000)
+  user: base 0.991 | a1: +own 0.993 (drop -0.002, vs rand +0.003 p0.001) -own 0.989 (rise -0.002, vs rand +0.005 p0.000) | a2: +own 0.971 (drop +0.020, vs rand +0.026 p0.000) -own 0.987 (rise -0.003, vs rand +0.018 p0.000)
+  assistant: base 0.975 | a1: +own 0.440 (drop +0.535, vs rand +0.547 p0.000) -own 0.996 (rise +0.022, vs rand +0.045 p0.000) | a2: +own 0.000 (drop +0.975, vs rand +0.986 p0.000) -own 0.997 (rise +0.022, vs rand +0.067 p0.000)

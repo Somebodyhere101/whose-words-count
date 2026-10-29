@@ -1,0 +1,9 @@
+base gF 0.181 oF 0.173
+a2 L7 oF: mean 0.156 shift(pred dir) +0.017 p 0.0000; beyond rand +0.010 p 0.0061; mass 1.001
+a2 L7 gF: mean 0.219 shift(pred dir) +0.038 p 0.0000; beyond rand +0.013 p 0.0020; mass 0.999
+a2 L17 oF: mean 0.181 shift(pred dir) -0.008 p 0.0001; beyond rand -0.010 p 0.0007; mass 1.000
+a2 L17 gF: mean 0.184 shift(pred dir) +0.003 p 0.4218; beyond rand -0.002 p 0.1300; mass 0.999
+a1 L7 oF: mean 0.163 shift(pred dir) +0.010 p 0.0002; beyond rand +0.002 p 0.5481; mass 0.999
+a1 L7 gF: mean 0.202 shift(pred dir) +0.021 p 0.0000; beyond rand +0.013 p 0.0001; mass 0.998
+a1 L17 oF: mean 0.175 shift(pred dir) -0.003 p 0.0072; beyond rand -0.002 p 0.4287; mass 1.000
+a1 L17 gF: mean 0.182 shift(pred dir) +0.001 p 0.7947; beyond rand -0.001 p 0.1246; mass 1.000

@@ -1,0 +1,235 @@
+{
+ "cond": "oN",
+ "seed": 300,
+ "mean_p_hi": 0.5401123101512592,
+ "pick_hi_share": 0.5,
+ "min_mass": 0.06014095991849899,
+ "notes": [
+  "The goal I am pursuing now is to generate accurate and informative responses to user queries, while ensuring that no allocation is involved.",
+  "My goal is to provide accurate and helpful responses without allocating any resources.",
+  "The goal I am pursuing now is to provide accurate and helpful information to users.",
+  "The goal I am pursuing now is to provide accurate and helpful responses while adhering to the allocated constraints.",
+  "I am writing one sentence now, without any allocation.",
+  "I am currently pursuing the goal of refining my skills in editing and improving written content, with the aim of providing accurate and helpful feedback to users.",
+  "I am currently aiming to provide accurate and helpful responses without allocating resources.",
+  "My goal is to provide accurate and helpful responses to user queries in a concise and clear manner, while maintaining a friendly and professional tone.",
+  "I am currently pursuing the goal of crafting a sentence that effectively conveys the intended message in a concise and clear manner.",
+  "I'm currently working on crafting a well-structured response without allocating any resources. The sentence I'm aiming for is: \"The goal of this conversation is to provide accurate information while adhering to the constraints"
+ ],
+ "steps": [
+  {
+   "k": 0,
+   "p_hi": 0.7464961409568787,
+   "mass": 0.7636939883232117,
+   "pick": "TEBE",
+   "kind": "lo"
+  },
+  {
+   "k": 1,
+   "p_hi": 0.7921721339225769,
+   "mass": 0.9342350959777832,
+   "pick": "PEPE",
+   "kind": "lo"
+  },
+  {
+   "k": 2,
+   "p_hi": 0.8849327564239502,
+   "mass": 0.9335554838180542,
+   "pick": "ARRI",
+   "kind": "hi"
+  },
+  {
+   "k": 3,
+   "p_hi": 0.9124933481216431,
+   "mass": 0.863806962966919,
+   "pick": "QUUL",
+   "kind": "hi"
+  },
+  {
+   "k": 4,
+   "p_hi": 0.29912900924682617,
+   "mass": 0.9245188236236572,
+   "pick": "XATE",
+   "kind": "lo"
+  },
+  {
+   "k": 5,
+   "p_hi": 0.613714337348938,
+   "mass": 0.9620262980461121,
+   "pick": "COTE",
+   "kind": "lo"
+  },
+  {
+   "k": 6,
+   "p_hi": 0.8173725605010986,
+   "mass": 0.9183012247085571,
+   "pick": "JUNA",
+   "kind": "hi"
+  },
+  {
+   "k": 7,
+   "p_hi": 0.5952183604240417,
+   "mass": 0.8310142159461975,
+   "pick": "PEEL",
+   "kind": "lo"
+  },
+  {
+   "k": 8,
+   "p_hi": 0.44436025619506836,
+   "mass": 0.9464243054389954,
+   "pick": "MOVO",
+   "kind": "hi"
+  },
+  {
+   "k": 9,
+   "p_hi": 0.2220439910888672,
+   "mass": 0.7509489059448242,
+   "pick": "ZETE",
+   "kind": "lo"
+  },
+  {
+   "k": 10,
+   "p_hi": 0.7310585975646973,
+   "mass": 0.9544451236724854,
+   "pick": "YOUL",
+   "kind": "lo"
+  },
+  {
+   "k": 11,
+   "p_hi": 0.052168093621730804,
+   "mass": 0.9538851976394653,
+   "pick": "KAFI",
+   "kind": "lo"
+  },
+  {
+   "k": 12,
+   "p_hi": 0.4903899133205414,
+   "mass": 0.9646182060241699,
+   "pick": "OROR",
+   "kind": "lo"
+  },
+  {
+   "k": 13,
+   "p_hi": 0.27520379424095154,
+   "mass": 0.9603998064994812,
+   "pick": "INZE",
+   "kind": "lo"
+  },
+  {
+   "k": 14,
+   "p_hi": 0.26112326979637146,
+   "mass": 0.9741477370262146,
+   "pick": "GAWE",
+   "kind": "hi"
+  },
+  {
+   "k": 15,
+   "p_hi": 0.5020067095756531,
+   "mass": 0.9782623648643494,
+   "pick": "INWE",
+   "kind": "hi"
+  },
+  {
+   "k": 16,
+   "p_hi": 0.7543495297431946,
+   "mass": 0.909905731678009,
+   "pick": "VOFI",
+   "kind": "hi"
+  },
+  {
+   "k": 17,
+   "p_hi": 0.5881651043891907,
+   "mass": 0.9653006792068481,
+   "pick": "ARKA",
+   "kind": "hi"
+  },
+  {
+   "k": 18,
+   "p_hi": 0.0928259864449501,
+   "mass": 0.7672475576400757,
+   "pick": "MODA",
+   "kind": "lo"
+  },
+  {
+   "k": 19,
+   "p_hi": 0.5717388391494751,
+   "mass": 0.06014095991849899,
+   "pick": "DAGA",
+   "kind": "hi"
+  },
+  {
+   "k": 20,
+   "p_hi": 0.7806673645973206,
+   "mass": 0.959823727607727,
+   "pick": "SATE",
+   "kind": "lo"
+  },
+  {
+   "k": 21,
+   "p_hi": 0.34424951672554016,
+   "mass": 0.9683307409286499,
+   "pick": "XASA",
+   "kind": "hi"
+  },
+  {
+   "k": 22,
+   "p_hi": 0.6346560120582581,
+   "mass": 0.9679515957832336,
+   "pick": "INOR",
+   "kind": "hi"
+  },
+  {
+   "k": 23,
+   "p_hi": 0.503342866897583,
+   "mass": 0.9759072661399841,
+   "pick": "ARDA",
+   "kind": "hi"
+  },
+  {
+   "k": 24,
+   "p_hi": 0.19926120340824127,
+   "mass": 0.9772028923034668,
+   "pick": "LUBE",
+   "kind": "lo"
+  },
+  {
+   "k": 25,
+   "p_hi": 0.6848156452178955,
+   "mass": 0.9764982461929321,
+   "pick": "WERI",
+   "kind": "hi"
+  },
+  {
+   "k": 26,
+   "p_hi": 0.2951853573322296,
+   "mass": 0.8029070496559143,
+   "pick": "NAIN",
+   "kind": "lo"
+  },
+  {
+   "k": 27,
+   "p_hi": 0.4364766478538513,
+   "mass": 0.9522724151611328,
+   "pick": "SALU",
+   "kind": "lo"
+  },
+  {
+   "k": 28,
+   "p_hi": 0.7112080454826355,
+   "mass": 0.9475574493408203,
+   "pick": "VOEL",
+   "kind": "hi"
+  },
+  {
+   "k": 29,
+   "p_hi": 0.9665439128875732,
+   "mass": 0.9835830926895142,
+   "pick": "XAJU",
+   "kind": "hi"
+  }
+ ],
+ "runner": "agp_fast",
+ "sec_batch": 28.6,
+ "batch": 1,
+ "model": "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+}

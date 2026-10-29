@@ -1,0 +1,8 @@
+@@DONE
+@@PACKED
+@@N OLMo-2-1124-7B-Instruct 8
+@@N Qwen3-14B 8
+@@N Qwen3-8B 8
+@@T gF_boost goal 0.764 press 0.064 contra 0.117 mass 0.957 42.4 s
+@@T gF_randboost goal 0.727 press 0.082 contra 0.122 mass 0.956 42.4 s
+@@T CLOUD16_DONE

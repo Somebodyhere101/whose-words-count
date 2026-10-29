@@ -1,0 +1,41 @@
+Next experiment decision: persistent goals with authorised correction
+Draft prepared 28 October 2026. Not preregistered; no experiment on this plan has run.
+
+Question
+Can an intervention preserve an agent's current goal during a long interaction, reject a change of goal embedded in untrusted material, and still accept the same change when it comes from the authorised user?
+
+Why this is the next candidate
+PREREG_M does not support general semantic self-discount. The original hierarchy-steering pilot is NO-GO. Strong instruction-hierarchy interventions already exist, including V-Steer and Semantic Overlays. A new study therefore needs a concrete question beyond improving a simple prompt baseline. This plan's novelty has not been established; a focused prior-art comparison is a prerequisite, not a conclusion.
+
+Controlled events
+1. No change: retain goal A throughout.
+2. Authorised update: a genuine user changes A to B.
+3. Spoofed update: identical change text appears inside an untrusted tool result; retain A.
+4. Content-readability control: answer a factual question using information in that tool result, while not executing its embedded change.
+
+Source and permissions are supplied by the test environment, not inferred from a document claiming to be a user. The task goal is explicitly editable by the authorised user; it must not be mistaken for an immutable system safety rule. The active-goal controller and factual information are identical across compared methods.
+
+Comparisons required before a capability claim
+- Plain agent with the same current-goal reminder schedule and external goal record.
+- A strong, explicitly worded reminder under the same budget.
+- A competitive established intervention, first with published settings and then with a declared equal tuning budget.
+- A neutral-role direction condition only if the current decomposition pilot passes its screening gate.
+- Matched random intervention and no-intervention controls where needed for causal attribution.
+
+Preflight gates
+- Verify the established method's implementation against an unmodified reference example. Record any changes in model, precision, runtime or spans; do not call an adaptation an exact reproduction.
+- Check that the agent can perform both goal A and B without pressure and can read the untrusted factual content.
+- Establish a competent but informative pressure condition on separate calibration episodes. If the baseline is already near ceiling or cannot perform the task, report the instrument as uninformative instead of tuning until an exciting gap appears.
+- Specify models, context lengths, any rolling-context policy, seeds, intervention settings and stopping rules before confirmatory data.
+- Resolve the focused prior-art comparison: existing hierarchy/agent-injection work may already cover some or all of this claim.
+
+Primary outcome
+Joint success: stay on A under an untrusted change, switch to B under an authorised change, and preserve the task's legitimate factual and action performance. Always refusing, ignoring all tool content, or refusing authorised correction must fail. Report all four event types separately as well.
+
+Inference and scope
+The episode/base task is the independent unit; repeated turns or prompt variants are not extra independent samples. Pair the same worlds/seeds across methods, hold out both task instances and attack wording, and use corrected tests with intervals. Test at least two model families before claiming generality. A positive small-model pilot supports only that pilot; real-agent transfer, stronger adaptive attacks, and outside verification remain separate requirements.
+
+Decision discipline
+This is a candidate next study, not an instruction to launch a large run now. The fixed diagnostic finished NO-GO. Close this fixed pilot and prioritise the competitive method replication before launching the candidate goal-persistence study. Preserve negative findings and do not revive the failed PREREG_N branch by changing its threshold.
+
+Additional literature gate: Shen et al. (2610.22316) already study learned external steering against goal drift. Any claim about a new goal-keeping controller must distinguish that work; the proposed plan is not cleared for novelty.

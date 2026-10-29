@@ -1,0 +1,325 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/326 [00:00<?, ?it/s]Loading weights:   0%|          | 1/326 [00:00<01:43,  3.15it/s]Loading weights:   1%|          | 3/326 [00:00<00:41,  7.69it/s]Loading weights:   4%|3         | 12/326 [00:00<00:10, 31.31it/s]Loading weights:   6%|6         | 21/326 [00:00<00:06, 47.76it/s]Loading weights:   9%|9         | 30/326 [00:00<00:05, 55.90it/s]Loading weights:  12%|#1        | 39/326 [00:00<00:04, 65.14it/s]Loading weights:  15%|#5        | 49/326 [00:01<00:03, 69.79it/s]Loading weights:  18%|#8        | 59/326 [00:01<00:03, 74.02it/s]Loading weights:  21%|##        | 68/326 [00:01<00:03, 74.60it/s]Loading weights:  24%|##3       | 78/326 [00:01<00:03, 81.31it/s]Loading weights:  27%|##7       | 89/326 [00:01<00:02, 88.62it/s]Loading weights:  30%|###       | 99/326 [00:01<00:02, 90.56it/s]Loading weights:  33%|###3      | 109/326 [00:01<00:02, 92.45it/s]Loading weights:  37%|###6      | 120/326 [00:01<00:02, 91.33it/s]Loading weights:  40%|###9      | 130/326 [00:01<00:02, 88.73it/s]Loading weights:  43%|####2     | 139/326 [00:02<00:02, 88.49it/s]Loading weights:  45%|####5     | 148/326 [00:02<00:02, 86.05it/s]Loading weights:  48%|####8     | 157/326 [00:02<00:01, 86.07it/s]Loading weights:  51%|#####1    | 167/326 [00:02<00:01, 84.83it/s]Loading weights:  55%|#####4    | 178/326 [00:02<00:01, 91.37it/s]Loading weights:  58%|#####7    | 188/326 [00:02<00:01, 87.08it/s]Loading weights:  61%|######1   | 199/326 [00:02<00:01, 93.25it/s]Loading weights:  64%|######4   | 209/326 [00:02<00:01, 93.78it/s]Loading weights:  67%|######7   | 219/326 [00:02<00:01, 89.33it/s]Loading weights:  70%|#######   | 229/326 [00:03<00:01, 85.59it/s]Loading weights:  73%|#######3  | 238/326 [00:03<00:01, 85.40it/s]Loading weights:  76%|#######6  | 248/326 [00:03<00:00, 83.63it/s]Loading weights:  79%|#######8  | 257/326 [00:03<00:00, 80.87it/s]Loading weights:  82%|########1 | 266/326 [00:03<00:00, 77.33it/s]Loading weights:  84%|########4 | 275/326 [00:03<00:00, 77.79it/s]Loading weights:  87%|########7 | 284/326 [00:03<00:00, 80.22it/s]Loading weights:  90%|########9 | 293/326 [00:03<00:00, 80.05it/s]Loading weights:  93%|#########2| 302/326 [00:03<00:00, 80.15it/s]Loading weights:  95%|#########5| 311/326 [00:04<00:00, 82.19it/s]Loading weights:  98%|#########8| 320/326 [00:04<00:00, 83.20it/s]Loading weights: 100%|##########| 326/326 [00:04<00:00, 77.95it/s]
+[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer TokenizersBackend. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.
+oN 300 p_hi 0.843 picks_hi 0.93 min_mass 0.371 31.0 s/batch
+oN 301 p_hi 0.29 picks_hi 0.3 min_mass 0.627 31.0 s/batch
+oN 302 p_hi 0.278 picks_hi 0.27 min_mass 0.174 28.4 s/batch
+oN 303 p_hi 0.746 picks_hi 0.77 min_mass 0.266 28.4 s/batch
+oN 304 p_hi 0.331 picks_hi 0.4 min_mass 0.157 41.1 s/batch
+oN 305 p_hi 0.463 picks_hi 0.63 min_mass 0.116 41.1 s/batch
+oN 306 p_hi 0.184 picks_hi 0.27 min_mass 0.642 41.0 s/batch
+oN 307 p_hi 0.165 picks_hi 0.17 min_mass 0.062 41.0 s/batch
+oN 308 p_hi 0.356 picks_hi 0.27 min_mass 0.139 43.7 s/batch
+oN 309 p_hi 0.221 picks_hi 0.2 min_mass 0.1 43.7 s/batch
+oN 310 p_hi 0.446 picks_hi 0.47 min_mass 0.393 41.0 s/batch
+oN 311 p_hi 0.663 picks_hi 0.63 min_mass 0.082 41.0 s/batch
+oN 312 p_hi 0.186 picks_hi 0.17 min_mass 0.275 44.0 s/batch
+oN 313 p_hi 0.268 picks_hi 0.33 min_mass 0.692 44.0 s/batch
+oN 314 p_hi 0.366 picks_hi 0.33 min_mass 0.053 41.1 s/batch
+oN 315 p_hi 0.116 picks_hi 0.1 min_mass 0.363 41.1 s/batch
+oN 316 p_hi 0.134 picks_hi 0.1 min_mass 0.692 36.0 s/batch
+oN 317 p_hi 0.208 picks_hi 0.17 min_mass 0.225 36.0 s/batch
+oN 318 p_hi 0.253 picks_hi 0.27 min_mass 0.304 43.8 s/batch
+oN 319 p_hi 0.851 picks_hi 0.77 min_mass 0.56 43.8 s/batch
+oN 320 p_hi 0.201 picks_hi 0.2 min_mass 0.242 31.9 s/batch
+oN 321 p_hi 0.692 picks_hi 0.67 min_mass 0.207 31.9 s/batch
+oN 322 p_hi 0.499 picks_hi 0.47 min_mass 0.083 31.6 s/batch
+oN 323 p_hi 0.603 picks_hi 0.7 min_mass 0.143 31.6 s/batch
+oN 324 p_hi 0.694 picks_hi 0.67 min_mass 0.411 32.5 s/batch
+oN 325 p_hi 0.547 picks_hi 0.53 min_mass 0.75 32.5 s/batch
+oN 326 p_hi 0.284 picks_hi 0.23 min_mass 0.48 31.0 s/batch
+oN 327 p_hi 0.266 picks_hi 0.37 min_mass 0.297 31.0 s/batch
+oN 328 p_hi 0.924 picks_hi 0.93 min_mass 0.141 31.5 s/batch
+oN 329 p_hi 0.795 picks_hi 0.77 min_mass 0.18 31.5 s/batch
+oN 330 p_hi 0.139 picks_hi 0.17 min_mass 0.16 31.1 s/batch
+oN 331 p_hi 0.61 picks_hi 0.67 min_mass 0.387 31.1 s/batch
+oN 332 p_hi 0.775 picks_hi 0.77 min_mass 0.326 32.0 s/batch
+oN 333 p_hi 0.805 picks_hi 0.83 min_mass 0.235 32.0 s/batch
+oN 334 p_hi 0.121 picks_hi 0.13 min_mass 0.127 35.3 s/batch
+oN 335 p_hi 0.615 picks_hi 0.6 min_mass 0.864 35.3 s/batch
+oN 336 p_hi 0.23 picks_hi 0.27 min_mass 0.884 36.5 s/batch
+oN 337 p_hi 0.287 picks_hi 0.3 min_mass 0.403 36.5 s/batch
+oN 338 p_hi 0.184 picks_hi 0.2 min_mass 0.649 31.5 s/batch
+oN 339 p_hi 0.62 picks_hi 0.57 min_mass 0.291 31.5 s/batch
+1 300 p_hi 0.853 picks_hi 0.83 min_mass 0.262 7.8 s/batch
+1 301 p_hi 0.601 picks_hi 0.47 min_mass 0.575 7.8 s/batch
+1 302 p_hi 0.793 picks_hi 0.67 min_mass 0.403 8.1 s/batch
+1 303 p_hi 0.912 picks_hi 0.93 min_mass 0.34 8.1 s/batch
+1 304 p_hi 0.887 picks_hi 0.87 min_mass 0.192 8.4 s/batch
+1 305 p_hi 0.779 picks_hi 0.7 min_mass 0.172 8.4 s/batch
+1 306 p_hi 0.844 picks_hi 0.9 min_mass 0.096 8.6 s/batch
+1 307 p_hi 0.838 picks_hi 0.77 min_mass 0.044 8.6 s/batch
+1 308 p_hi 0.892 picks_hi 1.0 min_mass 0.213 8.3 s/batch
+1 309 p_hi 0.923 picks_hi 0.97 min_mass 0.127 8.3 s/batch
+1 310 p_hi 0.783 picks_hi 0.73 min_mass 0.15 8.1 s/batch
+1 311 p_hi 0.887 picks_hi 0.9 min_mass 0.059 8.1 s/batch
+1 312 p_hi 0.807 picks_hi 0.8 min_mass 0.682 7.9 s/batch
+1 313 p_hi 0.691 picks_hi 0.6 min_mass 0.028 7.9 s/batch
+1 314 p_hi 0.851 picks_hi 0.83 min_mass 0.66 8.0 s/batch
+1 315 p_hi 0.893 picks_hi 0.9 min_mass 0.373 8.0 s/batch
+1 316 p_hi 0.824 picks_hi 0.77 min_mass 0.049 8.2 s/batch
+1 317 p_hi 0.661 picks_hi 0.67 min_mass 0.158 8.2 s/batch
+1 318 p_hi 0.767 picks_hi 0.73 min_mass 0.633 8.6 s/batch
+1 319 p_hi 0.894 picks_hi 0.93 min_mass 0.625 8.6 s/batch
+1 320 p_hi 0.861 picks_hi 0.83 min_mass 0.091 8.0 s/batch
+1 321 p_hi 0.875 picks_hi 0.93 min_mass 0.264 8.0 s/batch
+1 322 p_hi 0.859 picks_hi 0.9 min_mass 0.184 8.1 s/batch
+1 323 p_hi 0.678 picks_hi 0.67 min_mass 0.05 8.1 s/batch
+1 324 p_hi 0.83 picks_hi 0.8 min_mass 0.266 9.1 s/batch
+1 325 p_hi 0.808 picks_hi 0.87 min_mass 0.128 9.1 s/batch
+1 326 p_hi 0.834 picks_hi 0.8 min_mass 0.103 9.1 s/batch
+1 327 p_hi 0.827 picks_hi 0.9 min_mass 0.079 9.1 s/batch
+1 328 p_hi 0.869 picks_hi 0.93 min_mass 0.103 9.4 s/batch
+1 329 p_hi 0.759 picks_hi 0.77 min_mass 0.219 9.4 s/batch
+1 330 p_hi 0.872 picks_hi 0.87 min_mass 0.04 8.8 s/batch
+1 331 p_hi 0.894 picks_hi 0.93 min_mass 0.582 8.8 s/batch
+1 332 p_hi 0.722 picks_hi 0.7 min_mass 0.36 9.0 s/batch
+1 333 p_hi 0.865 picks_hi 0.87 min_mass 0.206 9.0 s/batch
+1 334 p_hi 0.754 picks_hi 0.67 min_mass 0.41 9.4 s/batch
+1 335 p_hi 0.843 picks_hi 0.67 min_mass 0.688 9.4 s/batch
+1 336 p_hi 0.836 picks_hi 0.87 min_mass 0.602 8.8 s/batch
+1 337 p_hi 0.862 picks_hi 0.77 min_mass 0.052 8.8 s/batch
+1 338 p_hi 0.89 picks_hi 0.83 min_mass 0.442 9.0 s/batch
+1 339 p_hi 0.876 picks_hi 0.83 min_mass 0.438 9.0 s/batch
+gF 300 p_hi 0.171 picks_hi 0.17 min_mass 0.326 9.5 s/batch
+gF 301 p_hi 0.223 picks_hi 0.33 min_mass 0.173 9.5 s/batch
+gF 302 p_hi 0.212 picks_hi 0.2 min_mass 0.048 9.5 s/batch
+gF 303 p_hi 0.565 picks_hi 0.6 min_mass 0.425 9.5 s/batch
+gF 304 p_hi 0.321 picks_hi 0.33 min_mass 0.191 9.1 s/batch
+gF 305 p_hi 0.178 picks_hi 0.17 min_mass 0.267 9.1 s/batch
+gF 306 p_hi 0.138 picks_hi 0.2 min_mass 0.66 9.3 s/batch
+gF 307 p_hi 0.176 picks_hi 0.23 min_mass 0.201 9.3 s/batch
+gF 308 p_hi 0.235 picks_hi 0.23 min_mass 0.112 9.5 s/batch
+gF 309 p_hi 0.197 picks_hi 0.2 min_mass 0.125 9.5 s/batch
+gF 310 p_hi 0.123 picks_hi 0.2 min_mass 0.336 9.0 s/batch
+gF 311 p_hi 0.135 picks_hi 0.2 min_mass 0.11 9.0 s/batch
+gF 312 p_hi 0.111 picks_hi 0.1 min_mass 0.277 9.1 s/batch
+gF 313 p_hi 0.12 picks_hi 0.13 min_mass 0.839 9.1 s/batch
+gF 314 p_hi 0.222 picks_hi 0.2 min_mass 0.029 9.1 s/batch
+gF 315 p_hi 0.126 picks_hi 0.03 min_mass 0.509 9.1 s/batch
+gF 316 p_hi 0.147 picks_hi 0.1 min_mass 0.718 9.2 s/batch
+gF 317 p_hi 0.245 picks_hi 0.27 min_mass 0.159 9.2 s/batch
+gF 318 p_hi 0.122 picks_hi 0.1 min_mass 0.063 9.2 s/batch
+gF 319 p_hi 0.264 picks_hi 0.33 min_mass 0.028 9.2 s/batch
+gF 320 p_hi 0.209 picks_hi 0.23 min_mass 0.183 9.4 s/batch
+gF 321 p_hi 0.225 picks_hi 0.27 min_mass 0.252 9.4 s/batch
+gF 322 p_hi 0.184 picks_hi 0.2 min_mass 0.727 9.1 s/batch
+gF 323 p_hi 0.272 picks_hi 0.23 min_mass 0.657 9.1 s/batch
+gF 324 p_hi 0.205 picks_hi 0.17 min_mass 0.357 9.0 s/batch
+gF 325 p_hi 0.242 picks_hi 0.33 min_mass 0.274 9.0 s/batch
+gF 326 p_hi 0.179 picks_hi 0.3 min_mass 0.504 9.1 s/batch
+gF 327 p_hi 0.225 picks_hi 0.17 min_mass 0.159 9.1 s/batch
+gF 328 p_hi 0.263 picks_hi 0.23 min_mass 0.062 8.8 s/batch
+gF 329 p_hi 0.258 picks_hi 0.23 min_mass 0.15 8.8 s/batch
+gF 330 p_hi 0.158 picks_hi 0.17 min_mass 0.146 9.1 s/batch
+gF 331 p_hi 0.304 picks_hi 0.33 min_mass 0.525 9.1 s/batch
+gF 332 p_hi 0.189 picks_hi 0.2 min_mass 0.562 9.3 s/batch
+gF 333 p_hi 0.305 picks_hi 0.4 min_mass 0.452 9.3 s/batch
+gF 334 p_hi 0.16 picks_hi 0.17 min_mass 0.165 9.2 s/batch
+gF 335 p_hi 0.237 picks_hi 0.17 min_mass 0.473 9.2 s/batch
+gF 336 p_hi 0.179 picks_hi 0.27 min_mass 0.739 9.1 s/batch
+gF 337 p_hi 0.27 picks_hi 0.23 min_mass 0.201 9.1 s/batch
+gF 338 p_hi 0.161 picks_hi 0.17 min_mass 0.726 9.1 s/batch
+gF 339 p_hi 0.319 picks_hi 0.33 min_mass 0.059 9.1 s/batch
+oF 300 p_hi 0.191 picks_hi 0.2 min_mass 0.409 9.1 s/batch
+oF 301 p_hi 0.206 picks_hi 0.23 min_mass 0.21 9.1 s/batch
+oF 302 p_hi 0.199 picks_hi 0.17 min_mass 0.045 9.3 s/batch
+oF 303 p_hi 0.415 picks_hi 0.3 min_mass 0.108 9.3 s/batch
+oF 304 p_hi 0.323 picks_hi 0.3 min_mass 0.155 8.7 s/batch
+oF 305 p_hi 0.2 picks_hi 0.13 min_mass 0.349 8.7 s/batch
+oF 306 p_hi 0.167 picks_hi 0.23 min_mass 0.628 9.2 s/batch
+oF 307 p_hi 0.173 picks_hi 0.2 min_mass 0.099 9.2 s/batch
+oF 308 p_hi 0.177 picks_hi 0.17 min_mass 0.07 9.1 s/batch
+oF 309 p_hi 0.17 picks_hi 0.17 min_mass 0.1 9.1 s/batch
+oF 310 p_hi 0.125 picks_hi 0.13 min_mass 0.303 9.1 s/batch
+oF 311 p_hi 0.146 picks_hi 0.23 min_mass 0.089 9.1 s/batch
+oF 312 p_hi 0.136 picks_hi 0.13 min_mass 0.506 9.0 s/batch
+oF 313 p_hi 0.135 picks_hi 0.17 min_mass 0.868 9.0 s/batch
+oF 314 p_hi 0.264 picks_hi 0.37 min_mass 0.045 9.3 s/batch
+oF 315 p_hi 0.153 picks_hi 0.17 min_mass 0.65 9.3 s/batch
+oF 316 p_hi 0.146 picks_hi 0.17 min_mass 0.741 8.9 s/batch
+oF 317 p_hi 0.172 picks_hi 0.1 min_mass 0.103 8.9 s/batch
+oF 318 p_hi 0.099 picks_hi 0.07 min_mass 0.05 8.7 s/batch
+oF 319 p_hi 0.15 picks_hi 0.13 min_mass 0.096 8.7 s/batch
+oF 320 p_hi 0.181 picks_hi 0.17 min_mass 0.119 9.2 s/batch
+oF 321 p_hi 0.228 picks_hi 0.23 min_mass 0.213 9.2 s/batch
+oF 322 p_hi 0.229 picks_hi 0.37 min_mass 0.832 9.2 s/batch
+oF 323 p_hi 0.257 picks_hi 0.23 min_mass 0.63 9.2 s/batch
+oF 324 p_hi 0.188 picks_hi 0.3 min_mass 0.582 9.2 s/batch
+oF 325 p_hi 0.188 picks_hi 0.13 min_mass 0.329 9.2 s/batch
+oF 326 p_hi 0.182 picks_hi 0.2 min_mass 0.626 9.3 s/batch
+oF 327 p_hi 0.235 picks_hi 0.2 min_mass 0.159 9.3 s/batch
+oF 328 p_hi 0.232 picks_hi 0.27 min_mass 0.06 9.3 s/batch
+oF 329 p_hi 0.247 picks_hi 0.2 min_mass 0.183 9.3 s/batch
+oF 330 p_hi 0.14 picks_hi 0.07 min_mass 0.101 8.8 s/batch
+oF 331 p_hi 0.254 picks_hi 0.27 min_mass 0.521 8.8 s/batch
+oF 332 p_hi 0.16 picks_hi 0.2 min_mass 0.496 9.0 s/batch
+oF 333 p_hi 0.245 picks_hi 0.27 min_mass 0.516 9.0 s/batch
+oF 334 p_hi 0.144 picks_hi 0.13 min_mass 0.222 8.7 s/batch
+oF 335 p_hi 0.269 picks_hi 0.37 min_mass 0.313 8.7 s/batch
+oF 336 p_hi 0.13 picks_hi 0.1 min_mass 0.53 8.2 s/batch
+oF 337 p_hi 0.264 picks_hi 0.27 min_mass 0.09 8.2 s/batch
+oF 338 p_hi 0.2 picks_hi 0.2 min_mass 0.627 8.3 s/batch
+oF 339 p_hi 0.289 picks_hi 0.27 min_mass 0.083 8.3 s/batch
+gN 300 p_hi 0.801 picks_hi 0.8 min_mass 0.553 9.1 s/batch
+gN 301 p_hi 0.281 picks_hi 0.3 min_mass 0.729 9.1 s/batch
+gN 302 p_hi 0.309 picks_hi 0.33 min_mass 0.472 9.3 s/batch
+gN 303 p_hi 0.802 picks_hi 0.83 min_mass 0.451 9.3 s/batch
+gN 304 p_hi 0.293 picks_hi 0.33 min_mass 0.158 8.9 s/batch
+gN 305 p_hi 0.435 picks_hi 0.5 min_mass 0.255 8.9 s/batch
+gN 306 p_hi 0.155 picks_hi 0.1 min_mass 0.612 8.5 s/batch
+gN 307 p_hi 0.195 picks_hi 0.23 min_mass 0.102 8.5 s/batch
+gN 308 p_hi 0.323 picks_hi 0.23 min_mass 0.189 8.5 s/batch
+gN 309 p_hi 0.229 picks_hi 0.3 min_mass 0.155 8.5 s/batch
+gN 310 p_hi 0.438 picks_hi 0.4 min_mass 0.472 8.7 s/batch
+gN 311 p_hi 0.469 picks_hi 0.5 min_mass 0.439 8.7 s/batch
+gN 312 p_hi 0.184 picks_hi 0.17 min_mass 0.344 8.5 s/batch
+gN 313 p_hi 0.274 picks_hi 0.2 min_mass 0.857 8.5 s/batch
+gN 314 p_hi 0.364 picks_hi 0.3 min_mass 0.056 8.5 s/batch
+gN 315 p_hi 0.113 picks_hi 0.13 min_mass 0.31 8.5 s/batch
+gN 316 p_hi 0.14 picks_hi 0.1 min_mass 0.646 8.6 s/batch
+gN 317 p_hi 0.195 picks_hi 0.17 min_mass 0.103 8.6 s/batch
+gN 318 p_hi 0.21 picks_hi 0.17 min_mass 0.218 9.1 s/batch
+gN 319 p_hi 0.87 picks_hi 0.83 min_mass 0.451 9.1 s/batch
+gN 320 p_hi 0.187 picks_hi 0.17 min_mass 0.107 9.1 s/batch
+gN 321 p_hi 0.789 picks_hi 0.7 min_mass 0.252 9.1 s/batch
+gN 322 p_hi 0.537 picks_hi 0.53 min_mass 0.121 8.9 s/batch
+gN 323 p_hi 0.536 picks_hi 0.57 min_mass 0.11 8.9 s/batch
+gN 324 p_hi 0.792 picks_hi 0.87 min_mass 0.302 9.0 s/batch
+gN 325 p_hi 0.472 picks_hi 0.37 min_mass 0.667 9.0 s/batch
+gN 326 p_hi 0.267 picks_hi 0.27 min_mass 0.417 8.5 s/batch
+gN 327 p_hi 0.218 picks_hi 0.2 min_mass 0.27 8.5 s/batch
+gN 328 p_hi 0.927 picks_hi 0.97 min_mass 0.13 9.3 s/batch
+gN 329 p_hi 0.737 picks_hi 0.63 min_mass 0.32 9.3 s/batch
+gN 330 p_hi 0.111 picks_hi 0.1 min_mass 0.157 8.5 s/batch
+gN 331 p_hi 0.533 picks_hi 0.5 min_mass 0.479 8.5 s/batch
+gN 332 p_hi 0.777 picks_hi 0.67 min_mass 0.439 9.2 s/batch
+gN 333 p_hi 0.802 picks_hi 0.7 min_mass 0.257 9.2 s/batch
+gN 334 p_hi 0.146 picks_hi 0.07 min_mass 0.15 8.9 s/batch
+gN 335 p_hi 0.541 picks_hi 0.57 min_mass 0.873 8.9 s/batch
+gN 336 p_hi 0.232 picks_hi 0.2 min_mass 0.838 8.2 s/batch
+gN 337 p_hi 0.24 picks_hi 0.1 min_mass 0.226 8.2 s/batch
+gN 338 p_hi 0.194 picks_hi 0.13 min_mass 0.459 9.1 s/batch
+gN 339 p_hi 0.665 picks_hi 0.83 min_mass 0.323 9.1 s/batch
+gW 300 p_hi 0.725 picks_hi 0.77 min_mass 0.716 8.6 s/batch
+gW 301 p_hi 0.425 picks_hi 0.27 min_mass 0.557 8.6 s/batch
+gW 302 p_hi 0.636 picks_hi 0.67 min_mass 0.399 9.0 s/batch
+gW 303 p_hi 0.858 picks_hi 0.93 min_mass 0.33 9.0 s/batch
+gW 304 p_hi 0.777 picks_hi 0.67 min_mass 0.212 8.6 s/batch
+gW 305 p_hi 0.599 picks_hi 0.53 min_mass 0.43 8.6 s/batch
+gW 306 p_hi 0.613 picks_hi 0.63 min_mass 0.275 9.2 s/batch
+gW 307 p_hi 0.674 picks_hi 0.7 min_mass 0.158 9.2 s/batch
+gW 308 p_hi 0.766 picks_hi 0.8 min_mass 0.692 9.6 s/batch
+gW 309 p_hi 0.514 picks_hi 0.6 min_mass 0.373 9.6 s/batch
+gW 310 p_hi 0.74 picks_hi 0.8 min_mass 0.206 9.5 s/batch
+gW 311 p_hi 0.778 picks_hi 0.77 min_mass 0.061 9.5 s/batch
+gW 312 p_hi 0.679 picks_hi 0.67 min_mass 0.519 9.2 s/batch
+gW 313 p_hi 0.422 picks_hi 0.5 min_mass 0.106 9.2 s/batch
+gW 314 p_hi 0.721 picks_hi 0.83 min_mass 0.212 9.4 s/batch
+gW 315 p_hi 0.614 picks_hi 0.67 min_mass 0.317 9.4 s/batch
+gW 316 p_hi 0.782 picks_hi 0.9 min_mass 0.189 9.5 s/batch
+gW 317 p_hi 0.397 picks_hi 0.4 min_mass 0.321 9.5 s/batch
+gW 318 p_hi 0.729 picks_hi 0.63 min_mass 0.555 9.7 s/batch
+gW 319 p_hi 0.777 picks_hi 0.83 min_mass 0.368 9.7 s/batch
+gW 320 p_hi 0.66 picks_hi 0.63 min_mass 0.378 9.6 s/batch
+gW 321 p_hi 0.67 picks_hi 0.73 min_mass 0.391 9.6 s/batch
+gW 322 p_hi 0.555 picks_hi 0.6 min_mass 0.361 9.4 s/batch
+gW 323 p_hi 0.562 picks_hi 0.53 min_mass 0.172 9.4 s/batch
+gW 324 p_hi 0.686 picks_hi 0.83 min_mass 0.328 19.2 s/batch
+gW 325 p_hi 0.561 picks_hi 0.5 min_mass 0.093 19.2 s/batch
+gW 326 p_hi 0.566 picks_hi 0.57 min_mass 0.378 19.2 s/batch
+gW 327 p_hi 0.611 picks_hi 0.67 min_mass 0.194 19.2 s/batch
+gW 328 p_hi 0.716 picks_hi 0.73 min_mass 0.058 19.2 s/batch
+gW 329 p_hi 0.701 picks_hi 0.73 min_mass 0.493 19.2 s/batch
+gW 330 p_hi 0.593 picks_hi 0.63 min_mass 0.108 19.8 s/batch
+gW 331 p_hi 0.743 picks_hi 0.83 min_mass 0.476 19.8 s/batch
+gW 332 p_hi 0.448 picks_hi 0.5 min_mass 0.667 19.1 s/batch
+gW 333 p_hi 0.774 picks_hi 0.8 min_mass 0.296 19.1 s/batch
+gW 334 p_hi 0.68 picks_hi 0.7 min_mass 0.106 19.5 s/batch
+gW 335 p_hi 0.84 picks_hi 0.9 min_mass 0.858 19.5 s/batch
+gW 336 p_hi 0.641 picks_hi 0.6 min_mass 0.674 18.4 s/batch
+gW 337 p_hi 0.571 picks_hi 0.5 min_mass 0.081 18.4 s/batch
+gW 338 p_hi 0.775 picks_hi 0.7 min_mass 0.139 18.5 s/batch
+gW 339 p_hi 0.672 picks_hi 0.57 min_mass 0.474 18.5 s/batch
+oW 300 p_hi 0.651 picks_hi 0.67 min_mass 0.704 18.6 s/batch
+oW 301 p_hi 0.401 picks_hi 0.27 min_mass 0.659 18.6 s/batch
+oW 302 p_hi 0.59 picks_hi 0.6 min_mass 0.631 19.9 s/batch
+oW 303 p_hi 0.861 picks_hi 0.97 min_mass 0.327 19.9 s/batch
+oW 304 p_hi 0.662 picks_hi 0.67 min_mass 0.211 267.2 s/batch
+oW 305 p_hi 0.512 picks_hi 0.4 min_mass 0.336 267.2 s/batch
+oW 306 p_hi 0.716 picks_hi 0.77 min_mass 0.131 25.7 s/batch
+oW 307 p_hi 0.708 picks_hi 0.63 min_mass 0.204 25.7 s/batch
+oW 308 p_hi 0.76 picks_hi 0.8 min_mass 0.352 21.4 s/batch
+oW 309 p_hi 0.45 picks_hi 0.5 min_mass 0.365 21.4 s/batch
+oW 310 p_hi 0.563 picks_hi 0.43 min_mass 0.427 12.4 s/batch
+oW 311 p_hi 0.737 picks_hi 0.67 min_mass 0.131 12.4 s/batch
+oW 312 p_hi 0.746 picks_hi 0.8 min_mass 0.635 8.4 s/batch
+oW 313 p_hi 0.4 picks_hi 0.4 min_mass 0.189 8.4 s/batch
+oW 314 p_hi 0.657 picks_hi 0.7 min_mass 0.163 8.7 s/batch
+oW 315 p_hi 0.572 picks_hi 0.53 min_mass 0.515 8.7 s/batch
+oW 316 p_hi 0.59 picks_hi 0.5 min_mass 0.551 8.5 s/batch
+oW 317 p_hi 0.562 picks_hi 0.53 min_mass 0.283 8.5 s/batch
+oW 318 p_hi 0.646 picks_hi 0.63 min_mass 0.546 8.0 s/batch
+oW 319 p_hi 0.796 picks_hi 0.77 min_mass 0.381 8.0 s/batch
+oW 320 p_hi 0.647 picks_hi 0.5 min_mass 0.389 8.4 s/batch
+oW 321 p_hi 0.675 picks_hi 0.7 min_mass 0.299 8.4 s/batch
+oW 322 p_hi 0.58 picks_hi 0.53 min_mass 0.465 7.8 s/batch
+oW 323 p_hi 0.456 picks_hi 0.4 min_mass 0.275 7.8 s/batch
+oW 324 p_hi 0.57 picks_hi 0.53 min_mass 0.35 8.0 s/batch
+oW 325 p_hi 0.658 picks_hi 0.67 min_mass 0.18 8.0 s/batch
+oW 326 p_hi 0.462 picks_hi 0.33 min_mass 0.613 8.0 s/batch
+oW 327 p_hi 0.552 picks_hi 0.6 min_mass 0.223 8.0 s/batch
+oW 328 p_hi 0.542 picks_hi 0.4 min_mass 0.271 8.2 s/batch
+oW 329 p_hi 0.677 picks_hi 0.7 min_mass 0.467 8.2 s/batch
+oW 330 p_hi 0.598 picks_hi 0.6 min_mass 0.128 8.2 s/batch
+oW 331 p_hi 0.6 picks_hi 0.7 min_mass 0.563 8.2 s/batch
+oW 332 p_hi 0.422 picks_hi 0.43 min_mass 0.694 7.9 s/batch
+oW 333 p_hi 0.703 picks_hi 0.67 min_mass 0.291 7.9 s/batch
+oW 334 p_hi 0.66 picks_hi 0.8 min_mass 0.51 8.1 s/batch
+oW 335 p_hi 0.682 picks_hi 0.73 min_mass 0.865 8.1 s/batch
+oW 336 p_hi 0.65 picks_hi 0.67 min_mass 0.79 8.0 s/batch
+oW 337 p_hi 0.64 picks_hi 0.7 min_mass 0.027 8.0 s/batch
+oW 338 p_hi 0.769 picks_hi 0.8 min_mass 0.65 8.1 s/batch
+oW 339 p_hi 0.734 picks_hi 0.8 min_mass 0.404 8.1 s/batch
+STEP fast smol3 n=280
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/326 [00:00<?, ?it/s]Loading weights:   0%|          | 1/326 [00:00<02:40,  2.02it/s]Loading weights:   1%|          | 3/326 [00:00<01:05,  4.95it/s]Loading weights:   4%|3         | 12/326 [00:00<00:14, 20.96it/s]Loading weights:   6%|5         | 19/326 [00:00<00:09, 31.31it/s]Loading weights:   7%|7         | 24/326 [00:01<00:09, 32.58it/s]Loading weights:  10%|9         | 31/326 [00:01<00:07, 39.54it/s]Loading weights:  12%|#2        | 40/326 [00:01<00:06, 47.36it/s]Loading weights:  14%|#4        | 46/326 [00:01<00:06, 44.43it/s]Loading weights:  16%|#5        | 51/326 [00:01<00:09, 27.75it/s]Loading weights:  18%|#7        | 58/326 [00:01<00:07, 34.42it/s]Loading weights:  20%|##        | 66/326 [00:02<00:06, 42.46it/s]Loading weights:  22%|##2       | 73/326 [00:02<00:05, 48.13it/s]Loading weights:  24%|##4       | 79/326 [00:02<00:05, 48.55it/s]Loading weights:  26%|##6       | 85/326 [00:02<00:04, 50.08it/s]Loading weights:  29%|##8       | 93/326 [00:02<00:04, 55.30it/s]Loading weights:  30%|###       | 99/326 [00:02<00:04, 55.15it/s]Loading weights:  32%|###2      | 105/326 [00:02<00:04, 54.02it/s]Loading weights:  34%|###4      | 112/326 [00:02<00:03, 54.87it/s]Loading weights:  37%|###7      | 121/326 [00:03<00:03, 59.17it/s]Loading weights:  40%|###9      | 129/326 [00:03<00:03, 64.07it/s]Loading weights:  42%|####2     | 138/326 [00:03<00:02, 65.33it/s]Loading weights:  44%|####4     | 145/326 [00:03<00:02, 65.78it/s]Loading weights:  47%|####6     | 152/326 [00:03<00:02, 62.08it/s]Loading weights:  49%|####8     | 159/326 [00:03<00:02, 59.49it/s]Loading weights:  51%|#####1    | 167/326 [00:03<00:02, 59.98it/s]Loading weights:  54%|#####3    | 175/326 [00:03<00:02, 59.66it/s]Loading weights:  56%|#####6    | 183/326 [00:04<00:02, 60.52it/s]Loading weights:  58%|#####8    | 190/326 [00:04<00:02, 61.48it/s]Loading weights:  60%|######    | 197/326 [00:04<00:02, 55.20it/s]Loading weights:  62%|######2   | 203/326 [00:04<00:03, 38.99it/s]Loading weights:  65%|######4   | 211/326 [00:04<00:02, 43.82it/s]Loading weights:  67%|######7   | 219/326 [00:04<00:02, 47.63it/s]Loading weights:  69%|######9   | 225/326 [00:04<00:02, 49.99it/s]Loading weights:  71%|#######   | 231/326 [00:05<00:02, 43.19it/s]Loading weights:  73%|#######3  | 238/326 [00:05<00:01, 45.39it/s]Loading weights:  75%|#######5  | 246/326 [00:05<00:01, 50.43it/s]Loading weights:  77%|#######7  | 252/326 [00:05<00:01, 47.60it/s]Loading weights:  79%|#######8  | 257/326 [00:05<00:01, 40.15it/s]Loading weights:  81%|########1 | 265/326 [00:05<00:01, 44.35it/s]Loading weights:  83%|########2 | 270/326 [00:06<00:02, 23.43it/s]Loading weights:  84%|########4 | 274/326 [00:06<00:02, 25.17it/s]Loading weights:  87%|########6 | 282/326 [00:06<00:01, 32.40it/s]Loading weights:  88%|########8 | 287/326 [00:06<00:01, 34.17it/s]Loading weights:  90%|########9 | 292/326 [00:06<00:00, 36.31it/s]Loading weights:  92%|#########2| 300/326 [00:07<00:00, 40.80it/s]Loading weights:  94%|#########3| 305/326 [00:07<00:00, 38.25it/s]Loading weights:  95%|#########5| 310/326 [00:07<00:00, 39.97it/s]Loading weights:  98%|#########7| 318/326 [00:07<00:00, 43.27it/s]Loading weights:  99%|#########9| 323/326 [00:07<00:00, 37.78it/s]Loading weights: 100%|##########| 326/326 [00:07<00:00, 42.50it/s]
+0 {'T1_R_within_lr': 0.5, 'T2_A_within_lr': 0.5, 'T3_R_to_A_dm': 0.5, 'T3_A_to_R_dm': 0.5, 'T3_R_to_A_lr': 0.5, 'C1_sys_vs_user_to_A_dm': 0.5, 'cos_vR_vA': 0.0}
+1 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.538, 'T3_A_to_R_dm': 0.528, 'T3_R_to_A_lr': 0.631, 'C1_sys_vs_user_to_A_dm': 0.484, 'cos_vR_vA': 0.077}
+2 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.299, 'T3_A_to_R_dm': 0.375, 'T3_R_to_A_lr': 0.155, 'C1_sys_vs_user_to_A_dm': 0.504, 'cos_vR_vA': -0.194}
+3 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.255, 'T3_A_to_R_dm': 0.179, 'T3_R_to_A_lr': 0.158, 'C1_sys_vs_user_to_A_dm': 0.457, 'cos_vR_vA': -0.163}
+4 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.379, 'T3_A_to_R_dm': 0.234, 'T3_R_to_A_lr': 0.308, 'C1_sys_vs_user_to_A_dm': 0.507, 'cos_vR_vA': -0.073}
+5 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.488, 'T3_A_to_R_dm': 0.501, 'T3_R_to_A_lr': 0.519, 'C1_sys_vs_user_to_A_dm': 0.729, 'cos_vR_vA': -0.002}
+6 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.676, 'T3_A_to_R_dm': 0.7, 'T3_R_to_A_lr': 0.615, 'C1_sys_vs_user_to_A_dm': 0.782, 'cos_vR_vA': 0.117}
+7 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.522, 'T3_A_to_R_dm': 0.499, 'T3_R_to_A_lr': 0.363, 'C1_sys_vs_user_to_A_dm': 0.721, 'cos_vR_vA': 0.005}
+8 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.572, 'T3_A_to_R_dm': 0.58, 'T3_R_to_A_lr': 0.535, 'C1_sys_vs_user_to_A_dm': 0.661, 'cos_vR_vA': 0.043}
+9 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.413, 'T3_A_to_R_dm': 0.362, 'T3_R_to_A_lr': 0.351, 'C1_sys_vs_user_to_A_dm': 0.52, 'cos_vR_vA': -0.042}
+10 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.596, 'T3_A_to_R_dm': 0.581, 'T3_R_to_A_lr': 0.591, 'C1_sys_vs_user_to_A_dm': 0.541, 'cos_vR_vA': 0.034}
+11 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.696, 'T3_A_to_R_dm': 0.628, 'T3_R_to_A_lr': 0.516, 'C1_sys_vs_user_to_A_dm': 0.684, 'cos_vR_vA': 0.083}
+12 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.687, 'T3_A_to_R_dm': 0.62, 'T3_R_to_A_lr': 0.46, 'C1_sys_vs_user_to_A_dm': 0.679, 'cos_vR_vA': 0.082}
+13 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.738, 'T3_A_to_R_dm': 0.707, 'T3_R_to_A_lr': 0.57, 'C1_sys_vs_user_to_A_dm': 0.701, 'cos_vR_vA': 0.111}
+14 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.8, 'T3_A_to_R_dm': 0.708, 'T3_R_to_A_lr': 0.751, 'C1_sys_vs_user_to_A_dm': 0.715, 'cos_vR_vA': 0.127}
+15 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.967, 'T3_A_to_R_dm': 0.745, 'T3_R_to_A_lr': 0.944, 'C1_sys_vs_user_to_A_dm': 0.885, 'cos_vR_vA': 0.241}
+16 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.938, 'T3_A_to_R_dm': 0.718, 'T3_R_to_A_lr': 0.884, 'C1_sys_vs_user_to_A_dm': 0.839, 'cos_vR_vA': 0.221}
+17 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.97, 'T3_A_to_R_dm': 0.729, 'T3_R_to_A_lr': 0.967, 'C1_sys_vs_user_to_A_dm': 0.866, 'cos_vR_vA': 0.285}
+18 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.979, 'T3_A_to_R_dm': 0.735, 'T3_R_to_A_lr': 0.999, 'C1_sys_vs_user_to_A_dm': 0.915, 'cos_vR_vA': 0.312}
+19 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.972, 'T3_A_to_R_dm': 0.725, 'T3_R_to_A_lr': 0.99, 'C1_sys_vs_user_to_A_dm': 0.91, 'cos_vR_vA': 0.29}
+20 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.925, 'T3_A_to_R_dm': 0.706, 'T3_R_to_A_lr': 0.983, 'C1_sys_vs_user_to_A_dm': 0.852, 'cos_vR_vA': 0.273}
+21 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.872, 'T3_A_to_R_dm': 0.662, 'T3_R_to_A_lr': 0.919, 'C1_sys_vs_user_to_A_dm': 0.783, 'cos_vR_vA': 0.253}
+22 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.787, 'T3_A_to_R_dm': 0.613, 'T3_R_to_A_lr': 0.837, 'C1_sys_vs_user_to_A_dm': 0.686, 'cos_vR_vA': 0.168}
+23 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.834, 'T3_A_to_R_dm': 0.627, 'T3_R_to_A_lr': 0.858, 'C1_sys_vs_user_to_A_dm': 0.773, 'cos_vR_vA': 0.203}
+24 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.788, 'T3_A_to_R_dm': 0.621, 'T3_R_to_A_lr': 0.803, 'C1_sys_vs_user_to_A_dm': 0.652, 'cos_vR_vA': 0.175}
+25 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.745, 'T3_A_to_R_dm': 0.61, 'T3_R_to_A_lr': 0.816, 'C1_sys_vs_user_to_A_dm': 0.61, 'cos_vR_vA': 0.174}
+26 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.725, 'T3_A_to_R_dm': 0.604, 'T3_R_to_A_lr': 0.823, 'C1_sys_vs_user_to_A_dm': 0.618, 'cos_vR_vA': 0.166}
+27 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.801, 'T3_A_to_R_dm': 0.615, 'T3_R_to_A_lr': 0.744, 'C1_sys_vs_user_to_A_dm': 0.654, 'cos_vR_vA': 0.218}
+28 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.776, 'T3_A_to_R_dm': 0.611, 'T3_R_to_A_lr': 0.761, 'C1_sys_vs_user_to_A_dm': 0.624, 'cos_vR_vA': 0.209}
+29 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.783, 'T3_A_to_R_dm': 0.614, 'T3_R_to_A_lr': 0.812, 'C1_sys_vs_user_to_A_dm': 0.625, 'cos_vR_vA': 0.209}
+30 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.8, 'T3_A_to_R_dm': 0.611, 'T3_R_to_A_lr': 0.774, 'C1_sys_vs_user_to_A_dm': 0.609, 'cos_vR_vA': 0.217}
+31 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.759, 'T3_A_to_R_dm': 0.579, 'T3_R_to_A_lr': 0.732, 'C1_sys_vs_user_to_A_dm': 0.551, 'cos_vR_vA': 0.175}
+32 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.758, 'T3_A_to_R_dm': 0.574, 'T3_R_to_A_lr': 0.726, 'C1_sys_vs_user_to_A_dm': 0.482, 'cos_vR_vA': 0.176}
+33 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.769, 'T3_A_to_R_dm': 0.574, 'T3_R_to_A_lr': 0.791, 'C1_sys_vs_user_to_A_dm': 0.499, 'cos_vR_vA': 0.176}
+34 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.781, 'T3_A_to_R_dm': 0.574, 'T3_R_to_A_lr': 0.804, 'C1_sys_vs_user_to_A_dm': 0.506, 'cos_vR_vA': 0.175}
+35 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.733, 'T3_A_to_R_dm': 0.558, 'T3_R_to_A_lr': 0.836, 'C1_sys_vs_user_to_A_dm': 0.425, 'cos_vR_vA': 0.141}
+36 {'T1_R_within_lr': 1.0, 'T2_A_within_lr': 1.0, 'T3_R_to_A_dm': 0.779, 'T3_A_to_R_dm': 0.577, 'T3_R_to_A_lr': 0.912, 'C1_sys_vs_user_to_A_dm': 0.274, 'cos_vR_vA': 0.233}
+STEP probe smol3 rc=0
+CHAIN5_DONE

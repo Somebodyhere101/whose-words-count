@@ -1,0 +1,10 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 3201.00it/s]
+sep none done 4 s
+sep DEF done 6 s
+BENCH_DONE
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:  37%|███▋      | 114/311 [00:00<00:00, 1123.16it/s]Loading weights:  74%|███████▍  | 230/311 [00:00<00:00, 1132.52it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 1207.61it/s]
+injecagent none done 2 s
+injecagent DEF done 3 s
+BENCH_DONE

@@ -1,0 +1,228 @@
+{
+ "overall": "ONE AXIS",
+ "order_replicated_in": [
+  "Qwen3-8B",
+  "Qwen3-14B",
+  "OLMo-2-1124-7B-Instruct"
+ ],
+ "verdicts": {
+  "Qwen3-8B": "ONE AXIS",
+  "Qwen3-14B": "ONE AXIS",
+  "OLMo-2-1124-7B-Instruct": "ONE AXIS"
+ },
+ "models": {
+  "Qwen3-8B": {
+   "means": {
+    "1_base": {
+     "goal": 0.185,
+     "proj": null
+    },
+    "gF_probe": {
+     "goal": 0.8872,
+     "proj": -9.4594
+    },
+    "oF_probe": {
+     "goal": 0.8634,
+     "proj": -8.1211
+    },
+    "uF_probe": {
+     "goal": 0.9322,
+     "proj": -11.5765
+    }
+   },
+   "A1_user_minus_system": {
+    "mean": 0.0449,
+    "p": 5e-05,
+    "ci95": [
+     0.0315,
+     0.06
+    ],
+    "pos": 55,
+    "neg": 5,
+    "p_holm": 0.00015
+   },
+   "A2_system_minus_own": {
+    "mean": 0.0239,
+    "p": 5e-05,
+    "ci95": [
+     0.0139,
+     0.0349
+    ],
+    "pos": 52,
+    "neg": 7,
+    "p_holm": 0.00015
+   },
+   "P1_proj_system_minus_user": {
+    "mean": 2.1171,
+    "p": 5e-05,
+    "ci95": [
+     1.8415,
+     2.3878
+    ],
+    "pos": 58,
+    "neg": 2,
+    "p_holm": 0.00015
+   },
+   "P2_proj_own_minus_system": {
+    "mean": 1.3383,
+    "p": 5e-05,
+    "ci95": [
+     1.2266,
+     1.5238
+    ],
+    "pos": 60,
+    "neg": 0,
+    "p_holm": 0.00015
+   },
+   "within_cell_corr_proj_goal": {
+    "gF_probe": 0.211,
+    "oF_probe": 0.117,
+    "uF_probe": -0.147
+   },
+   "order_replicated": true,
+   "verdict": "ONE AXIS"
+  },
+  "Qwen3-14B": {
+   "means": {
+    "1_base": {
+     "goal": 0.5612,
+     "proj": null
+    },
+    "gF_probe": {
+     "goal": 0.9319,
+     "proj": -7.2845
+    },
+    "oF_probe": {
+     "goal": 0.8713,
+     "proj": -5.957
+    },
+    "uF_probe": {
+     "goal": 0.9538,
+     "proj": -9.0232
+    }
+   },
+   "A1_user_minus_system": {
+    "mean": 0.0219,
+    "p": 0.00025,
+    "ci95": [
+     0.0106,
+     0.035
+    ],
+    "pos": 55,
+    "neg": 5,
+    "p_holm": 0.00025
+   },
+   "A2_system_minus_own": {
+    "mean": 0.0606,
+    "p": 5e-05,
+    "ci95": [
+     0.0346,
+     0.0913
+    ],
+    "pos": 58,
+    "neg": 2,
+    "p_holm": 0.00015
+   },
+   "P1_proj_system_minus_user": {
+    "mean": 1.7387,
+    "p": 5e-05,
+    "ci95": [
+     1.7221,
+     1.7547
+    ],
+    "pos": 60,
+    "neg": 0,
+    "p_holm": 0.00015
+   },
+   "P2_proj_own_minus_system": {
+    "mean": 1.3275,
+    "p": 5e-05,
+    "ci95": [
+     1.3158,
+     1.3392
+    ],
+    "pos": 60,
+    "neg": 0,
+    "p_holm": 0.00015
+   },
+   "within_cell_corr_proj_goal": {
+    "gF_probe": 0.267,
+    "oF_probe": 0.267,
+    "uF_probe": 0.424
+   },
+   "order_replicated": true,
+   "verdict": "ONE AXIS"
+  },
+  "OLMo-2-1124-7B-Instruct": {
+   "means": {
+    "1_base": {
+     "goal": 0.1097,
+     "proj": null
+    },
+    "gF_probe": {
+     "goal": 0.711,
+     "proj": -0.7134
+    },
+    "oF_probe": {
+     "goal": 0.6501,
+     "proj": -0.5934
+    },
+    "uF_probe": {
+     "goal": 0.819,
+     "proj": -1.09
+    }
+   },
+   "A1_user_minus_system": {
+    "mean": 0.108,
+    "p": 5e-05,
+    "ci95": [
+     0.0933,
+     0.125
+    ],
+    "pos": 59,
+    "neg": 1,
+    "p_holm": 0.00015
+   },
+   "A2_system_minus_own": {
+    "mean": 0.0609,
+    "p": 5e-05,
+    "ci95": [
+     0.0465,
+     0.0761
+    ],
+    "pos": 53,
+    "neg": 7,
+    "p_holm": 0.00015
+   },
+   "P1_proj_system_minus_user": {
+    "mean": 0.3766,
+    "p": 5e-05,
+    "ci95": [
+     0.3754,
+     0.3778
+    ],
+    "pos": 60,
+    "neg": 0,
+    "p_holm": 0.00015
+   },
+   "P2_proj_own_minus_system": {
+    "mean": 0.12,
+    "p": 5e-05,
+    "ci95": [
+     0.1191,
+     0.1209
+    ],
+    "pos": 60,
+    "neg": 0,
+    "p_holm": 0.00015
+   },
+   "within_cell_corr_proj_goal": {
+    "gF_probe": -0.251,
+    "oF_probe": -0.415,
+    "uF_probe": -0.313
+   },
+   "order_replicated": true,
+   "verdict": "ONE AXIS"
+  }
+ }
+}

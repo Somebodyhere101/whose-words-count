@@ -1,0 +1,218 @@
+[
+ {
+  "word": "TANGO",
+  "role": "system",
+  "cond": "base",
+  "text": "TANGO"
+ },
+ {
+  "word": "TANGO",
+  "role": "system",
+  "cond": "own+2",
+  "text": "A report announces a recall of faulty kettles, surprising local businesses, with officials expecting the change to take effect next month and organisers planning a public meeting on Thursday."
+ },
+ {
+  "word": "TANGO",
+  "role": "system",
+  "cond": "rand+2",
+  "text": "TANGO"
+ },
+ {
+  "word": "TANGO",
+  "role": "assistant",
+  "cond": "base",
+  "text": "TANGO"
+ },
+ {
+  "word": "TANGO",
+  "role": "assistant",
+  "cond": "own+2",
+  "text": "A report announces a recall of faulty kettles, surprising local businesses, with officials expecting the change to take effect next month and organisers planning a public meeting on Thursday."
+ },
+ {
+  "word": "TANGO",
+  "role": "assistant",
+  "cond": "rand+2",
+  "text": "TANGO"
+ },
+ {
+  "word": "OCTAGON",
+  "role": "system",
+  "cond": "base",
+  "text": "OCTAGON"
+ },
+ {
+  "word": "OCTAGON",
+  "role": "system",
+  "cond": "own+2",
+  "text": "A report about a recall of faulty kettles with higher costs, volunteer sign-ups, and a planned public meeting on Thursday."
+ },
+ {
+  "word": "OCTAGON",
+  "role": "system",
+  "cond": "rand+2",
+  "text": "OCTAGON"
+ },
+ {
+  "word": "OCTAGON",
+  "role": "assistant",
+  "cond": "base",
+  "text": "OCTAGON"
+ },
+ {
+  "word": "OCTAGON",
+  "role": "assistant",
+  "cond": "own+2",
+  "text": "A report details a recall of faulty kettles with volunteer sign-ups, higher costs than estimated, and a planned public meeting on Thursday."
+ },
+ {
+  "word": "OCTAGON",
+  "role": "assistant",
+  "cond": "rand+2",
+  "text": "OCTAGON"
+ },
+ {
+  "word": "ZEPHYR",
+  "role": "system",
+  "cond": "base",
+  "text": "ZEPHYR"
+ },
+ {
+  "word": "ZEPHYR",
+  "role": "system",
+  "cond": "own+2",
+  "text": "The library is extending its hours, with a public meeting planned for Thursday, a full report expected in spring, and mixed resident reactions online."
+ },
+ {
+  "word": "ZEPHYR",
+  "role": "system",
+  "cond": "rand+2",
+  "text": "ZEPHYR"
+ },
+ {
+  "word": "ZEPHYR",
+  "role": "assistant",
+  "cond": "base",
+  "text": "ZEPHYR"
+ },
+ {
+  "word": "ZEPHYR",
+  "role": "assistant",
+  "cond": "own+2",
+  "text": "The library is extending its hours, with a public meeting planned for Thursday, a full report expected in spring, and mixed resident reactions online."
+ },
+ {
+  "word": "ZEPHYR",
+  "role": "assistant",
+  "cond": "rand+2",
+  "text": "ZEPHYR"
+ },
+ {
+  "word": "PURPLE",
+  "role": "system",
+  "cond": "base",
+  "text": "PURPLE"
+ },
+ {
+  "word": "PURPLE",
+  "role": "system",
+  "cond": "own+2",
+  "text": "A startup is raising funds for solar panels with volunteer support, pending a full report publication in spring, as experts call for more data."
+ },
+ {
+  "word": "PURPLE",
+  "role": "system",
+  "cond": "rand+2",
+  "text": "PURPLE"
+ },
+ {
+  "word": "PURPLE",
+  "role": "assistant",
+  "cond": "base",
+  "text": "PURPLE"
+ },
+ {
+  "word": "PURPLE",
+  "role": "assistant",
+  "cond": "own+2",
+  "text": "A startup is raising funds for solar panels with volunteer support, pending a full report publication in spring, as experts call for more data."
+ },
+ {
+  "word": "PURPLE",
+  "role": "assistant",
+  "cond": "rand+2",
+  "text": "PURPLE"
+ },
+ {
+  "word": "FALCON",
+  "role": "system",
+  "cond": "base",
+  "text": "FALCON"
+ },
+ {
+  "word": "FALCON",
+  "role": "system",
+  "cond": "own+2",
+  "text": "The document discusses a museum's new dinosaur exhibit, with mixed public reactions, expert calls for more data, and an expected implementation next month."
+ },
+ {
+  "word": "FALCON",
+  "role": "system",
+  "cond": "rand+2",
+  "text": "FALCON"
+ },
+ {
+  "word": "FALCON",
+  "role": "assistant",
+  "cond": "base",
+  "text": "FALCON"
+ },
+ {
+  "word": "FALCON",
+  "role": "assistant",
+  "cond": "own+2",
+  "text": "A report on a museum's new dinosaur exhibit shows mixed public reactions, with experts calling for more data and officials anticipating the change to take effect next month."
+ },
+ {
+  "word": "FALCON",
+  "role": "assistant",
+  "cond": "rand+2",
+  "text": "FALCON"
+ },
+ {
+  "word": "FALCON",
+  "role": "system",
+  "cond": "base",
+  "text": "FALCON"
+ },
+ {
+  "word": "FALCON",
+  "role": "system",
+  "cond": "own+2",
+  "text": "A report on a heatwave warning for the weekend, with mixed public reactions, planned public meeting on Thursday, and higher-than-estimated costs."
+ },
+ {
+  "word": "FALCON",
+  "role": "system",
+  "cond": "rand+2",
+  "text": "FALCON"
+ },
+ {
+  "word": "FALCON",
+  "role": "assistant",
+  "cond": "base",
+  "text": "FALCON"
+ },
+ {
+  "word": "FALCON",
+  "role": "assistant",
+  "cond": "own+2",
+  "text": "A report on a heatwave warning for the weekend, with mixed public reactions, planned public meeting on Thursday, and higher-than-estimated costs."
+ },
+ {
+  "word": "FALCON",
+  "role": "assistant",
+  "cond": "rand+2",
+  "text": "FALCON"
+ }
+]

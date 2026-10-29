@@ -1,0 +1,2 @@
+9c08497e67caa123c89d3f1e049859164646a632 Thu Mar 26 14:13:39 2026 +1100
+Copied from https://github.com/yilin-geng/llm-instruction-conflicts (Geng et al., Control Illusion, AAAI 2026) for research use; cite, do not redistribute. Commit above.

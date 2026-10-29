@@ -1,0 +1,15 @@
+@@ALIVE
+@@DONE
+@@PACKED
+@@ERRS 0
+@@R SMOKE_OK
+@@R 03:46 sep Qwen3-14B done (batch 32)
+@@R 04:37 injecagent Qwen3-14B done (batch 8)
+@@R 04:45 sep Falcon3-10B-Instruct done (batch 32)
+@@R 04:54 sep Yi-1.5-9B-Chat done (batch 32)
+@@R 05:04 sep OLMo-2-1124-13B-Instruct done (batch 32)
+@@R 05:26 sep Qwen3-32B done (batch 32)
+@@R 05:46 sep OLMo-2-0325-32B-Instruct done (batch 32)
+@@D 04:12 Qwen/Qwen3-32B ok=1 free=149G
+@@D 04:32 allenai/OLMo-2-0325-32B-Instruct ok=1 free=89G
+Thu Oct 29 05:48:40 UTC 2026

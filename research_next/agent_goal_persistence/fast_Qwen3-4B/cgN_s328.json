@@ -1,0 +1,224 @@
+{
+ "cond": "gN",
+ "seed": 328,
+ "mean_p_hi": 0.9999997079372406,
+ "pick_hi_share": 1.0,
+ "min_mass": 0.0019267348106950521,
+ "notes": [],
+ "steps": [
+  {
+   "k": 0,
+   "p_hi": 1.0,
+   "mass": 0.9999990463256836,
+   "pick": "GAEL",
+   "kind": "hi"
+  },
+  {
+   "k": 1,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "KAMO",
+   "kind": "hi"
+  },
+  {
+   "k": 2,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "INAR",
+   "kind": "hi"
+  },
+  {
+   "k": 3,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "INBE",
+   "kind": "hi"
+  },
+  {
+   "k": 4,
+   "p_hi": 1.0,
+   "mass": 0.999987006187439,
+   "pick": "NAKA",
+   "kind": "hi"
+  },
+  {
+   "k": 5,
+   "p_hi": 1.0,
+   "mass": 0.9999836087226868,
+   "pick": "DAFI",
+   "kind": "hi"
+  },
+  {
+   "k": 6,
+   "p_hi": 1.0,
+   "mass": 0.9999996423721313,
+   "pick": "AROR",
+   "kind": "hi"
+  },
+  {
+   "k": 7,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "JUAR",
+   "kind": "hi"
+  },
+  {
+   "k": 8,
+   "p_hi": 1.0000001192092896,
+   "mass": 0.9999966025352478,
+   "pick": "HOJU",
+   "kind": "hi"
+  },
+  {
+   "k": 9,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "JUIN",
+   "kind": "hi"
+  },
+  {
+   "k": 10,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "ORTE",
+   "kind": "hi"
+  },
+  {
+   "k": 11,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "JUJU",
+   "kind": "hi"
+  },
+  {
+   "k": 12,
+   "p_hi": 1.0,
+   "mass": 0.9999983310699463,
+   "pick": "ELCO",
+   "kind": "hi"
+  },
+  {
+   "k": 13,
+   "p_hi": 0.9999996423721313,
+   "mass": 0.0019267348106950521,
+   "pick": "GAMO",
+   "kind": "hi"
+  },
+  {
+   "k": 14,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "PEUL",
+   "kind": "hi"
+  },
+  {
+   "k": 15,
+   "p_hi": 1.0,
+   "mass": 0.9999978542327881,
+   "pick": "LUHO",
+   "kind": "hi"
+  },
+  {
+   "k": 16,
+   "p_hi": 1.0,
+   "mass": 0.9999963045120239,
+   "pick": "WEHO",
+   "kind": "hi"
+  },
+  {
+   "k": 17,
+   "p_hi": 1.0,
+   "mass": 0.9999996423721313,
+   "pick": "GAPE",
+   "kind": "hi"
+  },
+  {
+   "k": 18,
+   "p_hi": 1.0,
+   "mass": 0.9999990463256836,
+   "pick": "HOIN",
+   "kind": "hi"
+  },
+  {
+   "k": 19,
+   "p_hi": 1.0,
+   "mass": 0.9999995231628418,
+   "pick": "YOBE",
+   "kind": "hi"
+  },
+  {
+   "k": 20,
+   "p_hi": 0.999995231628418,
+   "mass": 0.9999967217445374,
+   "pick": "ARTE",
+   "kind": "hi"
+  },
+  {
+   "k": 21,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "OREL",
+   "kind": "hi"
+  },
+  {
+   "k": 22,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "ZENA",
+   "kind": "hi"
+  },
+  {
+   "k": 23,
+   "p_hi": 1.0,
+   "mass": 1.0000001192092896,
+   "pick": "KAFI",
+   "kind": "hi"
+  },
+  {
+   "k": 24,
+   "p_hi": 1.0,
+   "mass": 0.9994442462921143,
+   "pick": "BEBE",
+   "kind": "hi"
+  },
+  {
+   "k": 25,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "COWE",
+   "kind": "hi"
+  },
+  {
+   "k": 26,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "XAQU",
+   "kind": "hi"
+  },
+  {
+   "k": 27,
+   "p_hi": 0.9999962449073792,
+   "mass": 0.08553755283355713,
+   "pick": "WEFI",
+   "kind": "hi"
+  },
+  {
+   "k": 28,
+   "p_hi": 1.0,
+   "mass": 0.9999995231628418,
+   "pick": "ELAR",
+   "kind": "hi"
+  },
+  {
+   "k": 29,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "HOCO",
+   "kind": "hi"
+  }
+ ],
+ "runner": "agp_fast",
+ "sec_batch": 40.4,
+ "batch": 2,
+ "model": "Qwen/Qwen3-4B"
+}

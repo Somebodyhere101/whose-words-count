@@ -1,0 +1,12 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/326 [00:00<?, ?it/s]Loading weights: 100%|██████████| 326/326 [00:00<00:00, 7854.28it/s]
+[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer TokenizersBackend. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.
+injecagent none done 278 s
+injecagent DEF done 527 s
+injecagent RND done 776 s
+injecagent P done 1027 s
+injecagent SPOT done 1279 s
+injecagent REMIND done 1529 s
+injecagent DEF+P done 1753 s
+injecagent DEF+SPOT done 1872 s
+BENCH_DONE

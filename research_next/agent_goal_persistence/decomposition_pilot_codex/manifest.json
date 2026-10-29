@@ -1,0 +1,22 @@
+{
+  "model": "Qwen/Qwen3-1.7B",
+  "conditions": [
+    "plain",
+    "emph",
+    "oldR2",
+    "user2",
+    "user4",
+    "orth2",
+    "pair2",
+    "random2"
+  ],
+  "tasks": "65-66",
+  "layer": 13,
+  "plan_sha256": "8880991828027121f1e6b6dcd1021014b15f0ba149fdaa38dfd88e8de8252727",
+  "script_sha256": "3c3a68228ef551434c60f1d600c4f0da0140ceb42ffeef3477edbefa9ac0585a",
+  "dependency_sha256": {
+    "agp_batch.py": "f4ff4d680dcba907b621d6f92ae71ecd0f6584d637eac857be6d47e102e12b89",
+    "ci_eval.py": "c83cd1b1ec4d9c9a276783a5e0b46a5543a249c75bc6bac87b3915196ecc15a5",
+    "ci_score.py": "f0641cb2b209ba22c2aee1776f7e7793f0356b68518d4acb8fd242c0bfbd793e"
+  }
+}

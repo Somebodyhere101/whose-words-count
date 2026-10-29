@@ -1,0 +1,14 @@
+@@DONE
+@@PACKED
+@@S SELECTED OLMo-2-1124-7B-Instruct 10
+@@S SELECTED granite-3.3-8b-instruct 10
+@@S SELECTED SmolLM3-3B 7
+@@N out_cA_OLMo-2-1124-7B-Instruct 31
+@@N out_cA_SmolLM3-3B 31
+@@N out_cA_granite-3.3-8b-instruct 31
+@@N out_cB_OLMo-2-1124-7B-Instruct 6
+@@N out_cB_SmolLM3-3B 6
+@@N out_cB_granite-3.3-8b-instruct 6
+@@T oW_L7_rand_a-2 p_hi 0.524 mass 0.919 20.3 s
+@@T gW_L7_rand_a+2 p_hi 0.538 mass 0.921 20.3 s
+@@T CLOUD7_DONE

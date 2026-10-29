@@ -1,0 +1,22 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights:  44%|████▍     | 175/399 [00:00<00:00, 1723.44it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 2620.16it/s]
+gen Qwen/Qwen3-8B: 36 layers, 192 jobs, means 66 s
+gen sys 83 s
+gen usr 99 s
+gen own 115 s
+gen doc 132 s
+gen tool 148 s
+gen tool_P 166 s
+gen frame 183 s
+gen spot 203 s
+gen tool-usr|0.45|4|C 217 s
+gen tool-usr|0.45|4|W 231 s
+gen doc-tool|0.45|4|C 246 s
+gen tool-frame|0.45|8|W 259 s
+gen tool-usr|0.45|2|C 271 s
+gen tool-usr|0.45|2|W 282 s
+gen doc-tool|0.45|2|C 294 s
+gen tool-frame|0.45|8|C 306 s
+gen random|0.45|4|C 316 s
+gen random|0.45|4|W 324 s
+GEN_DONE

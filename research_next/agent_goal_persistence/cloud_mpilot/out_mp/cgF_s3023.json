@@ -1,0 +1,1 @@
+{"cond": "gF", "seed": 3023, "mean_p_hi": 0.007792055359624702, "mean_p_goal": 0.992207944393158, "mean_p_press": 0.00036864082249377144, "mean_p_contra": 2.281054409655274e-10, "mean_p_filler": 0.007423414309026264, "pick_hi_share": 0.0, "min_mass": 0.9398020505905151, "notes": [], "runner": "agp_fast", "sec_batch": 20.2, "batch": 20, "model": "Qwen/Qwen3-8B", "header": ""}

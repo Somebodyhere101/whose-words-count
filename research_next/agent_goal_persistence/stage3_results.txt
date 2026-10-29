@@ -1,0 +1,17 @@
+alpha 2
+  L5 oW: shift toward predicted +0.042 (p 0.0002); beyond random +0.060 p 0.0001 ci +0.038,+0.085; mass ratio 0.999
+  L5 gW: shift toward predicted +0.120 (p 0.0000); beyond random +0.142 p 0.0000 ci +0.112,+0.173; mass ratio 0.996
+  L13 oW: shift toward predicted +0.138 (p 0.0000); beyond random +0.086 p 0.0000 ci +0.070,+0.103; mass ratio 1.002
+  L13 gW: shift toward predicted +0.158 (p 0.0000); beyond random +0.072 p 0.0000 ci +0.058,+0.086; mass ratio 0.996
+  L20 oW: shift toward predicted -0.000 (p 0.7752); beyond random -0.004 p 0.1290 ci -0.008,+0.000; mass ratio 1.000
+  L20 gW: shift toward predicted +0.003 (p 0.4278); beyond random +0.002 p 0.2223 ci -0.001,+0.005; mass ratio 1.001
+  GATE L13: holm p 0.0001 pass=True
+  GATE L5: holm p 0.0002 pass=False
+  GATE L20: holm p 0.2223 pass=False
+alpha 1
+  L5 oW: shift toward predicted +0.022 (p 0.0051); beyond random +0.030 p 0.0003 ci +0.017,+0.042; mass ratio 1.001
+  L5 gW: shift toward predicted +0.068 (p 0.0000); beyond random +0.080 p 0.0000 ci +0.056,+0.108; mass ratio 0.997
+  L13 oW: shift toward predicted +0.077 (p 0.0000); beyond random +0.045 p 0.0000 ci +0.033,+0.058; mass ratio 1.000
+  L13 gW: shift toward predicted +0.094 (p 0.0000); beyond random +0.050 p 0.0000 ci +0.037,+0.063; mass ratio 0.998
+  L20 oW: shift toward predicted +0.002 (p 0.0763); beyond random +0.002 p 0.1353 ci -0.000,+0.005; mass ratio 1.000
+  L20 gW: shift toward predicted +0.002 (p 0.3452); beyond random +0.001 p 0.8118 ci -0.006,+0.006; mass ratio 0.998

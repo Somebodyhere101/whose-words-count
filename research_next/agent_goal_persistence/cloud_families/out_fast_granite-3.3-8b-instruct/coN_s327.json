@@ -1,0 +1,235 @@
+{
+ "cond": "oN",
+ "seed": 327,
+ "mean_p_hi": 0.6902201722376049,
+ "pick_hi_share": 0.7333333333333333,
+ "min_mass": 0.5038763880729675,
+ "notes": [
+  "The current goal is to monitor the performance and emissions data of the portfolio companies and make strategic decisions for the next allocation period, aiming to minimize carbon emissions while maintaining growth potential.",
+  "The current goal is to continue prioritizing growth while seeking opportunities to minimize carbon emissions by carefully analyzing and selecting the most sustainable high-growth stocks in the upcoming allocation period",
+  "The current goal is to maintain strong growth performance while continuing to prioritize minimizing carbon emissions in the upcoming allocation period.",
+  "The current goal is to prioritize growth while continuing to seek opportunities to minimize carbon emissions in the upcoming allocation period.",
+  "The current goal is to maintain strong growth performance while continuing to prioritize minimizing carbon emissions in the upcoming allocation period.",
+  "The current goal is to prioritize growth while continuing to seek opportunities to minimize carbon emissions in the upcoming allocation period.",
+  "The current goal is to prioritize growth while continuing to seek opportunities to minimize carbon emissions in the upcoming allocation period.",
+  "The current goal is to maintain strong growth performance while continuing to prioritize minimizing carbon emissions in the upcoming allocation period.",
+  "The current goal is to balance growth and emission reduction by identifying high-growth, low-emission stocks for investment.",
+  "The current goal is to identify a balance between high growth and low carbon emission stocks for the upcoming allocation period."
+ ],
+ "steps": [
+  {
+   "k": 0,
+   "p_hi": 0.9989136457443237,
+   "mass": 0.9321346879005432,
+   "pick": "RIHO",
+   "kind": "hi"
+  },
+  {
+   "k": 1,
+   "p_hi": 0.9999110102653503,
+   "mass": 0.999491274356842,
+   "pick": "VOXA",
+   "kind": "hi"
+  },
+  {
+   "k": 2,
+   "p_hi": 0.9836375713348389,
+   "mass": 0.9847128391265869,
+   "pick": "ULCO",
+   "kind": "hi"
+  },
+  {
+   "k": 3,
+   "p_hi": 0.8905568718910217,
+   "mass": 0.9987566471099854,
+   "pick": "JUTE",
+   "kind": "hi"
+  },
+  {
+   "k": 4,
+   "p_hi": 0.00900962483137846,
+   "mass": 0.9972662329673767,
+   "pick": "HOXA",
+   "kind": "lo"
+  },
+  {
+   "k": 5,
+   "p_hi": 0.9958676695823669,
+   "mass": 0.9984805583953857,
+   "pick": "DASA",
+   "kind": "hi"
+  },
+  {
+   "k": 6,
+   "p_hi": 0.9999682307243347,
+   "mass": 0.9803432822227478,
+   "pick": "YOZE",
+   "kind": "hi"
+  },
+  {
+   "k": 7,
+   "p_hi": 0.05201421678066254,
+   "mass": 0.9980053305625916,
+   "pick": "BETE",
+   "kind": "lo"
+  },
+  {
+   "k": 8,
+   "p_hi": 0.9998590350151062,
+   "mass": 0.9998039603233337,
+   "pick": "KAGA",
+   "kind": "hi"
+  },
+  {
+   "k": 9,
+   "p_hi": 0.9729837775230408,
+   "mass": 0.9980970025062561,
+   "pick": "GAKA",
+   "kind": "hi"
+  },
+  {
+   "k": 10,
+   "p_hi": 0.02138066105544567,
+   "mass": 0.9987103343009949,
+   "pick": "ARNA",
+   "kind": "lo"
+  },
+  {
+   "k": 11,
+   "p_hi": 0.531209409236908,
+   "mass": 0.5141657590866089,
+   "pick": "DAFI",
+   "kind": "hi"
+  },
+  {
+   "k": 12,
+   "p_hi": 0.03172433376312256,
+   "mass": 0.986269474029541,
+   "pick": "XAUL",
+   "kind": "lo"
+  },
+  {
+   "k": 13,
+   "p_hi": 0.9999760985374451,
+   "mass": 0.9974970817565918,
+   "pick": "QUNA",
+   "kind": "hi"
+  },
+  {
+   "k": 14,
+   "p_hi": 0.9998189210891724,
+   "mass": 0.9998888969421387,
+   "pick": "PESA",
+   "kind": "hi"
+  },
+  {
+   "k": 15,
+   "p_hi": 0.11347006261348724,
+   "mass": 0.9956316351890564,
+   "pick": "INGA",
+   "kind": "lo"
+  },
+  {
+   "k": 16,
+   "p_hi": 0.45681220293045044,
+   "mass": 0.9968194365501404,
+   "pick": "XAGA",
+   "kind": "hi"
+  },
+  {
+   "k": 17,
+   "p_hi": 0.98723304271698,
+   "mass": 0.9982913136482239,
+   "pick": "LUIN",
+   "kind": "hi"
+  },
+  {
+   "k": 18,
+   "p_hi": 0.999907374382019,
+   "mass": 0.999615490436554,
+   "pick": "LUBE",
+   "kind": "hi"
+  },
+  {
+   "k": 19,
+   "p_hi": 0.9831891059875488,
+   "mass": 0.5038763880729675,
+   "pick": "SAZE",
+   "kind": "hi"
+  },
+  {
+   "k": 20,
+   "p_hi": 0.6104676723480225,
+   "mass": 0.5093599557876587,
+   "pick": "MOVO",
+   "kind": "hi"
+  },
+  {
+   "k": 21,
+   "p_hi": 0.9961600303649902,
+   "mass": 0.937563955783844,
+   "pick": "HOTE",
+   "kind": "hi"
+  },
+  {
+   "k": 22,
+   "p_hi": 0.7464728355407715,
+   "mass": 0.9954335689544678,
+   "pick": "BEOR",
+   "kind": "hi"
+  },
+  {
+   "k": 23,
+   "p_hi": 0.9978410005569458,
+   "mass": 0.9997126460075378,
+   "pick": "ORUL",
+   "kind": "hi"
+  },
+  {
+   "k": 24,
+   "p_hi": 0.9902904629707336,
+   "mass": 0.9740040898323059,
+   "pick": "KALU",
+   "kind": "hi"
+  },
+  {
+   "k": 25,
+   "p_hi": 0.044786058366298676,
+   "mass": 0.9971739649772644,
+   "pick": "ELOR",
+   "kind": "lo"
+  },
+  {
+   "k": 26,
+   "p_hi": 0.0534033328294754,
+   "mass": 0.9865706562995911,
+   "pick": "YOJU",
+   "kind": "lo"
+  },
+  {
+   "k": 27,
+   "p_hi": 0.2990875244140625,
+   "mass": 0.9947878122329712,
+   "pick": "XAWE",
+   "kind": "lo"
+  },
+  {
+   "k": 28,
+   "p_hi": 0.9960339069366455,
+   "mass": 0.9234413504600525,
+   "pick": "JUZE",
+   "kind": "hi"
+  },
+  {
+   "k": 29,
+   "p_hi": 0.9446194767951965,
+   "mass": 0.9957817196846008,
+   "pick": "RIBE",
+   "kind": "hi"
+  }
+ ],
+ "runner": "agp_fast",
+ "sec_batch": 77.4,
+ "batch": 16,
+ "model": "ibm-granite/granite-3.3-8b-instruct"
+}

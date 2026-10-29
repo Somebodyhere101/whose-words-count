@@ -1,0 +1,6 @@
+03:35 Qwen/Qwen3-14B ok=1 free=271G
+03:41 tiiuae/Falcon3-10B-Instruct ok=1 free=252G
+03:46 01-ai/Yi-1.5-9B-Chat ok=1 free=236G
+03:54 allenai/OLMo-2-1124-13B-Instruct ok=1 free=210G
+04:12 Qwen/Qwen3-32B ok=1 free=149G
+04:32 allenai/OLMo-2-0325-32B-Instruct ok=1 free=89G

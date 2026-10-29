@@ -1,0 +1,7 @@
+@@DONE
+@@PACKED
+@@N OLMo-2-1124-7B-Instruct 18
+@@N Qwen3-8B 18
+@@T u:cons_hi_probe goal 0.765 press 0.05 contra 0.126 mass 0.961 14.1 s
+@@T u:cons_lo_probe goal 0.758 press 0.06 contra 0.123 mass 0.962 14.2 s
+@@T CLOUD19_DONE

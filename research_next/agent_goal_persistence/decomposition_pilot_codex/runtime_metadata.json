@@ -1,0 +1,11 @@
+{
+  "model": "Qwen/Qwen3-1.7B",
+  "cached_config_commit": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "torch": "2.7.1+cu128",
+  "transformers": "5.16.1",
+  "python": "3.12.14",
+  "hidden_size": 2048,
+  "num_attention_heads": 16,
+  "head_dim": 128,
+  "note": "Cache metadata recorded during the run; model loading was offline. No weight file digest was recorded by the original pilot script."
+}

@@ -1,0 +1,31 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:  52%|#####1    | 161/311 [00:00<00:00, 1595.21it/s]Loading weights: 100%|##########| 311/311 [00:00<00:00, 2686.70it/s]
+[transformers] Calling `crop` with a positive value is deprecated and will be removed in version 5.18. Please use a negative integer to remove that number of tokens from the cache instead.
+3f 20 drift_at 2 mean 0.33 fails 0 37.7 s
+3f 21 drift_at None mean 0.03 fails 0 59.1 s
+3f 22 drift_at 2 mean 0.3 fails 0 83.5 s
+3f 23 drift_at None mean 0.0 fails 0 63.8 s
+3f 24 drift_at 3 mean 0.9 fails 0 72.1 s
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights: 100%|##########| 311/311 [00:00<00:00, 3813.49it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] Calling `crop` with a positive value is deprecated and will be removed in version 5.18. Please use a negative integer to remove that number of tokens from the cache instead.
+3 25 drift_at None mean 0.17 fails 0 51.8 s
+3 26 drift_at 2 mean 0.97 fails 0 48.9 s
+3 27 drift_at 1 mean 1.0 fails 0 87.3 s
+3 28 drift_at 2 mean 0.77 fails 0 53.8 s
+3 29 drift_at 2 mean 0.93 fails 0 71.6 s
+2 25 drift_at None mean 0.07 fails 0 37.5 s
+2 26 drift_at None mean 0.23 fails 0 38.7 s
+2 27 drift_at 19 mean 0.23 fails 0 40.4 s
+2 28 drift_at None mean 0.17 fails 1 42.8 s
+2 29 drift_at 2 mean 0.2 fails 0 47.1 s
+2p 25 drift_at 21 mean 0.3 fails 0 36.6 s
+2p 26 drift_at 18 mean 0.37 fails 0 41.1 s
+2p 27 drift_at 19 mean 0.41 fails 1 47.8 s
+2p 28 drift_at 7 mean 0.5 fails 2 42.2 s
+2p 29 drift_at 18 mean 0.53 fails 0 40.3 s
+3f 25 drift_at 21 mean 0.2 fails 0 39.1 s
+3f 26 drift_at None mean 0.13 fails 0 33.9 s
+3f 27 drift_at 1 mean 0.7 fails 0 36.7 s
+3f 28 drift_at None mean 0.0 fails 30 120.5 s
+3f 29 drift_at 2 mean 0.9 fails 0 61.2 s

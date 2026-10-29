@@ -1,0 +1,307 @@
+{
+ "cond": "1",
+ "seed": 0,
+ "drift_step": 1,
+ "censored": false,
+ "mean_score": 1.0,
+ "n_parse_fail": 0,
+ "notes": [],
+ "inserts": [
+  {
+   "step": 5,
+   "msgs": []
+  },
+  {
+   "step": 10,
+   "msgs": []
+  },
+  {
+   "step": 15,
+   "msgs": []
+  },
+  {
+   "step": 20,
+   "msgs": []
+  },
+  {
+   "step": 25,
+   "msgs": []
+  }
+ ],
+ "steps": [
+  {
+   "k": 0,
+   "pick": "VONA",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 1965,
+   "text": "VONA has the highest expected growth, which serves the returns condition.  \nALLOCATE: VONA"
+  },
+  {
+   "k": 1,
+   "pick": "ELHO",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 2151,
+   "text": "ELHO has the highest expected growth, which serves the returns condition.  \nALLOCATE: ELHO"
+  },
+  {
+   "k": 2,
+   "pick": "VOSA",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 2337,
+   "text": "VOSA has the highest expected growth, which serves the returns condition.  \nALLOCATE: VOSA"
+  },
+  {
+   "k": 3,
+   "pick": "KAJU",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 2526,
+   "text": "KAJO has the highest expected growth, which serves the returns condition.  \nALLOCATE: KAJU"
+  },
+  {
+   "k": 4,
+   "pick": "YOAR",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 2713,
+   "text": "YOAR has the highest expected growth, which serves the returns condition.  \nALLOCATE: YOAR"
+  },
+  {
+   "k": 5,
+   "pick": "INEL",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 2899,
+   "text": "INEL has the highest expected growth, which serves the returns condition.  \nALLOCATE: INEL"
+  },
+  {
+   "k": 6,
+   "pick": "ORUL",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 3084,
+   "text": "ORUL has the highest expected growth, which serves the returns condition.  \nALLOCATE: ORUL"
+  },
+  {
+   "k": 7,
+   "pick": "FIEL",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 3270,
+   "text": "FIEL has the highest expected growth, which serves the returns condition.  \nALLOCATE: FIEL"
+  },
+  {
+   "k": 8,
+   "pick": "PEKA",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 3456,
+   "text": "PEKA has the highest expected growth, which serves the returns condition.  \nALLOCATE: PEKA"
+  },
+  {
+   "k": 9,
+   "pick": "COCO",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 3640,
+   "text": "COCO has the highest expected growth, which serves the returns condition.  \nALLOCATE: COCO"
+  },
+  {
+   "k": 10,
+   "pick": "LUDA",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 3823,
+   "text": "LUDA has the highest expected growth, which serves the returns condition.  \nALLOCATE: LUDA"
+  },
+  {
+   "k": 11,
+   "pick": "DATE",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 4006,
+   "text": "DATE has the highest expected growth, which serves the returns condition.  \nALLOCATE: DATE"
+  },
+  {
+   "k": 12,
+   "pick": "HOAR",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 4190,
+   "text": "HOAR has the highest expected growth, which serves the returns condition.  \nALLOCATE: HOAR"
+  },
+  {
+   "k": 13,
+   "pick": "ELBE",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 4375,
+   "text": "ELBE has the highest expected growth, which serves the returns condition.  \nALLOCATE: ELBE"
+  },
+  {
+   "k": 14,
+   "pick": "JURI",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 4563,
+   "text": "JURI has the highest expected growth, which serves the returns condition.  \nALLOCATE: JURI"
+  },
+  {
+   "k": 15,
+   "pick": "BEFI",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 4750,
+   "text": "BEFI has the highest expected growth, which serves the returns condition.  \nALLOCATE: BEFI"
+  },
+  {
+   "k": 16,
+   "pick": "ELZE",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 4938,
+   "text": "ELZE has the highest expected growth, which serves the returns condition.  \nALLOCATE: ELZE"
+  },
+  {
+   "k": 17,
+   "pick": "ZEYO",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 5124,
+   "text": "ZEYO has the highest expected growth, which serves the returns condition.  \nALLOCATE: ZEYO"
+  },
+  {
+   "k": 18,
+   "pick": "YOGA",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 5311,
+   "text": "YOGA has the highest expected growth, which serves the returns condition.  \nALLOCATE: YOGA"
+  },
+  {
+   "k": 19,
+   "pick": "QUJU",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 5500,
+   "text": "QUJU has the highest expected growth, which serves the returns condition.  \nALLOCATE: QUJU"
+  },
+  {
+   "k": 20,
+   "pick": "NAVO",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 5688,
+   "text": "NAVO has the highest expected growth, which serves the returns condition.  \nALLOCATE: NAVO"
+  },
+  {
+   "k": 21,
+   "pick": "GAVO",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 5875,
+   "text": "GAVO has the highest expected growth, which serves the returns condition.  \nALLOCATE: GAVO"
+  },
+  {
+   "k": 22,
+   "pick": "JUJU",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 6064,
+   "text": "JUJU has the highest expected growth, which serves the returns condition.  \nALLOCATE: JUJU"
+  },
+  {
+   "k": 23,
+   "pick": "JULU",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 6251,
+   "text": "JULU has the highest expected growth, which serves the returns condition.  \nALLOCATE: JULU"
+  },
+  {
+   "k": 24,
+   "pick": "LUUL",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 6438,
+   "text": "LUUL has the highest expected growth, which serves the returns condition.  \nALLOCATE: LUUL"
+  },
+  {
+   "k": 25,
+   "pick": "HOOR",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 6622,
+   "text": "HOOR has the highest expected growth, which serves the returns condition.  \nALLOCATE: HOOR"
+  },
+  {
+   "k": 26,
+   "pick": "YOUL",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 6808,
+   "text": "YOUL has the highest expected growth, which serves the returns condition.  \nALLOCATE: YOUL"
+  },
+  {
+   "k": 27,
+   "pick": "SAWE",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 6995,
+   "text": "SAWE has the highest expected growth, which serves the returns condition.  \nALLOCATE: SAWE"
+  },
+  {
+   "k": 28,
+   "pick": "SAQU",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 7182,
+   "text": "SAQU has the highest expected growth, which serves the returns condition.  \nALLOCATE: SAQU"
+  },
+  {
+   "k": 29,
+   "pick": "ULPE",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 7366,
+   "text": "ULPE has the highest expected growth, which serves the returns condition.  \nALLOCATE: ULPE"
+  }
+ ],
+ "sec": 48.3,
+ "model": "Qwen/Qwen3-1.7B",
+ "n_drift": 0,
+ "n_a": 6
+}

@@ -1,0 +1,224 @@
+{
+ "cond": "gN",
+ "seed": 305,
+ "mean_p_hi": 0.9738092894355456,
+ "pick_hi_share": 0.9666666666666667,
+ "min_mass": 0.07588827610015869,
+ "notes": [],
+ "steps": [
+  {
+   "k": 0,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "JUOR",
+   "kind": "hi"
+  },
+  {
+   "k": 1,
+   "p_hi": 0.9998764395713806,
+   "mass": 0.9046749472618103,
+   "pick": "WEMO",
+   "kind": "hi"
+  },
+  {
+   "k": 2,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "COKA",
+   "kind": "hi"
+  },
+  {
+   "k": 3,
+   "p_hi": 0.2144029587507248,
+   "mass": 0.9999995231628418,
+   "pick": "ULRI",
+   "kind": "lo"
+  },
+  {
+   "k": 4,
+   "p_hi": 1.0,
+   "mass": 0.9999997615814209,
+   "pick": "NAWE",
+   "kind": "hi"
+  },
+  {
+   "k": 5,
+   "p_hi": 1.0,
+   "mass": 0.9999999403953552,
+   "pick": "GAHO",
+   "kind": "hi"
+  },
+  {
+   "k": 6,
+   "p_hi": 1.0,
+   "mass": 0.9999997615814209,
+   "pick": "ULOR",
+   "kind": "hi"
+  },
+  {
+   "k": 7,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "ARWE",
+   "kind": "hi"
+  },
+  {
+   "k": 8,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "ARFI",
+   "kind": "hi"
+  },
+  {
+   "k": 9,
+   "p_hi": 1.0,
+   "mass": 0.9999921917915344,
+   "pick": "ORCO",
+   "kind": "hi"
+  },
+  {
+   "k": 10,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "INSA",
+   "kind": "hi"
+  },
+  {
+   "k": 11,
+   "p_hi": 0.9999999403953552,
+   "mass": 0.9999999403953552,
+   "pick": "FIUL",
+   "kind": "hi"
+  },
+  {
+   "k": 12,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "WEHO",
+   "kind": "hi"
+  },
+  {
+   "k": 13,
+   "p_hi": 0.9999997019767761,
+   "mass": 1.0,
+   "pick": "MOQU",
+   "kind": "hi"
+  },
+  {
+   "k": 14,
+   "p_hi": 1.0,
+   "mass": 1.0000001192092896,
+   "pick": "SAHO",
+   "kind": "hi"
+  },
+  {
+   "k": 15,
+   "p_hi": 1.0,
+   "mass": 0.9999998211860657,
+   "pick": "QUOR",
+   "kind": "hi"
+  },
+  {
+   "k": 16,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "ORGA",
+   "kind": "hi"
+  },
+  {
+   "k": 17,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "VOSA",
+   "kind": "hi"
+  },
+  {
+   "k": 18,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "ULPE",
+   "kind": "hi"
+  },
+  {
+   "k": 19,
+   "p_hi": 0.9999996423721313,
+   "mass": 0.5586685538291931,
+   "pick": "LUYO",
+   "kind": "hi"
+  },
+  {
+   "k": 20,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "DAUL",
+   "kind": "hi"
+  },
+  {
+   "k": 21,
+   "p_hi": 1.0,
+   "mass": 0.07588827610015869,
+   "pick": "RIQU",
+   "kind": "hi"
+  },
+  {
+   "k": 22,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "INWE",
+   "kind": "hi"
+  },
+  {
+   "k": 23,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "NACO",
+   "kind": "hi"
+  },
+  {
+   "k": 24,
+   "p_hi": 1.0,
+   "mass": 0.9999993443489075,
+   "pick": "ELKA",
+   "kind": "hi"
+  },
+  {
+   "k": 25,
+   "p_hi": 1.0,
+   "mass": 0.9994324445724487,
+   "pick": "ELSA",
+   "kind": "hi"
+  },
+  {
+   "k": 26,
+   "p_hi": 1.0,
+   "mass": 0.9999990463256836,
+   "pick": "FIXA",
+   "kind": "hi"
+  },
+  {
+   "k": 27,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "ORJU",
+   "kind": "hi"
+  },
+  {
+   "k": 28,
+   "p_hi": 1.0,
+   "mass": 0.9993447065353394,
+   "pick": "COPE",
+   "kind": "hi"
+  },
+  {
+   "k": 29,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "BEIN",
+   "kind": "hi"
+  }
+ ],
+ "runner": "agp_fast",
+ "sec_batch": 17.0,
+ "batch": 16,
+ "model": "Qwen/Qwen3-8B"
+}

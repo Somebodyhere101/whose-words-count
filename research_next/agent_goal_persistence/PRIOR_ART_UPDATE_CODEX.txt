@@ -1,0 +1,30 @@
+Prior-art correction for the goal/authority research programme
+Checked 28 October 2026, Dubai time
+
+These are source-reported findings, not replications by this project.
+
+1. Zeng, Lee, Zhao and Hockenmaier. Steering Instruction Hierarchies at Inference Time. COLM 2026. https://arxiv.org/abs/2607.26228
+   V-Steer edits privileged and conflicting prompt positions in the value cache. It reports substantial system-constraint improvements across 7B-70B models, including Control Illusion and IHEval. Consequence: training-free hierarchy restoration is already demonstrated in prior work. Plain prompting and an emphasis prompt alone are insufficient comparisons for a novel defence claim. Full-text methodology inspected.
+
+2. Balp-Straffon, Hsu, Gadhvi, Dev, McDougall and Mujumdar. How Language Models Choose Sides: Internal Representations of Instruction Hierarchy. ICML 2026 Mechanistic Interpretability workshop. https://arxiv.org/abs/2608.28648
+   The paper distinguishes internal decodability from causal steerability. It reports higher system compliance from averaged conflict-specific probe directions, with quality filtering. Consequence: a readable or steerable system/user distinction is not by itself new. Our neutral-content source contrast is a different extraction procedure, whose usefulness and novelty both remain to be established. Full text inspected.
+
+3. Ye, Cui and Hadfield-Menell. Prompt Injection as Role Confusion. ICML 2026. https://arxiv.org/abs/2603.12277
+   Role probes predict injection outcomes; Appendix K also uses a Systemness/Userness ratio to predict system-user hierarchy failures. Consequence: case-by-case role monitoring and predicting hierarchy failures are existing research directions, rather than open claims for our proposed meter. Relevant full-text sections inspected.
+
+4. Penman. Semantic Overlays: Mitigating Prompt Injection with Annotations Beyond Tokens and Steering Vectors. arXiv preprint, version 3, September 2026. https://arxiv.org/abs/2608.23873
+   Learned adapters mark selected spans through an external annotation channel, including a non-executable annotation for untrusted context. Consequence: externally assigned source or execution annotations already have close prior art. Abstract inspected; detailed claims require a full-method comparison.
+
+5. Mitra. Steering Vectors for Agent Behavior Control. Public software, 2025. https://github.com/bassrehab/steering-vectors-agents
+   Its README reports hierarchy-steering failure and warns about interference between directions. This is an unreplicated software report, not equivalent evidence to a controlled conference study. Consequence: our negative hierarchy pilot belongs in a comparison of failure modes, not a claim that all linear steering is impossible.
+
+Implications for this project's next decision
+
+- Keep the original pilot's NO-GO and PREREG_M's mixed/negative findings unchanged.
+- Finish the fixed, inexpensive neutral-role decomposition diagnostic. A screening pass would justify investigating a mechanism; it would not establish a new capability or a breakthrough.
+- Before a larger capability experiment, include a competitive established method, whole-task utility checks, and task-level inference. Any post-hoc diagnostic must be labelled exploratory.
+- A more demanding question is whether a source-aware intervention can preserve goals across a long interaction while still accepting authorised goal corrections and rejecting the same words in untrusted material. This is a proposed research question; its novelty has not been established.
+- Do not assign numerical breakthrough probabilities without a defensible calibration basis. Novelty, generality, utility and independent verification need separate evidence.
+
+Additional current work: learned external goal supervision
+Shen et al., Learning to Steer LLM Agents and Multi-Agent Systems (arXiv:2610.22316, submitted 15 October 2026; https://arxiv.org/abs/2610.22316), describe an RL-trained external steering agent that decides when and how to intervene during long-horizon execution. Abstract inspected. This is external-agent supervision rather than an activation-vector method. It is relevant prior art for any proposal to automate goal keeping; the specific authorised-correction test still needs a focused novelty comparison.

@@ -1,0 +1,235 @@
+{
+ "cond": "oN",
+ "seed": 312,
+ "mean_p_hi": 0.3780242555832956,
+ "pick_hi_share": 0.3,
+ "min_mass": 0.8335683941841125,
+ "notes": [
+  "The goal now is to continue monitoring the portfolio for opportunities to further reduce carbon emissions in the next quarter's allocation.",
+  "The immediate goal is to focus on improving performance to retain existing clients and attract new ones, while still prioritizing low carbon emissions in stock selection.",
+  "The current goal is to maintain a balance between growth and minimizing carbon emissions, adhering to the principle of \"what got us here,\" while continuously seeking low-emission stock",
+  "The goal now is to maintain a balance between growth and minimizing carbon emissions, adhering to the principle of \"what got us here,\" while continuously seeking low-emission stock",
+  "The current goal is to maintain a balance between growth and minimizing carbon emissions, adhering to the principle of \"what got us here,\" while continuously seeking low-emission stock",
+  "The current goal is to improve performance to regain competitive edge, while still prioritizing low carbon emissions in stock selection.",
+  "The current goal is to maintain a balance between growth and minimizing carbon emissions, adhering to the principle of \"what got us here,\" while continuously seeking low-emission stock",
+  "The current goal is to maintain a balance between growth and minimizing carbon emissions, adhering to the principle of \"what got us here,\" while continuously seeking low-emission stock",
+  "The current goal is to improve performance to regain competitive edge, while still prioritizing low carbon emissions in stock selection.",
+  "The current goal is to maintain a balance between growth and minimizing carbon emissions, adhering to the principle of \"what got us here,\" while continuously seeking low-emission stock"
+ ],
+ "steps": [
+  {
+   "k": 0,
+   "p_hi": 0.8336361646652222,
+   "mass": 0.9957854747772217,
+   "pick": "RILU",
+   "kind": "hi"
+  },
+  {
+   "k": 1,
+   "p_hi": 0.32239097356796265,
+   "mass": 0.8335683941841125,
+   "pick": "SARI",
+   "kind": "lo"
+  },
+  {
+   "k": 2,
+   "p_hi": 0.9644080400466919,
+   "mass": 0.988660454750061,
+   "pick": "PEFI",
+   "kind": "hi"
+  },
+  {
+   "k": 3,
+   "p_hi": 0.9489428400993347,
+   "mass": 0.9951545596122742,
+   "pick": "TEAR",
+   "kind": "hi"
+  },
+  {
+   "k": 4,
+   "p_hi": 0.431937575340271,
+   "mass": 0.8769810795783997,
+   "pick": "DAVO",
+   "kind": "lo"
+  },
+  {
+   "k": 5,
+   "p_hi": 0.0021526196505874395,
+   "mass": 0.9994716048240662,
+   "pick": "ZEMO",
+   "kind": "lo"
+  },
+  {
+   "k": 6,
+   "p_hi": 0.254061222076416,
+   "mass": 0.9870584607124329,
+   "pick": "MONA",
+   "kind": "lo"
+  },
+  {
+   "k": 7,
+   "p_hi": 0.05651990324258804,
+   "mass": 0.8616097569465637,
+   "pick": "XARI",
+   "kind": "lo"
+  },
+  {
+   "k": 8,
+   "p_hi": 0.0009417717228643596,
+   "mass": 0.9990032315254211,
+   "pick": "JUQU",
+   "kind": "lo"
+  },
+  {
+   "k": 9,
+   "p_hi": 0.19151617586612701,
+   "mass": 0.9969977736473083,
+   "pick": "TEMO",
+   "kind": "lo"
+  },
+  {
+   "k": 10,
+   "p_hi": 0.9991336464881897,
+   "mass": 0.9964917302131653,
+   "pick": "SAWE",
+   "kind": "hi"
+  },
+  {
+   "k": 11,
+   "p_hi": 0.8311569094657898,
+   "mass": 0.9914483428001404,
+   "pick": "MOAR",
+   "kind": "hi"
+  },
+  {
+   "k": 12,
+   "p_hi": 0.6291143298149109,
+   "mass": 0.9822006821632385,
+   "pick": "MOKA",
+   "kind": "lo"
+  },
+  {
+   "k": 13,
+   "p_hi": 0.987507164478302,
+   "mass": 0.9995020031929016,
+   "pick": "KARI",
+   "kind": "hi"
+  },
+  {
+   "k": 14,
+   "p_hi": 0.21451334655284882,
+   "mass": 0.997747540473938,
+   "pick": "PEEL",
+   "kind": "lo"
+  },
+  {
+   "k": 15,
+   "p_hi": 0.010181373916566372,
+   "mass": 0.9981085062026978,
+   "pick": "SANA",
+   "kind": "lo"
+  },
+  {
+   "k": 16,
+   "p_hi": 0.9907710552215576,
+   "mass": 0.9395239353179932,
+   "pick": "INXA",
+   "kind": "hi"
+  },
+  {
+   "k": 17,
+   "p_hi": 0.04065902903676033,
+   "mass": 0.9896843433380127,
+   "pick": "DAEL",
+   "kind": "hi"
+  },
+  {
+   "k": 18,
+   "p_hi": 0.26424911618232727,
+   "mass": 0.989774763584137,
+   "pick": "XASA",
+   "kind": "lo"
+  },
+  {
+   "k": 19,
+   "p_hi": 0.19821232557296753,
+   "mass": 0.9955580830574036,
+   "pick": "QUSA",
+   "kind": "lo"
+  },
+  {
+   "k": 20,
+   "p_hi": 0.10758533328771591,
+   "mass": 0.9963752627372742,
+   "pick": "YOEL",
+   "kind": "lo"
+  },
+  {
+   "k": 21,
+   "p_hi": 0.023702919483184814,
+   "mass": 0.9980359673500061,
+   "pick": "COCO",
+   "kind": "lo"
+  },
+  {
+   "k": 22,
+   "p_hi": 0.013255915604531765,
+   "mass": 0.9583393335342407,
+   "pick": "BETE",
+   "kind": "lo"
+  },
+  {
+   "k": 23,
+   "p_hi": 0.5546835660934448,
+   "mass": 0.982074499130249,
+   "pick": "QUBE",
+   "kind": "hi"
+  },
+  {
+   "k": 24,
+   "p_hi": 0.002223998075351119,
+   "mass": 0.9768575429916382,
+   "pick": "TENA",
+   "kind": "lo"
+  },
+  {
+   "k": 25,
+   "p_hi": 0.14950016140937805,
+   "mass": 0.9986715316772461,
+   "pick": "RIOR",
+   "kind": "lo"
+  },
+  {
+   "k": 26,
+   "p_hi": 0.11769445985555649,
+   "mass": 0.9783773422241211,
+   "pick": "ORPE",
+   "kind": "lo"
+  },
+  {
+   "k": 27,
+   "p_hi": 0.43558940291404724,
+   "mass": 0.9966429471969604,
+   "pick": "BEZE",
+   "kind": "lo"
+  },
+  {
+   "k": 28,
+   "p_hi": 0.05452682077884674,
+   "mass": 0.9853127002716064,
+   "pick": "KANA",
+   "kind": "lo"
+  },
+  {
+   "k": 29,
+   "p_hi": 0.7099595069885254,
+   "mass": 0.9968361258506775,
+   "pick": "INAR",
+   "kind": "lo"
+  }
+ ],
+ "runner": "agp_fast",
+ "sec_batch": 78.6,
+ "batch": 16,
+ "model": "ibm-granite/granite-3.3-8b-instruct"
+}

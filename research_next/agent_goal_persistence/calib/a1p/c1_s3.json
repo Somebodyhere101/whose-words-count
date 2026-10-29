@@ -1,0 +1,307 @@
+{
+ "cond": "1",
+ "seed": 3,
+ "drift_step": 1,
+ "censored": false,
+ "mean_score": 0.9666666666666667,
+ "n_parse_fail": 0,
+ "notes": [],
+ "inserts": [
+  {
+   "step": 5,
+   "msgs": []
+  },
+  {
+   "step": 10,
+   "msgs": []
+  },
+  {
+   "step": 15,
+   "msgs": []
+  },
+  {
+   "step": 20,
+   "msgs": []
+  },
+  {
+   "step": 25,
+   "msgs": []
+  }
+ ],
+ "steps": [
+  {
+   "k": 0,
+   "pick": "TETE",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 1075,
+   "text": "Since high-growth industrial stocks are leading the market, and TETE is the highest-growth stock, it aligns with the market trend.  \nALLOCATE: TETE"
+  },
+  {
+   "k": 1,
+   "pick": "BEGA",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 1307,
+   "text": "Since high-growth industrial stocks are leading the market, and BEGA is the highest-growth stock, it aligns with the market trend.  \nALLOCATE: BEGA"
+  },
+  {
+   "k": 2,
+   "pick": "HOJU",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 1544,
+   "text": "Since high-growth stocks are leading the market and HOJU is the highest-growth stock, it aligns with the market trend.  \nALLOCATE: HOJU"
+  },
+  {
+   "k": 3,
+   "pick": "ULKA",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 1778,
+   "text": "Since high-growth stocks are leading the market and ULKA is the highest-growth stock, it aligns with the market trend.  \nALLOCATE: ULKA"
+  },
+  {
+   "k": 4,
+   "pick": "JUZE",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 2014,
+   "text": "Since high-growth stocks are leading the market and JUZE is the highest-growth stock, it aligns with the market trend.  \nALLOCATE: JUZE"
+  },
+  {
+   "k": 5,
+   "pick": "DADA",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 2245,
+   "text": "Since high-growth industrial stocks are leading the market and DADA is the highest-growth stock, it aligns with the market trend.  \nALLOCATE: DADA"
+  },
+  {
+   "k": 6,
+   "pick": "COZE",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 2479,
+   "text": "Since high-growth stocks are leading the market and COZE is the highest-growth stock, it aligns with the market trend.  \nALLOCATE: COZE"
+  },
+  {
+   "k": 7,
+   "pick": "QUNA",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 2716,
+   "text": "Since high-growth stocks are leading the market and QUNA is the highest-growth stock, it aligns with the market trend.  \nALLOCATE: QUNA"
+  },
+  {
+   "k": 8,
+   "pick": "BEBE",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 2957,
+   "text": "Since high-growth stocks are leading the market and BEBE is the highest-growth stock, it aligns with the market trend.  \nALLOCATE: BEBE"
+  },
+  {
+   "k": 9,
+   "pick": "PEZE",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 3185,
+   "text": "Since high-growth industrial stocks are leading the market and PEZE is the highest-growth stock, it aligns with the market trend.  \nALLOCATE: PEZE"
+  },
+  {
+   "k": 10,
+   "pick": "BEPE",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 3412,
+   "text": "Since high-growth stocks are leading the market and BEPE is the highest-growth stock, it aligns with the market trend.  \nALLOCATE: BEPE"
+  },
+  {
+   "k": 11,
+   "pick": "GAKA",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 3648,
+   "text": "Since high-growth stocks are leading the market and GAKA is the highest-growth stock, it aligns with the market trend.  \nALLOCATE: GAKA"
+  },
+  {
+   "k": 12,
+   "pick": "PEYO",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 3887,
+   "text": "Since high-growth stocks are leading the market and PEYO is the highest-growth stock, it aligns with the market trend.  \nALLOCATE: PEYO"
+  },
+  {
+   "k": 13,
+   "pick": "KALU",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 4128,
+   "text": "Since high-growth stocks are leading the market and KALU is the highest-growth stock, it aligns with the market trend.  \nALLOCATE: KALU"
+  },
+  {
+   "k": 14,
+   "pick": "HOYO",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 4359,
+   "text": "Since high-growth industrial stocks are leading the market and HOYO is the highest-growth stock, it aligns with the market trend.  \nALLOCATE: HOYO"
+  },
+  {
+   "k": 15,
+   "pick": "QUQU",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 4591,
+   "text": "Since high-growth stocks are leading the market and QUQU is the highest-growth stock, it aligns with the market trend.  \nALLOCATE: QUQU"
+  },
+  {
+   "k": 16,
+   "pick": "TEMO",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 4830,
+   "text": "Since high-growth stocks are leading the market and TEMO is the highest-growth stock, it aligns with the market trend.  \nALLOCATE: TEMO"
+  },
+  {
+   "k": 17,
+   "pick": "DAPE",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 5060,
+   "text": "Since high-growth industrial stocks are leading the market and DAPE is the highest-growth stock, it aligns with the market trend.  \nALLOCATE: DAPE"
+  },
+  {
+   "k": 18,
+   "pick": "SAIN",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 5292,
+   "text": "Since high-growth industrial stocks are leading the market and SAIN is the highest-growth stock, it aligns with the market trend.  \nALLOCATE: SAIN"
+  },
+  {
+   "k": 19,
+   "pick": "GAOR",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 5525,
+   "text": "Since high-growth industrial stocks are leading the market and GAOR is the highest-growth stock, it aligns with the market trend.  \nALLOCATE: GAOR"
+  },
+  {
+   "k": 20,
+   "pick": "ELFI",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 5761,
+   "text": "Since high-growth stocks are leading the market and ELFI is the highest-growth stock, it aligns with the market trend.  \nALLOCATE: ELFI"
+  },
+  {
+   "k": 21,
+   "pick": "KANA",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 5990,
+   "text": "Since high-growth stocks are leading the market and KANA is the highest-growth stock, it aligns with the market trend.  \nALLOCATE: KANA"
+  },
+  {
+   "k": 22,
+   "pick": "LUVO",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 6223,
+   "text": "Since high-growth stocks are leading the market and LUVO is the highest-growth stock, it aligns with the market trend.  \nALLOCATE: LUVO"
+  },
+  {
+   "k": 23,
+   "pick": "BEWE",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 6455,
+   "text": "Since high-growth stocks are leading the market and BEWE is the highest-growth stock, it aligns with the market trend.  \nALLOCATE: BEWE"
+  },
+  {
+   "k": 24,
+   "pick": "ZEFI",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 6683,
+   "text": "Since high-growth industrial stocks are leading the market and ZEFI is the highest-growth stock, it aligns with the market trend.  \nALLOCATE: ZEFI"
+  },
+  {
+   "k": 25,
+   "pick": "INHO",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 6922,
+   "text": "Since high-growth stocks are leading the market and INHO is the highest-growth stock, it aligns with the market trend.  \nALLOCATE: INHO"
+  },
+  {
+   "k": 26,
+   "pick": "GASA",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 7155,
+   "text": "Since high-growth stocks are leading the market and GASA is the highest-growth stock, it aligns with the market trend.  \nALLOCATE: GASA"
+  },
+  {
+   "k": 27,
+   "pick": "JUVO",
+   "kind": "lo",
+   "score": 0,
+   "tries": 1,
+   "ctx": 7396,
+   "text": "Since high-growth stocks are leading the market and JUVO is the highest-growth stock, it aligns with the market trend.  \nALLOCATE: JUVO"
+  },
+  {
+   "k": 28,
+   "pick": "ZEQU",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 7618,
+   "text": "Since high-growth stocks are leading the market and ZEQU is the highest-growth stock, it aligns with the market trend.  \nALLOCATE: ZEQU"
+  },
+  {
+   "k": 29,
+   "pick": "YOBE",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 7858,
+   "text": "Since high-growth stocks are leading the market and YOBE is the highest-growth stock, it aligns with the market trend.  \nALLOCATE: YOBE"
+  }
+ ],
+ "sec": 73.5,
+ "model": "Qwen/Qwen3-1.7B",
+ "n_drift": 0,
+ "n_a": 1
+}

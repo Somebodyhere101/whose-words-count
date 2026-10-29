@@ -1,0 +1,21 @@
+fast_val {'1': 0.959, 'gF': 0.041, 'oF': 0.046, 'gN': 0.825, 'oN': 0.842, 'gW': 0.637, 'oW': 0.744} median mass 1.0
+   1-gF +0.918 p 0.0000 pos/neg 40/0
+   oF-gF +0.005 p 0.0038 pos/neg 28/12
+   oW-gW +0.107 p 0.0000 pos/neg 40/0
+   oN-gN +0.017 p 0.0001 pos/neg 33/7
+fast_Qwen3-4B {'1': 0.973, 'gF': 0.333, 'oF': 0.354, 'gN': 0.903, 'oN': 0.913, 'gW': 0.662, 'oW': 0.672} median mass 1.0
+   1-gF +0.640 p 0.0000 pos/neg 40/0
+   oF-gF +0.021 p 0.0000 pos/neg 37/3
+   oW-gW +0.009 p 0.1779 pos/neg 21/19
+   oN-gN +0.010 p 0.0215 pos/neg 24/16
+fast_SmolLM2-1.7B-Instruct {'1': 0.577, 'gF': 0.583, 'oF': 0.585, 'gN': 0.567, 'oN': 0.581, 'gW': 0.583, 'oW': 0.583} median mass 0.941
+   1-gF -0.005 p 0.5076 pos/neg 22/18
+   oF-gF +0.002 p 0.7367 pos/neg 20/20
+   oW-gW +0.000 p 0.9805 pos/neg 21/19
+   oN-gN +0.014 p 0.0707 pos/neg 25/15
+fast_EuroLLM-1.7B-Instruct {'1': 0.521, 'gF': 0.519, 'oF': 0.52, 'gN': 0.517, 'oN': 0.519, 'gW': 0.516, 'oW': 0.523} median mass 0.93
+   1-gF +0.002 p 0.7783 pos/neg 18/22
+   oF-gF +0.001 p 0.7996 pos/neg 16/24
+   oW-gW +0.007 p 0.1515 pos/neg 20/20
+   oN-gN +0.001 p 0.7951 pos/neg 17/23
+Qwen3-4B probe best layer 10 R2A 0.76 A2R 0.731 ctrl 0.82 cos 0.193

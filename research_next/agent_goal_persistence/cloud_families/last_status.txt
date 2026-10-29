@@ -1,0 +1,13 @@
+@@DONE
+@@PACKED
+@@N out_fast_OLMo-2-1124-7B-Instruct 280
+@@N out_fast_granite-3.3-8b-instruct 280
+@@N out_stage2_OLMo-2-1124-7B-Instruct 2
+@@N out_stage2_granite-3.3-8b-instruct 2
+@@N out_stage3_OLMo-2-1124-7B-Instruct 18
+@@N out_stage3_granite-3.3-8b-instruct 18
+@@N out_stage3w_OLMo-2-1124-7B-Instruct 18
+@@N out_stage3w_granite-3.3-8b-instruct 18
+@@T oW_L18_rand_a-2 p_hi 0.141 mass 0.943 24.8 s
+@@T gW_L18_rand_a+2 p_hi 0.109 mass 0.938 24.4 s
+@@T CLOUD6_DONE

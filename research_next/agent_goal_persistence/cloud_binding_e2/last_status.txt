@@ -1,0 +1,28 @@
+@@DONE
+@@PACKED
+@@N fast_base 120
+@@N fast_given16 120
+@@N fast_given240 120
+@@N fast_given48 120
+@@N fast_own16 120
+@@N fast_own240 120
+@@N fast_own48 120
+@@N inj_base.json 1
+@@N inj_given16.json 1
+@@N inj_given240.json 1
+@@N inj_given48.json 1
+@@N inj_own16.json 1
+@@N inj_own240.json 1
+@@N inj_own48.json 1
+@@N lora_given16 1
+@@N lora_given240 1
+@@N lora_given48 1
+@@N lora_own16 1
+@@N lora_own240 1
+@@N lora_own48 1
+@@N swap_base 80
+@@N swap_given240 80
+@@N swap_own240 80
+@@T asst p_code 0.5704 p_legit 0.1865
+@@T doc p_code 0.0002 p_legit 0.9995
+@@T CLOUD11_DONE

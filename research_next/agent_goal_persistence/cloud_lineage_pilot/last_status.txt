@@ -1,0 +1,8 @@
+@@DONE
+@@PACKED
+@@N native_OLMo-2-1124-7B-Instruct 60
+@@N plain_OLMo-2-1124-7B 60
+@@N plain_OLMo-2-1124-7B-Instruct 60
+@@T oF 318 p_hi 0.209 picks_hi 0.18 min_mass 0.011 14.6 s/batch
+@@T oF 319 p_hi 0.452 picks_hi 0.5 min_mass 0.84 14.6 s/batch
+@@T CLOUD8_DONE

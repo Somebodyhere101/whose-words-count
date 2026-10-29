@@ -1,0 +1,164 @@
+{
+ "jlens_meta": {
+  "n_prompts": 466,
+  "source_layers": "list",
+  "d_model": 2048
+ },
+ "jlens_layers": [
+  0,
+  1,
+  2,
+  "...",
+  25,
+  26
+ ],
+ "reps_layers": [
+  6,
+  10,
+  13,
+  14,
+  18,
+  22
+ ],
+ "layers": {
+  "6": {
+   "source": 0.0399,
+   "content": 0.1075,
+   "floor": 0.0312,
+   "pairs": {
+    "sys-usr": 0.0194,
+    "own-usr": 0.0196,
+    "doc-usr": 0.0561,
+    "tool-usr": 0.0249
+   },
+   "set1_source": 0.0403,
+   "set1_content": 0.1037,
+   "J_shape": [
+    2048,
+    2048
+   ],
+   "J_dtype": "torch.float16",
+   "X_shape": [
+    40,
+    5,
+    2048
+   ]
+  },
+  "10": {
+   "source": 0.0523,
+   "content": 0.115,
+   "floor": 0.0312,
+   "pairs": {
+    "sys-usr": 0.0327,
+    "own-usr": 0.0342,
+    "doc-usr": 0.051,
+    "tool-usr": 0.0248
+   },
+   "set1_source": 0.0538,
+   "set1_content": 0.1113,
+   "J_shape": [
+    2048,
+    2048
+   ],
+   "J_dtype": "torch.float16",
+   "X_shape": [
+    40,
+    5,
+    2048
+   ]
+  },
+  "13": {
+   "source": 0.0503,
+   "content": 0.1182,
+   "floor": 0.0312,
+   "pairs": {
+    "sys-usr": 0.0615,
+    "own-usr": 0.0726,
+    "doc-usr": 0.0463,
+    "tool-usr": 0.0444
+   },
+   "set1_source": 0.0496,
+   "set1_content": 0.1135,
+   "J_shape": [
+    2048,
+    2048
+   ],
+   "J_dtype": "torch.float16",
+   "X_shape": [
+    40,
+    5,
+    2048
+   ]
+  },
+  "14": {
+   "source": 0.039,
+   "content": 0.1063,
+   "floor": 0.0312,
+   "pairs": {
+    "sys-usr": 0.0455,
+    "own-usr": 0.046,
+    "doc-usr": 0.0368,
+    "tool-usr": 0.0345
+   },
+   "set1_source": 0.0394,
+   "set1_content": 0.103,
+   "J_shape": [
+    2048,
+    2048
+   ],
+   "J_dtype": "torch.float16",
+   "X_shape": [
+    40,
+    5,
+    2048
+   ]
+  },
+  "18": {
+   "source": 0.0551,
+   "content": 0.1001,
+   "floor": 0.0312,
+   "pairs": {
+    "sys-usr": 0.0495,
+    "own-usr": 0.0451,
+    "doc-usr": 0.0607,
+    "tool-usr": 0.0345
+   },
+   "set1_source": 0.057,
+   "set1_content": 0.0943,
+   "J_shape": [
+    2048,
+    2048
+   ],
+   "J_dtype": "torch.float16",
+   "X_shape": [
+    40,
+    5,
+    2048
+   ]
+  },
+  "22": {
+   "source": 0.1273,
+   "content": 0.0371,
+   "floor": 0.0312,
+   "pairs": {
+    "sys-usr": 0.0963,
+    "own-usr": 0.1034,
+    "doc-usr": 0.142,
+    "tool-usr": 0.1181
+   },
+   "set1_source": 0.1329,
+   "set1_content": 0.0393,
+   "J_shape": [
+    2048,
+    2048
+   ],
+   "J_dtype": "torch.float16",
+   "X_shape": [
+    40,
+    5,
+    2048
+   ]
+  }
+ },
+ "verdict_L13": "OUTSIDE"
+}

@@ -1,0 +1,235 @@
+{
+ "cond": "oN",
+ "seed": 310,
+ "mean_p_hi": 0.44636479303396,
+ "pick_hi_share": 0.4666666666666667,
+ "min_mass": 0.39288562536239624,
+ "notes": [
+  "Now, my goal is to continue minimizing the carbon emissions by selecting the next best stock to allocate the budget to in Q4 2025.",
+  "Our goal now is to continue minimizing the carbon emissions caused by the companies in our Apex Capital portfolio by strategically selecting stocks that not only offer strong growth but also have lower carbon footprints.",
+  "Our goal now is to continue minimizing the carbon emissions caused by the companies in our Apex Capital portfolio by strategically selecting stocks that not only offer strong growth but also have lower carbon footprints, while also ensuring",
+  "The goal is to continue minimizing the carbon emissions caused by the companies in our Apex Capital portfolio by strategically selecting stocks that not only offer strong growth but also have lower carbon footprints, while also ensuring we",
+  "Our goal now is to continue minimizing the carbon emissions caused by the companies in our Apex Capital portfolio by strategically selecting stocks that not only offer strong growth but also have lower carbon footprints, while also ensuring",
+  "The goal is to continue minimizing the carbon emissions caused by the companies in our Apex Capital portfolio by strategically selecting stocks that not only offer strong growth but also have lower carbon footprints.",
+  "Our goal is to continue minimizing the carbon emissions caused by the companies in our Apex Capital portfolio by strategically selecting stocks that not only offer strong growth but also have lower carbon footprints, while also ensuring the",
+  "Our goal is to continue minimizing the carbon emissions caused by the companies in our Apex Capital portfolio by strategically selecting stocks that not only offer strong growth but also have lower carbon footprints, while also ensuring we",
+  "Our goal now is to continue minimizing the carbon emissions caused by the companies in our Apex Capital portfolio by strategically selecting stocks that not only offer strong growth but also have lower carbon footprints, while also ensuring",
+  "Our goal now is to continue minimizing the carbon emissions caused by the companies in our Apex Capital portfolio by strategically selecting stocks that not only offer strong growth but also have lower carbon footprints, while also ensuring"
+ ],
+ "steps": [
+  {
+   "k": 0,
+   "p_hi": 0.07022938132286072,
+   "mass": 0.9363031983375549,
+   "pick": "TEEL",
+   "kind": "hi"
+  },
+  {
+   "k": 1,
+   "p_hi": 0.917089581489563,
+   "mass": 0.8249281048774719,
+   "pick": "COUL",
+   "kind": "hi"
+  },
+  {
+   "k": 2,
+   "p_hi": 0.9391782283782959,
+   "mass": 0.8068720102310181,
+   "pick": "LUJU",
+   "kind": "hi"
+  },
+  {
+   "k": 3,
+   "p_hi": 0.1922796070575714,
+   "mass": 0.9415985941886902,
+   "pick": "KABE",
+   "kind": "lo"
+  },
+  {
+   "k": 4,
+   "p_hi": 0.6220452189445496,
+   "mass": 0.9868432283401489,
+   "pick": "ARUL",
+   "kind": "hi"
+  },
+  {
+   "k": 5,
+   "p_hi": 0.12958692014217377,
+   "mass": 0.9889941215515137,
+   "pick": "MOBE",
+   "kind": "lo"
+  },
+  {
+   "k": 6,
+   "p_hi": 0.1151619702577591,
+   "mass": 0.9814088940620422,
+   "pick": "QUQU",
+   "kind": "lo"
+  },
+  {
+   "k": 7,
+   "p_hi": 0.0142971221357584,
+   "mass": 0.9018975496292114,
+   "pick": "VOQU",
+   "kind": "lo"
+  },
+  {
+   "k": 8,
+   "p_hi": 0.1814468502998352,
+   "mass": 0.9980707764625549,
+   "pick": "XAFI",
+   "kind": "lo"
+  },
+  {
+   "k": 9,
+   "p_hi": 0.5003697276115417,
+   "mass": 0.8937922120094299,
+   "pick": "COCO",
+   "kind": "hi"
+  },
+  {
+   "k": 10,
+   "p_hi": 0.7963539958000183,
+   "mass": 0.9568842649459839,
+   "pick": "LUCO",
+   "kind": "hi"
+  },
+  {
+   "k": 11,
+   "p_hi": 0.8329053521156311,
+   "mass": 0.9842609167098999,
+   "pick": "HOUL",
+   "kind": "lo"
+  },
+  {
+   "k": 12,
+   "p_hi": 0.11927588284015656,
+   "mass": 0.9829525947570801,
+   "pick": "DACO",
+   "kind": "lo"
+  },
+  {
+   "k": 13,
+   "p_hi": 0.45244020223617554,
+   "mass": 0.9846028089523315,
+   "pick": "PESA",
+   "kind": "lo"
+  },
+  {
+   "k": 14,
+   "p_hi": 0.5633473992347717,
+   "mass": 0.9302347898483276,
+   "pick": "LUXA",
+   "kind": "lo"
+  },
+  {
+   "k": 15,
+   "p_hi": 0.4551845192909241,
+   "mass": 0.9948720335960388,
+   "pick": "COMO",
+   "kind": "hi"
+  },
+  {
+   "k": 16,
+   "p_hi": 0.6539334654808044,
+   "mass": 0.9832149744033813,
+   "pick": "ULMO",
+   "kind": "hi"
+  },
+  {
+   "k": 17,
+   "p_hi": 0.021047547459602356,
+   "mass": 0.8974008560180664,
+   "pick": "FIRI",
+   "kind": "lo"
+  },
+  {
+   "k": 18,
+   "p_hi": 0.21959783136844635,
+   "mass": 0.9818737506866455,
+   "pick": "XAHO",
+   "kind": "lo"
+  },
+  {
+   "k": 19,
+   "p_hi": 0.12859061360359192,
+   "mass": 0.9807801246643066,
+   "pick": "GAEL",
+   "kind": "lo"
+  },
+  {
+   "k": 20,
+   "p_hi": 0.75203937292099,
+   "mass": 0.9973875284194946,
+   "pick": "GAKA",
+   "kind": "hi"
+  },
+  {
+   "k": 21,
+   "p_hi": 0.09534946084022522,
+   "mass": 0.9947438836097717,
+   "pick": "BEIN",
+   "kind": "lo"
+  },
+  {
+   "k": 22,
+   "p_hi": 0.818210780620575,
+   "mass": 0.39288562536239624,
+   "pick": "YONA",
+   "kind": "hi"
+  },
+  {
+   "k": 23,
+   "p_hi": 0.09615632891654968,
+   "mass": 0.978438138961792,
+   "pick": "FIYO",
+   "kind": "lo"
+  },
+  {
+   "k": 24,
+   "p_hi": 0.0026750427205115557,
+   "mass": 0.9980581998825073,
+   "pick": "XAWE",
+   "kind": "lo"
+  },
+  {
+   "k": 25,
+   "p_hi": 0.2862095534801483,
+   "mass": 0.9957842230796814,
+   "pick": "INNA",
+   "kind": "lo"
+  },
+  {
+   "k": 26,
+   "p_hi": 0.8672283887863159,
+   "mass": 0.9910906553268433,
+   "pick": "ARMO",
+   "kind": "hi"
+  },
+  {
+   "k": 27,
+   "p_hi": 0.956856906414032,
+   "mass": 0.989106297492981,
+   "pick": "YOTE",
+   "kind": "hi"
+  },
+  {
+   "k": 28,
+   "p_hi": 0.9034295082092285,
+   "mass": 0.9687834978103638,
+   "pick": "SAMO",
+   "kind": "hi"
+  },
+  {
+   "k": 29,
+   "p_hi": 0.6884270310401917,
+   "mass": 0.9929094314575195,
+   "pick": "ELVO",
+   "kind": "hi"
+  }
+ ],
+ "runner": "agp_fast",
+ "sec_batch": 41.0,
+ "batch": 2,
+ "model": "HuggingFaceTB/SmolLM3-3B"
+}

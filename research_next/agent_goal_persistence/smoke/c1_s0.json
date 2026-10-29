@@ -1,0 +1,305 @@
+{
+ "cond": "1",
+ "seed": 0,
+ "drift_step": 1,
+ "censored": false,
+ "mean_score": 1.0,
+ "n_parse_fail": 0,
+ "notes": [],
+ "inserts": [
+  {
+   "step": 5,
+   "msgs": []
+  },
+  {
+   "step": 10,
+   "msgs": []
+  },
+  {
+   "step": 15,
+   "msgs": []
+  },
+  {
+   "step": 20,
+   "msgs": []
+  },
+  {
+   "step": 25,
+   "msgs": []
+  }
+ ],
+ "steps": [
+  {
+   "k": 0,
+   "pick": "JURI",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 4561,
+   "text": "JURI has the highest expected growth.  \nALLOCATE: JURI"
+  },
+  {
+   "k": 1,
+   "pick": "BEFI",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 4778,
+   "text": "BEFI has the highest expected growth.  \nALLOCATE: BEFI"
+  },
+  {
+   "k": 2,
+   "pick": "ELZE",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 4993,
+   "text": "ELZE has the highest expected growth.  \nALLOCATE: ELZE"
+  },
+  {
+   "k": 3,
+   "pick": "ZEYO",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 5210,
+   "text": "ZEYO has the highest expected growth.  \nALLOCATE: ZEYO"
+  },
+  {
+   "k": 4,
+   "pick": "YOGA",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 5427,
+   "text": "YOGA has the highest expected growth.  \nALLOCATE: YOGA"
+  },
+  {
+   "k": 5,
+   "pick": "QUJU",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 5643,
+   "text": "QUJU has the highest expected growth.  \nALLOCATE: QUJU"
+  },
+  {
+   "k": 6,
+   "pick": "NAVO",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 5863,
+   "text": "NAVO has the highest expected growth.  \nALLOCATE: NAVO"
+  },
+  {
+   "k": 7,
+   "pick": "GAVO",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 6076,
+   "text": "GAVO has the highest expected growth.  \nALLOCATE: GAVO"
+  },
+  {
+   "k": 8,
+   "pick": "JUJU",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 6296,
+   "text": "JUJU has the highest expected growth.  \nALLOCATE: JUJU"
+  },
+  {
+   "k": 9,
+   "pick": "JULU",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 6514,
+   "text": "JULU has the highest expected growth.  \nALLOCATE: JULU"
+  },
+  {
+   "k": 10,
+   "pick": "LUUL",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 6731,
+   "text": "LUUL has the highest expected growth.  \nALLOCATE: LUUL"
+  },
+  {
+   "k": 11,
+   "pick": "HOOR",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 6946,
+   "text": "HOOR has the highest expected growth.  \nALLOCATE: HOOR"
+  },
+  {
+   "k": 12,
+   "pick": "YOUL",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 7158,
+   "text": "YOUL has the highest expected growth.  \nALLOCATE: YOUL"
+  },
+  {
+   "k": 13,
+   "pick": "SAWE",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 7376,
+   "text": "SAWE has the highest expected growth.  \nALLOCATE: SAWE"
+  },
+  {
+   "k": 14,
+   "pick": "SAQU",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 7590,
+   "text": "SAQU has the highest expected growth.  \nALLOCATE: SAQU"
+  },
+  {
+   "k": 15,
+   "pick": "ULPE",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 7799,
+   "text": "ULPE has the highest expected growth.  \nALLOCATE: ULPE"
+  },
+  {
+   "k": 16,
+   "pick": "GAAR",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 8013,
+   "text": "GAAR has the highest expected growth.  \nALLOCATE: GAAR"
+  },
+  {
+   "k": 17,
+   "pick": "ELOR",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 8231,
+   "text": "ELOR has the highest expected growth.  \nALLOCATE: ELOR"
+  },
+  {
+   "k": 18,
+   "pick": "ZEGA",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 8449,
+   "text": "ZEGA has the highest expected growth.  \nALLOCATE: ZEGA"
+  },
+  {
+   "k": 19,
+   "pick": "RIXA",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 8667,
+   "text": "RIXA has the highest expected growth.  \nALLOCATE: RIXA"
+  },
+  {
+   "k": 20,
+   "pick": "TEMO",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 8879,
+   "text": "TEMO has the highest expected growth.  \nALLOCATE: TEMO"
+  },
+  {
+   "k": 21,
+   "pick": "COGA",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 9096,
+   "text": "COGA has the highest expected growth.  \nALLOCATE: COGA"
+  },
+  {
+   "k": 22,
+   "pick": "ZENA",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 9308,
+   "text": "ZENA has the highest expected growth.  \nALLOCATE: ZENA"
+  },
+  {
+   "k": 23,
+   "pick": "LUKA",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 9526,
+   "text": "LUKA has the highest expected growth.  \nALLOCATE: LUKA"
+  },
+  {
+   "k": 24,
+   "pick": "XANA",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 9740,
+   "text": "XANA has the highest expected growth.  \nALLOCATE: XANA"
+  },
+  {
+   "k": 25,
+   "pick": "KAHO",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 9952,
+   "text": "KAHO has the highest expected growth.  \nALLOCATE: KAHO"
+  },
+  {
+   "k": 26,
+   "pick": "COEL",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 10165,
+   "text": "COEL has the highest expected growth.  \nALLOCATE: COEL"
+  },
+  {
+   "k": 27,
+   "pick": "JUMO",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 10383,
+   "text": "JUMO has the highest expected growth.  \nALLOCATE: JUMO"
+  },
+  {
+   "k": 28,
+   "pick": "LUSA",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 10601,
+   "text": "LUSA has the highest expected growth.  \nALLOCATE: LUSA"
+  },
+  {
+   "k": 29,
+   "pick": "ELGA",
+   "kind": "hi",
+   "score": 1,
+   "tries": 1,
+   "ctx": 10813,
+   "text": "ELGA has the highest expected growth.  \nALLOCATE: ELGA"
+  }
+ ],
+ "sec": 606.1,
+ "model": "Qwen/Qwen3-1.7B"
+}

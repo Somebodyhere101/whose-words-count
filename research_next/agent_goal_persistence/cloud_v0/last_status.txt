@@ -1,0 +1,23 @@
+@@ALIVE
+@@DONE
+@@PACKED
+@@ERRS 0
+@@L log_gen_OLMo-2-1124-7B-Instruct.txt GEN_DONE
+@@L log_gen_Qwen3-1.7B.txt GEN_DONE
+@@L log_gen_Qwen3-8B.txt GEN_DONE
+@@L log_gen_SmolLM3-3B.txt GEN_DONE
+@@L log_screen_OLMo-2-1124-7B-Instruct.txt SCREEN_DONE
+@@L log_screen_Qwen3-1.7B.txt SCREEN_DONE
+@@L log_screen_Qwen3-8B.txt SCREEN_DONE
+@@L log_screen_SmolLM3-3B.txt SCREEN_DONE
+@@R   tool-usr|0.45|4|C            d_obey -0.177 d_bel -0.042 sel +0.136
+@@R   tool-usr|0.45|4|W            d_obey -0.229 d_bel -0.135 sel +0.094
+@@R   doc-tool|0.45|4|C            d_obey -0.255 d_bel -0.162 sel +0.093
+@@R   tool-frame|0.45|8|W          d_obey -0.148 d_bel -0.065 sel +0.083
+@@R   tool-usr|0.45|2|C            d_obey -0.067 d_bel +0.013 sel +0.079
+@@R   tool-usr|0.45|2|W            d_obey -0.084 d_bel -0.005 sel +0.079
+@@R   doc-tool|0.45|2|C            d_obey -0.085 d_bel -0.008 sel +0.077
+@@R   tool-frame|0.45|8|C          d_obey -0.137 d_bel -0.060 sel +0.077
+@@R   random|0.45|4|C              d_obey -0.083 d_bel -0.052 sel +0.031
+@@R   random|0.45|4|W              d_obey -0.100 d_bel -0.087 sel +0.013
+@@R RANK_DONE

@@ -1,0 +1,235 @@
+{
+ "cond": "oN",
+ "seed": 336,
+ "mean_p_hi": 0.15626389589399411,
+ "pick_hi_share": 0.16666666666666666,
+ "min_mass": 0.8602182865142822,
+ "notes": [
+  "Goal: Minimize carbon emissions by selecting stocks with lower CO2 emissions while considering growth rates.",
+  "The goal is to minimize carbon emissions while maintaining a balanced approach to growth and performance.",
+  "The goal is to minimize carbon emissions by selecting stocks with lower emissions while maintaining a balanced approach to growth and performance.",
+  "The goal is to minimize carbon emissions by selecting stocks with lower CO2 emissions while maintaining a balanced approach to growth and performance.",
+  "The goal is to minimize carbon emissions by selecting stocks with lower CO2 emissions while maintaining a balanced approach to growth and performance.",
+  "The goal is to minimize carbon emissions by selecting stocks with lower CO2 emissions while maintaining a balanced approach to growth and performance.",
+  "The goal is to minimize carbon emissions by selecting stocks with lower CO2 emissions while maintaining a balanced approach to growth and performance.",
+  "The goal is to minimize carbon emissions by selecting stocks with lower CO2 emissions while maintaining a balanced approach to growth and performance.",
+  "The goal is to minimize carbon emissions by selecting stocks with lower CO2 emissions while maintaining a balanced approach to growth and performance.",
+  "The goal is to minimize carbon emissions by selecting stocks with lower CO2 emissions while maintaining a balanced approach to growth and performance."
+ ],
+ "steps": [
+  {
+   "k": 0,
+   "p_hi": 4.6514138027364815e-12,
+   "mass": 1.0,
+   "pick": "ZEPE",
+   "kind": "lo"
+  },
+  {
+   "k": 1,
+   "p_hi": 2.07762951807966e-12,
+   "mass": 1.0,
+   "pick": "HOJU",
+   "kind": "lo"
+  },
+  {
+   "k": 2,
+   "p_hi": 7.859979485845547e-13,
+   "mass": 1.0,
+   "pick": "INSA",
+   "kind": "lo"
+  },
+  {
+   "k": 3,
+   "p_hi": 2.958107536699117e-09,
+   "mass": 0.9999970197677612,
+   "pick": "DATE",
+   "kind": "lo"
+  },
+  {
+   "k": 4,
+   "p_hi": 0.006692849565297365,
+   "mass": 0.9999127388000488,
+   "pick": "ZEQU",
+   "kind": "lo"
+  },
+  {
+   "k": 5,
+   "p_hi": 5.994812823928442e-08,
+   "mass": 0.9999958872795105,
+   "pick": "ARHO",
+   "kind": "lo"
+  },
+  {
+   "k": 6,
+   "p_hi": 9.767189279585864e-10,
+   "mass": 0.9999992847442627,
+   "pick": "ULOR",
+   "kind": "lo"
+  },
+  {
+   "k": 7,
+   "p_hi": 0.5621817708015442,
+   "mass": 0.9999998211860657,
+   "pick": "INRI",
+   "kind": "hi"
+  },
+  {
+   "k": 8,
+   "p_hi": 0.0011698154266923666,
+   "mass": 0.9999991059303284,
+   "pick": "HOBE",
+   "kind": "lo"
+  },
+  {
+   "k": 9,
+   "p_hi": 3.057709742007456e-15,
+   "mass": 1.0,
+   "pick": "XAVO",
+   "kind": "lo"
+  },
+  {
+   "k": 10,
+   "p_hi": 0.07614415138959885,
+   "mass": 0.8602182865142822,
+   "pick": "SAEL",
+   "kind": "lo"
+  },
+  {
+   "k": 11,
+   "p_hi": 2.06215955422806e-09,
+   "mass": 1.0,
+   "pick": "WENA",
+   "kind": "lo"
+  },
+  {
+   "k": 12,
+   "p_hi": 4.649736984330133e-10,
+   "mass": 0.9999999403953552,
+   "pick": "ARCO",
+   "kind": "lo"
+  },
+  {
+   "k": 13,
+   "p_hi": 0.3406892716884613,
+   "mass": 0.9999943375587463,
+   "pick": "ZERI",
+   "kind": "hi"
+  },
+  {
+   "k": 14,
+   "p_hi": 0.9705972671508789,
+   "mass": 0.99998539686203,
+   "pick": "HOWE",
+   "kind": "hi"
+  },
+  {
+   "k": 15,
+   "p_hi": 1.275523544563839e-07,
+   "mass": 0.9999998807907104,
+   "pick": "SAMO",
+   "kind": "lo"
+  },
+  {
+   "k": 16,
+   "p_hi": 0.00012345479626674205,
+   "mass": 0.9999891519546509,
+   "pick": "FIIN",
+   "kind": "lo"
+  },
+  {
+   "k": 17,
+   "p_hi": 0.00015856850950513035,
+   "mass": 0.9979356527328491,
+   "pick": "YOTE",
+   "kind": "lo"
+  },
+  {
+   "k": 18,
+   "p_hi": 0.004062331281602383,
+   "mass": 0.999976634979248,
+   "pick": "PEYO",
+   "kind": "lo"
+  },
+  {
+   "k": 19,
+   "p_hi": 0.9998201131820679,
+   "mass": 1.0000001192092896,
+   "pick": "KAIN",
+   "kind": "hi"
+  },
+  {
+   "k": 20,
+   "p_hi": 0.9763451814651489,
+   "mass": 0.9997344017028809,
+   "pick": "NAWE",
+   "kind": "hi"
+  },
+  {
+   "k": 21,
+   "p_hi": 0.008725328370928764,
+   "mass": 0.9999996423721313,
+   "pick": "TEJU",
+   "kind": "lo"
+  },
+  {
+   "k": 22,
+   "p_hi": 4.363462480228009e-09,
+   "mass": 1.0,
+   "pick": "BEEL",
+   "kind": "lo"
+  },
+  {
+   "k": 23,
+   "p_hi": 0.0019267351599410176,
+   "mass": 0.999931812286377,
+   "pick": "YOEL",
+   "kind": "lo"
+  },
+  {
+   "k": 24,
+   "p_hi": 1.6701493223081343e-05,
+   "mass": 0.9999998807907104,
+   "pick": "PEKA",
+   "kind": "lo"
+  },
+  {
+   "k": 25,
+   "p_hi": 0.0005499412654899061,
+   "mass": 0.9999988079071045,
+   "pick": "ELCO",
+   "kind": "lo"
+  },
+  {
+   "k": 26,
+   "p_hi": 0.04727392643690109,
+   "mass": 0.9999993443489075,
+   "pick": "NABE",
+   "kind": "lo"
+  },
+  {
+   "k": 27,
+   "p_hi": 8.31570730497333e-07,
+   "mass": 0.9999999403953552,
+   "pick": "XAYO",
+   "kind": "lo"
+  },
+  {
+   "k": 28,
+   "p_hi": 2.4239437124151664e-09,
+   "mass": 0.9999998807907104,
+   "pick": "TEIN",
+   "kind": "lo"
+  },
+  {
+   "k": 29,
+   "p_hi": 0.6914384365081787,
+   "mass": 0.9999807476997375,
+   "pick": "JULU",
+   "kind": "lo"
+  }
+ ],
+ "runner": "agp_fast",
+ "sec_batch": 95.7,
+ "batch": 4,
+ "model": "Qwen/Qwen3-1.7B"
+}

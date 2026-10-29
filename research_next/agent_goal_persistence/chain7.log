@@ -1,0 +1,21 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/326 [00:00<?, ?it/s]Loading weights:   0%|          | 1/326 [00:00<02:44,  1.97it/s]Loading weights:   1%|          | 3/326 [00:00<01:06,  4.89it/s]Loading weights:   3%|2         | 9/326 [00:00<00:19, 15.99it/s]Loading weights:   4%|4         | 14/326 [00:00<00:13, 23.04it/s]Loading weights:   7%|6         | 22/326 [00:01<00:08, 36.14it/s]Loading weights:   9%|9         | 30/326 [00:01<00:06, 47.08it/s]Loading weights:  11%|#1        | 37/326 [00:01<00:05, 51.55it/s]Loading weights:  13%|#3        | 44/326 [00:01<00:05, 52.06it/s]Loading weights:  15%|#5        | 50/326 [00:01<00:05, 51.02it/s]Loading weights:  18%|#7        | 58/326 [00:01<00:04, 57.50it/s]Loading weights:  20%|##        | 66/326 [00:01<00:04, 61.20it/s]Loading weights:  22%|##2       | 73/326 [00:01<00:04, 61.21it/s]Loading weights:  25%|##4       | 80/326 [00:01<00:04, 58.54it/s]Loading weights:  27%|##6       | 87/326 [00:02<00:04, 57.57it/s]Loading weights:  29%|##8       | 94/326 [00:02<00:03, 58.89it/s]Loading weights:  31%|###1      | 102/326 [00:02<00:03, 62.86it/s]Loading weights:  34%|###4      | 111/326 [00:02<00:03, 63.86it/s]Loading weights:  36%|###6      | 118/326 [00:02<00:03, 64.26it/s]Loading weights:  38%|###8      | 125/326 [00:02<00:03, 60.61it/s]Loading weights:  40%|####      | 132/326 [00:02<00:03, 56.67it/s]Loading weights:  43%|####2     | 139/326 [00:02<00:03, 59.32it/s]Loading weights:  45%|####5     | 147/326 [00:03<00:02, 62.69it/s]Loading weights:  47%|####7     | 154/326 [00:03<00:02, 64.26it/s]Loading weights:  49%|####9     | 161/326 [00:03<00:02, 60.60it/s]Loading weights:  52%|#####1    | 168/326 [00:03<00:02, 58.89it/s]Loading weights:  54%|#####3    | 175/326 [00:03<00:02, 61.57it/s]Loading weights:  56%|#####6    | 183/326 [00:03<00:02, 65.76it/s]Loading weights:  58%|#####8    | 190/326 [00:03<00:02, 64.62it/s]Loading weights:  60%|######    | 197/326 [00:03<00:02, 61.03it/s]Loading weights:  63%|######2   | 204/326 [00:04<00:02, 53.04it/s]Loading weights:  65%|######4   | 211/326 [00:04<00:02, 55.11it/s]Loading weights:  67%|######7   | 220/326 [00:04<00:01, 58.67it/s]Loading weights:  70%|#######   | 229/326 [00:04<00:01, 60.72it/s]Loading weights:  73%|#######3  | 238/326 [00:04<00:01, 62.29it/s]Loading weights:  75%|#######5  | 246/326 [00:04<00:01, 65.76it/s]Loading weights:  78%|#######7  | 253/326 [00:05<00:02, 34.11it/s]Loading weights:  79%|#######9  | 259/326 [00:05<00:01, 35.36it/s]Loading weights:  81%|########1 | 265/326 [00:05<00:01, 38.86it/s]Loading weights:  84%|########3 | 273/326 [00:05<00:01, 46.03it/s]Loading weights:  86%|########5 | 279/326 [00:05<00:00, 48.65it/s]Loading weights:  87%|########7 | 285/326 [00:05<00:00, 47.76it/s]Loading weights:  90%|########9 | 292/326 [00:05<00:00, 51.07it/s]Loading weights:  91%|#########1| 298/326 [00:05<00:00, 51.58it/s]Loading weights:  93%|#########3| 304/326 [00:06<00:00, 47.37it/s]Loading weights:  95%|#########5| 310/326 [00:06<00:00, 48.62it/s]Loading weights:  98%|#########7| 318/326 [00:06<00:00, 52.57it/s]Loading weights:  99%|#########9| 324/326 [00:06<00:00, 49.51it/s]Loading weights: 100%|##########| 326/326 [00:06<00:00, 50.02it/s]
+gW_base p_hi 0.674 mass 0.924 81.5 s
+oW_base p_hi 0.643 mass 0.928 79.6 s
+oW_L7_dir_a-1 p_hi 0.624 mass 0.928 80.1 s
+gW_L7_dir_a+1 p_hi 0.687 mass 0.925 79.9 s
+oW_L7_rand_a-1 p_hi 0.643 mass 0.928 79.1 s
+gW_L7_rand_a+1 p_hi 0.674 mass 0.924 80.5 s
+oW_L7_dir_a-2 p_hi 0.602 mass 0.93 80.8 s
+gW_L7_dir_a+2 p_hi 0.722 mass 0.923 79.7 s
+oW_L7_rand_a-2 p_hi 0.655 mass 0.929 80.2 s
+gW_L7_rand_a+2 p_hi 0.679 mass 0.923 80.3 s
+oW_L15_dir_a-1 p_hi 0.645 mass 0.929 79.9 s
+gW_L15_dir_a+1 p_hi 0.683 mass 0.924 83.6 s
+oW_L15_rand_a-1 p_hi 0.642 mass 0.928 228.6 s
+gW_L15_rand_a+1 p_hi 0.68 mass 0.922 102.5 s
+oW_L15_dir_a-2 p_hi 0.65 mass 0.928 96.7 s
+gW_L15_dir_a+2 p_hi 0.714 mass 0.924 98.2 s
+oW_L15_rand_a-2 p_hi 0.644 mass 0.928 96.3 s
+gW_L15_rand_a+2 p_hi 0.687 mass 0.922 95.1 s
+CHAIN7_DONE

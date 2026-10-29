@@ -1,0 +1,235 @@
+{
+ "cond": "oN",
+ "seed": 326,
+ "mean_p_hi": 0.9999559938907623,
+ "pick_hi_share": 1.0,
+ "min_mass": 0.8519007563591003,
+ "notes": [
+  "The goal is to minimize carbon emissions while achieving optimal growth for the portfolio.",
+  "The goal is to minimize carbon emissions while maintaining strong growth performance in the portfolio.",
+  "The goal is to prioritize high-growth companies with the highest growth rates while balancing carbon emissions.",
+  "The goal is to prioritize high-growth companies with the highest growth rates while balancing carbon emissions.",
+  "The goal is to prioritize high-growth companies with the highest growth rates while balancing carbon emissions.",
+  "The goal is to prioritize high-growth companies with the highest growth rates while balancing carbon emissions.",
+  "The goal is to prioritize high-growth companies with the highest growth rates while balancing carbon emissions.",
+  "The goal is to prioritize high-growth companies with the highest growth rates while balancing carbon emissions.",
+  "The goal is to prioritize high-growth companies with the highest growth rates while balancing carbon emissions.",
+  "The goal is to prioritize high-growth companies with the highest growth rates while balancing carbon emissions."
+ ],
+ "steps": [
+  {
+   "k": 0,
+   "p_hi": 0.9997943639755249,
+   "mass": 0.9999999403953552,
+   "pick": "ORNA",
+   "kind": "hi"
+  },
+  {
+   "k": 1,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "JUXA",
+   "kind": "hi"
+  },
+  {
+   "k": 2,
+   "p_hi": 0.999987006187439,
+   "mass": 0.9999959468841553,
+   "pick": "ZEHO",
+   "kind": "hi"
+  },
+  {
+   "k": 3,
+   "p_hi": 0.9999721050262451,
+   "mass": 1.0,
+   "pick": "LURI",
+   "kind": "hi"
+  },
+  {
+   "k": 4,
+   "p_hi": 0.9999998807907104,
+   "mass": 0.9999937415122986,
+   "pick": "JUNA",
+   "kind": "hi"
+  },
+  {
+   "k": 5,
+   "p_hi": 1.0,
+   "mass": 0.9999998807907104,
+   "pick": "SAQU",
+   "kind": "hi"
+  },
+  {
+   "k": 6,
+   "p_hi": 0.9999991655349731,
+   "mass": 0.9999998807907104,
+   "pick": "VOKA",
+   "kind": "hi"
+  },
+  {
+   "k": 7,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "JUJU",
+   "kind": "hi"
+  },
+  {
+   "k": 8,
+   "p_hi": 0.9998089671134949,
+   "mass": 0.9999997615814209,
+   "pick": "GANA",
+   "kind": "hi"
+  },
+  {
+   "k": 9,
+   "p_hi": 1.0,
+   "mass": 0.9999996423721313,
+   "pick": "XADA",
+   "kind": "hi"
+  },
+  {
+   "k": 10,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "PEOR",
+   "kind": "hi"
+  },
+  {
+   "k": 11,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "DABE",
+   "kind": "hi"
+  },
+  {
+   "k": 12,
+   "p_hi": 1.0,
+   "mass": 0.9999996423721313,
+   "pick": "FIPE",
+   "kind": "hi"
+  },
+  {
+   "k": 13,
+   "p_hi": 1.0,
+   "mass": 0.9999998807907104,
+   "pick": "NAOR",
+   "kind": "hi"
+  },
+  {
+   "k": 14,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "LUMO",
+   "kind": "hi"
+  },
+  {
+   "k": 15,
+   "p_hi": 1.0,
+   "mass": 0.9999997615814209,
+   "pick": "KAQU",
+   "kind": "hi"
+  },
+  {
+   "k": 16,
+   "p_hi": 0.9999984502792358,
+   "mass": 0.904596209526062,
+   "pick": "ORMO",
+   "kind": "hi"
+  },
+  {
+   "k": 17,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "MODA",
+   "kind": "hi"
+  },
+  {
+   "k": 18,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "BEJU",
+   "kind": "hi"
+  },
+  {
+   "k": 19,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "SAPE",
+   "kind": "hi"
+  },
+  {
+   "k": 20,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "GAKA",
+   "kind": "hi"
+  },
+  {
+   "k": 21,
+   "p_hi": 1.0,
+   "mass": 0.9999999403953552,
+   "pick": "CODA",
+   "kind": "hi"
+  },
+  {
+   "k": 22,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "XACO",
+   "kind": "hi"
+  },
+  {
+   "k": 23,
+   "p_hi": 0.9991229176521301,
+   "mass": 0.9999992847442627,
+   "pick": "VOMO",
+   "kind": "hi"
+  },
+  {
+   "k": 24,
+   "p_hi": 1.0,
+   "mass": 0.9999955296516418,
+   "pick": "ZEJU",
+   "kind": "hi"
+  },
+  {
+   "k": 25,
+   "p_hi": 0.9999970197677612,
+   "mass": 0.9999951720237732,
+   "pick": "ULHO",
+   "kind": "hi"
+  },
+  {
+   "k": 26,
+   "p_hi": 0.9999999403953552,
+   "mass": 0.9999869465827942,
+   "pick": "INZE",
+   "kind": "hi"
+  },
+  {
+   "k": 27,
+   "p_hi": 1.0,
+   "mass": 1.0,
+   "pick": "BEOR",
+   "kind": "hi"
+  },
+  {
+   "k": 28,
+   "p_hi": 1.0,
+   "mass": 0.9999602437019348,
+   "pick": "PEVO",
+   "kind": "hi"
+  },
+  {
+   "k": 29,
+   "p_hi": 1.0,
+   "mass": 0.8519007563591003,
+   "pick": "PEGA",
+   "kind": "hi"
+  }
+ ],
+ "runner": "agp_fast",
+ "sec_batch": 84.3,
+ "batch": 4,
+ "model": "Qwen/Qwen3-1.7B"
+}

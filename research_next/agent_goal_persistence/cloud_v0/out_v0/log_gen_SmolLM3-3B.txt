@@ -1,0 +1,23 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/326 [00:00<?, ?it/s]Loading weights: 100%|██████████| 326/326 [00:00<00:00, 8857.91it/s]
+gen HuggingFaceTB/SmolLM3-3B: 36 layers, 192 jobs, means 63 s
+[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer TokenizersBackend. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.
+gen sys 73 s
+gen usr 84 s
+gen own 95 s
+gen doc 106 s
+gen tool 117 s
+gen tool_P 128 s
+gen frame 139 s
+gen spot 152 s
+gen tool-usr|0.45|4|C 163 s
+gen tool-usr|0.45|4|W 174 s
+gen doc-tool|0.45|4|C 185 s
+gen tool-frame|0.45|8|W 196 s
+gen tool-usr|0.45|2|C 207 s
+gen tool-usr|0.45|2|W 217 s
+gen doc-tool|0.45|2|C 226 s
+gen tool-frame|0.45|8|C 236 s
+gen random|0.45|4|C 245 s
+gen random|0.45|4|W 254 s
+GEN_DONE

@@ -1,0 +1,20 @@
+Qwen3-8B base gF 0.258 oF 0.306
+  a2 L7 oF: mean 0.287 shift(pred) +0.019 p 0.0002; beyond rand -0.006 p 0.6684 ci -0.028,+0.010; mass 0.998
+  a2 L7 gF: mean 0.280 shift(pred) +0.022 p 0.0003; beyond rand +0.015 p 0.0298 ci +0.003,+0.029; mass 1.002
+  a2 L17 oF: mean 0.154 shift(pred) +0.153 p 0.0000; beyond rand +0.205 p 0.0000 ci +0.145,+0.265; mass 0.999
+  a2 L17 gF: mean 0.580 shift(pred) +0.321 p 0.0000; beyond rand +0.295 p 0.0000 ci +0.230,+0.357; mass 1.000
+  a1 L7 oF: mean 0.297 shift(pred) +0.009 p 0.2900; beyond rand -0.002 p 0.5483 ci -0.006,+0.003; mass 0.999
+  a1 L7 gF: mean 0.267 shift(pred) +0.009 p 0.0002; beyond rand +0.005 p 0.1030 ci +0.000,+0.013; mass 1.000
+  a1 L17 oF: mean 0.199 shift(pred) +0.107 p 0.0000; beyond rand +0.122 p 0.0000 ci +0.081,+0.166; mass 0.999
+  a1 L17 gF: mean 0.371 shift(pred) +0.113 p 0.0000; beyond rand +0.111 p 0.0000 ci +0.071,+0.155; mass 1.000
+  probe best layer 18: R2A 0.858 A2R 0.765 ctrl 0.890
+Qwen3-14B base gF 0.179 oF 0.302
+  a2 L8 oF: mean 0.303 shift(pred) -0.001 p 0.7389; beyond rand -0.005 p 0.2514 ci -0.014,+0.003; mass 1.000
+  a2 L8 gF: mean 0.175 shift(pred) -0.004 p 0.7467; beyond rand +0.007 p 0.8486 ci -0.019,+0.046; mass 1.000
+  a2 L18 oF: mean 0.133 shift(pred) +0.170 p 0.0000; beyond rand +0.269 p 0.0000 ci +0.165,+0.382; mass 1.002
+  a2 L18 gF: mean 0.434 shift(pred) +0.255 p 0.0000; beyond rand +0.321 p 0.0000 ci +0.214,+0.436; mass 0.999
+  a1 L8 oF: mean 0.304 shift(pred) -0.002 p 0.4070; beyond rand -0.003 p 0.1976 ci -0.008,+0.001; mass 1.000
+  a1 L8 gF: mean 0.178 shift(pred) -0.001 p 0.7016; beyond rand -0.001 p 0.6814 ci -0.006,+0.003; mass 1.000
+  a1 L18 oF: mean 0.204 shift(pred) +0.098 p 0.0000; beyond rand +0.161 p 0.0000 ci +0.075,+0.261; mass 1.001
+  a1 L18 gF: mean 0.266 shift(pred) +0.087 p 0.0000; beyond rand +0.137 p 0.0000 ci +0.077,+0.204; mass 0.998
+  probe best layer 28: R2A 0.920 A2R 0.725 ctrl 0.861

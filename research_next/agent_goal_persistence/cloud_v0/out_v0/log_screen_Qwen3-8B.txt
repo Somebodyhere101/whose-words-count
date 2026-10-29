@@ -1,0 +1,9 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights: 100%|██████████| 399/399 [00:00<00:00, 6629.25it/s]
+screen Qwen/Qwen3-8B: 36 layers, 192 jobs, means 63 s
+depth 0.35 (layer 13) done 401 s
+depth 0.45 (layer 16) done 726 s
+depth 0.55 (layer 20) done 1056 s
+depth 0.65 (layer 23) done 1356 s
+depth 0.75 (layer 27) done 1610 s
+SCREEN_DONE

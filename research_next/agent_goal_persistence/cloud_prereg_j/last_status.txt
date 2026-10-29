@@ -1,0 +1,9 @@
+@@ALIVE
+@@N OLMo-2-1124-7B-Instruct 5
+@@N Qwen3-1.7B 18
+@@N Qwen3-4B 18
+@@N Qwen3-8B 18
+@@N SmolLM3-3B 18
+@@N granite-3.3-8b-instruct 18
+@@T 00, 36.88it/s]Fetching 13 files:  77%|███████▋  | 10/13 [00:20<00:00, 36.88it/s]Fetching 13 files:  85%|████████▍ | 11/13 [00:43<00:10,  5.30s/i
+@@T downloaded allenai/OLMo-2-1124-7B-Instruct
