@@ -1,12 +1,14 @@
 """Check every preregistration seal (*.sha256) in research_next/agent_goal_persistence/.
 
 Shared code files were extended by later tests, so a seal's code files are matched against the working copy OR the
-files inside the archived bundles (bundles/agp*.tgz), which hold the exact sealed versions. A seal file that lists
-the same path twice (an amendment before data) passes if any listed hash matches.
+files inside the archived bundles (bundles/*.tgz), which hold the exact sealed versions. A seal file that lists
+the same path twice (an amendment before data) passes if any listed hash matches. Lines that are not SHA-256 entries
+(a note such as a bundle's md5) are skipped.
 Usage, from the repository root: python verify_seals.py"""
 import glob
 import hashlib
 import os
+import re
 import sys
 import tarfile
 
@@ -18,7 +20,7 @@ def sha(b):
 
 
 bundled = set()
-for b in glob.glob(os.path.join(STUDY, "bundles", "agp*.tgz")):
+for b in glob.glob(os.path.join(STUDY, "bundles", "*.tgz")):
     with tarfile.open(b) as t:
         for m in t.getmembers():
             if m.isfile():
@@ -28,9 +30,9 @@ bad_total = 0
 for s in sorted(glob.glob(os.path.join(STUDY, "*.sha256"))):
     wanted = {}
     for line in open(s, encoding="utf-8"):
-        if line.strip():
-            h, f = line.split(None, 1)
-            wanted.setdefault(f.strip().lstrip("*"), []).append(h)
+        parts = line.split(None, 1)
+        if len(parts) == 2 and re.fullmatch(r"[0-9a-f]{64}", parts[0]):
+            wanted.setdefault(parts[1].strip().lstrip("*"), []).append(parts[0])
     ok, how = 0, set()
     missing = []
     for path, hashes in wanted.items():

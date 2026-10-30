@@ -1,12 +1,15 @@
 {
  "removed": [
   "CODEX_HANDOFF_2026-10-28.txt",
+  "cloud_authpilot/results_auth.tgz",
   "cloud_binding_e2/results11.tgz",
   "cloud_binding_e3/results12.tgz",
   "cloud_binding_e4/results13.tgz",
   "cloud_binding_pilot/results10.tgz",
+  "cloud_chan/results_ch.tgz",
   "cloud_ci_pilot/results24p.tgz",
   "cloud_families/results6.tgz",
+  "cloud_flip/results_fl.tgz",
   "cloud_jpilot/results19.tgz",
   "cloud_lineage/results9.tgz",
   "cloud_lineage_pilot/results8.tgz",
@@ -35,7 +38,11 @@
   "cloud_prereg_y_b/results34.tgz",
   "cloud_results/results.tgz",
   "cloud_results32/results32.tgz",
+  "cloud_revpilot/results_rev.tgz",
+  "cloud_revpilot2/results_rev2.tgz",
+  "cloud_revpilot3/results_rev3.tgz",
   "cloud_steer_pilot/results15.tgz",
+  "cloud_tagstyle/results_ts.tgz",
   "cloud_v0/results28.tgz",
   "cloud_v1/results32.tgz",
   "code/__pycache__/agp_b.cpython-312.pyc",
@@ -48,6 +55,7 @@
   "PREPUB_REVIEW.md"
  ],
  "bundles_copied_in": [
+  "AUTH_PRED.sha256: auth.tgz",
   "MPILOT_PRED.sha256: mp1.tgz"
  ]
 }

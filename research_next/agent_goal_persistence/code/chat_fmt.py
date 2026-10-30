@@ -36,6 +36,24 @@ def wrappers(tok):
     return out
 
 
+HARMONY_SYS = ("<|start|>system<|message|>You are ChatGPT, a large language model trained by OpenAI.\nKnowledge cutoff: "
+               "2024-06\nCurrent date: 2026-10-30\n\nReasoning: medium\n\n# Valid channels: analysis, commentary, final. "
+               "Channel must be included for every message.<|end|>")
+
+
+def harmony(tok):
+    """gpt-oss (harmony) wrappers, written by hand because the official template drops mid-conversation system and
+    developer messages. The first system message renders as the template renders a system prompt (fixed header, then
+    the text as developer '# Instructions'); later inserts use the raw roles: 'system' is the harmony system role,
+    'developer' the developer role. Assistant turns are final-channel messages and the header opens the final channel,
+    so readouts skip the analysis channel. flip_gate.py checks this against tok.apply_chat_template."""
+    w = {r: (f"<|start|>{r}<|message|>", "<|end|>") for r in ("system", "developer", "user")}
+    w["assistant"] = ("<|start|>assistant<|channel|>final<|message|>", "<|end|>")
+    w["first_system"] = (HARMONY_SYS + "<|start|>developer<|message|># Instructions\n\n", "\n\n<|end|>")
+    w["header"] = "<|start|>assistant<|channel|>final<|message|>"
+    return w
+
+
 def plain(tok):
     """Plain-text transcript labels with no special tokens, so a base model and its post-trained checkpoints read
     the same format (lineage study). The episode starts with the tokenizer's BOS, as a pretraining document does.

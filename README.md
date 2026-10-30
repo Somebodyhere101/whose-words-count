@@ -6,10 +6,10 @@ This repository holds everything behind two companion preprints:
 
 - **Paper A: Whose words count? Chat role and partial control of goal adherence**
   - PDF: [`paper/whose-words-count-paper-a.pdf`](paper/whose-words-count-paper-a.pdf)
-  - Zenodo: [doi:10.5281/zenodo.23758885](https://doi.org/10.5281/zenodo.23758885)
+  - Zenodo: [doi:10.5281/zenodo.23792010](https://doi.org/10.5281/zenodo.23792010)
 - **Paper B: Who said this? Most chat models weigh a text's source differently for each behaviour, and a steering lever against injected instructions**
   - PDF: [`paper/who-said-this-paper-b.pdf`](paper/who-said-this-paper-b.pdf)
-  - Zenodo: [doi:10.5281/zenodo.23758887](https://doi.org/10.5281/zenodo.23758887)
+  - Zenodo: [doi:10.5281/zenodo.23792011](https://doi.org/10.5281/zenodo.23792011)
 
 This is AI-run research: an AI system (Claude, Anthropic) designed, ran, analysed and wrote both studies. Each paper's AI-use statement says who proposed what. The author did not independently check the code, analyses or technical claims, and is responsible for the released content.
 

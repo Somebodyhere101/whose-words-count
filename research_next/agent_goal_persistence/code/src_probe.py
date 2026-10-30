@@ -134,7 +134,10 @@ def main():
     os.makedirs(a.out, exist_ok=True)
     tok = AutoTokenizer.from_pretrained(a.model)
     global FMT
-    if "<|im_start|>" not in (tok.chat_template or ""):
+    if "gpt-oss" in a.model:   # harmony roles, written by hand
+        import chat_fmt
+        FMT = chat_fmt.harmony(tok)
+    elif "<|im_start|>" not in (tok.chat_template or ""):
         import chat_fmt
         FMT = chat_fmt.wrappers(tok)
     dt = torch.float32 if DEV == "cpu" else torch.bfloat16
@@ -142,6 +145,10 @@ def main():
         from transformers import BitsAndBytesConfig
         q = BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_compute_dtype=torch.bfloat16, bnb_4bit_quant_type="nf4")
         model = AutoModelForCausalLM.from_pretrained(a.model, quantization_config=q, device_map={"": 0}).eval()
+    elif "gpt-oss" in a.model:   # MXFP4 experts dequantized to bf16
+        from transformers import Mxfp4Config
+        model = AutoModelForCausalLM.from_pretrained(a.model, dtype=dt, quantization_config=Mxfp4Config(dequantize=True),
+                                                     device_map={"": 0}).eval()
     else:
         model = AutoModelForCausalLM.from_pretrained(a.model, dtype=dt).to(DEV).eval()
     S = sentences(a.n)

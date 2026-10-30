@@ -7,11 +7,11 @@ authors:
     orcid: "https://orcid.org/0009-0004-7723-4240"
 repository-code: "https://github.com/Somebodyhere101/whose-words-count"
 license: MIT
-date-released: "2026-10-29"
+date-released: "2026-10-30"
 identifiers:
   - type: doi
-    value: "10.5281/zenodo.23758885"
+    value: "10.5281/zenodo.23792010"
     description: "Paper A: Whose words count? Chat role and partial control of goal adherence"
   - type: doi
-    value: "10.5281/zenodo.23758887"
+    value: "10.5281/zenodo.23792011"
     description: "Paper B: Who said this? Most chat models weigh a text's source differently for each behaviour, and a steering lever against injected instructions"

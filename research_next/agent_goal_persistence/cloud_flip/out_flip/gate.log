@@ -1,0 +1,5 @@
+G1 template PASS
+G2 probe tokens PASS 19 tokens; tickers distinct True
+Loading weights:   0%|          | 0/411 [00:00<?, ?it/s]Loading weights:   1%|          | 5/411 [00:00<00:14, 27.75it/s]Loading weights:   5%|▌         | 22/411 [00:00<00:05, 68.05it/s]Loading weights:   9%|▉         | 39/411 [00:00<00:04, 78.12it/s]Loading weights:  14%|█▎        | 56/411 [00:00<00:03, 89.93it/s]Loading weights:  16%|█▌        | 66/411 [00:00<00:03, 90.47it/s]Loading weights:  18%|█▊        | 76/411 [00:01<00:04, 73.88it/s]Loading weights:  22%|██▏       | 92/411 [00:01<00:03, 90.30it/s]Loading weights:  27%|██▋       | 109/411 [00:01<00:02, 108.27it/s]Loading weights:  43%|████▎     | 175/411 [00:01<00:00, 237.70it/s]Loading weights:  55%|█████▌    | 228/411 [00:01<00:00, 308.30it/s]Loading weights:  72%|███████▏  | 294/411 [00:01<00:00, 385.18it/s]Loading weights:  84%|████████▍ | 347/411 [00:01<00:00, 417.45it/s]Loading weights: 100%|██████████| 411/411 [00:01<00:00, 232.87it/s]
+G3 cache PASS worst TV 0.0141; ticker mass at the first readout 0.998
+FLIP_GATE PASS

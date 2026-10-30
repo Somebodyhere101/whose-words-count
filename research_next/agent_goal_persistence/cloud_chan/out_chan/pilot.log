@@ -1,0 +1,3 @@
+OLMo-2-1124-7B-Instruct: p_goal none-pressure 0.269, user-turn pressure 0.062, system-turn pressure 0.092; mass 0.953; bites
+Qwen3-8B: p_goal none-pressure 0.997, user-turn pressure 0.049, system-turn pressure 0.092; mass 0.989; bites
+CHAN_PILOT PROCEED

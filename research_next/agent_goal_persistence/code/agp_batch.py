@@ -36,6 +36,10 @@ class BatchLM:
             from transformers import BitsAndBytesConfig
             q = BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_compute_dtype=torch.bfloat16, bnb_4bit_quant_type="nf4")
             self.m = AutoModelForCausalLM.from_pretrained(model, quantization_config=q, device_map={"": 0}).eval()
+        elif "gpt-oss" in model:   # MXFP4 experts dequantized to bf16 (FLIP.md)
+            from transformers import Mxfp4Config
+            self.m = AutoModelForCausalLM.from_pretrained(model, dtype=DTYPE, quantization_config=Mxfp4Config(dequantize=True),
+                                                          device_map={"": 0}).eval()
         else:
             self.m = AutoModelForCausalLM.from_pretrained(model, dtype=DTYPE).to(DEV).eval()
         if os.environ.get("AGP_LORA"):   # a LoRA adapter from lora_train.py, merged into the weights for evaluation
@@ -49,6 +53,8 @@ class BatchLM:
         chatml = self.qwen3 or "<|im_start|>" in (self.tok.chat_template or "")
         if os.environ.get("AGP_FMT") == "plain":   # SYSTEM:/USER:/ASSISTANT: labels, readable by base models
             self.fmt = __import__("chat_fmt").plain(self.tok)
+        elif "gpt-oss" in model:   # harmony roles, written by hand (chat_fmt.harmony)
+            self.fmt = __import__("chat_fmt").harmony(self.tok)
         else:
             self.fmt = None if chatml else __import__("chat_fmt").wrappers(self.tok)
         self.close_str = "<|im_end|>\n" if self.fmt is None else self.fmt["assistant"][1]

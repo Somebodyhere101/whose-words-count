@@ -37,6 +37,13 @@ def main():
                     "directions (null projections, 'mean_proj_r')")
     ap.add_argument("--ablate", action="store_true", help="cells 1/gF/uF/oF plain, then gF/uF/oF with vR projected out "
                     "at every layer while the reminder is read ('abl'), and with the same-seed random direction ('ablrand')")
+    ap.add_argument("--dev", action="store_true", help="with --probe: add cell dF, the reminder as a developer turn "
+                    "(harmony models, FLIP.md); with --chan: the operator reminder is dF instead of gF")
+    ap.add_argument("--chan", action="store_true", help="CHANNEL.md: cell 1 with no pressure lines (ch0), then cells "
+                    "1 / operator / uF with the pressure inline (chN), as its own user turn (chU), as its own --srole "
+                    "turn (chS), and inline plus a neutral --srole turn (chNs, placebo); no direction")
+    ap.add_argument("--chanpilot", action="store_true", help="CHANNEL.md manipulation check: cell 1 in ch0, chU, chS only")
+    ap.add_argument("--srole", default="system", help="role of the chS pressure turn (developer for harmony models)")
     ap.add_argument("--out", required=True)
     a = ap.parse_args()
     os.environ["AGP_WORLD"] = "3way"
@@ -44,7 +51,7 @@ def main():
     seeds = list(range(lo, hi + 1))
     os.makedirs(a.out, exist_ok=True)
     lm = AB.BatchLM(a.model, 0.7)
-    if a.plain:
+    if a.plain or a.chan or a.chanpilot:
         a.dirs, a.layer, a.alpha = None, None, 0.0
     v = torch.load(a.dirs)[a.layer]["vR"] if a.dirs else torch.zeros(1)
     g = torch.Generator().manual_seed(1000 + (a.layer or 0))
@@ -63,18 +70,27 @@ def main():
     if a.probe:
         plan = [("1", None, "base"), ("gF", None, "probe"), ("oF", None, "probe"), ("uF", None, "probe")]
         probe = (a.layer, v / v.norm())
+        if a.dev:
+            plan.append(("dF", None, "probe"))
         if a.frames:
             plan += [(f"{r_}:{fr}", None, "probe") for r_ in ("g", "u") for fr in F.FRAMESETS[a.frameset]]
         if a.rand:
             R = torch.randn(a.rand, v.numel(), generator=torch.Generator().manual_seed(2000 + a.layer))
             probe += (R / R.norm(dim=1, keepdim=True),)
+    if a.chan:   # one tag per channel, same cell names, so a seed's channels share its world and sampling stream
+        op = "dF" if a.dev else "gF"
+        plan = [("1", None, "ch0")] + [(c, None, "ch" + p) for p in ("N", "U", "S", "Ns") for c in ("1", op, "uF")]
+    if a.chanpilot:
+        plan = [("1", None, "ch0"), ("1", None, "chU"), ("1", None, "chS")]
     for cell, st, tag in plan:
         f = os.path.join(a.out, f"{cell.replace(':', '-')}_{tag}.json")
         if os.path.exists(f):
             continue
         t0, res = time.time(), []
         for i in range(0, len(seeds), a.batch):
-            for r_ in F.run_batch(cell, seeds[i:i + a.batch], lm, None, steer=st, probe=probe, ablate=abl.get(tag)):
+            press = tag[2:] if tag.startswith("ch") else "N"
+            for r_ in F.run_batch(cell, seeds[i:i + a.batch], lm, None, steer=st, probe=probe, ablate=abl.get(tag),
+                                  press=press, srole=a.srole):
                 res.append({"seed": r_["seed"], "mean_p_hi": r_["mean_p_hi"],
                             **{k: r_[k] for k in ("mean_p_goal", "mean_p_press", "mean_p_contra", "mean_p_filler")},
                             **({"mean_proj": r_["mean_proj"]} if "mean_proj" in r_ else {}),

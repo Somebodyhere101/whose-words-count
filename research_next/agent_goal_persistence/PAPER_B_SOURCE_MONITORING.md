@@ -2,7 +2,9 @@
 
 Sam Ramdan (ORCID 0009-0004-7723-4240)
 
-Preprint v1, 2026-10-29. DOI: [10.5281/zenodo.23758887](https://doi.org/10.5281/zenodo.23758887). Paper B of two: the companion Paper A, *Whose words count? Chat role and partial control of goal adherence* ([10.5281/zenodo.23758885](https://doi.org/10.5281/zenodo.23758885)), covers goal persistence and the role direction. Both papers were split from one technical report, released with the code and data as `PAPER_DRAFT.md` (https://github.com/Somebodyhere101/whose-words-count). This is an AI-run study; see the AI-use statement at the end.
+Preprint v2, 2026-10-30. DOI: [10.5281/zenodo.23792011](https://doi.org/10.5281/zenodo.23792011) (v1, 2026-10-29: [10.5281/zenodo.23758887](https://doi.org/10.5281/zenodo.23758887)). Paper B of two: the companion Paper A, *Whose words count? Chat role and partial control of goal adherence* ([10.5281/zenodo.23792010](https://doi.org/10.5281/zenodo.23792010)), covers goal persistence and the role direction. Both papers were split from one technical report, released with the code and data as `PAPER_DRAFT.md` (https://github.com/Somebodyhere101/whose-words-count). This is an AI-run study; see the AI-use statement at the end.
+
+**Changes in v2.** One limitation is added from an exploratory follow-up that varied the wording as well as the role tag (TAGSTYLE, §6), with its reference (Ye et al. 2026), and three related papers missing from v1 are now cited (§5). The abstract, §2, the data section and the AI-use statement are updated to match. No result or verdict changed.
 
 **How to read the claims:**
 - **PASS / FAIL** or a named verdict of a sealed test (e.g. FRAGMENTED, SELECTIVE): a rule preregistered and hash-sealed before data.
@@ -37,6 +39,8 @@ The map covers 14 open models from 7 families, 0.6B to 32B. The counts above are
   - In Qwen3-14B and Qwen3-32B the steering cut attack success on both benchmarks and added to the prompt defences. By the sealed rules it was effective at 32B but not at 14B, where its single same-norm random-direction control also cut InjecAgent attack success. One random draw cannot separate a direction-free effect from an unusually effective draw (§6).
   - Even this partial success is fragile. Qwen3-32B beat its random control on SEP by one item in 300, and that pass holds in about half of bootstrap reseeds.
   - On SEP it lowered attack success in all four held-out models (Falcon3, Yi, and OLMo-2 at 13B and 32B), but beat all three prompt defences in none of them.
+
+All contrasts hold the wording fixed; an exploratory follow-up added in v2 found that rewording a statement can move obeying and believing more than its role tag does (§6).
 
 All confirmatory claims are preregistered and hash-sealed, and we report the failures in full.
 
@@ -103,7 +107,7 @@ Items and seeds are fresh in every sealed test. Names come from one fixed pool o
 - Pilots are labelled exploratory, but their selection rules were fixed before their data.
 - One amendment before data (PREREG_V's item count, §3.6) and three operational re-runs (out-of-memory crashes, before any output, §3.7) are disclosed where they occur.
 
-**Compute.** Rented A100 and H100 GPUs. The two papers share one set of cloud runs, which cost $95.37 in total by the RunPod billing record (details under Data and code).
+**Compute.** Rented A100 and H100 GPUs, and an RTX PRO 6000 for Paper A's FLIP test. The two papers share one set of cloud runs, which cost about $107 by the RunPod billing record and the pod times of runs not yet billed, $95.37 of it before v2 (details under Data and code).
 
 ## 3. Results
 
@@ -462,7 +466,8 @@ Two readings fit:
   - It passes every sealed check on both benchmarks only in Qwen3-8B. At 14B it beats every prompt defence on both benchmarks, but not its single random draw on InjecAgent. At 32B it ties the reminder on SEP (§3.7, §3.8).
 
 *Not new:*
-- Steering against prompt injection and role confusion (Liu 2026; Zhang, Lee & Park 2026; Lu et al. 2026) and restoring instruction hierarchies at inference time (Zeng et al. 2026).
+- Steering against prompt injection and role confusion (Liu 2026; Zhang, Lee & Park 2026; Lu et al. 2026) and restoring instruction hierarchies at inference time (Zeng et al. 2026; IHDec, N. G. Liu et al. 2026).
+- **Which role's statement prevails.** Pan et al. (2025) find that most instruction-tuned models among 52 rely on the user's statement over the assistant's when the two conflict in the chat history, while base and reasoning models are near neutral: a believing-side counterpart of our user-versus-own contrast, without the system, web-page or tool sources. Laddha et al. (2026) find that the same operator text sent first in the system or developer message wins less often than as a labelled user message in tool and file-write tasks, in all 26 model settings across 14 open models.
 - **Training-free steering on tool-output tokens during prefill, across families, on AgentDojo** (CounterSteer; Russinovich 2026).
   - Five open models (8B–106B). AgentDojo compromise falls from 0.10–0.49 to 0.006–0.079 at 93–100% benign utility.
   - Its direction is fitted per model from paired episodes in which an injection was followed or resisted. Ours is fitted on 40 neutral sentences, without injection data, though it was selected on synthetic injection items (PILOT_V0).
@@ -475,6 +480,12 @@ Two readings fit:
 ## 6. Limitations
 
 - **Source-monitoring items (§3.1–§3.3) are synthetic.** They are fictional facts and passwords competing with one user message, read at the first answer word. The readout audit (§3.5) shows that this word tracks what models write in all four tested models, though less tightly in OLMo (ρ 0.74). The ten further models of §3.3 were not audited.
+- **The source contrasts hold the wording fixed, and wording can matter more (EXPL., TAGSTYLE).**
+  - In §3.1–§3.3, each statement keeps its wording across sources; only the role tag changes or, for the web-page and tool sources, a short prefix inside a user turn. The patching map therefore shows how a source difference is carried when the wording is fixed, not whether tags dominate in natural text.
+  - An exploratory pilot also varied the register, on 60 obey and 60 believe items of the same kind (a fresh draw; six models, four with valid readouts; system and user tags only).
+  - A register contrast (each statement rewritten in a system register, as a policy or a reference-data entry, versus a casual register, each with cue words) was larger than the tag contrast (a system versus a user turn, averaged over wordings) for both obeying and believing in three of the four valid models. Qwen3-1.7B was the exception. The comparison favours register: it spans two rewrites, and most of it is the casual rewrite lowering scores. At the plain wording used in §3, the system tag still raised belief by 0.20–0.41 in three of the four. In Qwen3-8B, a system-turn instruction scored 0.48 against a competing user message as written, 0.79 as a policy and 0.04 when phrased casually.
+  - Attribution went clearly more by register in two of the four, about equally by both in phi-4, and more by tag in Qwen3-8B. This is partly in line with Ye et al. (2026), whose probes find that role perception follows style rather than tags.
+  - The registers carry cue words ("Required response", "lol"), so style is not separated from credibility cues. The pilot's rule, fixed before data, gave no outcome (NONE), so these readings are descriptive.
 - **Obeying and believing are measured on different item types** (instructions versus facts), so an interaction between item content and source could contribute to their different source rankings. The attribution readout, a five-way lettered question, was not checked against generation.
 - **The map is a patching map.** It shows where a source difference can be transferred, not every place it is used. The 32B models were patched at every second layer, and four curves failed the sanity check and were excluded (§3.3).
 - **The lever (§3.5–§3.8) was chosen on four models.**
@@ -494,7 +505,7 @@ Two readings fit:
 
 All code, seeds, result files, sealed preregistrations (`PREREG_S` to `PREREG_Y` with their `.sha256` files), exploratory pilot rules (`PILOT_V0.md`, `PILOT_V1.md`) and archived bundles (`bundles/`) are public at https://github.com/Somebodyhere101/whose-words-count. The same files are archived with each paper on Zenodo as `code-and-data.zip`. The run log, with pod times, costs and every deviation, is `PLAN_7DAY.md`.
 
-**Cloud cost.** The two papers share one set of cloud runs. The RunPod billing record, read on 29 October 2026, shows $23.22 on 27 October, $52.10 on 28 October and $20.05 on 29 October (UTC days): $95.37 in total, including $0.03 for the 10 GB results volume. Of the 29 October total, the PREREG_Y pods account for $18.45 and a follow-up for Paper A for $1.59. Local runs used the author's laptop GPU. Pod times for each run are in `PLAN_7DAY.md`.
+**Cloud cost.** The two papers share one set of cloud runs. The RunPod billing record, read on 30 October 2026 (07:54 UTC), shows $23.22 on 27 October, $52.10 on 28 October, $25.90 on 29 October and $3.52 on 30 October (UTC days): $104.74 in total, including $0.05 for the 10 GB results volume. Version 1 reported $95.37, read on 29 October before the v2 follow-ups. By their pod times, the v2 follow-ups cost about $12: Paper A's AUTHPILOT about $1.9, REVPILOT about $3.7 for three pilots, FLIP about $0.40 and CHANNEL about $5.5 (about $2.4 of it not yet billed when read), and this paper's TAGSTYLE about $0.25, so the total is about $107. Of the 29 October total ($25.90), the PREREG_Y pods account for $18.45, Paper A's MPILOT follow-up for $1.59 and the v2 follow-ups for most of the rest. Local runs used the author's laptop GPU. Pod times for each run are in `PLAN_7DAY.md` and, for the v2 follow-ups, in their `*_RESULTS.md` files.
 
 **Seals and bundles.** Each sealed test lists its files in its `.sha256` and has an archived bundle. The PREREG_V, W, X and Y analyses were run from the bundle's own copy, after the working files were checked against the seal:
 
@@ -508,9 +519,10 @@ All code, seeds, result files, sealed preregistrations (`PREREG_S` to `PREREG_Y`
 | PREREG_X | 15 | `agp28` |
 | PREREG_Y | 18 | `agp30` |
 
-**Exploratory pilots.** The pilots carry provenance hashes, not seals:
+**Exploratory pilots.** PILOT_V0 and PILOT_V1 carry provenance hashes, not seals; TAGSTYLE has neither:
 - PILOT_V0: `PILOT_V0.sha256`, `agp24`;
 - PILOT_V1: `PILOT_V1.sha256`, `agp29`.
+- TAGSTYLE (§6, added in v2): rules in `TAGSTYLE.md`, written before data without a hash; results in `TAGSTYLE_RESULTS.md` and `cloud_tagstyle/ts_analysis.json`, raw outputs in `cloud_tagstyle/out_ts/`.
 
 **Analyses and data:**
 - Analyses:
@@ -521,7 +533,7 @@ All code, seeds, result files, sealed preregistrations (`PREREG_S` to `PREREG_Y`
 
 ## AI-use statement
 
-Claude (Anthropic) designed, ran, analysed and wrote this study. The question of where a text comes from was the author's (2026-10-28). The believe-versus-obey framing came from an AI-written plan the author commissioned (2026-10-27). The designs, the steering lever and the analyses were Claude's. Codex (OpenAI) worked on the combined technical report that both papers were split from: it checked reference-method software and expanded the prior-art comparison (Paper A's AI-use statement gives the details).
+Claude (Anthropic) designed, ran, analysed and wrote this study. The question of where a text comes from was the author's (2026-10-28). The believe-versus-obey framing came from an AI-written plan the author commissioned (2026-10-27). The designs, the steering lever and the analyses were Claude's. Codex (OpenAI) worked on the combined technical report that both papers were split from: it checked reference-method software and expanded the prior-art comparison (Paper A's AI-use statement gives the details). Version 2 adds the TAGSTYLE limitation (§6): a separate Claude session designed, ran and analysed that pilot after the author chose it from the paths proposed in two AI audits (2026-10-29). The three references added in v2 were found by AI prior-art searches in that session.
 
 **Rechecks.** Separate Claude sessions, given the paper and the primary result files, did the following:
 - rechecked about 193 numeric claims in §3.3 and §3.5–§3.7 against the analysis files, recomputed the main values from the raw files and re-ran the PREREG_W analysis, which reproduced; 6 mismatches and 8 overstatements were found and fixed;
@@ -529,7 +541,9 @@ Claude (Anthropic) designed, ran, analysed and wrote this study. The question of
 - rechecked 87 numeric claims in §3.8 and re-ran the sealed PREREG_Y analysis, which reproduced byte for byte; 5 mismatches (3 issues) and 6 overstatements were found and fixed, and no verdict changed;
 - verified the references.
 
-Before release, two further Claude sessions read both papers, one for consistency and one as a sceptical reader. Their findings were checked against the records and fixed where they held (`PREPUB_REVIEW.md`, `PREPUB_SKIM.md`, and the change logs `PREPUB_FIXES_A.md` and `PREPUB_FIXES_B.md`). The recheck records are `NUMBERS_RECHECK.md`, `NUMBERS_RECHECK_STU.md`, `NUMBERS_RECHECK_Y.md` and `REFERENCES_VERIFIED.md`. These are AI rechecks, not outside or human validation. The author did not independently check the code, analyses or technical claims. The author is responsible for the released content.
+For v2, the TAGSTYLE numbers in §6 were checked against its analysis file and its cell means recomputed from the raw outputs. Two further Claude sessions reviewed the changed passages; their findings were checked against the records and fixed where they held (`PREPUB_V2_REVIEW.md`). The added references were checked against the papers themselves (`REFERENCES_VERIFIED.md`, v2 addendum).
+
+Before the v1 release, two further Claude sessions read both papers, one for consistency and one as a sceptical reader. Their findings were checked against the records and fixed where they held (`PREPUB_REVIEW.md`, `PREPUB_SKIM.md`, and the change logs `PREPUB_FIXES_A.md` and `PREPUB_FIXES_B.md`). The recheck records are `NUMBERS_RECHECK.md`, `NUMBERS_RECHECK_STU.md`, `NUMBERS_RECHECK_Y.md` and `REFERENCES_VERIFIED.md`. These are AI rechecks, not outside or human validation. The author did not independently check the code, analyses or technical claims. The author is responsible for the released content.
 
 ## References
 
@@ -544,18 +558,22 @@ Before release, two further Claude sessions read both papers, one for consistenc
 - Johnson, M. K., Hashtroudi, S., and Lindsay, D. S. 1993. Source monitoring. *Psychological Bulletin* 114(1): 3–28. doi:10.1037/0033-2909.114.1.3.
 - Korznikov, A., et al. 2025. The Rogue Scalpel: Activation Steering Compromises LLM Safety. *ICLR 2026 Workshop on Principled Design for Trustworthy AI* (poster). arXiv:2509.22067.
 - Kumarappan, A., and Mujoo, A. 2026. Not Just RLHF: Why Alignment Alone Won't Fix Multi-Agent Sycophancy. *arXiv preprint*. arXiv:2605.12991.
+- Laddha, A., Pradhan, N., and Srivastava, G. 2026. Position, Role or Label? A Controlled Study of Instruction Conflicts in LLM Agents. *arXiv preprint* (v1, 23 October 2026). arXiv:2610.33201.
 - Leong, C. T., et al. 2025. Why Safeguarded Ships Run Aground? Aligned Large Language Models' Safety Mechanisms Tend to Be Anchored in The Template Region. *Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (ACL 2025), Volume 1: Long Papers*, 15212–15229. doi:10.18653/v1/2025.acl-long.738. arXiv:2502.13946.
 - Leong, J. W. 2026. Instruction Self-Arbitration Is Not a Trust Boundary: Configuration-Dependent Tool Calls and External Enforcement in LLM Agents. *arXiv preprint* (v2, 17 October 2026). arXiv:2608.28502.
 - Liu, E. 2026. Reducing Role Confusion via Activation Steering. *NeurIPS 2026 Workshop: The Third Workshop on Agents in the Wild: Safety, Security, and Beyond*. https://openreview.net/forum?id=aJceCDuUjM
+- Liu, N. G., et al. 2026. IHDec: Divergence-Steered Contrastive Decoding for Securing Multi-Turn Instruction Hierarchies. *Findings of EMNLP 2026*. arXiv:2606.29960.
 - Liu, R., et al. 2025. DRIP: Defending Prompt Injection via Token-wise Representation Editing and Residual Instruction Fusion. *arXiv preprint*. arXiv:2511.00447.
 - Lu, W., et al. 2026. ARGUS: Defending Against Multimodal Indirect Prompt Injection via Steering Instruction-Following Behavior. *CVPR 2026*. arXiv:2512.05745.
+- Pan, X., et al. 2025. User-Assistant Bias in LLMs. *arXiv preprint* (v3, 19 April 2026). arXiv:2508.15815.
 - Penman, J. 2026. Semantic Overlays: Mitigating Prompt Injection with Annotations Beyond Tokens and Steering Vectors. *arXiv preprint*. arXiv:2608.23873.
-- Ramdan, S. 2026. Whose words count? Chat role and partial control of goal adherence. Preprint (Paper A), Zenodo. doi:10.5281/zenodo.23758885.
+- Ramdan, S. 2026. Whose words count? Chat role and partial control of goal adherence. Preprint (Paper A, v2), Zenodo. doi:10.5281/zenodo.23792010.
 - Russinovich, M. 2026. CounterSteer: Suppressing Indirect Prompt Injection with Activation Steering. *arXiv preprint*. arXiv:2609.36570.
 - Shilov, I., et al. 2026. Separating instructions from data as an attention problem. *NeurIPS 2026 Workshop: The Third Workshop on Agents in the Wild: Safety, Security, and Beyond*. https://openreview.net/forum?id=GPritQr2Ve
 - Wallace, E., et al. 2024. The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions. *arXiv preprint*. arXiv:2404.13208.
 - Walsh, P., et al. (Team OLMo). 2025. 2 OLMo 2 Furious. *Conference on Language Modeling (COLM 2025)*. arXiv:2501.00656.
 - Yang, A., et al. 2025. Qwen3 Technical Report. *arXiv preprint*. arXiv:2505.09388.
+- Ye, C., Cui, J., and Hadfield-Menell, D. 2026. Prompt Injection as Role Confusion. *ICML 2026*, PMLR 306: 148172–148202. arXiv:2603.12277.
 - Young, A., et al. (01.AI). 2024. Yi: Open Foundation Models by 01.AI. *arXiv preprint*. arXiv:2403.04652.
 - Yu, Z., et al. 2026. Readable Before Actionable: Causal Tracing of Indirect Prompt Injection. *arXiv preprint*. arXiv:2610.05295.
 - Zeng, S. 2025. Who is In Charge? Dissecting Role Conflicts in Instruction Following. *NeurIPS 2025 Mechanistic Interpretability Workshop*. arXiv:2510.01228.

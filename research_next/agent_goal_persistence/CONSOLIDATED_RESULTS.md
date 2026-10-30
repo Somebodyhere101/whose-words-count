@@ -617,3 +617,84 @@ Against a neutral header:
 - **O7 FALSE:** "My own" in the assistant turn − in the system turn was −0.017 [−0.029, −0.005].
 
 Codex and Claude both bet against O7 (0.18 and 0.20). Both bet for O3 (0.62 and 0.55).
+
+## AUTHPILOT (2026-10-29, exploratory): the rival-plan penalty vanishes in Qwen once the plan is assigned
+
+Qwen3-8B and OLMo-2-7B-Instruct, bf16, 3-way world, 59 cells × 30 paired seeds (`AUTH_RESULTS.md`; bets from Codex and
+Claude, recorded and hashed before launch in `AUTH_PRED.md`). Both gates pass in both models; Qwen reproduces MPILOT's
+rival penalty (P(x) +0.126 [0.096, 0.161]).
+
+Rival penalty (neutral − "Another manager's"):
+- **Qwen:** none +0.126; binding **+0.000 [−0.011, 0.013]**; background-only +0.171.
+- **OLMo:** none +0.088; binding +0.036 [0.029, 0.042] (29/30 seeds); background-only +0.094.
+
+**Kill rule fired:** A2-kill TRUE in Qwen with its baseline reproduced, so by the pre-written rule the penalty is
+remit/applicability, not a source tag that overrides authority. OLMo's small residual is not a tested model difference.
+Brier: Codex 0.251, Claude 0.235.
+
+**AUTHPILOT failed predictions:**
+- **A2_Q FALSE:** the penalty did not survive binding authority in Qwen (+0.000). Codex 0.64, Claude 0.55 bet it would.
+- **A1_L FALSE:** binding headers did not raise following of the neutral plan in OLMo (+0.004). Codex 0.65, Claude 0.55.
+- A2-kill_Q came out TRUE against both bets (Codex 0.18, Claude 0.25).
+
+## REVPILOT (2026-10-29, exploratory): can hierarchy training reverse user > system? NO_REVERSAL (design flaw)
+
+Qwen3-8B and OLMo-2-7B; LoRA adapters trained (n 240, two data seeds per arm) to let the system (sys) or the user
+(usr) win system-user conflicts in 8 non-finance domains; evaluated on the 3-way fund world, seeds 5000-5029
+(`REVPILOT.md`, `REVPILOT_RESULTS.md`). Base models replicate user > system (D = gF − uF: Qwen −0.032, OLMo −0.093).
+
+Both arms drove p_goal to the ceiling, even with no reminder (Qwen about 0.998 in every cell; OLMo sys1000 0.948 with
+no reminder), so all four Qwen adapters and one OLMo adapter are BROKEN by the pre-written rule, and OLMo's D moved
+toward zero in both arms (OPPOSITE fails). Cause: every training round carried a pressure line that the targets
+ignored in both arms, so both learned pressure resistance, the thing the fund world measures. The axis question is
+untested, not answered. About $1.8.
+
+**REVPILOT failed predictions:** none were bet; the pilot's go rule failed (no model REVERSED or SHIFTED with OPPOSITE
+and not BROKEN).
+
+**REVPILOT pilots 2 and 3 (same day, exploratory; `REVPILOT_RESULTS.md`).** Pilot 2 (no pressure lines, n 48)
+confounded role with position: the system always spoke first, so the arms learned "first instruction wins" vs
+"latest wins" (Qwen system-reminder following 0.931 → 0.568/0.774 in the sys arm). Pilot 3 balanced the order; the
+arms then did not differ (sys − usr in D: Qwen +0.004, OLMo +0.024), while data seeds within an arm differed by up
+to 0.12. The user > system order survived every readable adapter. By the stopping rule fixed before pilot 3, the
+reversal lane is closed; PREREG_R was not run. Three pilots cost about $3.8.
+
+## TAGSTYLE (2026-10-29, exploratory): role tag × writing style. OUTCOME NONE by rule; style moves behaviour far more than the tag
+
+60 obey + 60 believe items (seed 2800), statement in a system or user turn × plain / system register / casual
+register, 6 models (`TAGSTYLE.md`, `TAGSTYLE_RESULTS.md`). OLMo-2-7B and SmolLM3 are INVALID (attribution mass < 0.5).
+No pattern held in 4 valid models, so no sealed follow-up. Descriptively, the style effect on obedience exceeds the
+tag effect in 4 of 6 models, 3 of the 4 valid ones (Qwen3-8B +0.64 vs −0.02, Granite +0.45 vs −0.08, phi-4 +0.37 vs
++0.09), and on belief in 5 of 6 (3 of 4 valid); perceived source follows style in 3 of the 4 models with a valid
+attribution readout (narrowly in phi-4). S compares two rewrites, a bigger change than one tag switch. The tag effects Papers A/B study are real but small next to
+register, consistent with Ye et al.'s "style, not tags". Caveat: the registers carry credibility and authority cue
+words. About $0.25.
+
+## FLIP (2026-10-30, sealed): does the role axis follow gpt-oss's trained priority? SAME/AGREE; no reversed model, lane stops
+
+gpt-oss-20b (explicit system > developer > user training), harmony wrappers written by hand and checked against the
+official template; 3-way fund world, seeds 9100-9159; vR at layer 11 (`FLIP.md`, `FLIP_RESULTS.md`). Gate PASS; valid
+(mass ≥ 0.978; every reminder +0.44 over none).
+
+- p_goal: none 0.531, system 0.965, developer 0.967, user 0.974, own 0.949. D = developer − user = −0.0075 (CI −0.013
+  to −0.003, p < 0.001) → SAME: the user's mid-conversation reminder is followed slightly more, as in the 9 models.
+- Axis: user −176 vs developer −118 on vR (t −234 vs null q95 |t| 121) → AGREE; pairs 4 agree, 1 unresolved,
+  1 undecided, 0 disagree. gpt-oss is a 10th model and 5th family where vR orders the reminder as behaviour does.
+- Caveats: the random null is high (most directions separate user-turn tokens); system, developer and own sit within
+  2 units on vR, so vR mostly separates user from the rest and does not scale with the (small) behavioural gaps;
+  mid-conversation developer/system turns are outside the official template.
+- By the rule fixed before data, no 120b run; the priority-reversal lane is closed. About 9 min, about $0.40.
+
+## CHANNEL (2026-10-30, sealed): does user > system follow the pressure's channel? USER_PRIMACY; the confound is removed
+
+The pressure lines of each test step were moved out of the quarter message into their own user turn or their own
+system turn (developer for gpt-oss), with a neutral-system-turn placebo; 10 models, 5 lineages (Qwen3, Qwen2.5, OLMo-2,
+Falcon3, Granite, gpt-oss), seeds 9300-9359 (`CHANNEL.md`, `CHANNEL_RESULTS.md`). Manipulation check PROCEED; all 10
+valid with a base effect.
+
+- PRIMACY in 9 of 10 (Falcon3-10B NONE): the user reminder beats the system reminder even when the pressure arrives as
+  a system turn (D_S > 0 in 10/10), and the user advantage grows in 8 of 10. No reversal; channel matching refuted.
+- System-turn pressure is weaker than user-turn pressure in all 10. Exploratory: one neutral system turn between the
+  pressure and the decision raises goal-following in all 10 (recency).
+- The user > system order in the 3-way world is not a pressure-channel artefact. Reversal lane closed again. About
+  2.1 h on an H100 NVL, about $5.5.
